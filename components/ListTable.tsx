@@ -120,7 +120,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
 
       {list.sources && list.sources.length > 0 && (
         <div className="srcbox">
-          <span className="srclab">Asked in</span>
+          <span className="srclab">{list.srcLabel || "Asked in"}</span>
           {list.sources.map((s) => (
             <a className="srclink" key={s.url} href={s.url} target="_blank" rel="noopener noreferrer">
               <span className="sq">&ldquo;{s.q}&rdquo;</span>

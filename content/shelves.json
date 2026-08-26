@@ -19983,7 +19983,539 @@
   "on": "#0B0B0F",
   "soft": "#FFEBDF",
   "softDark": "#331B0E",
-  "blurb": "Where to go, and what to do once you're there.",
-  "lists": []
+  "blurb": "Where to eat, and where to go once you're there.",
+  "lists": [
+   {
+    "slug": "berlin-restaurants",
+    "title": "Berlin Restaurants",
+    "kind": "Canon",
+    "verb": "eaten at",
+    "desc": "One Berliner's saved list, kept in her order. Kebab shops next to a €100 omakase, which is what actually eating in Berlin looks like.",
+    "cols": [
+     "Rating",
+     "Cuisine",
+     "Restaurant",
+     "Price · map"
+    ],
+    "sources": [
+     {
+      "url": "https://maps.app.goo.gl/AJy2vZUCZ7UvQZt88",
+      "label": "Google Maps",
+      "q": "Berlin Restaurants",
+      "meta": "a saved list · 41 places"
+     }
+    ],
+    "note": "A canon, not a tally: one person decided this list, and it stays in the order she saved it rather than being re-sorted by rating. Two places Google marks permanently closed are left out &mdash; a list you're meant to eat your way down shouldn't send you to a closed door; <em>Xigon</em> is only temporarily closed, so it stays and says so. Ratings are Google's at the time of import and will drift. The map links are searches scoped to Berlin, not saved place ids, so they survive a place being merged or re-listed.",
+    "rows": [
+     {
+      "key": "berlin|VINO e CUCINA",
+      "lead": "4.6★",
+      "sec": "Italian",
+      "pri": "VINO e CUCINA",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=VINO%20e%20CUCINA%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–60"
+     },
+     {
+      "key": "berlin|Blaue Bohne Rösterei",
+      "lead": "4.7★",
+      "sec": "Coffee shop",
+      "pri": "Blaue Bohne Rösterei",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Blaue%20Bohne%20R%C3%B6sterei%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€1–10"
+     },
+     {
+      "key": "berlin|Suigyo Izakaya",
+      "lead": "4.7★",
+      "sec": "Japanese",
+      "pri": "Suigyo Izakaya",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Suigyo%20Izakaya%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Jemenitisches Restaurant",
+      "lead": "4.5★",
+      "sec": "Yemeni",
+      "pri": "Jemenitisches Restaurant",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Jemenitisches%20Restaurant%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|893 Ryōtei",
+      "lead": "4.6★",
+      "sec": "Japanese",
+      "pri": "893 Ryōtei",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=893%20Ry%C5%8Dtei%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€100+"
+     },
+     {
+      "key": "berlin|Umami",
+      "lead": "4.6★",
+      "sec": "Vietnamese",
+      "pri": "Umami",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Umami%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Xigon",
+      "lead": "4.7★",
+      "sec": "Vietnamese",
+      "pri": "Xigon",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Xigon%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "Temporarily closed"
+     },
+     {
+      "key": "berlin|Favorit Gemüse Kebap",
+      "lead": "4.7★",
+      "sec": "Kebab",
+      "pri": "Favorit Gemüse Kebap",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Favorit%20Gem%C3%BCse%20Kebap%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€1–10"
+     },
+     {
+      "key": "berlin|El Reda",
+      "lead": "4.7★",
+      "sec": "Lebanese",
+      "pri": "El Reda",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=El%20Reda%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Agni",
+      "lead": "4.5★",
+      "sec": "Indian",
+      "pri": "Agni",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Agni%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Schnitzelei Mitte",
+      "lead": "4.5★",
+      "sec": "German",
+      "pri": "Schnitzelei Mitte",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Schnitzelei%20Mitte%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Taquería El Oso",
+      "lead": "4.5★",
+      "sec": "Mexican",
+      "pri": "Taquería El Oso",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Taquer%C3%ADa%20El%20Oso%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Dunya Gemüse Kebab",
+      "lead": "4.9★",
+      "sec": "Kebab",
+      "pri": "Dunya Gemüse Kebab",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dunya%20Gem%C3%BCse%20Kebab%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€1–10"
+     },
+     {
+      "key": "berlin|Salami Social Club",
+      "lead": "4.6★",
+      "sec": "Pizza",
+      "pri": "Salami Social Club",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Salami%20Social%20Club%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Silo Coffee",
+      "lead": "4.5★",
+      "sec": "Breakfast",
+      "pri": "Silo Coffee",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Silo%20Coffee%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Burgermeister Schlesisches Tor",
+      "lead": "4.7★",
+      "sec": "Burgers",
+      "pri": "Burgermeister Schlesisches Tor",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Burgermeister%20Schlesisches%20Tor%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Koy",
+      "lead": "4.6★",
+      "sec": "Thai",
+      "pri": "Koy",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Koy%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Imren Grill",
+      "lead": "4.0★",
+      "sec": "Turkish",
+      "pri": "Imren Grill",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Imren%20Grill%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€1–10"
+     },
+     {
+      "key": "berlin|Gemüse Kebap & Friends",
+      "lead": "4.8★",
+      "sec": "Kebab",
+      "pri": "Gemüse Kebap & Friends",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gem%C3%BCse%20Kebap%20%26%20Friends%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€1–10"
+     },
+     {
+      "key": "berlin|Night Kitchen",
+      "lead": "4.7★",
+      "sec": "Mediterranean",
+      "pri": "Night Kitchen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Night%20Kitchen%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€40–80"
+     },
+     {
+      "key": "berlin|Niko Niko Ramen",
+      "lead": "4.4★",
+      "sec": "Ramen",
+      "pri": "Niko Niko Ramen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Niko%20Niko%20Ramen%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|60 seconds to napoli",
+      "lead": "4.5★",
+      "sec": "Pizza",
+      "pri": "60 seconds to napoli",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=60%20seconds%20to%20napoli%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|YOSOY Tapas Berlin",
+      "lead": "4.7★",
+      "sec": "Tapas",
+      "pri": "YOSOY Tapas Berlin",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=YOSOY%20Tapas%20Berlin%20Berlin",
+        "label": "Map ↗"
+       }
+      ]
+     },
+     {
+      "key": "berlin|Chinarestaurant Shanghai",
+      "lead": "4.4★",
+      "sec": "Chinese",
+      "pri": "Chinarestaurant Shanghai",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Chinarestaurant%20Shanghai%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Transit",
+      "lead": "4.4★",
+      "sec": "Thai",
+      "pri": "Transit",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Transit%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|The Factory Pizza & Pasta",
+      "lead": "4.7★",
+      "sec": "Italian",
+      "pri": "The Factory Pizza & Pasta",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=The%20Factory%20Pizza%20%26%20Pasta%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Iro Izakaya",
+      "lead": "4.5★",
+      "sec": "Japanese",
+      "pri": "Iro Izakaya",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Iro%20Izakaya%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Gaffel Haus Berlin",
+      "lead": "4.5★",
+      "sec": "German",
+      "pri": "Gaffel Haus Berlin",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gaffel%20Haus%20Berlin%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Trattoria bar Lambretta",
+      "lead": "4.8★",
+      "sec": "Italian",
+      "pri": "Trattoria bar Lambretta",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Trattoria%20bar%20Lambretta%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Jolly",
+      "lead": "4.6★",
+      "sec": "Chinese",
+      "pri": "Jolly",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Jolly%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Cocolo Ramen X-berg",
+      "lead": "4.4★",
+      "sec": "Ramen",
+      "pri": "Cocolo Ramen X-berg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cocolo%20Ramen%20X-berg%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|li.ke : serious thai vegan",
+      "lead": "4.7★",
+      "sec": "Thai · vegan",
+      "pri": "li.ke : serious thai vegan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=li.ke%20%3A%20serious%20thai%20vegan%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Shōdo Udon Lab",
+      "lead": "4.4★",
+      "sec": "Udon",
+      "pri": "Shōdo Udon Lab",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sh%C5%8Ddo%20Udon%20Lab%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Tom'n'Jerry",
+      "lead": "4.8★",
+      "sec": "Pizza",
+      "pri": "Tom'n'Jerry",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tom%27n%27Jerry%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Zhou's Five",
+      "lead": "4.0★",
+      "sec": "Chinese buffet",
+      "pri": "Zhou's Five",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Zhou%27s%20Five%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Huong Que",
+      "lead": "4.4★",
+      "sec": "Vietnamese",
+      "pri": "Huong Que",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Huong%20Que%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|BABIKYU",
+      "lead": "4.5★",
+      "sec": "Korean BBQ",
+      "pri": "BABIKYU",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=BABIKYU%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€20–30"
+     },
+     {
+      "key": "berlin|Good Morning Vietnam Vegan",
+      "lead": "4.5★",
+      "sec": "Vietnamese · vegan",
+      "pri": "Good Morning Vietnam Vegan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Good%20Morning%20Vietnam%20Vegan%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     },
+     {
+      "key": "berlin|Tibet Haus Restaurant",
+      "lead": "4.6★",
+      "sec": "Nepalese",
+      "pri": "Tibet Haus Restaurant",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tibet%20Haus%20Restaurant%20Berlin",
+        "label": "Map ↗"
+       }
+      ],
+      "extra": "€10–20"
+     }
+    ],
+    "srcLabel": "Saved in"
+   }
+  ]
  }
 ]

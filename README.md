@@ -6,7 +6,7 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 ## What this is
 
-Four shelves (Music, Books, Film, Places) holding 12 lists and 2,187 items.
+Four shelves (Music, Books, Film, Places) holding 13 lists and 2,226 items.
 Every list declares what **kind** of authority it has:
 
 | Kind        | Meaning                                  |

@@ -37,6 +37,8 @@ export type List = {
   /** Books lists get a Goodreads lookup per row. The value names which column
    *  holds the author, because it isn't the same one in every list. */
   gr?: "sec" | "extra";
+  /** "Asked in" is right for a thread and wrong for a saved list. */
+  srcLabel?: string;
 };
 
 export type Shelf = {
