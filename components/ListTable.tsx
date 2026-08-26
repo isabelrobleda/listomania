@@ -3,15 +3,30 @@
 import { useMemo, useState } from "react";
 import StrokeBar, { Underline } from "./StrokeBar";
 import { useProgress, listId } from "@/lib/progress";
-import { youtube, type List, type Row, type Shelf } from "@/lib/content";
+import { goodreads, youtube, type List, type Row, type Shelf } from "@/lib/content";
 
 /**
  * The last column carries whatever a given list has for a row — a watch link, an
  * author, one source, several. Build the pieces first and join them, so two of
  * them never end up jammed together with no separator.
  */
-function LastCell({ row }: { row: Row }) {
+function LastCell({ row, list }: { row: Row; list: List }) {
   const parts: React.ReactNode[] = [];
+
+  if (list.gr) {
+    const author = (list.gr === "extra" ? row.extra : row.sec) || "";
+    parts.push(
+      <a
+        key="gr"
+        className="tr"
+        href={goodreads(`${row.pri} ${author}`.trim())}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ★ Goodreads
+      </a>
+    );
+  }
 
   if (row.yt) {
     parts.push(
@@ -176,7 +191,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
                     <td className="sec">{r.sec}</td>
                     <td className="pri">{r.pri}</td>
                     <td className="trk">
-                      <LastCell row={r} />
+                      <LastCell row={r} list={list} />
                     </td>
                   </tr>
                 );

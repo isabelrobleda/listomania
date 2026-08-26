@@ -8323,7 +8323,7 @@
      "On",
      "Author",
      "Title",
-     "Which lists"
+     "Look up · which lists"
     ],
     "note": "Built from the other book lists, matching on title with articles and punctuation ignored. Agreement across crowds asked <em>different</em> questions is the strongest signal here: “unputdownable”, “changed how I think”, “never stop recommending” and “best of the last 15 years” are four different questions, so a book on several is doing several jobs at once.",
     "rows": [
@@ -8642,7 +8642,8 @@
       "pri": "We Have Always Lived in the Castle",
       "extra": "Never Stop Recommending · Unputdownable"
      }
-    ]
+    ],
+    "gr": "sec"
    },
    {
     "slug": "must-read-fiction",
@@ -8654,7 +8655,7 @@
      "Said by",
      "Year",
      "Title",
-     "Author · source"
+     "Look up · author · source"
     ],
     "sources": [
      {
@@ -9260,7 +9261,8 @@
        "label": "r/suggestmeabook"
       }
      }
-    ]
+    ],
+    "gr": "extra"
    },
    {
     "slug": "unputdownable",
@@ -9272,7 +9274,7 @@
      "Said by",
      "Author",
      "Title",
-     "Source"
+     "Look up · source"
     ],
     "sources": [
      {
@@ -10744,7 +10746,8 @@
        "label": "r/classicliterature"
       }
      }
-    ]
+    ],
+    "gr": "sec"
    },
    {
     "slug": "never-stop-recommending",
@@ -10756,7 +10759,7 @@
      "Said by",
      "Author",
      "Title",
-     "Source"
+     "Look up · source"
     ],
     "sources": [
      {
@@ -11378,7 +11381,8 @@
        "label": "r/booksuggestions"
       }
      }
-    ]
+    ],
+    "gr": "sec"
    },
    {
     "slug": "books-that-changed-people",
@@ -11390,7 +11394,7 @@
      "Said by",
      "Author",
      "Title",
-     "Source"
+     "Look up · source"
     ],
     "sources": [
      {
@@ -12756,7 +12760,8 @@
        }
       ]
      }
-    ]
+    ],
+    "gr": "sec"
    },
    {
     "slug": "novels-of-the-modern-era",
@@ -12768,7 +12773,7 @@
      "Year",
      "Author",
      "Title",
-     ""
+     "Look up"
     ],
     "rows": [
      {
@@ -12951,7 +12956,8 @@
       "sec": "Maggie O'Farrell",
       "pri": "Hamnet"
      }
-    ]
+    ],
+    "gr": "sec"
    }
   ]
  },

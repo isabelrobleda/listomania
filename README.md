@@ -64,6 +64,10 @@ tools/                       scripts that generated the content and the logo
 - **The wordmark is custom vector letterforms**, not a licensed typeface — each
   glyph is a skeleton of marker strokes with round caps, thickened until the
   counters nearly close. Regenerate with `python3 tools/letters.py`.
+- **Every book row links out to Goodreads**, and every film and song row to
+  YouTube — both as *searches*. A list is worth more when you can act on a row
+  without leaving to go look it up. Set `"gr": "sec"` on a books list, or
+  `"gr": "extra"` where the author sits in the extra column instead.
 - **YouTube links are searches, not video IDs.** Trailers get taken down,
   re-uploaded and region-locked; a search never rots, and it lets you pick the
   right one when a title is ambiguous (*The Staircase* is a doc and a series).

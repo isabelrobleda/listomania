@@ -34,6 +34,9 @@ export type List = {
   sources?: Source[];
   note?: string;
   action?: { url: string; label: string };
+  /** Books lists get a Goodreads lookup per row. The value names which column
+   *  holds the author, because it isn't the same one in every list. */
+  gr?: "sec" | "extra";
 };
 
 export type Shelf = {
@@ -77,6 +80,12 @@ export function totals() {
 
 /** A YouTube search, not a video id: trailers get taken down, re-uploaded and
  *  region-locked, and a search never rots. */
+/** Like the YouTube links, a search rather than a book id: editions get merged,
+ *  split and re-numbered on Goodreads, and a search survives all of that. */
+export function goodreads(query: string) {
+  return "https://www.goodreads.com/search?q=" + encodeURIComponent(query);
+}
+
 export function youtube(query: string) {
   return "https://www.youtube.com/results?search_query=" + encodeURIComponent(query);
 }
