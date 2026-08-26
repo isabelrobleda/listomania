@@ -39,14 +39,21 @@ export default async function ShelfPage({ params }: { params: Promise<{ shelf: s
           </h1>
           <p>{shelf.blurb}</p>
         </div>
-        <ShelfProgress shelf={shelf} />
+        {shelf.lists.length > 0 && <ShelfProgress shelf={shelf} />}
       </div>
 
-      <div className="grid" style={{ marginTop: 22 }}>
-        {shelf.lists.map((list) => (
-          <ListCard key={list.slug} shelf={shelf} list={list} />
-        ))}
-      </div>
+      {shelf.lists.length === 0 ? (
+        <p className="note" style={{ marginTop: 22 }}>
+          <b>Nothing on this shelf yet.</b> The list that was here has been
+          retired, and its replacement is being built.
+        </p>
+      ) : (
+        <div className="grid" style={{ marginTop: 22 }}>
+          {shelf.lists.map((list) => (
+            <ListCard key={list.slug} shelf={shelf} list={list} />
+          ))}
+        </div>
+      )}
     </>
   );
 }
