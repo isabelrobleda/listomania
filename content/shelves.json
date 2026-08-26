@@ -8318,7 +8318,7 @@
     "title": "Agreed Across Crowds",
     "kind": "Derived",
     "verb": "read",
-    "desc": "The books that turn up on more than one of these lists. Not a source of its own — what's left when different crowds, asked different questions, land on the same title.",
+    "desc": "Books that turned up in more than one of the 5 book tallies. Different crowds, different questions, same book — the closest thing here to a consensus.",
     "cols": [
      "On",
      "Author",
@@ -8328,322 +8328,1164 @@
     "note": "Built from the other book lists, matching on title with articles and punctuation ignored. Agreement across crowds asked <em>different</em> questions is the strongest signal here: “unputdownable”, “changed how I think”, “never stop recommending” and “best of the last 15 years” are four different questions, so a book on several is doing several jobs at once.",
     "rows": [
      {
+      "key": "agreed|Flowers for Algernon",
+      "lead": "4 lists",
+      "sec": "Daniel Keyes",
+      "pri": "Flowers for Algernon",
+      "extra": "The Book That Slapped You · Unputdownable · Never Stop Recommending · Books That Changed People"
+     },
+     {
+      "key": "agreed|Crime and Punishment",
+      "lead": "3 lists",
+      "sec": "Fyodor Dostoevsky",
+      "pri": "Crime and Punishment",
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People"
+     },
+     {
+      "key": "agreed|Dune",
+      "lead": "3 lists",
+      "sec": "Frank Herbert",
+      "pri": "Dune",
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People"
+     },
+     {
+      "key": "agreed|East of Eden",
+      "lead": "3 lists",
+      "sec": "John Steinbeck",
+      "pri": "East of Eden",
+      "extra": "The Book That Slapped You · Unputdownable · Never Stop Recommending"
+     },
+     {
       "key": "agreed|Educated",
       "lead": "3 lists",
       "sec": "Tara Westover",
       "pri": "Educated",
-      "extra": "Books That Changed People · Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending · Books That Changed People"
      },
      {
-      "key": "agreed|Flowers for Algernon",
+      "key": "agreed|Pachinko",
       "lead": "3 lists",
-      "sec": "Daniel Keyes",
-      "pri": "Flowers for Algernon",
-      "extra": "Books That Changed People · Never Stop Recommending · Unputdownable"
-     },
-     {
-      "key": "agreed|Infinite Jest",
-      "lead": "3 lists",
-      "sec": "David Foster Wallace",
-      "pri": "Infinite Jest",
-      "extra": "Books That Changed People · Novels of the Modern Era · Unputdownable"
-     },
-     {
-      "key": "agreed|One Hundred Years of Solitude",
-      "lead": "3 lists",
-      "sec": "Gabriel García Márquez",
-      "pri": "One Hundred Years of Solitude",
-      "extra": "Novels of the Modern Era · Never Stop Recommending · Unputdownable"
+      "sec": "Min Jin Lee",
+      "pri": "Pachinko",
+      "extra": "The Book That Slapped You · Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
       "key": "agreed|Slaughterhouse-Five",
       "lead": "3 lists",
       "sec": "Kurt Vonnegut",
       "pri": "Slaughterhouse-Five",
-      "extra": "Books That Changed People · Novels of the Modern Era · Unputdownable"
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People"
      },
      {
       "key": "agreed|The Goldfinch",
       "lead": "3 lists",
       "sec": "Donna Tartt",
       "pri": "The Goldfinch",
-      "extra": "Must-Read Fiction · Never Stop Recommending · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|The Hitchhiker's Guide to the Galaxy",
+      "lead": "3 lists",
+      "sec": "Douglas Adams",
+      "pri": "The Hitchhiker's Guide to the Galaxy",
+      "extra": "The Book That Slapped You · Never Stop Recommending · Books That Changed People"
+     },
+     {
+      "key": "agreed|The Poisonwood Bible",
+      "lead": "3 lists",
+      "sec": "Barbara Kingsolver",
+      "pri": "The Poisonwood Bible",
+      "extra": "The Book That Slapped You · Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
       "key": "agreed|To Kill a Mockingbird",
       "lead": "3 lists",
       "sec": "Harper Lee",
       "pri": "To Kill a Mockingbird",
-      "extra": "Books That Changed People · Novels of the Modern Era · Unputdownable"
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People"
      },
      {
       "key": "agreed|11/22/63",
       "lead": "2 lists",
       "sec": "Stephen King",
       "pri": "11/22/63",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
-     },
-     {
-      "key": "agreed|2666",
-      "lead": "2 lists",
-      "sec": "Roberto Bolaño",
-      "pri": "2666",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
       "key": "agreed|A Confederacy of Dunces",
       "lead": "2 lists",
       "sec": "John Kennedy Toole",
       "pri": "A Confederacy of Dunces",
-      "extra": "Books That Changed People · Never Stop Recommending"
+      "extra": "Never Stop Recommending · Books That Changed People"
      },
      {
       "key": "agreed|A Fine Balance",
       "lead": "2 lists",
       "sec": "Rohinton Mistry",
       "pri": "A Fine Balance",
-      "extra": "Must-Read Fiction · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable"
      },
      {
       "key": "agreed|A Man Called Ove",
       "lead": "2 lists",
       "sec": "Fredrik Backman",
       "pri": "A Man Called Ove",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|Catch-22",
       "lead": "2 lists",
       "sec": "Joseph Heller",
       "pri": "Catch-22",
-      "extra": "Never Stop Recommending · Unputdownable"
-     },
-     {
-      "key": "agreed|Crime and Punishment",
-      "lead": "2 lists",
-      "sec": "Fyodor Dostoevsky",
-      "pri": "Crime and Punishment",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|Demon Copperhead",
       "lead": "2 lists",
       "sec": "Barbara Kingsolver",
       "pri": "Demon Copperhead",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
-     },
-     {
-      "key": "agreed|Dune",
-      "lead": "2 lists",
-      "sec": "Frank Herbert",
-      "pri": "Dune",
-      "extra": "Books That Changed People · Unputdownable"
-     },
-     {
-      "key": "agreed|East of Eden",
-      "lead": "2 lists",
-      "sec": "John Steinbeck",
-      "pri": "East of Eden",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
       "key": "agreed|Eleanor Oliphant Is Completely Fine",
       "lead": "2 lists",
       "sec": "Gail Honeyman",
       "pri": "Eleanor Oliphant Is Completely Fine",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
-      "key": "agreed|For Whom the Bell Tolls",
+      "key": "agreed|Fahrenheit 451",
       "lead": "2 lists",
-      "sec": "Ernest Hemingway",
-      "pri": "For Whom the Bell Tolls",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "sec": "Ray Bradbury",
+      "pri": "Fahrenheit 451",
+      "extra": "The Book That Slapped You · Unputdownable"
+     },
+     {
+      "key": "agreed|Gone with the Wind",
+      "lead": "2 lists",
+      "sec": "Margaret Mitchell",
+      "pri": "Gone with the Wind",
+      "extra": "The Book That Slapped You · Unputdownable"
      },
      {
       "key": "agreed|House of Leaves",
       "lead": "2 lists",
       "sec": "Mark Z. Danielewski",
       "pri": "House of Leaves",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
-      "key": "agreed|Invisible Man",
+      "key": "agreed|In Cold Blood",
       "lead": "2 lists",
-      "sec": "Ralph Ellison",
-      "pri": "Invisible Man",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "sec": "Truman Capote",
+      "pri": "In Cold Blood",
+      "extra": "The Book That Slapped You · Unputdownable"
      },
      {
-      "key": "agreed|Lolita",
+      "key": "agreed|Infinite Jest",
       "lead": "2 lists",
-      "sec": "Vladimir Nabokov",
-      "pri": "Lolita",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "sec": "David Foster Wallace",
+      "pri": "Infinite Jest",
+      "extra": "Unputdownable · Books That Changed People"
+     },
+     {
+      "key": "agreed|Killers of the Flower Moon",
+      "lead": "2 lists",
+      "sec": "David Grann",
+      "pri": "Killers of the Flower Moon",
+      "extra": "The Book That Slapped You · Unputdownable"
      },
      {
       "key": "agreed|Lonesome Dove",
       "lead": "2 lists",
       "sec": "Larry McMurtry",
       "pri": "Lonesome Dove",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|Middlemarch",
       "lead": "2 lists",
       "sec": "George Eliot",
       "pri": "Middlemarch",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Books That Changed People"
      },
      {
-      "key": "agreed|Nineteen Eighty-Four",
+      "key": "agreed|Night",
       "lead": "2 lists",
-      "sec": "George Orwell",
-      "pri": "Nineteen Eighty-Four",
-      "extra": "Novels of the Modern Era · Never Stop Recommending"
+      "sec": "Elie Wiesel",
+      "pri": "Night",
+      "extra": "The Book That Slapped You · Unputdownable"
      },
      {
-      "key": "agreed|Pachinko",
+      "key": "agreed|One Hundred Years of Solitude",
       "lead": "2 lists",
-      "sec": "Min Jin Lee",
-      "pri": "Pachinko",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
+      "sec": "Gabriel García Márquez",
+      "pri": "One Hundred Years of Solitude",
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|Project Hail Mary",
       "lead": "2 lists",
       "sec": "Andy Weir",
       "pri": "Project Hail Mary",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|Sapiens",
+      "lead": "2 lists",
+      "sec": "Yuval Noah Harari",
+      "pri": "Sapiens",
+      "extra": "The Book That Slapped You · Books That Changed People"
+     },
+     {
+      "key": "agreed|She's Come Undone",
+      "lead": "2 lists",
+      "sec": "Wally Lamb",
+      "pri": "She's Come Undone",
+      "extra": "The Book That Slapped You · Never Stop Recommending"
      },
      {
       "key": "agreed|Shogun",
       "lead": "2 lists",
       "sec": "James Clavell",
       "pri": "Shogun",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|Siddhartha",
+      "lead": "2 lists",
+      "sec": "Hermann Hesse",
+      "pri": "Siddhartha",
+      "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
       "key": "agreed|Station Eleven",
       "lead": "2 lists",
       "sec": "Emily St. John Mandel",
       "pri": "Station Eleven",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|Tess of the d'Urbervilles",
+      "lead": "2 lists",
+      "sec": "Thomas Hardy",
+      "pri": "Tess of the d'Urbervilles",
+      "extra": "The Book That Slapped You · Unputdownable"
+     },
+     {
+      "key": "agreed|The Book Thief",
+      "lead": "2 lists",
+      "sec": "Markus Zusak",
+      "pri": "The Book Thief",
+      "extra": "The Book That Slapped You · Never Stop Recommending"
      },
      {
       "key": "agreed|The Brothers Karamazov",
       "lead": "2 lists",
       "sec": "Fyodor Dostoevsky",
       "pri": "The Brothers Karamazov",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Books That Changed People"
      },
      {
       "key": "agreed|The Count of Monte Cristo",
       "lead": "2 lists",
       "sec": "Alexandre Dumas",
       "pri": "The Count of Monte Cristo",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
-      "key": "agreed|The Hitchhiker's Guide to the Galaxy",
+      "key": "agreed|The Little Prince",
       "lead": "2 lists",
-      "sec": "Douglas Adams",
-      "pri": "The Hitchhiker's Guide to the Galaxy",
-      "extra": "Books That Changed People · Never Stop Recommending"
+      "sec": "Antoine de Saint-Exupéry",
+      "pri": "The Little Prince",
+      "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
       "key": "agreed|The Lord of the Rings",
       "lead": "2 lists",
       "sec": "J.R.R. Tolkien",
       "pri": "The Lord of the Rings",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|The Martian",
       "lead": "2 lists",
       "sec": "Andy Weir",
       "pri": "The Martian",
-      "extra": "Must-Read Fiction · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable"
      },
      {
       "key": "agreed|The Master and Margarita",
       "lead": "2 lists",
       "sec": "Mikhail Bulgakov",
       "pri": "The Master and Margarita",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Books That Changed People"
      },
      {
-      "key": "agreed|The Poisonwood Bible",
+      "key": "agreed|The Pillars of the Earth",
       "lead": "2 lists",
-      "sec": "Barbara Kingsolver",
-      "pri": "The Poisonwood Bible",
-      "extra": "Must-Read Fiction · Never Stop Recommending"
+      "sec": "Ken Follett",
+      "pri": "The Pillars of the Earth",
+      "extra": "The Book That Slapped You · Never Stop Recommending"
      },
      {
       "key": "agreed|The Remains of the Day",
       "lead": "2 lists",
       "sec": "Kazuo Ishiguro",
       "pri": "The Remains of the Day",
-      "extra": "Never Stop Recommending · Unputdownable"
-     },
-     {
-      "key": "agreed|The Road",
-      "lead": "2 lists",
-      "sec": "Cormac McCarthy",
-      "pri": "The Road",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|The Screwtape Letters",
       "lead": "2 lists",
       "sec": "C.S. Lewis",
       "pri": "The Screwtape Letters",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|The Secret History",
       "lead": "2 lists",
       "sec": "Donna Tartt",
       "pri": "The Secret History",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
      },
      {
       "key": "agreed|The Song of Achilles",
       "lead": "2 lists",
       "sec": "Madeline Miller",
       "pri": "The Song of Achilles",
-      "extra": "Must-Read Fiction · Unputdownable"
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable"
      },
      {
       "key": "agreed|The Three-Body Problem",
       "lead": "2 lists",
       "sec": "Liu Cixin",
       "pri": "The Three-Body Problem",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Books That Changed People"
      },
      {
-      "key": "agreed|Their Eyes Were Watching God",
+      "key": "agreed|The Wind-Up Bird Chronicle",
       "lead": "2 lists",
-      "sec": "Zora Neale Hurston",
-      "pri": "Their Eyes Were Watching God",
-      "extra": "Novels of the Modern Era · Unputdownable"
+      "sec": "Haruki Murakami",
+      "pri": "The Wind-Up Bird Chronicle",
+      "extra": "The Book That Slapped You · Unputdownable"
+     },
+     {
+      "key": "agreed|Thinking, Fast and Slow",
+      "lead": "2 lists",
+      "sec": "Daniel Kahneman",
+      "pri": "Thinking, Fast and Slow",
+      "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
       "key": "agreed|War and Peace",
       "lead": "2 lists",
       "sec": "Leo Tolstoy",
       "pri": "War and Peace",
-      "extra": "Books That Changed People · Unputdownable"
+      "extra": "Unputdownable · Books That Changed People"
      },
      {
       "key": "agreed|We Have Always Lived in the Castle",
       "lead": "2 lists",
       "sec": "Shirley Jackson",
       "pri": "We Have Always Lived in the Castle",
-      "extra": "Never Stop Recommending · Unputdownable"
+      "extra": "Unputdownable · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|White Oleander",
+      "lead": "2 lists",
+      "sec": "Janet Fitch",
+      "pri": "White Oleander",
+      "extra": "The Book That Slapped You · Never Stop Recommending"
      }
     ],
     "gr": "sec"
+   },
+   {
+    "slug": "books-that-slapped-you",
+    "title": "The Book That Slapped You",
+    "kind": "Tally",
+    "verb": "read",
+    "desc": "The asker banned the school-canon answers and asked for the ones you'd never have found alone. It shows: 76 books, and almost none of them are the usual ones.",
+    "cols": [
+     "Said by",
+     "Author",
+     "Title",
+     "Look up · source"
+    ],
+    "gr": "sec",
+    "srcLabel": "Asked in",
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/",
+      "label": "Reddit · r/suggestmeabook",
+      "q": "What is that ONE book that slapped you across the face?",
+      "meta": "2020 · 2.3K points · 1.4K comments"
+     }
+    ],
+    "note": "Counted by distinct redditor. A reply that seconds a book (&ldquo;another vote for <em>Evicted</em>&rdquo;) counts as a mention the same as naming it first &mdash; agreement is what a tally is made of &mdash; but a reply that only links the text or quotes a line does not. The asker's own books are excluded. Four entries aren't books: <em>This Is Water</em> and <em>Consider the Lobster</em> are essays, <em>Harrison Bergeron</em> a short story, <em>Letters to a Young Poet</em> a set of letters. They stay, because each was somebody's answer. Note the shape of this one against the other book tallies: the question asked for the <em>un</em>-obvious, so the counts stay low and the tail is nearly the whole list.",
+    "rows": [
+     {
+      "key": "slap|This Is Water",
+      "lead": "5×",
+      "sec": "David Foster Wallace",
+      "pri": "This Is Water",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Saga",
+      "lead": "4×",
+      "sec": "Brian K. Vaughan & Fiona Staples",
+      "pri": "Saga",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The House of the Spirits",
+      "lead": "4×",
+      "sec": "Isabel Allende",
+      "pri": "The House of the Spirits",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|East of Eden",
+      "lead": "3×",
+      "sec": "John Steinbeck",
+      "pri": "East of Eden",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|How Children Fail",
+      "lead": "3×",
+      "sec": "John Holt",
+      "pri": "How Children Fail",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Never Let Me Go",
+      "lead": "3×",
+      "sec": "Kazuo Ishiguro",
+      "pri": "Never Let Me Go",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Speaker for the Dead",
+      "lead": "3×",
+      "sec": "Orson Scott Card",
+      "pri": "Speaker for the Dead",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Evicted",
+      "lead": "2×",
+      "sec": "Matthew Desmond",
+      "pri": "Evicted",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Flowers for Algernon",
+      "lead": "2×",
+      "sec": "Daniel Keyes",
+      "pri": "Flowers for Algernon",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Book Thief",
+      "lead": "2×",
+      "sec": "Markus Zusak",
+      "pri": "The Book Thief",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Good Earth",
+      "lead": "2×",
+      "sec": "Pearl S. Buck",
+      "pri": "The Good Earth",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|White Oleander",
+      "lead": "2×",
+      "sec": "Janet Fitch",
+      "pri": "White Oleander",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|A River Runs Through It",
+      "lead": "1×",
+      "sec": "Norman Maclean",
+      "pri": "A River Runs Through It",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|A Tale for the Time Being",
+      "lead": "1×",
+      "sec": "Ruth Ozeki",
+      "pri": "A Tale for the Time Being",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Beartown",
+      "lead": "1×",
+      "sec": "Fredrik Backman",
+      "pri": "Beartown",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Between the World and Me",
+      "lead": "1×",
+      "sec": "Ta-Nehisi Coates",
+      "pri": "Between the World and Me",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Bullshit Jobs",
+      "lead": "1×",
+      "sec": "David Graeber",
+      "pri": "Bullshit Jobs",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Call the Midwife",
+      "lead": "1×",
+      "sec": "Jennifer Worth",
+      "pri": "Call the Midwife",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Caste",
+      "lead": "1×",
+      "sec": "Isabel Wilkerson",
+      "pri": "Caste",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Chasing the Scream",
+      "lead": "1×",
+      "sec": "Johann Hari",
+      "pri": "Chasing the Scream",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Consider the Lobster",
+      "lead": "1×",
+      "sec": "David Foster Wallace",
+      "pri": "Consider the Lobster",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Crime and Punishment",
+      "lead": "1×",
+      "sec": "Fyodor Dostoevsky",
+      "pri": "Crime and Punishment",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Daughter of Fortune",
+      "lead": "1×",
+      "sec": "Isabel Allende",
+      "pri": "Daughter of Fortune",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Donbas",
+      "lead": "1×",
+      "sec": "Jacques Sandulescu",
+      "pri": "Donbas",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Dreamland",
+      "lead": "1×",
+      "sec": "Sam Quinones",
+      "pri": "Dreamland",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Dune",
+      "lead": "1×",
+      "sec": "Frank Herbert",
+      "pri": "Dune",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Fahrenheit 451",
+      "lead": "1×",
+      "sec": "Ray Bradbury",
+      "pri": "Fahrenheit 451",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Frankenstein",
+      "lead": "1×",
+      "sec": "Mary Shelley",
+      "pri": "Frankenstein",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Gone with the Wind",
+      "lead": "1×",
+      "sec": "Margaret Mitchell",
+      "pri": "Gone with the Wind",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Harrison Bergeron",
+      "lead": "1×",
+      "sec": "Kurt Vonnegut",
+      "pri": "Harrison Bergeron",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Horns",
+      "lead": "1×",
+      "sec": "Joe Hill",
+      "pri": "Horns",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|How Children Learn",
+      "lead": "1×",
+      "sec": "John Holt",
+      "pri": "How Children Learn",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|I Know This Much Is True",
+      "lead": "1×",
+      "sec": "Wally Lamb",
+      "pri": "I Know This Much Is True",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|I Know Why the Caged Bird Sings",
+      "lead": "1×",
+      "sec": "Maya Angelou",
+      "pri": "I Know Why the Caged Bird Sings",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|If This Is a Man (Survival in Auschwitz)",
+      "lead": "1×",
+      "sec": "Primo Levi",
+      "pri": "If This Is a Man (Survival in Auschwitz)",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|In Cold Blood",
+      "lead": "1×",
+      "sec": "Truman Capote",
+      "pri": "In Cold Blood",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Junky",
+      "lead": "1×",
+      "sec": "William S. Burroughs",
+      "pri": "Junky",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Killers of the Flower Moon",
+      "lead": "1×",
+      "sec": "David Grann",
+      "pri": "Killers of the Flower Moon",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Letters to a Young Poet",
+      "lead": "1×",
+      "sec": "Rainer Maria Rilke",
+      "pri": "Letters to a Young Poet",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Nickel and Dimed",
+      "lead": "1×",
+      "sec": "Barbara Ehrenreich",
+      "pri": "Nickel and Dimed",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Night",
+      "lead": "1×",
+      "sec": "Elie Wiesel",
+      "pri": "Night",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Of Mice and Men",
+      "lead": "1×",
+      "sec": "John Steinbeck",
+      "pri": "Of Mice and Men",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Only Ever Yours",
+      "lead": "1×",
+      "sec": "Louise O'Neill",
+      "pri": "Only Ever Yours",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Pachinko",
+      "lead": "1×",
+      "sec": "Min Jin Lee",
+      "pri": "Pachinko",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Percy Jackson and the Olympians",
+      "lead": "1×",
+      "sec": "Rick Riordan",
+      "pri": "Percy Jackson and the Olympians",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Portrait in Sepia",
+      "lead": "1×",
+      "sec": "Isabel Allende",
+      "pri": "Portrait in Sepia",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Sapiens",
+      "lead": "1×",
+      "sec": "Yuval Noah Harari",
+      "pri": "Sapiens",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|She's Come Undone",
+      "lead": "1×",
+      "sec": "Wally Lamb",
+      "pri": "She's Come Undone",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Siddhartha",
+      "lead": "1×",
+      "sec": "Hermann Hesse",
+      "pri": "Siddhartha",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Slaughterhouse-Five",
+      "lead": "1×",
+      "sec": "Kurt Vonnegut",
+      "pri": "Slaughterhouse-Five",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Smoke and Mirrors",
+      "lead": "1×",
+      "sec": "Dan Baum",
+      "pri": "Smoke and Mirrors",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Stamped from the Beginning",
+      "lead": "1×",
+      "sec": "Ibram X. Kendi",
+      "pri": "Stamped from the Beginning",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Talking to Strangers",
+      "lead": "1×",
+      "sec": "Malcolm Gladwell",
+      "pri": "Talking to Strangers",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Tess of the d'Urbervilles",
+      "lead": "1×",
+      "sec": "Thomas Hardy",
+      "pri": "Tess of the d'Urbervilles",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Art of Asking",
+      "lead": "1×",
+      "sec": "Amanda Palmer",
+      "pri": "The Art of Asking",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Demon-Haunted World",
+      "lead": "1×",
+      "sec": "Carl Sagan",
+      "pri": "The Demon-Haunted World",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Four Agreements",
+      "lead": "1×",
+      "sec": "Don Miguel Ruiz",
+      "pri": "The Four Agreements",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Gray House",
+      "lead": "1×",
+      "sec": "Mariam Petrosyan",
+      "pri": "The Gray House",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Heartbeat of Wounded Knee",
+      "lead": "1×",
+      "sec": "David Treuer",
+      "pri": "The Heartbeat of Wounded Knee",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Hitchhiker's Guide to the Galaxy",
+      "lead": "1×",
+      "sec": "Douglas Adams",
+      "pri": "The Hitchhiker's Guide to the Galaxy",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Hour I First Believed",
+      "lead": "1×",
+      "sec": "Wally Lamb",
+      "pri": "The Hour I First Believed",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Little Prince",
+      "lead": "1×",
+      "sec": "Antoine de Saint-Exupéry",
+      "pri": "The Little Prince",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The New Jim Crow",
+      "lead": "1×",
+      "sec": "Michelle Alexander",
+      "pri": "The New Jim Crow",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Outsiders",
+      "lead": "1×",
+      "sec": "S. E. Hinton",
+      "pri": "The Outsiders",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Pillars of the Earth",
+      "lead": "1×",
+      "sec": "Ken Follett",
+      "pri": "The Pillars of the Earth",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Poisonwood Bible",
+      "lead": "1×",
+      "sec": "Barbara Kingsolver",
+      "pri": "The Poisonwood Bible",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Power of Now",
+      "lead": "1×",
+      "sec": "Eckhart Tolle",
+      "pri": "The Power of Now",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Red Tent",
+      "lead": "1×",
+      "sec": "Anita Diamant",
+      "pri": "The Red Tent",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Unwinding",
+      "lead": "1×",
+      "sec": "George Packer",
+      "pri": "The Unwinding",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|The Wind-Up Bird Chronicle",
+      "lead": "1×",
+      "sec": "Haruki Murakami",
+      "pri": "The Wind-Up Bird Chronicle",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Thinking, Fast and Slow",
+      "lead": "1×",
+      "sec": "Daniel Kahneman",
+      "pri": "Thinking, Fast and Slow",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|To Kill a Mockingbird",
+      "lead": "1×",
+      "sec": "Harper Lee",
+      "pri": "To Kill a Mockingbird",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Tortilla Flat",
+      "lead": "1×",
+      "sec": "John Steinbeck",
+      "pri": "Tortilla Flat",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|We Were the Mulvaneys",
+      "lead": "1×",
+      "sec": "Joyce Carol Oates",
+      "pri": "We Were the Mulvaneys",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Winners Take All",
+      "lead": "1×",
+      "sec": "Anand Giridharadas",
+      "pri": "Winners Take All",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     },
+     {
+      "key": "slap|Y: The Last Man",
+      "lead": "1×",
+      "sec": "Brian K. Vaughan",
+      "pri": "Y: The Last Man",
+      "src": {
+       "label": "r/suggestmeabook",
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/lludyk/what_is_that_one_book_that_slapped_you_across_the/"
+      }
+     }
+    ]
    },
    {
     "slug": "must-read-fiction",

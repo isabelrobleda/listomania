@@ -6,7 +6,7 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 ## What this is
 
-Four shelves (Music, Books, Film, Places) holding 13 lists and 2,226 items.
+Four shelves (Music, Books, Film, Places) holding 14 lists and 2,310 items.
 Every list declares what **kind** of authority it has:
 
 | Kind        | Meaning                                  |
@@ -101,6 +101,12 @@ Everything is data. Add an object to the right shelf's `lists` array in
 
 `key` is the item's stable identity — it's what progress is stored against, so
 changing it resets people's ticks for that row.
+
+**Adding a book tally means recomputing the derived list.** Run
+`python3 tools/agreed.py` from the repo root — it rebuilds *Agreed Across
+Crowds* from every Tally on the Books shelf, matching titles across lists that
+punctuate and accent them differently. Skip it and that list quietly claims to
+cover a tally it has never seen.
 
 Every tally should carry its `note`. Saying how a list was counted, and what it
 skews toward, is what separates it from an anonymous internet ranking.
