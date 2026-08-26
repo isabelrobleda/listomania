@@ -12965,6 +12965,1768 @@
   "blurb": "A canon to work through, and the documentaries that made strangers gasp.",
   "lists": [
    {
+    "slug": "top-ten-of-the-2010s",
+    "title": "Everyone's Top Ten of the 2010s",
+    "kind": "Tally",
+    "verb": "seen",
+    "desc": "r/movies posting ranked tens for the decade. A film here didn't just get mentioned — it made someone's ten.",
+    "cols": [
+     "Ballots",
+     "Year",
+     "Film",
+     "Watch · source"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/",
+      "label": "Reddit · r/movies",
+      "q": "What is your top 10 of the 2010s?",
+      "meta": "2022 · ranked top-ten lists"
+     }
+    ],
+    "note": "Counted by distinct redditor, not by comment — one person posting two overlapping lists counts once, and where someone corrected their own list only the correction is counted. The asker's own ten is excluded so the question doesn't rig its answer. Because these are <em>ranked tens</em>, a single mention is a stronger signal than in the other tallies — but the ranking within each ten is discarded, so a film someone put first counts the same as their tenth.",
+    "rows": [
+     {
+      "key": "f10s|Arrival",
+      "lead": "7×",
+      "sec": "2016",
+      "pri": "Arrival",
+      "yt": "Arrival 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Mad Max: Fury Road",
+      "lead": "5×",
+      "sec": "2015",
+      "pri": "Mad Max: Fury Road",
+      "yt": "Mad Max: Fury Road 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Parasite",
+      "lead": "5×",
+      "sec": "2019",
+      "pri": "Parasite",
+      "yt": "Parasite 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Grand Budapest Hotel",
+      "lead": "5×",
+      "sec": "2014",
+      "pri": "The Grand Budapest Hotel",
+      "yt": "The Grand Budapest Hotel 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Birdman",
+      "lead": "4×",
+      "sec": "2014",
+      "pri": "Birdman",
+      "yt": "Birdman 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Blade Runner 2049",
+      "lead": "4×",
+      "sec": "2017",
+      "pri": "Blade Runner 2049",
+      "yt": "Blade Runner 2049 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Edge of Tomorrow",
+      "lead": "4×",
+      "sec": "2014",
+      "pri": "Edge of Tomorrow",
+      "yt": "Edge of Tomorrow 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Ex Machina",
+      "lead": "4×",
+      "sec": "2014",
+      "pri": "Ex Machina",
+      "yt": "Ex Machina 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Inception",
+      "lead": "4×",
+      "sec": "2010",
+      "pri": "Inception",
+      "yt": "Inception 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Interstellar",
+      "lead": "4×",
+      "sec": "2014",
+      "pri": "Interstellar",
+      "yt": "Interstellar 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Once Upon a Time in Hollywood",
+      "lead": "4×",
+      "sec": "2019",
+      "pri": "Once Upon a Time in Hollywood",
+      "yt": "Once Upon a Time in Hollywood 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Handmaiden",
+      "lead": "4×",
+      "sec": "2016",
+      "pri": "The Handmaiden",
+      "yt": "The Handmaiden 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Whiplash",
+      "lead": "4×",
+      "sec": "2014",
+      "pri": "Whiplash",
+      "yt": "Whiplash 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Annihilation",
+      "lead": "3×",
+      "sec": "2018",
+      "pri": "Annihilation",
+      "yt": "Annihilation 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Good Time",
+      "lead": "3×",
+      "sec": "2017",
+      "pri": "Good Time",
+      "yt": "Good Time 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Hereditary",
+      "lead": "3×",
+      "sec": "2018",
+      "pri": "Hereditary",
+      "yt": "Hereditary 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Hidden Figures",
+      "lead": "3×",
+      "sec": "2016",
+      "pri": "Hidden Figures",
+      "yt": "Hidden Figures 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Inherent Vice",
+      "lead": "3×",
+      "sec": "2014",
+      "pri": "Inherent Vice",
+      "yt": "Inherent Vice 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|La La Land",
+      "lead": "3×",
+      "sec": "2016",
+      "pri": "La La Land",
+      "yt": "La La Land 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Master",
+      "lead": "3×",
+      "sec": "2012",
+      "pri": "The Master",
+      "yt": "The Master 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Social Network",
+      "lead": "3×",
+      "sec": "2010",
+      "pri": "The Social Network",
+      "yt": "The Social Network 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Black Swan",
+      "lead": "2×",
+      "sec": "2010",
+      "pri": "Black Swan",
+      "yt": "Black Swan 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|BlacKkKlansman",
+      "lead": "2×",
+      "sec": "2018",
+      "pri": "BlacKkKlansman",
+      "yt": "BlacKkKlansman 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Django Unchained",
+      "lead": "2×",
+      "sec": "2012",
+      "pri": "Django Unchained",
+      "yt": "Django Unchained 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Doctor Sleep",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Doctor Sleep",
+      "yt": "Doctor Sleep 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Get Out",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "Get Out",
+      "yt": "Get Out 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Gravity",
+      "lead": "2×",
+      "sec": "2013",
+      "pri": "Gravity",
+      "yt": "Gravity 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Guardians of the Galaxy",
+      "lead": "2×",
+      "sec": "2014",
+      "pri": "Guardians of the Galaxy",
+      "yt": "Guardians of the Galaxy 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Her",
+      "lead": "2×",
+      "sec": "2013",
+      "pri": "Her",
+      "yt": "Her 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Inside Llewyn Davis",
+      "lead": "2×",
+      "sec": "2013",
+      "pri": "Inside Llewyn Davis",
+      "yt": "Inside Llewyn Davis 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Knives Out",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Knives Out",
+      "yt": "Knives Out 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Little Women",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Little Women",
+      "yt": "Little Women 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Manchester by the Sea",
+      "lead": "2×",
+      "sec": "2016",
+      "pri": "Manchester by the Sea",
+      "yt": "Manchester by the Sea 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Mission: Impossible – Ghost Protocol",
+      "lead": "2×",
+      "sec": "2011",
+      "pri": "Mission: Impossible – Ghost Protocol",
+      "yt": "Mission: Impossible – Ghost Protocol 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Nightcrawler",
+      "lead": "2×",
+      "sec": "2014",
+      "pri": "Nightcrawler",
+      "yt": "Nightcrawler 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Only Lovers Left Alive",
+      "lead": "2×",
+      "sec": "2013",
+      "pri": "Only Lovers Left Alive",
+      "yt": "Only Lovers Left Alive 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Our Little Sister",
+      "lead": "2×",
+      "sec": "2015",
+      "pri": "Our Little Sister",
+      "yt": "Our Little Sister 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Paddington",
+      "lead": "2×",
+      "sec": "2014",
+      "pri": "Paddington",
+      "yt": "Paddington 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Phantom Thread",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "Phantom Thread",
+      "yt": "Phantom Thread 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Room",
+      "lead": "2×",
+      "sec": "2015",
+      "pri": "Room",
+      "yt": "Room 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Sicario",
+      "lead": "2×",
+      "sec": "2015",
+      "pri": "Sicario",
+      "yt": "Sicario 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Swiss Army Man",
+      "lead": "2×",
+      "sec": "2016",
+      "pri": "Swiss Army Man",
+      "yt": "Swiss Army Man 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Farewell",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "The Farewell",
+      "yt": "The Farewell 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Florida Project",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "The Florida Project",
+      "yt": "The Florida Project 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Hateful Eight",
+      "lead": "2×",
+      "sec": "2015",
+      "pri": "The Hateful Eight",
+      "yt": "The Hateful Eight 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Lighthouse",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "The Lighthouse",
+      "yt": "The Lighthouse 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Witch",
+      "lead": "2×",
+      "sec": "2015",
+      "pri": "The Witch",
+      "yt": "The Witch 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Wolf of Wall Street",
+      "lead": "2×",
+      "sec": "2013",
+      "pri": "The Wolf of Wall Street",
+      "yt": "The Wolf of Wall Street 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Train to Busan",
+      "lead": "2×",
+      "sec": "2016",
+      "pri": "Train to Busan",
+      "yt": "Train to Busan 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Uncut Gems",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Uncut Gems",
+      "yt": "Uncut Gems 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|12 Years a Slave",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "12 Years a Slave",
+      "yt": "12 Years a Slave 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|A Separation",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "A Separation",
+      "yt": "A Separation 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|A Taxi Driver",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "A Taxi Driver",
+      "yt": "A Taxi Driver 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|American Honey",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "American Honey",
+      "yt": "American Honey 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Ant-Man",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Ant-Man",
+      "yt": "Ant-Man 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Beyond the Hills",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Beyond the Hills",
+      "yt": "Beyond the Hills 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Black Mother",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Black Mother",
+      "yt": "Black Mother 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Blindspotting",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Blindspotting",
+      "yt": "Blindspotting 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Boyhood",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Boyhood",
+      "yt": "Boyhood 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Bumblebee",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Bumblebee",
+      "yt": "Bumblebee 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Carnage",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Carnage",
+      "yt": "Carnage 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Certified Copy",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Certified Copy",
+      "yt": "Certified Copy 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Christopher Robin",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Christopher Robin",
+      "yt": "Christopher Robin 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Contagion",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Contagion",
+      "yt": "Contagion 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Dawn of the Planet of the Apes",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Dawn of the Planet of the Apes",
+      "yt": "Dawn of the Planet of the Apes 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Deadpool",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Deadpool",
+      "yt": "Deadpool 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Dirty Computer",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Dirty Computer",
+      "yt": "Dirty Computer 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Dredd",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Dredd",
+      "yt": "Dredd 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Drive",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Drive",
+      "yt": "Drive 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Dunkirk",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Dunkirk",
+      "yt": "Dunkirk 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Eighth Grade",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Eighth Grade",
+      "yt": "Eighth Grade 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Elena",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Elena",
+      "yt": "Elena 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Everybody Wants Some!!",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Everybody Wants Some!!",
+      "yt": "Everybody Wants Some!! 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Evil Dead",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Evil Dead",
+      "yt": "Evil Dead 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Fast Five",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Fast Five",
+      "yt": "Fast Five 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|First Man",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "First Man",
+      "yt": "First Man 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Green Room",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Green Room",
+      "yt": "Green Room 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Guardians of the Galaxy Vol. 2",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Guardians of the Galaxy Vol. 2",
+      "yt": "Guardians of the Galaxy Vol. 2 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Hugo",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Hugo",
+      "yt": "Hugo 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Hunt for the Wilderpeople",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Hunt for the Wilderpeople",
+      "yt": "Hunt for the Wilderpeople 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|I Saw the Devil",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "I Saw the Devil",
+      "yt": "I Saw the Devil 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|I'm Thinking of Ending Things",
+      "lead": "1×",
+      "sec": "2020",
+      "pri": "I'm Thinking of Ending Things",
+      "yt": "I'm Thinking of Ending Things 2020",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Ida",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Ida",
+      "yt": "Ida 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Identity Thief",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Identity Thief",
+      "yt": "Identity Thief 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|If Beale Street Could Talk",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "If Beale Street Could Talk",
+      "yt": "If Beale Street Could Talk 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|In Order of Disappearance",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "In Order of Disappearance",
+      "yt": "In Order of Disappearance 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Incendies",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Incendies",
+      "yt": "Incendies 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Ingrid Goes West",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Ingrid Goes West",
+      "yt": "Ingrid Goes West 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Inside Out",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Inside Out",
+      "yt": "Inside Out 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|It Follows",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "It Follows",
+      "yt": "It Follows 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|It's Such a Beautiful Day",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "It's Such a Beautiful Day",
+      "yt": "It's Such a Beautiful Day 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|John Wick",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "John Wick",
+      "yt": "John Wick 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Jojo Rabbit",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Jojo Rabbit",
+      "yt": "Jojo Rabbit 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Jumanji: Welcome to the Jungle",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Jumanji: Welcome to the Jungle",
+      "yt": "Jumanji: Welcome to the Jungle 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Klaus",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Klaus",
+      "yt": "Klaus 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Kubo and the Two Strings",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Kubo and the Two Strings",
+      "yt": "Kubo and the Two Strings 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Laurence Anyways",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Laurence Anyways",
+      "yt": "Laurence Anyways 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Leviathan",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Leviathan",
+      "yt": "Leviathan 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Life of Pi",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Life of Pi",
+      "yt": "Life of Pi 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Like Someone in Love",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Like Someone in Love",
+      "yt": "Like Someone in Love 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Logan",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Logan",
+      "yt": "Logan 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Looper",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Looper",
+      "yt": "Looper 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Meek's Cutoff",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Meek's Cutoff",
+      "yt": "Meek's Cutoff 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Megamind",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Megamind",
+      "yt": "Megamind 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Mission: Impossible – Rogue Nation",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Mission: Impossible – Rogue Nation",
+      "yt": "Mission: Impossible – Rogue Nation 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Moneyball",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Moneyball",
+      "yt": "Moneyball 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Monos",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Monos",
+      "yt": "Monos 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Moonlight",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Moonlight",
+      "yt": "Moonlight 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Moonrise Kingdom",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Moonrise Kingdom",
+      "yt": "Moonrise Kingdom 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Movie 43",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Movie 43",
+      "yt": "Movie 43 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Olympus Has Fallen",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Olympus Has Fallen",
+      "yt": "Olympus Has Fallen 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Ophelia",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Ophelia",
+      "yt": "Ophelia 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Paddington 2",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Paddington 2",
+      "yt": "Paddington 2 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Personal Shopper",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Personal Shopper",
+      "yt": "Personal Shopper 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Poetry",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Poetry",
+      "yt": "Poetry 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Portrait of a Lady on Fire",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Portrait of a Lady on Fire",
+      "yt": "Portrait of a Lady on Fire 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Predators",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Predators",
+      "yt": "Predators 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Prisoners",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Prisoners",
+      "yt": "Prisoners 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Raw",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Raw",
+      "yt": "Raw 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Resident Evil: Afterlife",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Resident Evil: Afterlife",
+      "yt": "Resident Evil: Afterlife 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Roma",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Roma",
+      "yt": "Roma 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Smurfs: The Lost Village",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Smurfs: The Lost Village",
+      "yt": "Smurfs: The Lost Village 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Spider-Man: Into the Spider-Verse",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Spider-Man: Into the Spider-Verse",
+      "yt": "Spider-Man: Into the Spider-Verse 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Spotlight",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Spotlight",
+      "yt": "Spotlight 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Steve Jobs",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Steve Jobs",
+      "yt": "Steve Jobs 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Super Deluxe",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Super Deluxe",
+      "yt": "Super Deluxe 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Suspiria",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Suspiria",
+      "yt": "Suspiria 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Aeronauts",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "The Aeronauts",
+      "yt": "The Aeronauts 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Artist",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Artist",
+      "yt": "The Artist 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Avengers",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Avengers",
+      "yt": "The Avengers 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Big Short",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "The Big Short",
+      "yt": "The Big Short 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Cabin in the Woods",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Cabin in the Woods",
+      "yt": "The Cabin in the Woods 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Comedy",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Comedy",
+      "yt": "The Comedy 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Favourite",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "The Favourite",
+      "yt": "The Favourite 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Founder",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Founder",
+      "yt": "The Founder 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Girl with the Dragon Tattoo",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Girl with the Dragon Tattoo",
+      "yt": "The Girl with the Dragon Tattoo 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Hunt",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Hunt",
+      "yt": "The Hunt 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Lego Movie",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "The Lego Movie",
+      "yt": "The Lego Movie 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Martian",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "The Martian",
+      "yt": "The Martian 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Nice Guys",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Nice Guys",
+      "yt": "The Nice Guys 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Place Beyond the Pines",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Place Beyond the Pines",
+      "yt": "The Place Beyond the Pines 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Red Turtle",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Red Turtle",
+      "yt": "The Red Turtle 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Tale of the Princess Kaguya",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "The Tale of the Princess Kaguya",
+      "yt": "The Tale of the Princess Kaguya 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Tree of Life",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Tree of Life",
+      "yt": "The Tree of Life 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|The Way Way Back",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "The Way Way Back",
+      "yt": "The Way Way Back 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Three Billboards Outside Ebbing, Missouri",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Three Billboards Outside Ebbing, Missouri",
+      "yt": "Three Billboards Outside Ebbing, Missouri 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Tolkien",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Tolkien",
+      "yt": "Tolkien 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Tomboy",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Tomboy",
+      "yt": "Tomboy 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|True Grit",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "True Grit",
+      "yt": "True Grit 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Under the Skin",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Under the Skin",
+      "yt": "Under the Skin 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|War for the Planet of the Apes",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "War for the Planet of the Apes",
+      "yt": "War for the Planet of the Apes 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Waves",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Waves",
+      "yt": "Waves 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|We Need to Talk About Kevin",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "We Need to Talk About Kevin",
+      "yt": "We Need to Talk About Kevin 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|What We Do in the Shadows",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "What We Do in the Shadows",
+      "yt": "What We Do in the Shadows 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Wonder Woman",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Wonder Woman",
+      "yt": "Wonder Woman 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|X-Men: Days of Future Past",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "X-Men: Days of Future Past",
+      "yt": "X-Men: Days of Future Past 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|You Were Never Really Here",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "You Were Never Really Here",
+      "yt": "You Were Never Really Here 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     },
+     {
+      "key": "f10s|Zero Dark Thirty",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Zero Dark Thirty",
+      "yt": "Zero Dark Thirty 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/yqknq9/what_is_your_top_10_of_the_2010s/"
+      }
+     }
+    ]
+   },
+   {
     "slug": "what-the-fuck-documentaries",
     "title": "What the Fuck Documentaries",
     "kind": "Tally",
