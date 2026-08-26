@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { shelves } from "@/lib/content";
 import { useProgress, useSaved, listId } from "@/lib/progress";
 
-const SOON = ["Television", "Talks & video", "Podcasts"];
+const SOON = ["Talks & video", "Podcasts", "Games"];
 
 export default function Rail() {
   const pathname = usePathname();

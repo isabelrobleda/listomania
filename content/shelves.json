@@ -21361,5 +21361,604 @@
     "srcLabel": "Saved in"
    }
   ]
+ },
+ {
+  "slug": "television",
+  "name": "Television",
+  "mark": "#8B5CF6",
+  "on": "#FFFFFF",
+  "soft": "#EDE6FF",
+  "softDark": "#1F1633",
+  "blurb": "The shows strangers won't shut up about.",
+  "lists": [
+   {
+    "slug": "never-tired-of-recommending",
+    "title": "Series People Never Stop Recommending",
+    "kind": "Tally",
+    "verb": "watched",
+    "desc": "47 shows from 74 people, and the winner is a German time-travel puzzle whose fan's whole complaint is that no one listens to him.",
+    "cols": [
+     "Said by",
+     "Years",
+     "Series",
+     "Watch · source"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/",
+      "label": "Reddit · r/AskReddit",
+      "q": "What's a TV series you'll never get tired of recommending to someone?",
+      "meta": "2026 · 1.2K points"
+     }
+    ],
+    "note": "Counted by distinct redditor: naming a show counts, and a reply agreeing with it counts. Replies that are pure catchphrase &mdash; &ldquo;Omar comin&rsquo;&rdquo;, &ldquo;Noice&rdquo;, &ldquo;EAT GLASS!!!&rdquo; &mdash; do not, because a quote isn't a recommendation. That rule has a visible cost, and it's only fair to name it: being quotable <em>is</em> a kind of devotion, so <em>Schitt's Creek</em>, <em>Brooklyn Nine-Nine</em> and <em>The Wire</em> sit lower here than the thread actually feels. Counting every affectionate joke would have broken the tally in the other direction.",
+    "rows": [
+     {
+      "key": "tv|Dark",
+      "lead": "4×",
+      "sec": "2017–20",
+      "pri": "Dark",
+      "yt": "Dark series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Arrested Development",
+      "lead": "3×",
+      "sec": "2003–19",
+      "pri": "Arrested Development",
+      "yt": "Arrested Development series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Deadwood",
+      "lead": "3×",
+      "sec": "2004–06",
+      "pri": "Deadwood",
+      "yt": "Deadwood series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Parks and Recreation",
+      "lead": "3×",
+      "sec": "2009–15",
+      "pri": "Parks and Recreation",
+      "yt": "Parks and Recreation series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Psych",
+      "lead": "3×",
+      "sec": "2006–14",
+      "pri": "Psych",
+      "yt": "Psych series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Ted Lasso",
+      "lead": "3×",
+      "sec": "2020–",
+      "pri": "Ted Lasso",
+      "yt": "Ted Lasso series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Good Place",
+      "lead": "3×",
+      "sec": "2016–20",
+      "pri": "The Good Place",
+      "yt": "The Good Place series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Pitt",
+      "lead": "3×",
+      "sec": "2025–",
+      "pri": "The Pitt",
+      "yt": "The Pitt series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Wire",
+      "lead": "3×",
+      "sec": "2002–08",
+      "pri": "The Wire",
+      "yt": "The Wire series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|What We Do in the Shadows",
+      "lead": "3×",
+      "sec": "2019–24",
+      "pri": "What We Do in the Shadows",
+      "yt": "What We Do in the Shadows series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Andor",
+      "lead": "2×",
+      "sec": "2022–25",
+      "pri": "Andor",
+      "yt": "Andor series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Brooklyn Nine-Nine",
+      "lead": "2×",
+      "sec": "2013–21",
+      "pri": "Brooklyn Nine-Nine",
+      "yt": "Brooklyn Nine-Nine series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Derry Girls",
+      "lead": "2×",
+      "sec": "2018–22",
+      "pri": "Derry Girls",
+      "yt": "Derry Girls series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Firefly",
+      "lead": "2×",
+      "sec": "2002",
+      "pri": "Firefly",
+      "yt": "Firefly series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Fleabag",
+      "lead": "2×",
+      "sec": "2016–19",
+      "pri": "Fleabag",
+      "yt": "Fleabag series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Futurama",
+      "lead": "2×",
+      "sec": "1999–",
+      "pri": "Futurama",
+      "yt": "Futurama series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Malcolm in the Middle",
+      "lead": "2×",
+      "sec": "2000–06",
+      "pri": "Malcolm in the Middle",
+      "yt": "Malcolm in the Middle series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Shrinking",
+      "lead": "2×",
+      "sec": "2023–",
+      "pri": "Shrinking",
+      "yt": "Shrinking series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Expanse",
+      "lead": "2×",
+      "sec": "2015–22",
+      "pri": "The Expanse",
+      "yt": "The Expanse series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Fall of the House of Usher",
+      "lead": "2×",
+      "sec": "2023",
+      "pri": "The Fall of the House of Usher",
+      "yt": "The Fall of the House of Usher series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Righteous Gemstones",
+      "lead": "2×",
+      "sec": "2019–25",
+      "pri": "The Righteous Gemstones",
+      "yt": "The Righteous Gemstones series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Barney Miller",
+      "lead": "1×",
+      "sec": "1975–82",
+      "pri": "Barney Miller",
+      "yt": "Barney Miller series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Broad City",
+      "lead": "1×",
+      "sec": "2014–19",
+      "pri": "Broad City",
+      "yt": "Broad City series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Chernobyl",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Chernobyl",
+      "yt": "Chernobyl series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Detectorists",
+      "lead": "1×",
+      "sec": "2014–22",
+      "pri": "Detectorists",
+      "yt": "Detectorists series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Doctor Who",
+      "lead": "1×",
+      "sec": "1963–",
+      "pri": "Doctor Who",
+      "yt": "Doctor Who series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|For All Mankind",
+      "lead": "1×",
+      "sec": "2019–",
+      "pri": "For All Mankind",
+      "yt": "For All Mankind series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Game Changer",
+      "lead": "1×",
+      "sec": "2019–",
+      "pri": "Game Changer",
+      "yt": "Game Changer series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|House",
+      "lead": "1×",
+      "sec": "2004–12",
+      "pri": "House",
+      "yt": "House series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Justified",
+      "lead": "1×",
+      "sec": "2010–15",
+      "pri": "Justified",
+      "yt": "Justified series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Midnight Mass",
+      "lead": "1×",
+      "sec": "2021",
+      "pri": "Midnight Mass",
+      "yt": "Midnight Mass series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Mr Inbetween",
+      "lead": "1×",
+      "sec": "2018–21",
+      "pri": "Mr Inbetween",
+      "yt": "Mr Inbetween series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Party Down",
+      "lead": "1×",
+      "sec": "2009–23",
+      "pri": "Party Down",
+      "yt": "Party Down series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Schitt's Creek",
+      "lead": "1×",
+      "sec": "2015–20",
+      "pri": "Schitt's Creek",
+      "yt": "Schitt's Creek series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Slow Horses",
+      "lead": "1×",
+      "sec": "2022–",
+      "pri": "Slow Horses",
+      "yt": "Slow Horses series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Somebody Somewhere",
+      "lead": "1×",
+      "sec": "2021–24",
+      "pri": "Somebody Somewhere",
+      "yt": "Somebody Somewhere series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Stargate SG-1",
+      "lead": "1×",
+      "sec": "1997–2007",
+      "pri": "Stargate SG-1",
+      "yt": "Stargate SG-1 series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Golden Girls",
+      "lead": "1×",
+      "sec": "1985–92",
+      "pri": "The Golden Girls",
+      "yt": "The Golden Girls series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Haunting of Bly Manor",
+      "lead": "1×",
+      "sec": "2020",
+      "pri": "The Haunting of Bly Manor",
+      "yt": "The Haunting of Bly Manor series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Haunting of Hill House",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "The Haunting of Hill House",
+      "yt": "The Haunting of Hill House series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The IT Crowd",
+      "lead": "1×",
+      "sec": "2006–13",
+      "pri": "The IT Crowd",
+      "yt": "The IT Crowd series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Last Kingdom",
+      "lead": "1×",
+      "sec": "2015–22",
+      "pri": "The Last Kingdom",
+      "yt": "The Last Kingdom series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The Sopranos",
+      "lead": "1×",
+      "sec": "1999–2007",
+      "pri": "The Sopranos",
+      "yt": "The Sopranos series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|The West Wing",
+      "lead": "1×",
+      "sec": "1999–2006",
+      "pri": "The West Wing",
+      "yt": "The West Wing series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|True Detective (season 1)",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "True Detective (season 1)",
+      "yt": "True Detective (season 1) series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Twin Peaks",
+      "lead": "1×",
+      "sec": "1990–91",
+      "pri": "Twin Peaks",
+      "yt": "Twin Peaks series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     },
+     {
+      "key": "tv|Veep",
+      "lead": "1×",
+      "sec": "2012–19",
+      "pri": "Veep",
+      "yt": "Veep series",
+      "ytWord": "Trailer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1s3t8p9/whats_a_tv_series_youll_never_get_tired_of/"
+      }
+     }
+    ]
+   }
+  ]
  }
 ]
