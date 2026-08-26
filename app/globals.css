@@ -312,3 +312,5 @@ tr.on .tick svg { opacity: 1; }
   * { transition: none !important; animation: none !important; }
   html { scroll-behavior: auto; }
 }
+
+.trk .sep{color:var(--ink-3);opacity:.6}

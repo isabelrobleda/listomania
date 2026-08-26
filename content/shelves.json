@@ -8311,7 +8311,7 @@
   "on": "#FFFFFF",
   "soft": "#FFE6F1",
   "softDark": "#33111F",
-  "blurb": "An authored canon, three crowd tallies, and what they agree on.",
+  "blurb": "An authored canon, four crowd tallies, and what they agree on.",
   "lists": [
    {
     "slug": "agreed-across-crowds",
@@ -8325,7 +8325,7 @@
      "Title",
      "Which lists"
     ],
-    "note": "Built from the other book lists, matching on title with articles and punctuation ignored. Agreement across crowds asked <em>different</em> questions is the strongest signal here: “unputdownable”, “changed how I think” and “never stop recommending” are not the same question, so a book on all three is doing several jobs at once.",
+    "note": "Built from the other book lists, matching on title with articles and punctuation ignored. Agreement across crowds asked <em>different</em> questions is the strongest signal here: “unputdownable”, “changed how I think”, “never stop recommending” and “best of the last 15 years” are four different questions, so a book on several is doing several jobs at once.",
     "rows": [
      {
       "key": "agreed|Educated",
@@ -8363,11 +8363,25 @@
       "extra": "Books That Changed People · Novels of the Modern Era · Unputdownable"
      },
      {
+      "key": "agreed|The Goldfinch",
+      "lead": "3 lists",
+      "sec": "Donna Tartt",
+      "pri": "The Goldfinch",
+      "extra": "Must-Read Fiction · Never Stop Recommending · Unputdownable"
+     },
+     {
       "key": "agreed|To Kill a Mockingbird",
       "lead": "3 lists",
       "sec": "Harper Lee",
       "pri": "To Kill a Mockingbird",
       "extra": "Books That Changed People · Novels of the Modern Era · Unputdownable"
+     },
+     {
+      "key": "agreed|11/22/63",
+      "lead": "2 lists",
+      "sec": "Stephen King",
+      "pri": "11/22/63",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
      },
      {
       "key": "agreed|2666",
@@ -8382,6 +8396,13 @@
       "sec": "John Kennedy Toole",
       "pri": "A Confederacy of Dunces",
       "extra": "Books That Changed People · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|A Fine Balance",
+      "lead": "2 lists",
+      "sec": "Rohinton Mistry",
+      "pri": "A Fine Balance",
+      "extra": "Must-Read Fiction · Unputdownable"
      },
      {
       "key": "agreed|A Man Called Ove",
@@ -8405,6 +8426,13 @@
       "extra": "Books That Changed People · Unputdownable"
      },
      {
+      "key": "agreed|Demon Copperhead",
+      "lead": "2 lists",
+      "sec": "Barbara Kingsolver",
+      "pri": "Demon Copperhead",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
+     },
+     {
       "key": "agreed|Dune",
       "lead": "2 lists",
       "sec": "Frank Herbert",
@@ -8417,6 +8445,13 @@
       "sec": "John Steinbeck",
       "pri": "East of Eden",
       "extra": "Never Stop Recommending · Unputdownable"
+     },
+     {
+      "key": "agreed|Eleanor Oliphant Is Completely Fine",
+      "lead": "2 lists",
+      "sec": "Gail Honeyman",
+      "pri": "Eleanor Oliphant Is Completely Fine",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
      },
      {
       "key": "agreed|For Whom the Bell Tolls",
@@ -8468,11 +8503,32 @@
       "extra": "Novels of the Modern Era · Never Stop Recommending"
      },
      {
+      "key": "agreed|Pachinko",
+      "lead": "2 lists",
+      "sec": "Min Jin Lee",
+      "pri": "Pachinko",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|Project Hail Mary",
+      "lead": "2 lists",
+      "sec": "Andy Weir",
+      "pri": "Project Hail Mary",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
+     },
+     {
       "key": "agreed|Shogun",
       "lead": "2 lists",
       "sec": "James Clavell",
       "pri": "Shogun",
       "extra": "Never Stop Recommending · Unputdownable"
+     },
+     {
+      "key": "agreed|Station Eleven",
+      "lead": "2 lists",
+      "sec": "Emily St. John Mandel",
+      "pri": "Station Eleven",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
      },
      {
       "key": "agreed|The Brothers Karamazov",
@@ -8486,13 +8542,6 @@
       "lead": "2 lists",
       "sec": "Alexandre Dumas",
       "pri": "The Count of Monte Cristo",
-      "extra": "Never Stop Recommending · Unputdownable"
-     },
-     {
-      "key": "agreed|The Goldfinch",
-      "lead": "2 lists",
-      "sec": "Donna Tartt",
-      "pri": "The Goldfinch",
       "extra": "Never Stop Recommending · Unputdownable"
      },
      {
@@ -8510,11 +8559,25 @@
       "extra": "Never Stop Recommending · Unputdownable"
      },
      {
+      "key": "agreed|The Martian",
+      "lead": "2 lists",
+      "sec": "Andy Weir",
+      "pri": "The Martian",
+      "extra": "Must-Read Fiction · Unputdownable"
+     },
+     {
       "key": "agreed|The Master and Margarita",
       "lead": "2 lists",
       "sec": "Mikhail Bulgakov",
       "pri": "The Master and Margarita",
       "extra": "Books That Changed People · Unputdownable"
+     },
+     {
+      "key": "agreed|The Poisonwood Bible",
+      "lead": "2 lists",
+      "sec": "Barbara Kingsolver",
+      "pri": "The Poisonwood Bible",
+      "extra": "Must-Read Fiction · Never Stop Recommending"
      },
      {
       "key": "agreed|The Remains of the Day",
@@ -8545,6 +8608,13 @@
       "extra": "Never Stop Recommending · Unputdownable"
      },
      {
+      "key": "agreed|The Song of Achilles",
+      "lead": "2 lists",
+      "sec": "Madeline Miller",
+      "pri": "The Song of Achilles",
+      "extra": "Must-Read Fiction · Unputdownable"
+     },
+     {
       "key": "agreed|The Three-Body Problem",
       "lead": "2 lists",
       "sec": "Liu Cixin",
@@ -8571,6 +8641,624 @@
       "sec": "Shirley Jackson",
       "pri": "We Have Always Lived in the Castle",
       "extra": "Never Stop Recommending · Unputdownable"
+     }
+    ]
+   },
+   {
+    "slug": "must-read-fiction",
+    "title": "Must-Read Fiction of the Last 15 Years",
+    "kind": "Tally",
+    "verb": "read",
+    "desc": "One book each, and it had to be recent: what r/suggestmeabook named when asked for the single must-read novel of the last 10–15 years.",
+    "cols": [
+     "Said by",
+     "Year",
+     "Title",
+     "Author · source"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+      "label": "Reddit · r/suggestmeabook",
+      "q": "What is your number 1 MUST-READ fiction book of the last 10-15 years?",
+      "meta": "2025 · 647 points · 1K comments"
+     }
+    ],
+    "note": "Counted by distinct redditor. The question put a <em>date range</em> on the answer, which no other list here does — so this is the only tally that shows what a crowd rates among books it has only recently read, rather than ones it has lived with for decades. Several people broke the rule anyway (Atonement, The Poisonwood Bible, Parable of the Sower all predate the window); those are kept, since they're still what someone answered.",
+    "rows": [
+     {
+      "key": "Demon Copperhead",
+      "lead": "5×",
+      "sec": "2022",
+      "pri": "Demon Copperhead",
+      "extra": "Barbara Kingsolver",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Small Things Like These",
+      "lead": "4×",
+      "sec": "2021",
+      "pri": "Small Things Like These",
+      "extra": "Claire Keegan",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "11/22/63",
+      "lead": "3×",
+      "sec": "2011",
+      "pri": "11/22/63",
+      "extra": "Stephen King",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Station Eleven",
+      "lead": "3×",
+      "sec": "2014",
+      "pri": "Station Eleven",
+      "extra": "Emily St. John Mandel",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Library at Mount Char",
+      "lead": "3×",
+      "sec": "2015",
+      "pri": "The Library at Mount Char",
+      "extra": "Scott Hawkins",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Poisonwood Bible",
+      "lead": "3×",
+      "sec": "1998",
+      "pri": "The Poisonwood Bible",
+      "extra": "Barbara Kingsolver",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "A Gentleman in Moscow",
+      "lead": "2×",
+      "sec": "2016",
+      "pri": "A Gentleman in Moscow",
+      "extra": "Amor Towles",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "All the Light We Cannot See",
+      "lead": "2×",
+      "sec": "2014",
+      "pri": "All the Light We Cannot See",
+      "extra": "Anthony Doerr",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Cloud Cuckoo Land",
+      "lead": "2×",
+      "sec": "2021",
+      "pri": "Cloud Cuckoo Land",
+      "extra": "Anthony Doerr",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Drive Your Plow Over the Bones of the Dead",
+      "lead": "2×",
+      "sec": "2009",
+      "pri": "Drive Your Plow Over the Bones of the Dead",
+      "extra": "Olga Tokarczuk",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Lincoln in the Bardo",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "Lincoln in the Bardo",
+      "extra": "George Saunders",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Pachinko",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "Pachinko",
+      "extra": "Min Jin Lee",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Project Hail Mary",
+      "lead": "2×",
+      "sec": "2021",
+      "pri": "Project Hail Mary",
+      "extra": "Andy Weir",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Amazing Adventures of Kavalier & Clay",
+      "lead": "2×",
+      "sec": "2000",
+      "pri": "The Amazing Adventures of Kavalier & Clay",
+      "extra": "Michael Chabon",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Heart's Invisible Furies",
+      "lead": "2×",
+      "sec": "2017",
+      "pri": "The Heart's Invisible Furies",
+      "extra": "John Boyne",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Neapolitan Novels",
+      "lead": "2×",
+      "sec": "2012",
+      "pri": "The Neapolitan Novels",
+      "extra": "Elena Ferrante",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Overstory",
+      "lead": "2×",
+      "sec": "2018",
+      "pri": "The Overstory",
+      "extra": "Richard Powers",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Wool",
+      "lead": "2×",
+      "sec": "2011",
+      "pri": "Wool",
+      "extra": "Hugh Howey",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "A Fine Balance",
+      "lead": "1×",
+      "sec": "1995",
+      "pri": "A Fine Balance",
+      "extra": "Rohinton Mistry",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Anathem",
+      "lead": "1×",
+      "sec": "2008",
+      "pri": "Anathem",
+      "extra": "Neal Stephenson",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Atonement",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Atonement",
+      "extra": "Ian McEwan",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Being Mortal",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Being Mortal",
+      "extra": "Atul Gawande",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Circe",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Circe",
+      "extra": "Madeline Miller",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Commonwealth",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Commonwealth",
+      "extra": "Ann Patchett",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Eleanor Oliphant Is Completely Fine",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Eleanor Oliphant Is Completely Fine",
+      "extra": "Gail Honeyman",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Flights",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "Flights",
+      "extra": "Olga Tokarczuk",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Greenwood",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Greenwood",
+      "extra": "Michael Christie",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Homegoing",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Homegoing",
+      "extra": "Yaa Gyasi",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Klara and the Sun",
+      "lead": "1×",
+      "sec": "2021",
+      "pri": "Klara and the Sun",
+      "extra": "Kazuo Ishiguro",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Nuclear War: A Scenario",
+      "lead": "1×",
+      "sec": "2024",
+      "pri": "Nuclear War: A Scenario",
+      "extra": "Annie Jacobsen",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Parable of the Sower",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Parable of the Sower",
+      "extra": "Octavia E. Butler",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Piranesi",
+      "lead": "1×",
+      "sec": "2020",
+      "pri": "Piranesi",
+      "extra": "Susanna Clarke",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Playground",
+      "lead": "1×",
+      "sec": "2024",
+      "pri": "Playground",
+      "extra": "Richard Powers",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Remarkably Bright Creatures",
+      "lead": "1×",
+      "sec": "2022",
+      "pri": "Remarkably Bright Creatures",
+      "extra": "Shelby Van Pelt",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Sea of Tranquility",
+      "lead": "1×",
+      "sec": "2022",
+      "pri": "Sea of Tranquility",
+      "extra": "Emily St. John Mandel",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Severance",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Severance",
+      "extra": "Ling Ma",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Shantaram",
+      "lead": "1×",
+      "sec": "2003",
+      "pri": "Shantaram",
+      "extra": "Gregory David Roberts",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Shuggie Bain",
+      "lead": "1×",
+      "sec": "2020",
+      "pri": "Shuggie Bain",
+      "extra": "Douglas Stuart",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "Still Life",
+      "lead": "1×",
+      "sec": "2021",
+      "pri": "Still Life",
+      "extra": "Sarah Winman",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Bear and the Nightingale",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "The Bear and the Nightingale",
+      "extra": "Katherine Arden",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Dog Stars",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Dog Stars",
+      "extra": "Peter Heller",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Fifth Season",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "The Fifth Season",
+      "extra": "N.K. Jemisin",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The God of the Woods",
+      "lead": "1×",
+      "sec": "2024",
+      "pri": "The God of the Woods",
+      "extra": "Liz Moore",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Goldfinch",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "The Goldfinch",
+      "extra": "Donna Tartt",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The House of Special Purpose",
+      "lead": "1×",
+      "sec": "2009",
+      "pri": "The House of Special Purpose",
+      "extra": "John Boyne",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Martian",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Martian",
+      "extra": "Andy Weir",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Nickel Boys",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "The Nickel Boys",
+      "extra": "Colson Whitehead",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Power",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Power",
+      "extra": "Naomi Alderman",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Power of the Dog",
+      "lead": "1×",
+      "sec": "2005",
+      "pri": "The Power of the Dog",
+      "extra": "Don Winslow",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Song of Achilles",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Song of Achilles",
+      "extra": "Madeline Miller",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Terror",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "The Terror",
+      "extra": "Dan Simmons",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "The Will of the Many",
+      "lead": "1×",
+      "sec": "2023",
+      "pri": "The Will of the Many",
+      "extra": "James Islington",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "There There",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "There There",
+      "extra": "Tommy Orange",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
+     },
+     {
+      "key": "We, the Drowned",
+      "lead": "1×",
+      "sec": "2006",
+      "pri": "We, the Drowned",
+      "extra": "Carsten Jensen",
+      "src": {
+       "url": "https://www.reddit.com/r/suggestmeabook/comments/1hw0pty/what_is_your_number_1_must_read_fiction_book_of/",
+       "label": "r/suggestmeabook"
+      }
      }
     ]
    },

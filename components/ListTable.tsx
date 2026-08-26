@@ -3,7 +3,56 @@
 import { useMemo, useState } from "react";
 import StrokeBar, { Underline } from "./StrokeBar";
 import { useProgress, listId } from "@/lib/progress";
-import { youtube, type List, type Shelf } from "@/lib/content";
+import { youtube, type List, type Row, type Shelf } from "@/lib/content";
+
+/**
+ * The last column carries whatever a given list has for a row — a watch link, an
+ * author, one source, several. Build the pieces first and join them, so two of
+ * them never end up jammed together with no separator.
+ */
+function LastCell({ row }: { row: Row }) {
+  const parts: React.ReactNode[] = [];
+
+  if (row.yt) {
+    parts.push(
+      <a
+        key="yt"
+        className="tr"
+        href={youtube(`${row.yt} ${row.ytWord || "trailer"}`)}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ▶ {row.ytWord || "Trailer"}
+      </a>
+    );
+  }
+  if (row.extra) parts.push(<span key="extra">{row.extra}</span>);
+  if (row.src) {
+    parts.push(
+      <a key="src" href={row.src.url} target="_blank" rel="noopener noreferrer">
+        {row.src.label}
+      </a>
+    );
+  }
+  row.links?.forEach((l) =>
+    parts.push(
+      <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer">
+        {l.label}
+      </a>
+    )
+  );
+
+  return (
+    <>
+      {parts.map((p, i) => (
+        <span key={i}>
+          {i > 0 && <span className="sep"> · </span>}
+          {p}
+        </span>
+      ))}
+    </>
+  );
+}
 
 const Check = () => (
   <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
@@ -127,25 +176,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
                     <td className="sec">{r.sec}</td>
                     <td className="pri">{r.pri}</td>
                     <td className="trk">
-                      {r.yt && (
-                        <a className="tr" href={youtube(`${r.yt} ${r.ytWord || "trailer"}`)} target="_blank" rel="noopener noreferrer">
-                          ▶ {r.ytWord || "Trailer"}
-                        </a>
-                      )}
-                      {r.src && (
-                        <a href={r.src.url} target="_blank" rel="noopener noreferrer">
-                          {r.src.label}
-                        </a>
-                      )}
-                      {r.links?.map((l, i) => (
-                        <span key={l.url}>
-                          {i > 0 && " · "}
-                          <a href={l.url} target="_blank" rel="noopener noreferrer">
-                            {l.label}
-                          </a>
-                        </span>
-                      ))}
-                      {r.extra}
+                      <LastCell row={r} />
                     </td>
                   </tr>
                 );
