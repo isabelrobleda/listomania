@@ -2,11 +2,11 @@
 
 An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
-Live: _(add the Vercel URL once deployed)_
+**Live: https://listomania-nine.vercel.app**
 
 ## What this is
 
-Four shelves (Music, Books, Film, Places) holding ten lists and ~1,600 items.
+Four shelves (Music, Books, Film, Places) holding 11 lists and 1,663 items.
 Every list declares what **kind** of authority it has:
 
 | Kind        | Meaning                                  |
@@ -73,7 +73,7 @@ tools/                       scripts that generated the content and the logo
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # prerenders all 18 pages to static HTML
+npm run build    # prerenders every page to static HTML
 ```
 
 ## Adding a list
@@ -103,5 +103,12 @@ skews toward, is what separates it from an anonymous internet ranking.
 
 ## Deploying
 
-Pushes to `main` deploy automatically once the repo is connected to Vercel.
-No environment variables are needed — there's nothing to configure.
+Pushes to `main` deploy automatically via Vercel. No environment variables are
+needed — there's nothing to configure.
+
+One gotcha worth recording: Vercel **blocks deployments of Next.js versions with
+known security advisories**. The build succeeds and the deployment is rejected
+afterwards, so the build log ends with a normal route table and no error line.
+If a deploy fails for no visible reason, check the `npm warn deprecated next@…`
+line near the top of the log. Versions here are pinned exactly rather than with
+carets so a deploy can't drift onto an unpatched build.

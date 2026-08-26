@@ -4,15 +4,34 @@ import Wordmark from "@/components/Wordmark";
 import Rail from "@/components/Rail";
 import "./globals.css";
 
+const SITE = "https://listomania-nine.vercel.app";
+
+const DESCRIPTION =
+  "Canons, crowd tallies and things to get through — kept as lists you can actually work your way down.";
+
 export const metadata: Metadata = {
-  title: "Listomania — an encyclopedia of lists",
-  description:
-    "Canons, crowd tallies and things to get through — kept as lists you can actually work your way down.",
+  // Lets every page's relative OG image and canonical URL resolve properly.
+  metadataBase: new URL(SITE),
+  title: {
+    default: "Listomania — an encyclopedia of lists",
+    template: "%s",
+  },
+  description: DESCRIPTION,
+  applicationName: "Listomania",
   openGraph: {
     title: "Listomania",
-    description: "An encyclopedia of lists.",
+    description: DESCRIPTION,
+    url: SITE,
+    siteName: "Listomania",
     type: "website",
+    locale: "en",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Listomania",
+    description: DESCRIPTION,
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
