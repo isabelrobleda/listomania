@@ -17886,6 +17886,2087 @@
       }
      }
     ]
+   },
+   {
+    "slug": "favourite-films-of-all-time",
+    "title": "Everyone's Five Favourite Films",
+    "kind": "Tally",
+    "verb": "seen",
+    "desc": "No decade, no “best” — favourites. 187 films from 50 people, and 148 of them named exactly once.",
+    "cols": [
+     "Ballots",
+     "Year",
+     "Film",
+     "Watch · source"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/",
+      "label": "Reddit · r/movies",
+      "q": "What Are Everyone's Top 5 Favorite Movies?",
+      "meta": "2023 · top-five lists"
+     }
+    ],
+    "note": "Counted by distinct redditor, one ballot each: their top five. Follow-up comments adding &ldquo;ooh, and also…&rdquo;, honourable-mention piles, and second lists posted a year later are not counted. Two people replied with a ten instead of a five and are counted as ballots; two others posted a 37-film &ldquo;short list&rdquo; and a 22-film pile of honourable mentions, which are not top fives and are left out entirely. The asker's own five are excluded. Trilogies count as the person named them &mdash; <em>The Lord of the Rings trilogy</em> and <em>The Fellowship of the Ring</em> are separate rows. The long tail is the finding, not a flaw: ask strangers for all-time favourites with no constraint and 79% of the answers are named by exactly one person.",
+    "rows": [
+     {
+      "key": "fav|Inception",
+      "lead": "6×",
+      "sec": "2010",
+      "pri": "Inception",
+      "yt": "Inception 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Interstellar",
+      "lead": "6×",
+      "sec": "2014",
+      "pri": "Interstellar",
+      "yt": "Interstellar 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|12 Angry Men",
+      "lead": "4×",
+      "sec": "1957",
+      "pri": "12 Angry Men",
+      "yt": "12 Angry Men 1957",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Avengers: Endgame",
+      "lead": "4×",
+      "sec": "2019",
+      "pri": "Avengers: Endgame",
+      "yt": "Avengers: Endgame 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|No Country for Old Men",
+      "lead": "4×",
+      "sec": "2007",
+      "pri": "No Country for Old Men",
+      "yt": "No Country for Old Men 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Lord of the Rings trilogy",
+      "lead": "4×",
+      "sec": "2001–03",
+      "pri": "The Lord of the Rings trilogy",
+      "yt": "The Lord of the Rings trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Thing",
+      "lead": "4×",
+      "sec": "1982",
+      "pri": "The Thing",
+      "yt": "The Thing 1982",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Avengers: Infinity War",
+      "lead": "3×",
+      "sec": "2018",
+      "pri": "Avengers: Infinity War",
+      "yt": "Avengers: Infinity War 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Back to the Future",
+      "lead": "3×",
+      "sec": "1985",
+      "pri": "Back to the Future",
+      "yt": "Back to the Future 1985",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Good Will Hunting",
+      "lead": "3×",
+      "sec": "1997",
+      "pri": "Good Will Hunting",
+      "yt": "Good Will Hunting 1997",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Indiana Jones original trilogy",
+      "lead": "3×",
+      "sec": "1981–89",
+      "pri": "Indiana Jones original trilogy",
+      "yt": "Indiana Jones original trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Jurassic Park",
+      "lead": "3×",
+      "sec": "1993",
+      "pri": "Jurassic Park",
+      "yt": "Jurassic Park 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Lawrence of Arabia",
+      "lead": "3×",
+      "sec": "1962",
+      "pri": "Lawrence of Arabia",
+      "yt": "Lawrence of Arabia 1962",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Pulp Fiction",
+      "lead": "3×",
+      "sec": "1994",
+      "pri": "Pulp Fiction",
+      "yt": "Pulp Fiction 1994",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Matrix",
+      "lead": "3×",
+      "sec": "1999",
+      "pri": "The Matrix",
+      "yt": "The Matrix 1999",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Revenant",
+      "lead": "3×",
+      "sec": "2015",
+      "pri": "The Revenant",
+      "yt": "The Revenant 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Shining",
+      "lead": "3×",
+      "sec": "1980",
+      "pri": "The Shining",
+      "yt": "The Shining 1980",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Terminator",
+      "lead": "3×",
+      "sec": "1984",
+      "pri": "The Terminator",
+      "yt": "The Terminator 1984",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Truman Show",
+      "lead": "3×",
+      "sec": "1998",
+      "pri": "The Truman Show",
+      "yt": "The Truman Show 1998",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Aliens",
+      "lead": "2×",
+      "sec": "1986",
+      "pri": "Aliens",
+      "yt": "Aliens 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Apocalypse Now",
+      "lead": "2×",
+      "sec": "1979",
+      "pri": "Apocalypse Now",
+      "yt": "Apocalypse Now 1979",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Catch Me If You Can",
+      "lead": "2×",
+      "sec": "2002",
+      "pri": "Catch Me If You Can",
+      "yt": "Catch Me If You Can 2002",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Donnie Darko",
+      "lead": "2×",
+      "sec": "2001",
+      "pri": "Donnie Darko",
+      "yt": "Donnie Darko 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Eternal Sunshine of the Spotless Mind",
+      "lead": "2×",
+      "sec": "2004",
+      "pri": "Eternal Sunshine of the Spotless Mind",
+      "yt": "Eternal Sunshine of the Spotless Mind 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Goodfellas",
+      "lead": "2×",
+      "sec": "1990",
+      "pri": "Goodfellas",
+      "yt": "Goodfellas 1990",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Green Book",
+      "lead": "2×",
+      "sec": "2018",
+      "pri": "Green Book",
+      "yt": "Green Book 2018",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Jaws",
+      "lead": "2×",
+      "sec": "1975",
+      "pri": "Jaws",
+      "yt": "Jaws 1975",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Parasite",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Parasite",
+      "yt": "Parasite 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Puss in Boots: The Last Wish",
+      "lead": "2×",
+      "sec": "2022",
+      "pri": "Puss in Boots: The Last Wish",
+      "yt": "Puss in Boots: The Last Wish 2022",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Scott Pilgrim vs. the World",
+      "lead": "2×",
+      "sec": "2010",
+      "pri": "Scott Pilgrim vs. the World",
+      "yt": "Scott Pilgrim vs. the World 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Se7en",
+      "lead": "2×",
+      "sec": "1995",
+      "pri": "Se7en",
+      "yt": "Se7en 1995",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Star Wars original trilogy",
+      "lead": "2×",
+      "sec": "1977–83",
+      "pri": "Star Wars original trilogy",
+      "yt": "Star Wars original trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Big Lebowski",
+      "lead": "2×",
+      "sec": "1998",
+      "pri": "The Big Lebowski",
+      "yt": "The Big Lebowski 1998",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Dark Knight",
+      "lead": "2×",
+      "sec": "2008",
+      "pri": "The Dark Knight",
+      "yt": "The Dark Knight 2008",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Departed",
+      "lead": "2×",
+      "sec": "2006",
+      "pri": "The Departed",
+      "yt": "The Departed 2006",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Godfather",
+      "lead": "2×",
+      "sec": "1972",
+      "pri": "The Godfather",
+      "yt": "The Godfather 1972",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Lord of the Rings: The Fellowship of the Ring",
+      "lead": "2×",
+      "sec": "2001",
+      "pri": "The Lord of the Rings: The Fellowship of the Ring",
+      "yt": "The Lord of the Rings: The Fellowship of the Ring 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Prestige",
+      "lead": "2×",
+      "sec": "2006",
+      "pri": "The Prestige",
+      "yt": "The Prestige 2006",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Shawshank Redemption",
+      "lead": "2×",
+      "sec": "1994",
+      "pri": "The Shawshank Redemption",
+      "yt": "The Shawshank Redemption 1994",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|1408",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "1408",
+      "yt": "1408 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|A Clockwork Orange",
+      "lead": "1×",
+      "sec": "1971",
+      "pri": "A Clockwork Orange",
+      "yt": "A Clockwork Orange 1971",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|A Nightmare on Elm Street",
+      "lead": "1×",
+      "sec": "1984",
+      "pri": "A Nightmare on Elm Street",
+      "yt": "A Nightmare on Elm Street 1984",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|A Tale of Two Sisters",
+      "lead": "1×",
+      "sec": "2003",
+      "pri": "A Tale of Two Sisters",
+      "yt": "A Tale of Two Sisters 2003",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Airplane!",
+      "lead": "1×",
+      "sec": "1980",
+      "pri": "Airplane!",
+      "yt": "Airplane! 1980",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Alien",
+      "lead": "1×",
+      "sec": "1979",
+      "pri": "Alien",
+      "yt": "Alien 1979",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|American Beauty",
+      "lead": "1×",
+      "sec": "1999",
+      "pri": "American Beauty",
+      "yt": "American Beauty 1999",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|American Psycho",
+      "lead": "1×",
+      "sec": "2000",
+      "pri": "American Psycho",
+      "yt": "American Psycho 2000",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Amélie",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Amélie",
+      "yt": "Amélie 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Anchorman",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "Anchorman",
+      "yt": "Anchorman 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Annie Hall",
+      "lead": "1×",
+      "sec": "1977",
+      "pri": "Annie Hall",
+      "yt": "Annie Hall 1977",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Apollo 13",
+      "lead": "1×",
+      "sec": "1995",
+      "pri": "Apollo 13",
+      "yt": "Apollo 13 1995",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Arizona Dream",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Arizona Dream",
+      "yt": "Arizona Dream 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Big Trouble in Little China",
+      "lead": "1×",
+      "sec": "1986",
+      "pri": "Big Trouble in Little China",
+      "yt": "Big Trouble in Little China 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Blade Runner",
+      "lead": "1×",
+      "sec": "1982",
+      "pri": "Blade Runner",
+      "yt": "Blade Runner 1982",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Brawl in Cell Block 99",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Brawl in Cell Block 99",
+      "yt": "Brawl in Cell Block 99 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Bugsy Malone",
+      "lead": "1×",
+      "sec": "1976",
+      "pri": "Bugsy Malone",
+      "yt": "Bugsy Malone 1976",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Carnival of Souls",
+      "lead": "1×",
+      "sec": "1962",
+      "pri": "Carnival of Souls",
+      "yt": "Carnival of Souls 1962",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Casablanca",
+      "lead": "1×",
+      "sec": "1942",
+      "pri": "Casablanca",
+      "yt": "Casablanca 1942",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Children of Men",
+      "lead": "1×",
+      "sec": "2006",
+      "pri": "Children of Men",
+      "yt": "Children of Men 2006",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Chinatown",
+      "lead": "1×",
+      "sec": "1974",
+      "pri": "Chinatown",
+      "yt": "Chinatown 1974",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Cinema Paradiso",
+      "lead": "1×",
+      "sec": "1988",
+      "pri": "Cinema Paradiso",
+      "yt": "Cinema Paradiso 1988",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Click",
+      "lead": "1×",
+      "sec": "2006",
+      "pri": "Click",
+      "yt": "Click 2006",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Cloud Atlas",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "Cloud Atlas",
+      "yt": "Cloud Atlas 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Constantine",
+      "lead": "1×",
+      "sec": "2005",
+      "pri": "Constantine",
+      "yt": "Constantine 2005",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Doctor Zhivago",
+      "lead": "1×",
+      "sec": "1965",
+      "pri": "Doctor Zhivago",
+      "yt": "Doctor Zhivago 1965",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Downfall",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "Downfall",
+      "yt": "Downfall 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Everything Everywhere All at Once",
+      "lead": "1×",
+      "sec": "2022",
+      "pri": "Everything Everywhere All at Once",
+      "yt": "Everything Everywhere All at Once 2022",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Falling Down",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Falling Down",
+      "yt": "Falling Down 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Fanny and Alexander",
+      "lead": "1×",
+      "sec": "1982",
+      "pri": "Fanny and Alexander",
+      "yt": "Fanny and Alexander 1982",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Fantastic Mr. Fox",
+      "lead": "1×",
+      "sec": "2009",
+      "pri": "Fantastic Mr. Fox",
+      "yt": "Fantastic Mr. Fox 2009",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Farewell My Concubine",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Farewell My Concubine",
+      "yt": "Farewell My Concubine 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Ferris Bueller's Day Off",
+      "lead": "1×",
+      "sec": "1986",
+      "pri": "Ferris Bueller's Day Off",
+      "yt": "Ferris Bueller's Day Off 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Fight Club",
+      "lead": "1×",
+      "sec": "1999",
+      "pri": "Fight Club",
+      "yt": "Fight Club 1999",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Forgetting Sarah Marshall",
+      "lead": "1×",
+      "sec": "2008",
+      "pri": "Forgetting Sarah Marshall",
+      "yt": "Forgetting Sarah Marshall 2008",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Forrest Gump",
+      "lead": "1×",
+      "sec": "1994",
+      "pri": "Forrest Gump",
+      "yt": "Forrest Gump 1994",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Ghostbusters (2016)",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Ghostbusters (2016)",
+      "yt": "Ghostbusters (2016) 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Godzilla",
+      "lead": "1×",
+      "sec": "1954",
+      "pri": "Godzilla",
+      "yt": "Godzilla 1954",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Groundhog Day",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Groundhog Day",
+      "yt": "Groundhog Day 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Heat",
+      "lead": "1×",
+      "sec": "1995",
+      "pri": "Heat",
+      "yt": "Heat 1995",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Home Alone",
+      "lead": "1×",
+      "sec": "1990",
+      "pri": "Home Alone",
+      "yt": "Home Alone 1990",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|I ♥ Huckabees",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "I ♥ Huckabees",
+      "yt": "I ♥ Huckabees 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|In the Heat of the Night",
+      "lead": "1×",
+      "sec": "1967",
+      "pri": "In the Heat of the Night",
+      "yt": "In the Heat of the Night 1967",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Inglourious Basterds",
+      "lead": "1×",
+      "sec": "2009",
+      "pri": "Inglourious Basterds",
+      "yt": "Inglourious Basterds 2009",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|It's a Wonderful Life",
+      "lead": "1×",
+      "sec": "1946",
+      "pri": "It's a Wonderful Life",
+      "yt": "It's a Wonderful Life 1946",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Jackie Brown",
+      "lead": "1×",
+      "sec": "1997",
+      "pri": "Jackie Brown",
+      "yt": "Jackie Brown 1997",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|JFK",
+      "lead": "1×",
+      "sec": "1991",
+      "pri": "JFK",
+      "yt": "JFK 1991",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|John Wick",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "John Wick",
+      "yt": "John Wick 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Kick-Ass",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Kick-Ass",
+      "yt": "Kick-Ass 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Kung Fu Panda trilogy",
+      "lead": "1×",
+      "sec": "2008–16",
+      "pri": "Kung Fu Panda trilogy",
+      "yt": "Kung Fu Panda trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|La La Land",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "La La Land",
+      "yt": "La La Land 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Labyrinth",
+      "lead": "1×",
+      "sec": "1986",
+      "pri": "Labyrinth",
+      "yt": "Labyrinth 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Lost in Translation",
+      "lead": "1×",
+      "sec": "2003",
+      "pri": "Lost in Translation",
+      "yt": "Lost in Translation 2003",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Mad Max: Fury Road",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Mad Max: Fury Road",
+      "yt": "Mad Max: Fury Road 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Margin Call",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Margin Call",
+      "yt": "Margin Call 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Megamind",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Megamind",
+      "yt": "Megamind 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Melancholia",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Melancholia",
+      "yt": "Melancholia 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Memento",
+      "lead": "1×",
+      "sec": "2000",
+      "pri": "Memento",
+      "yt": "Memento 2000",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Moneyball",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "Moneyball",
+      "yt": "Moneyball 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Mood Indigo",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Mood Indigo",
+      "yt": "Mood Indigo 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Moulin Rouge!",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Moulin Rouge!",
+      "yt": "Moulin Rouge! 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Mr. & Mrs. Smith",
+      "lead": "1×",
+      "sec": "2005",
+      "pri": "Mr. & Mrs. Smith",
+      "yt": "Mr. & Mrs. Smith 2005",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Muriel's Wedding",
+      "lead": "1×",
+      "sec": "1994",
+      "pri": "Muriel's Wedding",
+      "yt": "Muriel's Wedding 1994",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|My Big Fat Greek Wedding",
+      "lead": "1×",
+      "sec": "2002",
+      "pri": "My Big Fat Greek Wedding",
+      "yt": "My Big Fat Greek Wedding 2002",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Napoleon Dynamite",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "Napoleon Dynamite",
+      "yt": "Napoleon Dynamite 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Oldboy",
+      "lead": "1×",
+      "sec": "2003",
+      "pri": "Oldboy",
+      "yt": "Oldboy 2003",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Oppenheimer",
+      "lead": "1×",
+      "sec": "2023",
+      "pri": "Oppenheimer",
+      "yt": "Oppenheimer 2023",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Pirates of the Caribbean trilogy",
+      "lead": "1×",
+      "sec": "2003–07",
+      "pri": "Pirates of the Caribbean trilogy",
+      "yt": "Pirates of the Caribbean trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Platoon",
+      "lead": "1×",
+      "sec": "1986",
+      "pri": "Platoon",
+      "yt": "Platoon 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Poltergeist",
+      "lead": "1×",
+      "sec": "1982",
+      "pri": "Poltergeist",
+      "yt": "Poltergeist 1982",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Predestination",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Predestination",
+      "yt": "Predestination 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Prisoners",
+      "lead": "1×",
+      "sec": "2013",
+      "pri": "Prisoners",
+      "yt": "Prisoners 2013",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Raging Bull",
+      "lead": "1×",
+      "sec": "1980",
+      "pri": "Raging Bull",
+      "yt": "Raging Bull 1980",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Red River",
+      "lead": "1×",
+      "sec": "1948",
+      "pri": "Red River",
+      "yt": "Red River 1948",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Reds",
+      "lead": "1×",
+      "sec": "1981",
+      "pri": "Reds",
+      "yt": "Reds 1981",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Requiem for a Dream",
+      "lead": "1×",
+      "sec": "2000",
+      "pri": "Requiem for a Dream",
+      "yt": "Requiem for a Dream 2000",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Robinson Crusoe on Mars",
+      "lead": "1×",
+      "sec": "1964",
+      "pri": "Robinson Crusoe on Mars",
+      "yt": "Robinson Crusoe on Mars 1964",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|RoboCop",
+      "lead": "1×",
+      "sec": "1987",
+      "pri": "RoboCop",
+      "yt": "RoboCop 1987",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Roman Holiday",
+      "lead": "1×",
+      "sec": "1953",
+      "pri": "Roman Holiday",
+      "yt": "Roman Holiday 1953",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Rushmore",
+      "lead": "1×",
+      "sec": "1998",
+      "pri": "Rushmore",
+      "yt": "Rushmore 1998",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Saving Private Ryan",
+      "lead": "1×",
+      "sec": "1998",
+      "pri": "Saving Private Ryan",
+      "yt": "Saving Private Ryan 1998",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Scarface",
+      "lead": "1×",
+      "sec": "1983",
+      "pri": "Scarface",
+      "yt": "Scarface 1983",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Schindler's List",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Schindler's List",
+      "yt": "Schindler's List 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Searching for Bobby Fischer",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Searching for Bobby Fischer",
+      "yt": "Searching for Bobby Fischer 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Snow White and the Seven Dwarfs",
+      "lead": "1×",
+      "sec": "1937",
+      "pri": "Snow White and the Seven Dwarfs",
+      "yt": "Snow White and the Seven Dwarfs 1937",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Spider-Man 3",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "Spider-Man 3",
+      "yt": "Spider-Man 3 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Spider-Man: Across the Spider-Verse",
+      "lead": "1×",
+      "sec": "2023",
+      "pri": "Spider-Man: Across the Spider-Verse",
+      "yt": "Spider-Man: Across the Spider-Verse 2023",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Spirited Away",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Spirited Away",
+      "yt": "Spirited Away 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Stalker",
+      "lead": "1×",
+      "sec": "1979",
+      "pri": "Stalker",
+      "yt": "Stalker 1979",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Star Wars",
+      "lead": "1×",
+      "sec": "1977",
+      "pri": "Star Wars",
+      "yt": "Star Wars 1977",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Star Wars: The Rise of Skywalker",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "Star Wars: The Rise of Skywalker",
+      "yt": "Star Wars: The Rise of Skywalker 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Starship Troopers",
+      "lead": "1×",
+      "sec": "1997",
+      "pri": "Starship Troopers",
+      "yt": "Starship Troopers 1997",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Step Brothers",
+      "lead": "1×",
+      "sec": "2008",
+      "pri": "Step Brothers",
+      "yt": "Step Brothers 2008",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Superbad",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "Superbad",
+      "yt": "Superbad 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Taxi Driver",
+      "lead": "1×",
+      "sec": "1976",
+      "pri": "Taxi Driver",
+      "yt": "Taxi Driver 1976",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Terminator 2: Judgment Day",
+      "lead": "1×",
+      "sec": "1991",
+      "pri": "Terminator 2: Judgment Day",
+      "yt": "Terminator 2: Judgment Day 1991",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Addiction",
+      "lead": "1×",
+      "sec": "1995",
+      "pri": "The Addiction",
+      "yt": "The Addiction 1995",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Avengers",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Avengers",
+      "yt": "The Avengers 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Big Short",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "The Big Short",
+      "yt": "The Big Short 2015",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Blues Brothers",
+      "lead": "1×",
+      "sec": "1980",
+      "pri": "The Blues Brothers",
+      "yt": "The Blues Brothers 1980",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Boondock Saints",
+      "lead": "1×",
+      "sec": "1999",
+      "pri": "The Boondock Saints",
+      "yt": "The Boondock Saints 1999",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Butterfly Effect",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "The Butterfly Effect",
+      "yt": "The Butterfly Effect 2004",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Cabin in the Woods",
+      "lead": "1×",
+      "sec": "2011",
+      "pri": "The Cabin in the Woods",
+      "yt": "The Cabin in the Woods 2011",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Cable Guy",
+      "lead": "1×",
+      "sec": "1996",
+      "pri": "The Cable Guy",
+      "yt": "The Cable Guy 1996",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Dark Knight Rises",
+      "lead": "1×",
+      "sec": "2012",
+      "pri": "The Dark Knight Rises",
+      "yt": "The Dark Knight Rises 2012",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Dark Knight trilogy",
+      "lead": "1×",
+      "sec": "2005–12",
+      "pri": "The Dark Knight trilogy",
+      "yt": "The Dark Knight trilogy",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Exorcist",
+      "lead": "1×",
+      "sec": "1973",
+      "pri": "The Exorcist",
+      "yt": "The Exorcist 1973",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Father",
+      "lead": "1×",
+      "sec": "2020",
+      "pri": "The Father",
+      "yt": "The Father 2020",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Godfather Part II",
+      "lead": "1×",
+      "sec": "1974",
+      "pri": "The Godfather Part II",
+      "yt": "The Godfather Part II 1974",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Godfather Part III",
+      "lead": "1×",
+      "sec": "1990",
+      "pri": "The Godfather Part III",
+      "yt": "The Godfather Part III 1990",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Grand Budapest Hotel",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "The Grand Budapest Hotel",
+      "yt": "The Grand Budapest Hotel 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Haunting",
+      "lead": "1×",
+      "sec": "1963",
+      "pri": "The Haunting",
+      "yt": "The Haunting 1963",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Last of the Mohicans",
+      "lead": "1×",
+      "sec": "1992",
+      "pri": "The Last of the Mohicans",
+      "yt": "The Last of the Mohicans 1992",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Lighthouse",
+      "lead": "1×",
+      "sec": "2019",
+      "pri": "The Lighthouse",
+      "yt": "The Lighthouse 2019",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Lion King",
+      "lead": "1×",
+      "sec": "1994",
+      "pri": "The Lion King",
+      "yt": "The Lion King 1994",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Lord of the Rings: The Return of the King",
+      "lead": "1×",
+      "sec": "2003",
+      "pri": "The Lord of the Rings: The Return of the King",
+      "yt": "The Lord of the Rings: The Return of the King 2003",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Man from Earth",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "The Man from Earth",
+      "yt": "The Man from Earth 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Mummy",
+      "lead": "1×",
+      "sec": "1999",
+      "pri": "The Mummy",
+      "yt": "The Mummy 1999",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Muppet Christmas Carol",
+      "lead": "1×",
+      "sec": "1992",
+      "pri": "The Muppet Christmas Carol",
+      "yt": "The Muppet Christmas Carol 1992",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Nice Guys",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Nice Guys",
+      "yt": "The Nice Guys 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Passion of Joan of Arc",
+      "lead": "1×",
+      "sec": "1928",
+      "pri": "The Passion of Joan of Arc",
+      "yt": "The Passion of Joan of Arc 1928",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Royal Tenenbaums",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "The Royal Tenenbaums",
+      "yt": "The Royal Tenenbaums 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Silence of the Lambs",
+      "lead": "1×",
+      "sec": "1991",
+      "pri": "The Silence of the Lambs",
+      "yt": "The Silence of the Lambs 1991",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Texas Chain Saw Massacre",
+      "lead": "1×",
+      "sec": "1974",
+      "pri": "The Texas Chain Saw Massacre",
+      "yt": "The Texas Chain Saw Massacre 1974",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Third Man",
+      "lead": "1×",
+      "sec": "1949",
+      "pri": "The Third Man",
+      "yt": "The Third Man 1949",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Verdict",
+      "lead": "1×",
+      "sec": "1982",
+      "pri": "The Verdict",
+      "yt": "The Verdict 1982",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Wailing",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "The Wailing",
+      "yt": "The Wailing 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The War of the Worlds",
+      "lead": "1×",
+      "sec": "1953",
+      "pri": "The War of the Worlds",
+      "yt": "The War of the Worlds 1953",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|The Wild Robot",
+      "lead": "1×",
+      "sec": "2024",
+      "pri": "The Wild Robot",
+      "yt": "The Wild Robot 2024",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|There Will Be Blood",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "There Will Be Blood",
+      "yt": "There Will Be Blood 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Tombstone",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Tombstone",
+      "yt": "Tombstone 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Top Gun",
+      "lead": "1×",
+      "sec": "1986",
+      "pri": "Top Gun",
+      "yt": "Top Gun 1986",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Top Gun: Maverick",
+      "lead": "1×",
+      "sec": "2022",
+      "pri": "Top Gun: Maverick",
+      "yt": "Top Gun: Maverick 2022",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Toy Story 3",
+      "lead": "1×",
+      "sec": "2010",
+      "pri": "Toy Story 3",
+      "yt": "Toy Story 3 2010",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Training Day",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Training Day",
+      "yt": "Training Day 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Trainspotting",
+      "lead": "1×",
+      "sec": "1996",
+      "pri": "Trainspotting",
+      "yt": "Trainspotting 1996",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Triangle of Sadness",
+      "lead": "1×",
+      "sec": "2022",
+      "pri": "Triangle of Sadness",
+      "yt": "Triangle of Sadness 2022",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|True Romance",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "True Romance",
+      "yt": "True Romance 1993",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Unforgiven",
+      "lead": "1×",
+      "sec": "1992",
+      "pri": "Unforgiven",
+      "yt": "Unforgiven 1992",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|V for Vendetta",
+      "lead": "1×",
+      "sec": "2005",
+      "pri": "V for Vendetta",
+      "yt": "V for Vendetta 2005",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|WALL·E",
+      "lead": "1×",
+      "sec": "2008",
+      "pri": "WALL·E",
+      "yt": "WALL·E 2008",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|War and Peace",
+      "lead": "1×",
+      "sec": "1966–67",
+      "pri": "War and Peace",
+      "yt": "War and Peace",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Wet Hot American Summer",
+      "lead": "1×",
+      "sec": "2001",
+      "pri": "Wet Hot American Summer",
+      "yt": "Wet Hot American Summer 2001",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Whiplash",
+      "lead": "1×",
+      "sec": "2014",
+      "pri": "Whiplash",
+      "yt": "Whiplash 2014",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Wind River",
+      "lead": "1×",
+      "sec": "2017",
+      "pri": "Wind River",
+      "yt": "Wind River 2017",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Wrath of Man",
+      "lead": "1×",
+      "sec": "2021",
+      "pri": "Wrath of Man",
+      "yt": "Wrath of Man 2021",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Your Name.",
+      "lead": "1×",
+      "sec": "2016",
+      "pri": "Your Name.",
+      "yt": "Your Name. 2016",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     },
+     {
+      "key": "fav|Zodiac",
+      "lead": "1×",
+      "sec": "2007",
+      "pri": "Zodiac",
+      "yt": "Zodiac 2007",
+      "src": {
+       "label": "r/movies",
+       "url": "https://www.reddit.com/r/movies/comments/1666cfv/what_are_everyones_top_5_favorite_movies/"
+      }
+     }
+    ]
    }
   ]
  },
