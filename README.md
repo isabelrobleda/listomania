@@ -28,10 +28,26 @@ a pull request — not an invisible database write. It also means the whole site
 prerenders to static HTML: no database, no server, no query latency, nothing to
 run out of connections.
 
-**The only per-person state is which items you've marked off**, and in v1 that
-lives in the browser (`localStorage`), managed by `lib/progress.ts`. There are no
-accounts yet. When accounts arrive, that one file is the only place that has to
-learn about a server.
+**Per-person state is two things, kept apart on purpose**, and in v1 both live
+in the browser (`localStorage`), managed by `lib/progress.ts`:
+
+| | | |
+| --- | --- | --- |
+| **done** | the tick at the left of a row | a fact about the past — "I've read this" |
+| **want** | the bookmark at the right | an intention about the future — "put it on my list" |
+
+They are not one tri-state control. You can want to reread something you've
+already read, and un-ticking a row shouldn't quietly throw away the reason you
+saved it. Saved rows collect on `/{shelf}/my-list`, which stores nothing of its
+own — it resolves the saved keys back against the content, so a personal list
+can never drift out of sync with the list it came from.
+
+Some lists set `"noTick": true` (both music lists do). You don't *finish* a
+song the way you finish a book, so those drop the tick entirely and keep only
+the saving — and their shelf reports "N saved" rather than a percentage.
+
+There are no accounts yet. When accounts arrive, `lib/progress.ts` is the only
+file that has to learn about a server.
 
 This is a deliberate order of operations: ship the reading experience, add the
 backend when there are people to log in.
@@ -49,7 +65,7 @@ components/
   Rail.tsx  Stats.tsx  ShelfTheme.tsx  ShelfProgress.tsx  ListCard.tsx
 lib/
   content.ts                 types + accessors over the JSON
-  progress.ts                the marked-off store
+  progress.ts                the two per-person stores: done, and saved
 content/
   shelves.json               all the lists
 tools/                       scripts that generated the content and the logo

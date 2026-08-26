@@ -39,6 +39,9 @@ export type List = {
   gr?: "sec" | "extra";
   /** "Asked in" is right for a thread and wrong for a saved list. */
   srcLabel?: string;
+  /** Some lists aren't things you finish. You don't "complete" a song the way
+   *  you finish a book, so those lists drop the tick and keep only the saving. */
+  noTick?: boolean;
 };
 
 export type Shelf = {

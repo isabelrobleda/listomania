@@ -7172,7 +7172,8 @@
       "pri": "The Good, the Bad & the Queen",
       "extra": "Herculean · Kingdom of Doom"
      }
-    ]
+    ],
+    "noTick": true
    },
    {
     "slug": "most-beautiful-song",
@@ -8300,7 +8301,8 @@
        "label": "r/AskReddit"
       }
      }
-    ]
+    ],
+    "noTick": true
    }
   ]
  },

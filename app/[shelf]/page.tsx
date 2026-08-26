@@ -42,6 +42,14 @@ export default async function ShelfPage({ params }: { params: Promise<{ shelf: s
         {shelf.lists.length > 0 && <ShelfProgress shelf={shelf} />}
       </div>
 
+      {shelf.lists.length > 0 && (
+        <div className="tools">
+          <Link className="chip" href={`/${shelf.slug}/my-list`}>
+            My {shelf.name.toLowerCase()} list
+          </Link>
+        </div>
+      )}
+
       {shelf.lists.length === 0 ? (
         <p className="note" style={{ marginTop: 22 }}>
           <b>Nothing on this shelf yet.</b> The list that was here has been

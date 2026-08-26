@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import StrokeBar, { Underline } from "./StrokeBar";
-import { useProgress, listId } from "@/lib/progress";
+import { useProgress, useSaved, listId } from "@/lib/progress";
 import { goodreads, youtube, type List, type Row, type Shelf } from "@/lib/content";
 
 /**
@@ -69,6 +69,21 @@ function LastCell({ row, list }: { row: Row; list: List }) {
   );
 }
 
+/**
+ * Saved rows get a bookmark, not a second checkmark. Two ticks on one row —
+ * one pink, one black — read as the same gesture done twice; a bookmark reads
+ * as "kept for later", which is what it means.
+ */
+const Plus = ({ on }: { on: boolean }) => (
+  <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+    {on ? (
+      <path d="M3.2 1.6h5.6v8.8L6 8.2l-2.8 2.2Z" strokeWidth="1.6" strokeLinejoin="round" />
+    ) : (
+      <path d="M6 2v8M2 6h8" strokeWidth="2.2" strokeLinecap="round" />
+    )}
+  </svg>
+);
+
 const Check = () => (
   <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
     <path d="M2 6.2 4.6 8.8 10 3.4" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
@@ -78,18 +93,21 @@ const Check = () => (
 export default function ListTable({ shelf, list }: { shelf: Shelf; list: List }) {
   const id = listId(shelf.slug, list.slug);
   const { marked, toggle, count } = useProgress();
+  const { marked: saved, toggle: save, count: savedCount } = useSaved();
+  const tickable = !list.noTick;
   const [q, setQ] = useState("");
   const [onlyMarked, setOnlyMarked] = useState(false);
 
   const done = count(id);
   const pct = Math.round((done / list.rows.length) * 100);
+  const mine = savedCount(id);
 
   const rows = useMemo(() => {
     const needle = q.trim().toLowerCase();
     return list.rows
       .map((r, i) => ({ ...r, i }))
       .filter((r) => {
-        if (onlyMarked && !marked(id, r.key)) return false;
+        if (onlyMarked && !(tickable ? marked(id, r.key) : saved(id, r.key))) return false;
         if (!needle) return true;
         return `${r.pri} ${r.sec} ${r.lead} ${r.extra || ""}`.toLowerCase().includes(needle);
       });
@@ -108,13 +126,22 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
           <p>{list.desc}</p>
         </div>
         <div className="prog">
-          <div className="row">
-            <span className="big">
-              {done} / {list.rows.length}
-            </span>
-            <span className="pct">{pct}%</span>
-          </div>
-          <StrokeBar color={shelf.mark} pct={pct} height={17} />
+          {tickable ? (
+            <>
+              <div className="row">
+                <span className="big">
+                  {done} / {list.rows.length}
+                </span>
+                <span className="pct">{pct}%</span>
+              </div>
+              <StrokeBar color={shelf.mark} pct={pct} height={17} />
+            </>
+          ) : (
+            <div className="row">
+              <span className="big">{mine}</span>
+              <span className="pct">on your list</span>
+            </div>
+          )}
         </div>
       </div>
 
@@ -141,8 +168,11 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
           aria-label={`Search ${list.title}`}
         />
         <button className="chip" aria-pressed={onlyMarked} onClick={() => setOnlyMarked((v) => !v)}>
-          Only marked
+          {tickable ? "Only marked" : "Only mine"}
         </button>
+        <a className="chip" href={`/${shelf.slug}/my-list`}>
+          My {shelf.name.toLowerCase()} list{mine > 0 ? ` · ${mine}` : ""}
+        </a>
         {list.action && (
           <a className="plbtn" href={list.action.url} target="_blank" rel="noopener noreferrer">
             {list.action.label}
@@ -155,19 +185,24 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
           <table>
             <thead>
               <tr>
-                <th>
-                  <span className="sr">Marked</span>
-                </th>
+                {tickable && (
+                  <th>
+                    <span className="sr">Marked</span>
+                  </th>
+                )}
                 <th>#</th>
                 {list.cols.map((c, i) => (
                   <th key={i}>{c}</th>
                 ))}
+                <th>
+                  <span className="sr">Save to my list</span>
+                </th>
               </tr>
             </thead>
             <tbody>
               {rows.length === 0 && (
                 <tr>
-                  <td className="empty" colSpan={6}>
+                  <td className="empty" colSpan={7}>
                     Nothing matches &ldquo;{q}&rdquo;.
                   </td>
                 </tr>
@@ -176,22 +211,39 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
                 const on = marked(id, r.key);
                 return (
                   <tr key={r.key} className={on ? "on" : undefined}>
-                    <td className="tk">
-                      <button
-                        className="tick"
-                        aria-pressed={on}
-                        aria-label={`Mark ${r.pri} as ${list.verb}`}
-                        onClick={() => toggle(id, r.key)}
-                      >
-                        <Check />
-                      </button>
-                    </td>
+                    {tickable && (
+                      <td className="tk">
+                        <button
+                          className="tick"
+                          aria-pressed={on}
+                          aria-label={`Mark ${r.pri} as ${list.verb}`}
+                          onClick={() => toggle(id, r.key)}
+                        >
+                          <Check />
+                        </button>
+                      </td>
+                    )}
                     <td className="ix">{String(r.i + 1).padStart(3, "0")}</td>
                     <td className="yr">{r.lead}</td>
                     <td className="sec">{r.sec}</td>
                     <td className="pri">{r.pri}</td>
                     <td className="trk">
                       <LastCell row={r} list={list} />
+                    </td>
+                    <td className="tk add">
+                      <button
+                        className="tick plus"
+                        aria-pressed={saved(id, r.key)}
+                        aria-label={
+                          saved(id, r.key)
+                            ? `Remove ${r.pri} from my ${shelf.name.toLowerCase()} list`
+                            : `Add ${r.pri} to my ${shelf.name.toLowerCase()} list`
+                        }
+                        title={saved(id, r.key) ? "On your list" : "Add to my list"}
+                        onClick={() => save(id, r.key)}
+                      >
+                        <Plus on={saved(id, r.key)} />
+                      </button>
                     </td>
                   </tr>
                 );

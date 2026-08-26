@@ -314,3 +314,45 @@ tr.on .tick svg { opacity: 1; }
 }
 
 .trk .sep{color:var(--ink-3);opacity:.6}
+
+/* ---- Saving a row to your own list -------------------------------------- *
+ * The tick on the left is the past ("I've read this"); the plus on the right
+ * is the future ("put it on my list"). They're deliberately different shapes
+ * and sit at opposite ends of the row so they're never mistaken for each other.
+ */
+td.tk.add { width: 46px; text-align: right; }
+.tick.plus svg { opacity: 0.5; }
+.tick.plus:hover svg { opacity: 1; }
+.tick.plus path { stroke: var(--ink-2); }
+.tick.plus[aria-pressed="true"] {
+  background: var(--ink); border-color: var(--ink);
+}
+.tick.plus[aria-pressed="true"] svg { opacity: 1; }
+.tick.plus[aria-pressed="true"] path { stroke: var(--card); }
+/* A saved row on a done row must not have its plus disappear into the tint. */
+tr.on .tick.plus { background: transparent; border-color: var(--line); }
+tr.on .tick.plus[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); }
+
+a.chip { display: inline-flex; align-items: center; text-decoration: none; }
+a.chip:hover { border-color: var(--ink); color: var(--ink); }
+
+.inlineplus {
+  display: inline-grid; place-items: center; width: 17px; height: 17px;
+  border: 1.5px solid var(--line); border-radius: 5px;
+  font-size: 12px; line-height: 1; vertical-align: -3px; color: var(--ink-2);
+}
+
+.savedsec { margin-top: 26px; }
+.savedsec h2 {
+  display: flex; align-items: baseline; gap: 10px;
+  font-size: 15px; margin-bottom: 10px;
+}
+.savedsec h2 a {
+  color: var(--ink); text-decoration: none;
+  box-shadow: inset 0 -7px 0 var(--mark-soft);
+}
+.savedsec h2 a:hover { box-shadow: inset 0 -9px 0 var(--mark-soft); }
+.savedsec .ct { font-family: var(--f-mono); font-size: 11px; color: var(--ink-3); }
+/* The saved bookmark is filled, not outlined — it reads at 12px where a
+   hollow one doesn't. */
+.tick.plus[aria-pressed="true"] path { fill: var(--card); stroke: var(--card); }

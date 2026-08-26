@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import StrokeBar from "./StrokeBar";
-import { useProgress, listId } from "@/lib/progress";
+import { useProgress, useSaved, listId } from "@/lib/progress";
 import { KIND_MEANING, type List, type Shelf } from "@/lib/content";
 
 export default function ListCard({ shelf, list }: { shelf: Shelf; list: List }) {
   const { count } = useProgress();
-  const done = count(listId(shelf.slug, list.slug));
+  const { count: savedCount } = useSaved();
+  const id = listId(shelf.slug, list.slug);
+  const done = count(id);
   const pct = Math.round((done / list.rows.length) * 100);
 
   return (
@@ -20,12 +22,21 @@ export default function ListCard({ shelf, list }: { shelf: Shelf; list: List }) 
       </span>
       <h3>{list.title}</h3>
       <span className="desc">{list.desc}</span>
-      <StrokeBar color={shelf.mark} pct={pct} />
+      <StrokeBar color={shelf.mark} pct={list.noTick ? 0 : pct} />
       <span className="meta">
-        <span>
-          {done} / {list.rows.length} {list.verb}
-        </span>
-        <span>{pct}%</span>
+        {list.noTick ? (
+          <>
+            <span>{list.rows.length.toLocaleString()} to pick from</span>
+            <span>{savedCount(id) || 0} saved</span>
+          </>
+        ) : (
+          <>
+            <span>
+              {done} / {list.rows.length} {list.verb}
+            </span>
+            <span>{pct}%</span>
+          </>
+        )}
       </span>
     </Link>
   );
