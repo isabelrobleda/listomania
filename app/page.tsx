@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { shelves } from "@/lib/content";
 import Stats from "@/components/Stats";
-import { ListLine, MyListLine } from "@/components/Directory";
+import { ListLine } from "@/components/Directory";
+import MyLists from "@/components/MyLists";
 
 /**
  * The home page is a directory, not a showcase.
@@ -28,6 +29,8 @@ export default function Home() {
       </section>
 
       <div className="cl">
+        <MyLists />
+
         {shelves.map((shelf) => (
           <section className="clsec" key={shelf.slug} style={{ ["--mark" as string]: shelf.mark }}>
             <h2>
@@ -42,7 +45,6 @@ export default function Home() {
                 <ListLine key={list.slug} shelf={shelf} list={list} />
               ))}
               {shelf.lists.length === 0 && <li className="empty">nothing here yet</li>}
-              <MyListLine shelf={shelf} />
             </ul>
           </section>
         ))}

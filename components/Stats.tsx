@@ -3,19 +3,17 @@
 import { shelves, totals } from "@/lib/content";
 import { useProgress, listId } from "@/lib/progress";
 
+/**
+ * Only the two counts that stay small. "Items" and "Marked off" run to four
+ * digits and were the widest things on the page — a number that big reads as a
+ * headline whether or not it deserves to be one.
+ */
 export default function Stats() {
-  const { count } = useProgress();
   const t = totals();
-  const done = shelves.reduce(
-    (n, s) => n + s.lists.reduce((m, l) => m + count(listId(s.slug, l.slug)), 0),
-    0
-  );
 
   const cells: [number, string][] = [
     [t.shelves, "Shelves"],
     [t.lists, "Lists"],
-    [t.items, "Items"],
-    [done, "Marked off"],
   ];
 
   return (

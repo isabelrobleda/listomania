@@ -419,3 +419,12 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 .clsec li a.mine { color: var(--ink-2); font-style: italic; }
 .clsec li .empty, .clsec li .soonline { font-size: 14px; color: var(--ink-3); padding: 3px 0; display: block; }
 .clsec.soon .dot { background: transparent; border: 1.5px dashed var(--line); }
+
+/* My lists leads the directory: it's what a returning visitor came for. */
+.clsec.mylists .dot { background: var(--ink); }
+.clsec.mylists h2 { display: flex; align-items: center; gap: 8px; }
+.clsec.mylists h2 .tot {
+  font-family: var(--f-mono); font-size: 11px; color: var(--ink-3);
+  font-weight: 400;
+}
+.clsec .sq { width: 8px; height: 8px; border-radius: 2px; flex: none; }
