@@ -4,6 +4,7 @@ import Wordmark from "@/components/Wordmark";
 import Rail from "@/components/Rail";
 import ThemeToggle from "@/components/ThemeToggle";
 import ThemeSong from "@/components/ThemeSong";
+import NavToggle from "@/components/NavToggle";
 import AccountButton from "@/components/AccountButton";
 import ClaimBanner from "@/components/ClaimBanner";
 import SyncProvider from "@/components/SyncProvider";
@@ -63,6 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           Skip to content
         </a>
         <header className="topbar">
+          <NavToggle />
           <Link className="wmbtn" href="/" aria-label="Listomania — all lists">
             <Wordmark />
           </Link>

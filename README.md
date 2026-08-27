@@ -92,6 +92,7 @@ components/
   SavedList.tsx              one shelf's saved rows
   ThemeToggle.tsx            light / dark / system
   ThemeSong.tsx              the Phoenix chorus, on demand
+  NavToggle.tsx              the shelf drawer, on phones
   Rail.tsx  Stats.tsx  ShelfTheme.tsx  ShelfProgress.tsx  ListCard.tsx
 lib/
   content.ts                 types + accessors over the JSON
@@ -134,6 +135,23 @@ tools/                       scripts that generated the content and the logo
   YouTube — both as *searches*. A list is worth more when you can act on a row
   without leaving to go look it up. Set `"gr": "sec"` on a books list, or
   `"gr": "extra"` where the author sits in the extra column instead.
+- **The top bar is one line on a phone, whatever the username.** It has to hold
+  five controls, and the only one that can be shortened without losing anything
+  is the name — you know who you're signed in as. So it collapses to its first
+  character, taken with `Intl.Segmenter` rather than `name[0]`, which cuts an
+  emoji in half; an emoji initial gets a pale disc instead of the black one,
+  since half of them vanish on black. Signed out becomes a door glyph. The
+  wordmark is the only flexible item in the bar, so whatever width is still
+  missing comes out of the logo rather than out of the single line.
+- **The rail is a drawer on a phone, not a block above the page.** Stacked, it
+  meant every visit opened on a screenful of navigation you had to scroll past
+  to reach what you came for. Off-canvas it behaves the way it already does on
+  a desktop: there when asked for, gone otherwise. Closed, it's
+  `visibility: hidden` as well as translated away — off-canvas is not the same
+  as absent, and without it a keyboard tabs into a menu nobody opened. Four
+  ways out (button, scrim, Escape, following a link), and the link one matters
+  most: a menu that stays open over the page you just chose is how this pattern
+  is usually got wrong.
 - **A list can be in its own language.** `"lang": "es"` on a list puts the
   handful of interface strings that sit *inside* the table — search box, the
   two filter chips, the empty state — into that language. Everything outside

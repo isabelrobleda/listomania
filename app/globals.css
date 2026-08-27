@@ -123,11 +123,53 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   letter-spacing: 0.16em;
   text-transform: uppercase;
 }
+/* On a phone the bar holds four things — wordmark, account, play, theme — and
+   it has to be one line. It used to wrap, which put the theme switch on a row
+   of its own under the logo and cost 40px of vertical space on every single
+   screen. Everything below is in service of that one line: nothing wraps, the
+   wordmark gives up some size, and the username collapses to its first
+   character, which is the only thing here that can be shortened without
+   losing information. */
 @media (max-width: 640px) {
-  .topbar { padding: 13px 16px; }
-  .wm { width: 158px; }
+  .topbar { padding: 11px 14px; gap: 10px; flex-wrap: nowrap; }
+  /* Everything else in the bar is fixed-size and load-bearing — a control you
+     can't hit is broken, a logo two-thirds the size is just smaller. So the
+     wordmark is the one item allowed to shrink, and any width the bar runs
+     short of comes out of it rather than out of the single line. */
+  .wmbtn { flex: 0 1 auto; min-width: 0; }
+  .wm { width: 124px; max-width: 100%; }
   .topbar .tag { display: none; }
+  /* flex:none on both states — signed out, the shrink was clipping "Sign in"
+     to "Sig…", which is worse than any amount of tightness elsewhere. */
+  .acct { max-width: none; margin-left: auto; flex: none; }
+  /* flex:none, or the link shrinks under pressure from the rest of the bar and
+     the round avatar inside it gets squeezed into a sliver. */
+  .acct.named { padding: 0; border: 0; flex: none; }
+  .acct.named .full { display: none; }
+  .acct.named .mini { display: grid; }
+  .tsong { margin-left: 0; }
+  .theme { margin-left: 0; padding: 1px; }
+  .theme button { width: 25px; height: 22px; }
 }
+/* 320px — the narrowest phone anyone still uses. Everything gives up a little
+   so nothing has to wrap or scroll sideways. */
+@media (max-width: 380px) {
+  .topbar { gap: 6px; padding: 11px 10px; }
+  .wm { width: 86px; }
+  .theme button { width: 21px; height: 19px; }
+  .theme svg { width: 12px; height: 12px; }
+  .tsbtn { padding: 3px 6px; }
+  .tsbtn svg { width: 12px; height: 12px; }
+  .acct .mini { width: 24px; height: 24px; font-size: 11px; }
+  .acct .mini.out svg { width: 13px; height: 13px; }
+  .navbtn { width: 26px; height: 26px; margin-right: 0; }
+  .navbtn svg { width: 16px; height: 16px; }
+}
+
+/* ---- Shelf drawer (phones) ---------------------------------------------- */
+/* Both of these are display:none on a desktop, where the rail is just a rail. */
+.navbtn, .scrim { display: none; }
+.navbtn svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.9; stroke-linecap: round; }
 
 /* ---------- layout ---------- */
 .wrap { display: grid; grid-template-columns: 238px minmax(0, 1fr); min-height: 100vh; }
@@ -340,11 +382,45 @@ tr.on .tick svg { opacity: 1; }
 
 @media (max-width: 820px) {
   .wrap { grid-template-columns: 1fr; }
-  .rail {
-    position: static; height: auto; border-right: none;
-    border-bottom: 1px solid var(--line);
-  }
   .main { padding: 24px 18px 60px; }
+
+  /* The rail becomes a drawer rather than a block stacked above the page.
+     Stacked, it made every visit start with a screenful of navigation you had
+     to scroll past; off-canvas, it is there when you ask and gone when you
+     don't, which is what it already does on a desktop. */
+  .navbtn {
+    display: grid; place-items: center; flex: none;
+    width: 30px; height: 30px; border-radius: 9px;
+    border: 1.5px solid var(--line); background: var(--card); color: var(--ink-2);
+    margin-right: 2px;
+  }
+  .navbtn:hover, .navbtn[aria-expanded="true"] { border-color: var(--ink); color: var(--ink); }
+
+  .rail {
+    position: fixed; top: 0; left: 0; bottom: 0; z-index: 60;
+    width: min(280px, 82vw);
+    height: auto; overflow-y: auto;
+    background: var(--paper);
+    border-right: 2px solid var(--ink); border-bottom: none;
+    padding: 20px 16px 40px;
+    transform: translateX(-101%);
+    transition: transform 0.18s ease;
+    /* Off-canvas is not the same as absent: without this a closed drawer keeps
+       its links in the tab order and a keyboard lands in a menu nobody opened. */
+    visibility: hidden;
+  }
+  :root[data-nav="open"] .rail { transform: none; visibility: visible; }
+
+  .scrim {
+    display: block; position: fixed; inset: 0; z-index: 50;
+    background: rgba(11, 11, 15, 0.42);
+    opacity: 0; pointer-events: none; transition: opacity 0.18s ease;
+    border: 0; padding: 0;
+  }
+  :root[data-nav="open"] .scrim { opacity: 1; pointer-events: auto; }
+}
+@media (max-width: 820px) and (prefers-reduced-motion: reduce) {
+  .rail, .scrim { transition: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
@@ -493,6 +569,26 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 .acct:hover { border-color: var(--ink); color: var(--ink); }
 /* Holds the space while the session resolves, so the bar doesn't jump. */
 .acct.ghost { border-color: transparent; min-width: 74px; }
+/* The initial. Hidden until the phone breakpoint asks for it. */
+.acct .mini {
+  display: none;
+  width: 28px; height: 28px; border-radius: 99px;
+  place-items: center; flex: none;
+  background: var(--ink); color: var(--paper);
+  font-family: var(--f-mono); font-size: 12px; line-height: 1;
+  /* An emoji username shouldn't be painted over with the ink colour. */
+  text-transform: none;
+}
+.acct.named:hover .mini { background: var(--mark-logo, #C9F224); color: #0B0B0F; }
+/* An emoji brings its own colour, so it gets a plain disc to sit on rather
+   than being dropped onto black where half of them disappear. */
+.acct .mini.emoji { background: var(--card); border: 1.5px solid var(--line); font-size: 14px; }
+.acct.named:hover .mini.emoji { background: var(--mark-soft); border-color: var(--ink); }
+/* Signed out: an outlined disc rather than a filled one, so the bar doesn't
+   claim someone is logged in when they aren't. */
+.acct .mini.out { background: var(--card); border: 1.5px solid var(--line); color: var(--ink-2); }
+.acct.named:hover .mini.out { border-color: var(--ink); color: var(--ink); }
+.acct .mini.out svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .theme { margin-left: 10px; }
 
 .claim {

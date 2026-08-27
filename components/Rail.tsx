@@ -28,7 +28,7 @@ export default function Rail() {
   };
 
   return (
-    <nav className="rail" aria-label="Shelves">
+    <nav className="rail" id="rail" aria-label="Shelves">
       <Link className="navb" href="/" aria-current={pathname === "/" ? "true" : undefined}>
         <span className="swatch" style={{ background: "var(--ink)" }} />
         Everything
