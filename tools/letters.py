@@ -85,3 +85,60 @@ def svg(fg="#FFFFFF", shadow="#FF2E88", ink="#0B0B0F", shadow_dx=7, shadow_dy=8)
 if __name__ == "__main__":
     open("wordmark.svg", "w").write(svg())
     print("width x height:", build()[3])
+
+
+# ---------------------------------------------------------------------------
+# Route 05 — the highlighter.
+#
+# Same letterforms, but drawn once, at a normal weight, in one colour. All the
+# personality moves into a single marker swipe behind the word: a band with
+# slanted, slightly uneven ends, tilted a degree or so off horizontal, sitting
+# low so it clips the letters the way a real highlighter does when you're going
+# too fast to aim.
+# ---------------------------------------------------------------------------
+
+W_HL = 26          # letter weight for this route — lighter than the sticker
+
+
+def swipe(x0, x1, cy, h, tilt=1.6, lead=8, tail=8):
+    """A highlighter band. The ends are slanted and unequal, because a marker
+    laid down by a human hand is never square at either end."""
+    y = lambda x: cy + (x - x0) * (tilt / 100.0)
+    return (
+        f"M{x0 - lead:.1f} {y(x0) - h / 2 + 4:.1f} "
+        f"L{x0 + 4:.1f} {y(x0) - h / 2:.1f} "
+        f"L{x1 + tail:.1f} {y(x1) - h / 2 + 2:.1f} "
+        f"L{x1 + tail - 5:.1f} {y(x1) + h / 2 + 1:.1f} "
+        f"L{x0 - lead + 6:.1f} {y(x0) + h / 2:.1f} Z"
+    )
+
+
+def svg_highlight(ink="#0B0B0F", mark="#C9F224", cy=46, h=92, opacity=1.0, weight=None):
+    outline, inner, dots, width = build()
+    w_let = weight or W_HL
+
+    half = w_let / 2 + 3
+    top_y, bottom_y = 10, 83
+    x0v = -half - 12
+    y0v = top_y - half
+    vw = width + half * 2 + 26
+    vh = (bottom_y + half + 6) - y0v
+
+    band = (
+        f'<path d="{swipe(PAD - 6, width - PAD + 6, cy, h)}" fill="{mark}" '
+        f'opacity="{opacity}"/>'
+    )
+
+    letters = [f'<g fill="none" stroke="{ink}" stroke-width="{w_let}" '
+               f'stroke-linecap="round" stroke-linejoin="round">']
+    for x, d in outline:
+        letters.append(f'<path transform="translate({x},0)" d="{d}"/>')
+    letters.append("</g>")
+    for cx, cyy in dots:
+        letters.append(f'<circle cx="{cx}" cy="{cyy}" r="{w_let/2:.1f}" fill="{ink}"/>')
+
+    return (
+        f'<svg viewBox="{x0v:.1f} {y0v:.1f} {vw:.1f} {vh:.1f}" '
+        f'xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Listomania">'
+        + band + "".join(letters) + "</svg>"
+    )

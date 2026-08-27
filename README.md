@@ -87,9 +87,16 @@ tools/                       scripts that generated the content and the logo
   `--on-mark` and `--mark-soft` on `<main>`, and everything below reads them.
 - **The marker stroke does double duty**: it underlines every heading and it *is*
   the progress bar, drawn to the percentage complete. One gesture, two jobs.
-- **The wordmark is custom vector letterforms**, not a licensed typeface — each
-  glyph is a skeleton of marker strokes with round caps, thickened until the
-  counters nearly close. Regenerate with `python3 tools/letters.py`.
+- **The wordmark is Archivo Black, converted to outlines** by
+  `tools/wordmark.py`, with a highlighter swipe behind it. Outlines rather than
+  live text: a logo that depends on a webfont loading is briefly the *wrong*
+  logo on every cold visit, and the swipe is drawn to these exact letterforms,
+  so a fallback face would leave the band hanging off the end of the word. The
+  letters are hard-coded dark rather than `var(--ink)` — they sit on lime in
+  both themes, and cream on lime is unreadable. (`tools/letters.py` still holds
+  the earlier hand-drawn alphabet, kept for reference.)
+- **The top bar is paper, not pink.** Once the lime belongs to the logo, pink is
+  free to mean one thing only: the Books shelf.
 - **Every book row links out to Goodreads**, and every film and song row to
   YouTube — both as *searches*. A list is worth more when you can act on a row
   without leaving to go look it up. Set `"gr": "sec"` on a books list, or
