@@ -66,9 +66,23 @@ export default function Home() {
       </div>
 
       <p className="note">
-        <b>How this works.</b> The lists live in the repository as data files, so every change to
-        one is a visible, reviewable edit rather than an invisible database write. What you tick and
-        what you bookmark stay in this browser — there are no accounts yet.
+        <b>How this works.</b> Two marks per row, and they mean different things: the tick on the
+        left is <b>I&rsquo;ve read / seen / been there</b>, the bookmark on the right is{" "}
+        <b>put it on my list</b> — you can want to reread something you&rsquo;ve already finished.
+        Saved rows collect on one page per shelf, one copy each however many lists recommended
+        them. All of it lives in this browser until you make an account, and then it follows you
+        between devices; an account is a username and a password and nothing else, with no email
+        address stored on either sign-in path.
+      </p>
+      <p className="note">
+        <b>Where the lists come from.</b> They&rsquo;re data files in a public repository, not rows
+        in a database, so every change to a list is a visible edit someone can argue with. Each one
+        says who was asked, where, and how the answers were counted — including what the count
+        can&rsquo;t tell you. That last part is the whole point:{" "}
+        <a href="https://github.com/isabelrobleda/listomania" target="_blank" rel="noopener noreferrer">
+          the source is here
+        </a>
+        .
       </p>
     </>
   );
