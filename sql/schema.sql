@@ -65,3 +65,24 @@ CREATE TABLE IF NOT EXISTS marks (
 );
 
 CREATE INDEX IF NOT EXISTS marks_user_idx ON marks (user_id);
+
+-- --------------------------------------------------------------- Usernames ---
+-- Password accounts. Nullable because a GitHub account has none of this, and a
+-- username account has no email — the two paths meet at users.id and nowhere
+-- else.
+--
+-- There is deliberately no email column for password accounts. It would be the
+-- obvious way to offer password resets, and it is exactly the piece of personal
+-- data this site has no other use for. The recovery code is the trade: one
+-- string, shown once at signup, hashed here the same way the password is.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS username TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS password_hash TEXT;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS recovery_hash TEXT;
+
+-- Case-insensitive uniqueness: "Isabel" and "isabel" must not be two people.
+CREATE UNIQUE INDEX IF NOT EXISTS users_username_key ON users (lower(username));
+
+-- Per-account throttling. Guessing a password should get slower for the account
+-- being guessed at, without telling the guesser whether it exists.
+ALTER TABLE users ADD COLUMN IF NOT EXISTS failed_logins INTEGER NOT NULL DEFAULT 0;
+ALTER TABLE users ADD COLUMN IF NOT EXISTS locked_until TIMESTAMPTZ;

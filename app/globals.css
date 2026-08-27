@@ -488,3 +488,28 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 .claim.ok p { margin: 0; }
 .chip.danger { border-color: #c0392b; color: #c0392b; }
 .chip.danger:hover { background: #c0392b; color: #fff; }
+
+.authform { display: flex; flex-direction: column; gap: 12px; }
+.authform label {
+  display: flex; flex-direction: column; gap: 5px;
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.authform input {
+  padding: 10px 12px; border: 1.5px solid var(--line); border-radius: 9px;
+  background: var(--card); color: var(--ink);
+  font-family: var(--f-ui); font-size: 15px; letter-spacing: normal; text-transform: none;
+}
+.authform input:focus { outline: none; border-color: var(--ink); }
+.authform .plbtn { align-self: flex-start; margin-top: 4px; border: none; cursor: pointer; }
+.autherr { color: #c0392b; font-size: 13px; margin: 2px 0 0; }
+.oralso {
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--ink-3); margin: 20px 0 10px;
+}
+/* The recovery code has to survive being copied by hand onto paper. */
+.reccode {
+  font-family: var(--f-mono); font-size: 19px; letter-spacing: 0.08em;
+  color: var(--ink) !important; background: var(--mark-soft);
+  padding: 12px 14px; border-radius: 10px; user-select: all;
+}

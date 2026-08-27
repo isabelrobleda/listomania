@@ -1,6 +1,7 @@
-import { auth, signIn, signOut } from "@/auth";
+import { auth, signOut } from "@/auth";
 import { hasDb } from "@/lib/db";
 import DeleteAccount from "@/components/DeleteAccount";
+import SignInForms from "@/components/SignInForms";
 
 export const metadata = {
   title: "Account — Listomania",
@@ -34,22 +35,18 @@ export default async function AccountPage() {
       <>
         <h1>Sign in</h1>
         <p style={{ maxWidth: "58ch", color: "var(--ink-2)" }}>
-          Only so your ticks and bookmarks follow you off this browser. Nothing else about you is
-          wanted here, and nothing you mark is ever shown to anyone else.
+          Only so your ticks and bookmarks follow you off this browser. Nothing you mark is ever
+          shown to anyone else.
         </p>
-        <form
-          action={async () => {
-            "use server";
-            await signIn("github", { redirectTo: "/account" });
-          }}
-        >
-          <button className="plbtn" type="submit" style={{ marginTop: 18 }}>
-            Continue with GitHub
-          </button>
-        </form>
-        <p className="note" style={{ marginTop: 26 }}>
-          <b>What gets stored.</b> Your GitHub username and email, and the list rows you&rsquo;ve
-          marked. That&rsquo;s the whole table. You can delete all of it from this page at any time.
+
+        <SignInForms github={Boolean(process.env.AUTH_GITHUB_ID)} />
+
+        <p className="note" style={{ marginTop: 26, maxWidth: "60ch" }}>
+          <b>What gets stored.</b> A username, a hash of your password, and the list rows
+          you&rsquo;ve marked. That is the whole table. No email address &mdash; not even if you
+          sign in with GitHub, which offers one; it&rsquo;s discarded rather than saved. The trade
+          is that there is no reset link for anyone: the recovery code you get at signup is the way
+          back in. You can delete all of it from this page at any time.
         </p>
       </>
     );

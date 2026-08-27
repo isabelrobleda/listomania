@@ -162,6 +162,29 @@ cover a tally it has never seen.
 Every tally should carry its `note`. Saying how a list was counted, and what it
 skews toward, is what separates it from an anonymous internet ranking.
 
+### Sign-in
+
+A **username and password** is the main path. GitHub is a one-click alternative
+for people who have one; asking a reader of book lists for a GitHub account is a
+strange demand.
+
+**No email address is stored, on either path.** GitHub hands one over whether we
+want it or not, and it's discarded on sign-in rather than saved, so both paths
+store the same minimal thing: a username, a password hash, and your marks. The
+price is stated plainly on the account page — with no address on file there is
+no reset link for anyone, so signup issues a **one-time recovery code** instead.
+Recovery codes are hashed like passwords and rotated on use.
+
+Encrypting an email rather than dropping it was considered and rejected: the app
+would need the key to send anything, so the key lives beside the data and buys
+protection only against a database dump that somehow leaves the environment
+behind. Not holding the address is the version that's actually true.
+
+Passwords are argon2id. Sign-in failures are counted per account and lock it for
+15 minutes after 8 — per account rather than per IP, because an IP is a
+suggestion. Every failure returns the same sentence: "no such user" is a way to
+enumerate which usernames exist.
+
 ## Turning accounts on
 
 1. **Database.** Vercel → your project → Storage → attach Postgres (Neon). It
@@ -169,7 +192,7 @@ skews toward, is what separates it from an anonymous internet ranking.
    Neon's free tier scales to zero when idle and wakes on the next query;
    Supabase's free tier *pauses* after a week of no traffic and needs a human to
    restore it, which is why this doesn't use Supabase.
-2. **GitHub OAuth app.** github.com → Settings → Developer settings → OAuth
+2. **GitHub OAuth app** (optional — omit it and the button doesn't render). github.com → Settings → Developer settings → OAuth
    Apps → New. Callback URL `https://YOUR-SITE/api/auth/callback/github`.
    Put the id and secret in `AUTH_GITHUB_ID` / `AUTH_GITHUB_SECRET`.
 3. **`AUTH_SECRET`** — `openssl rand -base64 32`.
