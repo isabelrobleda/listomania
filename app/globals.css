@@ -140,7 +140,21 @@ button { font: inherit; color: inherit; background: none; border: none; cursor: 
   overflow-y: auto;
   background: var(--card);
 }
-.main { padding: 32px 40px 80px; max-width: 1180px; }
+.main {
+  padding: 32px 40px 80px;
+  /* Wide enough to use a desktop, capped so a dense index doesn't turn into
+     one unreadable 2000px line, and centred rather than pinned left — an
+     uncapped column glued to one edge of a big monitor is what makes a site
+     look like it was only ever opened on a laptop. */
+  /* width:100% matters. An auto margin on a grid item overrides the default
+     stretch and makes it shrink-to-fit its content, which collapsed the list
+     pages to ~930px and pushed them off to one side. Fill the column first,
+     then let max-width cap it and the auto margins centre what's left. */
+  width: 100%;
+  min-width: 0;
+  max-width: 1520px;
+  margin-inline: auto;
+}
 
 .railsec {
   font-family: var(--f-mono);
@@ -396,6 +410,10 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 .clhead .stats { margin-top: 0; gap: 22px; }
 
 .cl { columns: 3; column-gap: 34px; }
+/* Deliberately still three at any width. A fourth column looks like more use
+   of a wide screen and isn't: with six shelves the balancer fills three and
+   leaves the fourth empty, which is the dead space this was meant to fix. Add
+   it back when there are enough shelves to fill it. */
 @media (max-width: 1080px) { .cl { columns: 2; } }
 @media (max-width: 680px) { .cl { columns: 1; } }
 
