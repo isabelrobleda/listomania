@@ -6,7 +6,7 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 ## What this is
 
-Five shelves (Music, Books, Film, Places, Television) holding 19 lists and 3,800
+Five shelves (Music, Books, Film, Places, Television) holding 20 lists and 4,385
 items.
 Every list says where it came from and how it was counted, in a sentence, on
 the list itself. That sentence is the point of the site: a canon and a crowd
