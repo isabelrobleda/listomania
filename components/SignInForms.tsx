@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";
-import { MIN_PASSWORD } from "@/lib/authRules";
+import { MIN_PASSWORD, MAX_USERNAME, cleanUsername } from "@/lib/authRules";
 
 /**
  * Sign in, create an account, or recover one — three modes of one small form.
@@ -42,7 +42,9 @@ export default function SignInForms({ github }: { github: boolean }) {
     setBusy(true);
     setError("");
     const f = new FormData(e.currentTarget);
-    const username = String(f.get("username") || "").trim().toLowerCase();
+    // Cleaned the same way the server will clean it, so what someone types and
+    // what gets looked up can't disagree.
+    const username = cleanUsername(f.get("username")) || "";
     const password = String(f.get("password") || "");
 
     try {
@@ -104,8 +106,13 @@ export default function SignInForms({ github }: { github: boolean }) {
       <form className="authform" onSubmit={submit}>
         <label>
           Username
-          <input name="username" autoComplete="username" required
-                 pattern="[A-Za-z0-9_\-]{3,24}" placeholder="3–24 characters" />
+          <input
+            name="username"
+            autoComplete="username"
+            required
+            maxLength={MAX_USERNAME * 2}
+            placeholder={`anything, up to ${MAX_USERNAME} characters`}
+          />
         </label>
 
         {mode === "lost" && (

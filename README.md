@@ -180,6 +180,20 @@ would need the key to send anything, so the key lives beside the data and buys
 protection only against a database dump that somehow leaves the environment
 behind. Not holding the address is the version that's actually true.
 
+**Usernames can be almost anything** — accents, Cyrillic, Japanese, emoji,
+spaces in the middle, up to 30 characters. The exceptions are the characters
+that would make two different names look *identical*, which is the one property
+a username has to have: zero-width and bidi-control characters are stripped
+(`isa\u200bbel` and `isabel` must not be two accounts), NFKC folds the
+compatibility forms so `ﬁnn` collides with `finn`, and surrounding or doubled
+spaces are trimmed rather than rejected because `" isabel"` is a typo, not a
+person. Matching is case- and space-insensitive; the stored spelling is what
+gets displayed, so signing in as `"  ISABEL "` still shows *Isabel*.
+
+Not solved: visual confusables across scripts — Latin `a` and Cyrillic `а` are
+still different names. That only matters when usernames are shown to *other*
+people, which they currently never are. If lists ever become public, revisit it.
+
 Passwords are argon2id. Sign-in failures are counted per account and lock it for
 15 minutes after 8 — per account rather than per IP, because an IP is a
 suggestion. Every failure returns the same sentence: "no such user" is a way to

@@ -7,8 +7,8 @@ import { pool } from "@/lib/db";
  * exactly the personal data this site has no other use for.
  */
 
-export { USERNAME_RE, MIN_PASSWORD } from "@/lib/authRules";
-import { USERNAME_RE, MIN_PASSWORD } from "@/lib/authRules";
+export { MIN_PASSWORD, MAX_USERNAME, cleanUsername, usernameKey } from "@/lib/authRules";
+import { MIN_PASSWORD, cleanUsername, usernameKey } from "@/lib/authRules";
 
 /** The handful that a rule about length can't catch. */
 const OBVIOUS = new Set([
@@ -16,11 +16,8 @@ const OBVIOUS = new Set([
   "listomania", "passwordpassword", "adminadmin",
 ]);
 
-export function checkUsername(u: unknown): string | null {
-  if (typeof u !== "string") return null;
-  const v = u.trim().toLowerCase();
-  return USERNAME_RE.test(v) ? v : null;
-}
+/** The display form, or null if it isn't a name at all. */
+export const checkUsername = cleanUsername;
 
 export function passwordProblem(p: unknown): string | null {
   if (typeof p !== "string" || p.length < MIN_PASSWORD) {
@@ -60,17 +57,18 @@ const LOCK_MINUTES = 15;
 
 type Row = {
   id: number;
+  username: string;
   password_hash: string | null;
   recovery_hash: string | null;
   failed_logins: number;
   locked_until: Date | null;
 };
 
-export async function findByUsername(username: string) {
+export async function findByUsername(name: string) {
   const { rows } = await pool.query<Row>(
-    `SELECT id, password_hash, recovery_hash, failed_logins, locked_until
+    `SELECT id, username, password_hash, recovery_hash, failed_logins, locked_until
        FROM users WHERE lower(username) = $1`,
-    [username]
+    [usernameKey(name)]
   );
   return rows[0] || null;
 }

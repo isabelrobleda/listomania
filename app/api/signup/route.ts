@@ -3,6 +3,7 @@ export const runtime = "nodejs";
 import { NextResponse } from "next/server";
 import { pool, hasDb } from "@/lib/db";
 import {
+  MAX_USERNAME,
   checkUsername,
   hashSecret,
   newRecoveryCode,
@@ -20,7 +21,7 @@ export async function POST(req: Request) {
   const username = checkUsername(body?.username);
   if (!username) {
     return NextResponse.json(
-      { error: "Usernames are 3–24 characters: letters, numbers, dashes and underscores." },
+      { error: `Pick a name: anything up to ${MAX_USERNAME} characters.` },
       { status: 400 }
     );
   }

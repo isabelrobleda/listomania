@@ -56,7 +56,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           return null;
         }
         await noteSuccess(user.id);
-        return { id: String(user.id), name: username };
+        // The stored spelling, not the typed one: someone who signs in as
+        // "  ISABEL " is still called Isabel everywhere afterwards.
+        return { id: String(user.id), name: user.username };
       },
     }),
   ],
