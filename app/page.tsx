@@ -1,48 +1,72 @@
+import Link from "next/link";
 import { shelves } from "@/lib/content";
-import { Underline } from "@/components/StrokeBar";
-import ListCard from "@/components/ListCard";
-import Stats, { ShelfCount } from "@/components/Stats";
+import Stats from "@/components/Stats";
+import { ListLine, MyListLine } from "@/components/Directory";
 
+/**
+ * The home page is a directory, not a showcase.
+ *
+ * Cards looked good and scaled badly: five shelves of cards already pushed the
+ * newest lists below the fold, and every list added makes that worse. The
+ * craigslist move is to treat the front page as an index — every destination
+ * visible at once, in columns, as plain links — so the page gets *denser* as it
+ * grows rather than longer. The only decoration is the shelf's colour, and the
+ * counts, which are the actual information.
+ */
 export default function Home() {
   return (
     <>
-      <section className="hero">
-        <h1>
-          Everything worth listing,
-          <br />
-          in one place.
-        </h1>
-        <p>
-          Canons, tallies and things to get through — kept as lists you can actually work your way
-          down. Mark items off as you go; the counts follow you.
-        </p>
+      <section className="clhead">
+        <div>
+          <h1>An encyclopedia of lists</h1>
+          <p>
+            Canons, crowd tallies and things to get through. Tick what you&rsquo;ve done, bookmark
+            what you want — every list says where it came from and how it was counted.
+          </p>
+        </div>
         <Stats />
       </section>
 
-      {shelves.map((shelf) => (
-        <section className="shelf" key={shelf.slug}>
-          <div className="shelfhead">
+      <div className="cl">
+        {shelves.map((shelf) => (
+          <section className="clsec" key={shelf.slug} style={{ ["--mark" as string]: shelf.mark }}>
             <h2>
-              <span className="mk">
-                <Underline color={shelf.mark} size={30} />
-                <span className="w">{shelf.name}</span>
-              </span>
+              <Link href={`/${shelf.slug}`}>
+                <span className="dot" />
+                {shelf.name}
+              </Link>
             </h2>
-            <ShelfCount slug={shelf.slug} />
-          </div>
-          <p className="shelfblurb">{shelf.blurb}</p>
-          <div className="grid">
-            {shelf.lists.map((list) => (
-              <ListCard key={list.slug} shelf={shelf} list={list} />
+            <p className="clblurb">{shelf.blurb}</p>
+            <ul>
+              {shelf.lists.map((list) => (
+                <ListLine key={list.slug} shelf={shelf} list={list} />
+              ))}
+              {shelf.lists.length === 0 && <li className="empty">nothing here yet</li>}
+              <MyListLine shelf={shelf} />
+            </ul>
+          </section>
+        ))}
+
+        <section className="clsec soon">
+          <h2>
+            <span className="dot" />
+            Coming next
+          </h2>
+          <p className="clblurb">Shelves with nothing on them yet.</p>
+          <ul>
+            {["Talks & video", "Podcasts", "Games", "Recipes"].map((n) => (
+              <li key={n}>
+                <span className="soonline">{n}</span>
+              </li>
             ))}
-          </div>
+          </ul>
         </section>
-      ))}
+      </div>
 
       <p className="note">
-        <b>Progress is saved in this browser.</b> There are no accounts yet — what you mark off
-        stays on this device. The lists themselves live in the repository as data files, so every
-        change to them is a visible, reviewable edit rather than an invisible database write.
+        <b>How this works.</b> The lists live in the repository as data files, so every change to
+        one is a visible, reviewable edit rather than an invisible database write. What you tick and
+        what you bookmark stay in this browser — there are no accounts yet.
       </p>
     </>
   );

@@ -17,6 +17,10 @@
   --on-mark: #0b0b0f;
   --mark-soft: #f2fbd0;
 
+  /* Directory links. Blue is the whole point of a craigslist-style index:
+     it says "these are all links" faster than any styling could. */
+  --link: #1a4bd8;
+
   --shadow: 0 1px 2px rgba(11, 11, 15, 0.05), 0 10px 26px -14px rgba(11, 11, 15, 0.22);
   --bar: 80px;
 
@@ -35,6 +39,7 @@
     --line: #272730;
     --line-2: #1d1d25;
     --mark-soft: #1f2a12;
+    --link: #8fb0ff;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 10px 26px -14px rgba(0, 0, 0, 0.8);
   }
 }
@@ -356,3 +361,61 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 /* The saved bookmark is filled, not outlined — it reads at 12px where a
    hollow one doesn't. */
 .tick.plus[aria-pressed="true"] path { fill: var(--card); stroke: var(--card); }
+
+/* ---- Front page: a directory, not a showcase ---------------------------- *
+ * Cards scaled badly — five shelves already pushed new lists below the fold.
+ * Columns of plain links get denser as the site grows instead of longer.
+ */
+.clhead {
+  display: flex; flex-wrap: wrap; gap: 24px 40px;
+  align-items: flex-end; justify-content: space-between;
+  padding-bottom: 18px; margin-bottom: 22px;
+  border-bottom: 2px solid var(--ink);
+}
+.clhead h1 { font-size: clamp(24px, 3vw, 32px); line-height: 1.05; margin-bottom: 8px; }
+.clhead p { color: var(--ink-2); font-size: 14px; margin: 0; max-width: 56ch; }
+.clhead .stats { margin-top: 0; gap: 22px; }
+
+.cl { columns: 3; column-gap: 34px; }
+@media (max-width: 1080px) { .cl { columns: 2; } }
+@media (max-width: 680px) { .cl { columns: 1; } }
+
+.clsec {
+  break-inside: avoid; -webkit-column-break-inside: avoid;
+  display: inline-block; width: 100%; margin-bottom: 26px;
+}
+.clsec h2 { font-size: 15px; margin-bottom: 2px; }
+.clsec h2 a { color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 8px; }
+.clsec h2 a:hover .t, .clsec h2 a:hover { text-decoration: underline; }
+.clsec .dot {
+  width: 11px; height: 11px; border-radius: 3px; flex: none;
+  background: var(--mark, var(--ink-3));
+}
+.clblurb { font-size: 12px; color: var(--ink-3); margin: 0 0 8px 19px; }
+
+.clsec ul { list-style: none; margin: 0 0 0 19px; padding: 0; }
+.clsec li + li { margin-top: 1px; }
+.clsec li a {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 3px 6px 3px 0; border-radius: 5px;
+  font-size: 14px; color: var(--link, #1a4bd8); text-decoration: none;
+}
+.clsec li a:hover { background: var(--line-2); }
+.clsec li a:hover .t { text-decoration: underline; }
+.clsec li a .t { flex: 1; }
+/* Fixed widths so the badges and counts form two straight columns down the
+   page. Ragged right-hand edges are what makes a dense index hard to scan. */
+.clsec li a .k {
+  flex: none; width: 58px; text-align: center;
+  font-family: var(--f-mono); font-size: 9.5px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-3);
+  border: 1px solid var(--line); border-radius: 99px; padding: 1px 0;
+}
+.clsec li a .n {
+  flex: none; width: 44px; text-align: right;
+  font-family: var(--f-mono); font-size: 11.5px; color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.clsec li a.mine { color: var(--ink-2); font-style: italic; }
+.clsec li .empty, .clsec li .soonline { font-size: 14px; color: var(--ink-3); padding: 3px 0; display: block; }
+.clsec.soon .dot { background: transparent; border: 1.5px dashed var(--line); }

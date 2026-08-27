@@ -56,13 +56,15 @@ backend when there are people to log in.
 ```
 app/
   layout.tsx                 top bar, rail, shell
-  page.tsx                   home — shelves and their lists
+  page.tsx                   home — the directory of every list
   [shelf]/page.tsx           one shelf
   [shelf]/[list]/page.tsx    one list
 components/
   Wordmark.tsx               the logo, drawn as vector letterforms
   ListTable.tsx              the table: search, filter, marking off
   StrokeBar.tsx              marker stroke — used as heading rule AND progress bar
+  Directory.tsx              the front-page index lines
+  SavedList.tsx              one shelf's saved rows
   Rail.tsx  Stats.tsx  ShelfTheme.tsx  ShelfProgress.tsx  ListCard.tsx
 lib/
   content.ts                 types + accessors over the JSON
@@ -74,6 +76,13 @@ tools/                       scripts that generated the content and the logo
 
 ## Design notes
 
+- **The front page is a directory, not a showcase.** Cards looked good and
+  scaled badly — five shelves of them already pushed the newest lists below the
+  fold, and every list added made it worse. Columns of plain links (the
+  craigslist move) get *denser* as the site grows instead of longer, and the
+  counts carry the information the cards were decorating. Badges and counts are
+  fixed-width so they form straight columns; a ragged right edge is what makes a
+  dense index unscannable.
 - **Colour belongs to the shelf, not the list.** `ShelfTheme` sets `--mark`,
   `--on-mark` and `--mark-soft` on `<main>`, and everything below reads them.
 - **The marker stroke does double duty**: it underlines every heading and it *is*
