@@ -65,6 +65,11 @@ export default function Home() {
         </section>
       </div>
 
+      {/* Same three columns as the directory above, so the notes read as the
+          bottom of that grid rather than as one narrow orphan column. Full
+          width with a single measure would be a ~200-character line on a big
+          monitor, which is the one typography rule worth keeping. */}
+      <div className="clnotes">
       <p className="note">
         <b>How this works.</b> Two marks per row, and they mean different things: the tick on the
         left is <b>I&rsquo;ve read / seen / been there</b>, the bookmark on the right is{" "}
@@ -84,6 +89,7 @@ export default function Home() {
         </a>
         .
       </p>
+      </div>
     </>
   );
 }
