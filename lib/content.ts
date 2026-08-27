@@ -37,6 +37,12 @@ export type List = {
   /** Books lists get a Goodreads lookup per row. The value names which column
    *  holds the author, because it isn't the same one in every list. */
   gr?: "sec" | "extra";
+  /** A list can be written in a language other than the site's. When it is,
+   *  the handful of interface strings that sit *inside* the table follow it —
+   *  a Spanish list with an English search box is neither one thing nor the
+   *  other. Everything outside the list (the rail, the top bar) stays in
+   *  English, because that is the language of the site, not of the list. */
+  lang?: "es";
   /** "Asked in" is right for a thread and wrong for a saved list. */
   srcLabel?: string;
   /** Some lists aren't things you finish. You don't "complete" a song the way

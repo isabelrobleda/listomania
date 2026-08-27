@@ -90,7 +90,34 @@ const Check = () => (
   </svg>
 );
 
+/**
+ * The few interface strings that live *inside* a list, in the language the
+ * list is written in. Not an i18n framework — there are six of them, and a
+ * framework for six strings is a framework you maintain forever for nothing.
+ */
+const STRINGS = {
+  en: {
+    search: (n: string) => `Search ${n} entries…`,
+    searchAria: (t: string) => `Search ${t}`,
+    onlyMarked: "Only marked",
+    onlyMine: "Only mine",
+    myList: (shelf: string) => `My ${shelf} list`,
+    onYourList: "on your list",
+    nothing: (q: string) => `Nothing matches “${q}”.`,
+  },
+  es: {
+    search: (n: string) => `Buscar entre ${n} canciones…`,
+    searchAria: (t: string) => `Buscar en ${t}`,
+    onlyMarked: "Sólo marcadas",
+    onlyMine: "Sólo las mías",
+    myList: () => "Mi lista de música",
+    onYourList: "en tu lista",
+    nothing: (q: string) => `No hay coincidencias con “${q}”.`,
+  },
+} as const;
+
 export default function ListTable({ shelf, list }: { shelf: Shelf; list: List }) {
+  const T = STRINGS[list.lang || "en"];
   const id = listId(shelf.slug, list.slug);
   const { marked, toggle, count } = useProgress();
   const { marked: saved, toggle: save, count: savedCount } = useSaved();
@@ -139,7 +166,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
           ) : (
             <div className="row">
               <span className="big">{mine}</span>
-              <span className="pct">on your list</span>
+              <span className="pct">{T.onYourList}</span>
             </div>
           )}
         </div>
@@ -164,14 +191,15 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
           className="search"
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder={`Search ${list.rows.length.toLocaleString()} entries…`}
-          aria-label={`Search ${list.title}`}
+          placeholder={T.search(list.rows.length.toLocaleString())}
+          aria-label={T.searchAria(list.title)}
         />
         <button className="chip" aria-pressed={onlyMarked} onClick={() => setOnlyMarked((v) => !v)}>
-          {tickable ? "Only marked" : "Only mine"}
+          {tickable ? T.onlyMarked : T.onlyMine}
         </button>
         <a className="chip" href={`/${shelf.slug}/my-list`}>
-          My {shelf.name.toLowerCase()} list{mine > 0 ? ` · ${mine}` : ""}
+          {T.myList(shelf.name.toLowerCase())}
+          {mine > 0 ? ` · ${mine}` : ""}
         </a>
         {list.action && (
           <a className="plbtn" href={list.action.url} target="_blank" rel="noopener noreferrer">
@@ -203,7 +231,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
               {rows.length === 0 && (
                 <tr>
                   <td className="empty" colSpan={7}>
-                    Nothing matches &ldquo;{q}&rdquo;.
+                    {T.nothing(q)}
                   </td>
                 </tr>
               )}

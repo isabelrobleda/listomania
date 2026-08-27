@@ -6,7 +6,7 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 ## What this is
 
-Five shelves (Music, Books, Film, Places, Television) holding 18 lists and 3,619
+Five shelves (Music, Books, Film, Places, Television) holding 19 lists and 3,800
 items.
 Every list says where it came from and how it was counted, in a sentence, on
 the list itself. That sentence is the point of the site: a canon and a crowd
@@ -49,7 +49,7 @@ saved it. Saved rows collect on `/{shelf}/my-list`, which stores nothing of its
 own — it resolves the saved keys back against the content, so a personal list
 can never drift out of sync with the list it came from.
 
-Some lists set `"noTick": true` (all five music lists do). You don't *finish* a
+Some lists set `"noTick": true` (all six music lists do). You don't *finish* a
 song the way you finish a book, so those drop the tick entirely and keep only
 the saving — and their shelf reports "N saved" rather than a percentage.
 
@@ -134,6 +134,13 @@ tools/                       scripts that generated the content and the logo
   YouTube — both as *searches*. A list is worth more when you can act on a row
   without leaving to go look it up. Set `"gr": "sec"` on a books list, or
   `"gr": "extra"` where the author sits in the extra column instead.
+- **A list can be in its own language.** `"lang": "es"` on a list puts the
+  handful of interface strings that sit *inside* the table — search box, the
+  two filter chips, the empty state — into that language. Everything outside
+  the list stays in English, because that's the language of the site, not of
+  the list. It is six strings in a `STRINGS` object rather than an i18n
+  framework: a framework for six strings is a framework you maintain forever
+  for nothing.
 - **The top bar plays the theme song.** The site is named after a Phoenix
   record, so there's a button that plays the hook — twenty seconds, then it
   stops on its own. Three rules, in `ThemeSong.tsx`: it never plays on load;
