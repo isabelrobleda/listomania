@@ -29,6 +29,12 @@
   --f-gro: "Bricolage Grotesque", "Archivo", sans-serif;
 }
 
+/* Three theme states, and the selectors have to cover all of them:
+   - no data-theme  → follow the system (the media query below)
+   - data-theme=dark → dark whatever the system says
+   - data-theme=light → light whatever the system says (hence the :not() above)
+   Defining dark twice is the price of a toggle that can override the OS in
+   both directions. */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --paper: #0c0c10;
@@ -42,6 +48,18 @@
     --link: #8fb0ff;
     --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 10px 26px -14px rgba(0, 0, 0, 0.8);
   }
+}
+:root[data-theme="dark"] {
+    --paper: #0c0c10;
+    --card: #16161d;
+    --ink: #f5f3ee;
+    --ink-2: #a3a3b0;
+    --ink-3: #70707c;
+    --line: #272730;
+    --line-2: #1d1d25;
+    --mark-soft: #1f2a12;
+    --link: #8fb0ff;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.5), 0 10px 26px -14px rgba(0, 0, 0, 0.8);
 }
 
 * { box-sizing: border-box; }
@@ -429,3 +447,19 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   font-weight: 400;
 }
 .clsec .sq { width: 8px; height: 8px; border-radius: 2px; flex: none; }
+
+/* The theme switch: three states in one control, because "follow my system"
+   is a real preference and not the absence of one. */
+.theme {
+  margin-left: auto; display: inline-flex; align-items: center; gap: 2px;
+  border: 1.5px solid var(--line); border-radius: 99px; padding: 2px;
+  background: var(--card);
+}
+.theme button {
+  width: 28px; height: 24px; border-radius: 99px; display: grid; place-items: center;
+  color: var(--ink-3); padding: 0;
+}
+.theme button:hover { color: var(--ink); }
+.theme button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.theme svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+@media (max-width: 640px) { .theme { margin-left: auto; } }

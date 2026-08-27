@@ -65,6 +65,7 @@ components/
   StrokeBar.tsx              marker stroke — used as heading rule AND progress bar
   Directory.tsx              the front-page index lines
   SavedList.tsx              one shelf's saved rows
+  ThemeToggle.tsx            light / dark / system
   Rail.tsx  Stats.tsx  ShelfTheme.tsx  ShelfProgress.tsx  ListCard.tsx
 lib/
   content.ts                 types + accessors over the JSON
@@ -95,6 +96,12 @@ tools/                       scripts that generated the content and the logo
   letters are hard-coded dark rather than `var(--ink)` — they sit on lime in
   both themes, and cream on lime is unreadable. (`tools/letters.py` still holds
   the earlier hand-drawn alphabet, kept for reference.)
+- **The theme switch has three states, not two.** Light, dark, and *follow my
+  system* — the last is a real preference, not the absence of one, and a two-way
+  switch would silently pin someone to whichever they last tapped. A tiny inline
+  script in `layout.tsx` applies the stored choice before the first paint;
+  without it, a reader who chose dark gets a flash of the light page on every
+  navigation, which is worse than not offering the choice at all.
 - **The top bar is paper, not pink.** Once the lime belongs to the logo, pink is
   free to mean one thing only: the Books shelf.
 - **Every book row links out to Goodreads**, and every film and song row to

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
 import Rail from "@/components/Rail";
+import ThemeToggle from "@/components/ThemeToggle";
 import "./globals.css";
 
 const SITE = "https://listomania-nine.vercel.app";
@@ -36,7 +37,21 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        {/*
+          Runs before the first paint: without it a reader who chose dark gets a
+          flash of the light page on every navigation, which is worse than not
+          offering the choice. Deliberately tiny, inline and dependency-free —
+          anything that has to be fetched first is by definition too late.
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html:
+              "try{var t=localStorage.getItem('listomania:theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t)}catch(e){}",
+          }}
+        />
+      </head>
       <body>
         <a className="skip" href="#main">
           Skip to content
@@ -46,6 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Wordmark />
           </Link>
           <span className="tag">An encyclopedia of lists</span>
+          <ThemeToggle />
         </header>
         <div className="wrap">
           <Rail />

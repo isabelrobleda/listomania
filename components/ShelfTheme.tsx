@@ -13,8 +13,16 @@ export default function ShelfTheme({ shelf }: { shelf: Shelf }) {
     const main = document.getElementById("main");
     if (!main) return;
 
-    const dark = () =>
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
+    /* "Is it dark right now" has two inputs since the theme switch exists: an
+       explicit choice on <html data-theme>, and the OS preference when there
+       isn't one. Reading only the media query left the tinted rows in their
+       light-mode colour whenever someone forced dark by hand. */
+    const dark = () => {
+      const forced = document.documentElement.getAttribute("data-theme");
+      if (forced === "dark") return true;
+      if (forced === "light") return false;
+      return window.matchMedia("(prefers-color-scheme: dark)").matches;
+    };
 
     const apply = () => {
       main.style.setProperty("--mark", shelf.mark);
@@ -25,8 +33,14 @@ export default function ShelfTheme({ shelf }: { shelf: Shelf }) {
 
     const mq = window.matchMedia("(prefers-color-scheme: dark)");
     mq.addEventListener("change", apply);
+
+    // …and re-apply when the switch flips the attribute.
+    const obs = new MutationObserver(apply);
+    obs.observe(document.documentElement, { attributeFilter: ["data-theme"] });
+
     return () => {
       mq.removeEventListener("change", apply);
+      obs.disconnect();
       ["--mark", "--on-mark", "--mark-soft"].forEach((p) => main.style.removeProperty(p));
     };
   }, [shelf]);
