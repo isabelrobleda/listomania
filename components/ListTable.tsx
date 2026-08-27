@@ -261,8 +261,8 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
       )}
       {list.kind === "Seed" && (
         <p className="note">
-          <b>Seed list.</b> These {list.rows.length} entries are a starting point, not the finished
-          canon — enough to show how the list reads and behaves.
+          <b>This one isn&rsquo;t finished.</b> These {list.rows.length} entries are a starting
+          point &mdash; enough to show how the list reads and behaves, not the whole thing.
         </p>
       )}
     </>

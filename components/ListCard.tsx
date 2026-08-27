@@ -3,7 +3,7 @@
 import Link from "next/link";
 import StrokeBar from "./StrokeBar";
 import { useProgress, useSaved, listId } from "@/lib/progress";
-import { KIND_MEANING, type List, type Shelf } from "@/lib/content";
+import { type List, type Shelf } from "@/lib/content";
 
 export default function ListCard({ shelf, list }: { shelf: Shelf; list: List }) {
   const { count } = useProgress();
@@ -14,12 +14,7 @@ export default function ListCard({ shelf, list }: { shelf: Shelf; list: List }) 
 
   return (
     <Link className="card" href={`/${shelf.slug}/${list.slug}`}>
-      <span className="kicker">
-        <span className="kind" title={KIND_MEANING[list.kind]}>
-          {list.kind}
-        </span>
-        {shelf.name}
-      </span>
+      <span className="kicker">{shelf.name}</span>
       <h3>{list.title}</h3>
       <span className="desc">{list.desc}</span>
       <StrokeBar color={shelf.mark} pct={list.noTick ? 0 : pct} />

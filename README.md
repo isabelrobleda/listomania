@@ -8,18 +8,18 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 Five shelves (Music, Books, Film, Places, Television) holding 18 lists and 3,619
 items.
-Every list declares what **kind** of authority it has:
+Every list says where it came from and how it was counted, in a sentence, on
+the list itself. That sentence is the point of the site: a canon and a crowd
+tally are different claims about the world, and the difference is only worth
+anything when it's spelled out.
 
-| Kind        | Meaning                                  |
-| ----------- | ---------------------------------------- |
-| **Canon**   | Someone decided this list                |
-| **Tally**   | Strangers voted this into being          |
-| **Seed**    | A start, not the finished list           |
-| **Derived** | Computed from the other lists            |
-
-That distinction is the point of the site. A canon and a crowd tally are
-different claims about the world, and each list says which it is, where it came
-from, and how it was counted.
+There used to be a `canon` / `tally` / `seed` / `derived` badge beside every
+title as well. It's gone. A four-word taxonomy meant something to whoever wrote
+it and nothing to anyone reading — you cannot tell from the word "tally" whether
+strangers voted once or three hundred times — and it cost a column in an index
+whose whole virtue is density. The `kind` field stays in `shelves.json` because
+`tools/agreed.py` uses it to decide which Books lists to compute the derived
+list from; it just isn't shown to anyone.
 
 ## Architecture, and why
 
@@ -91,6 +91,7 @@ components/
   Directory.tsx              the front-page index lines
   SavedList.tsx              one shelf's saved rows
   ThemeToggle.tsx            light / dark / system
+  ThemeSong.tsx              the Phoenix chorus, on demand
   Rail.tsx  Stats.tsx  ShelfTheme.tsx  ShelfProgress.tsx  ListCard.tsx
 lib/
   content.ts                 types + accessors over the JSON
@@ -106,7 +107,7 @@ tools/                       scripts that generated the content and the logo
   scaled badly — five shelves of them already pushed the newest lists below the
   fold, and every list added made it worse. Columns of plain links (the
   craigslist move) get *denser* as the site grows instead of longer, and the
-  counts carry the information the cards were decorating. Badges and counts are
+  counts carry the information the cards were decorating. Counts are
   fixed-width so they form straight columns; a ragged right edge is what makes a
   dense index unscannable.
 - **Colour belongs to the shelf, not the list.** `ShelfTheme` sets `--mark`,
@@ -133,6 +134,16 @@ tools/                       scripts that generated the content and the logo
   YouTube — both as *searches*. A list is worth more when you can act on a row
   without leaving to go look it up. Set `"gr": "sec"` on a books list, or
   `"gr": "extra"` where the author sits in the extra column instead.
+- **The top bar plays the theme song.** The site is named after a Phoenix
+  record, so there's a button that plays the hook — twenty seconds, then it
+  stops on its own. Three rules, in `ThemeSong.tsx`: it never plays on load;
+  the player is visible rather than a hidden 0×0 iframe, because that's the
+  arrangement YouTube actually offers and because it puts the stop button where
+  someone reaching for silence will look; and the iframe isn't created until the
+  first press, so nothing is fetched from youtube.com and no cookie of theirs is
+  set for a reader who never touches it. This is the one place on the site with
+  a hard-coded video ID — a search can't start at 0:51 — so it degrades to a
+  plain search link if the upload ever goes away.
 - **YouTube links are searches, not video IDs.** Trailers get taken down,
   re-uploaded and region-locked; a search never rots, and it lets you pick the
   right one when a title is ambiguous (*The Staircase* is a doc and a series).

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
 import Rail from "@/components/Rail";
 import ThemeToggle from "@/components/ThemeToggle";
+import ThemeSong from "@/components/ThemeSong";
 import AccountButton from "@/components/AccountButton";
 import ClaimBanner from "@/components/ClaimBanner";
 import SyncProvider from "@/components/SyncProvider";
@@ -67,6 +68,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </Link>
           <span className="tag">An encyclopedia of lists</span>
           <AccountButton />
+          <ThemeSong />
           <ThemeToggle />
         </header>
         <div className="wrap">

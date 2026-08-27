@@ -523,3 +523,36 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   margin: 0 4px 3px 0; display: inline-block;
 }
 .froms a:hover { border-color: var(--ink); color: var(--ink); }
+
+/* ---- Theme song --------------------------------------------------------- */
+/* The site is named after the record, so the button that plays it sits in the
+   bar like any other control and not like an advert for itself. */
+.tsong { position: relative; margin-left: 10px; }
+.tsbtn {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.04em;
+  color: var(--ink-2); border: 1.5px solid var(--line); border-radius: 99px;
+  padding: 4px 12px 4px 9px; background: var(--card);
+}
+.tsbtn:hover { border-color: var(--ink); color: var(--ink); }
+.tsbtn svg { width: 13px; height: 13px; fill: currentColor; }
+.tsbtn[aria-pressed="true"] { background: var(--mark-logo, #C9F224); border-color: var(--ink); color: #0B0B0F; }
+.tspanel {
+  position: absolute; right: 0; top: calc(100% + 10px); width: 260px; z-index: 40;
+  background: var(--card); border: 1.5px solid var(--ink); border-radius: 14px;
+  padding: 10px; box-shadow: var(--shadow);
+}
+.tspanel iframe {
+  display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; border-radius: 8px;
+  background: #000;
+}
+.tspanel p {
+  margin: 8px 2px 2px; font-family: var(--f-mono); font-size: 10px; line-height: 1.5;
+  color: var(--ink-3); letter-spacing: 0.02em;
+}
+.tspanel p b { color: var(--ink-2); font-weight: 500; }
+.tspanel a { color: var(--ink-2); }
+@media (max-width: 640px) {
+  .tsbtn span { display: none; }
+  .tsbtn { padding: 4px 8px; }
+}
