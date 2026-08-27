@@ -8302,7 +8302,11 @@
       }
      }
     ],
-    "noTick": true
+    "noTick": true,
+    "action": {
+     "url": "https://open.spotify.com/playlist/0hZyzTLHODWkuOALEEibDJ",
+     "label": "Open the playlist ↗"
+    }
    }
   ]
  },
