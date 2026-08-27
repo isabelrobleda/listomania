@@ -3,6 +3,10 @@ import Link from "next/link";
 import Wordmark from "@/components/Wordmark";
 import Rail from "@/components/Rail";
 import ThemeToggle from "@/components/ThemeToggle";
+import AccountButton from "@/components/AccountButton";
+import ClaimBanner from "@/components/ClaimBanner";
+import SyncProvider from "@/components/SyncProvider";
+import { SessionProvider } from "next-auth/react";
 import "./globals.css";
 
 const SITE = "https://listomania-nine.vercel.app";
@@ -53,6 +57,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
       </head>
       <body>
+        <SessionProvider>
         <a className="skip" href="#main">
           Skip to content
         </a>
@@ -61,14 +66,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Wordmark />
           </Link>
           <span className="tag">An encyclopedia of lists</span>
+          <AccountButton />
           <ThemeToggle />
         </header>
         <div className="wrap">
           <Rail />
           <main className="main" id="main">
+            <ClaimBanner />
             {children}
           </main>
         </div>
+        <SyncProvider />
+        </SessionProvider>
       </body>
     </html>
   );

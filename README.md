@@ -29,6 +29,12 @@ a pull request — not an invisible database write. It also means the whole site
 prerenders to static HTML: no database, no server, no query latency, nothing to
 run out of connections.
 
+**Accounts are optional, and the site works without one.** Signed out, your
+marks live in this browser. Signed in, they live in Postgres and follow you
+between devices. With no `DATABASE_URL` set the whole auth layer switches off
+and the site still builds and runs — a fork or a local checkout needs no
+secrets.
+
 **Per-person state is two things, kept apart on purpose**, and in v1 both live
 in the browser (`localStorage`), managed by `lib/progress.ts`:
 
@@ -47,11 +53,16 @@ Some lists set `"noTick": true` (all three music lists do). You don't *finish* a
 song the way you finish a book, so those drop the tick entirely and keep only
 the saving — and their shelf reports "N saved" rather than a percentage.
 
-There are no accounts yet. When accounts arrive, `lib/progress.ts` is the only
-file that has to learn about a server.
+When accounts arrived, `lib/progress.ts` was the only file that had to learn
+about a server — which was the point of writing it that way. The two copies sit
+*side by side* rather than merged: what a browser held before anyone signed in
+stays put until someone claims it, which is what stops a shared laptop handing
+one person's reading history to whoever logs in next.
 
-This is a deliberate order of operations: ship the reading experience, add the
-backend when there are people to log in.
+Sync is **per-item toggles, not a state blob**. A "save everything" endpoint is
+how someone loses a phone's worth of bookmarks because a stale laptop tab
+flushed an old copy; a toggle can't do that, and the primary key on
+`(user, kind, list, item)` makes every write idempotent and safe to retry.
 
 ```
 app/
@@ -150,6 +161,21 @@ cover a tally it has never seen.
 
 Every tally should carry its `note`. Saying how a list was counted, and what it
 skews toward, is what separates it from an anonymous internet ranking.
+
+## Turning accounts on
+
+1. **Database.** Vercel → your project → Storage → attach Postgres (Neon). It
+   injects `POSTGRES_URL` itself. Then run `sql/schema.sql` once against it.
+   Neon's free tier scales to zero when idle and wakes on the next query;
+   Supabase's free tier *pauses* after a week of no traffic and needs a human to
+   restore it, which is why this doesn't use Supabase.
+2. **GitHub OAuth app.** github.com → Settings → Developer settings → OAuth
+   Apps → New. Callback URL `https://YOUR-SITE/api/auth/callback/github`.
+   Put the id and secret in `AUTH_GITHUB_ID` / `AUTH_GITHUB_SECRET`.
+3. **`AUTH_SECRET`** — `openssl rand -base64 32`.
+
+See `.env.example`. Adding Google or magic links later is one provider entry;
+neither the adapter nor the `marks` table cares which one someone used.
 
 ## Deploying
 

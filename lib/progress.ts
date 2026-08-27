@@ -9,41 +9,47 @@ import { useCallback, useSyncExternalStore } from "react";
  *   want  — "put this on my list". An intention about the future.
  *
  * They are deliberately not one tri-state toggle. You can want something you
- * have already read, and un-ticking something shouldn't quietly wipe the reason
- * you saved it in the first place.
+ * have already read, and un-ticking a row shouldn't quietly wipe the reason you
+ * saved it in the first place.
  *
- * Both live in the browser — there are no accounts in v1, so there's nothing to
- * sync and no database to keep. Each is a single module-level store rather than
- * per-component state: the rail, the shelf cards, the table and the saved-list
- * page all read the same numbers, so one click has to update every one of them.
- * `useSyncExternalStore` also gives a correct server snapshot, so the markup
- * React renders on the server matches what it renders during hydration.
+ * Signed out, both live in this browser's localStorage. Signed in, they live in
+ * the database and this file mirrors every toggle to it. The two are kept
+ * *side by side* rather than merged: what a browser was holding before anyone
+ * signed in stays exactly where it was, and only moves into an account when
+ * someone chooses to claim it (see ClaimBanner). That is what stops a shared
+ * laptop from handing one person's list to whoever logs in next.
  *
- * When accounts arrive, this file is the only place that has to learn about a
- * server.
+ * When accounts arrived, this was the only file that had to learn about a
+ * server — which was the point of writing it this way in the first place.
  */
 
 type Marks = Record<string, Record<string, 1>>;
 const EMPTY: Marks = {};
 
-function createStore(storageKey: string) {
-  let state: Marks = {};
+type Kind = "done" | "want";
+
+function createStore(kind: Kind, storageKey: string) {
+  let local: Marks = {};
+  let remote: Marks | null = null;   // non-null exactly when signed in
   let loaded = false;
   const listeners = new Set<() => void>();
+
+  const state = () => remote ?? local;
 
   function load() {
     if (loaded || typeof window === "undefined") return;
     try {
-      state = JSON.parse(window.localStorage.getItem(storageKey) || "{}");
+      local = JSON.parse(window.localStorage.getItem(storageKey) || "{}");
     } catch {
-      state = {};
+      local = {};
     }
     loaded = true;
   }
 
   function persist() {
+    if (remote) return;   // signed in: the server is the record, not this browser
     try {
-      window.localStorage.setItem(storageKey, JSON.stringify(state));
+      window.localStorage.setItem(storageKey, JSON.stringify(local));
     } catch {
       /* private window, quota, blocked storage: it just won't survive a reload */
     }
@@ -71,25 +77,111 @@ function createStore(storageKey: string) {
   }
 
   return {
+    kind,
     subscribe,
     snapshot: () => {
       load();
-      return state;
+      return state();
     },
     serverSnapshot: () => EMPTY,
+    /** What this browser is holding, whether or not anyone is signed in. */
+    localMarks: () => {
+      load();
+      return local;
+    },
+    signedIn: () => remote !== null,
+    /** Swap the store over to (or back from) the signed-in copy. */
+    setRemote(next: Marks | null) {
+      remote = next;
+      emit();
+    },
     toggle(list: string, key: string) {
-      const next: Marks = { ...state, [list]: { ...(state[list] || {}) } };
-      if (next[list][key]) delete next[list][key];
-      else next[list][key] = 1;
-      state = next;
-      persist();
+      const base = state();
+      const on = !base[list]?.[key];
+      const next: Marks = { ...base, [list]: { ...(base[list] || {}) } };
+      if (on) next[list][key] = 1;
+      else delete next[list][key];
+
+      if (remote) {
+        remote = next;
+        // Optimistic: the click lands now, the network catches up. A failed
+        // write is worth a log, not a UI that jumps backwards under someone.
+        fetch("/api/marks", {
+          method: "PATCH",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ kind, list, key, on }),
+        }).catch(() => {});
+      } else {
+        local = next;
+        persist();
+      }
       emit();
     },
   };
 }
 
-const doneStore = createStore("listomania");        // unchanged key: existing ticks survive
-const wantStore = createStore("listomania:want");
+const doneStore = createStore("done", "listomania");        // unchanged key: existing ticks survive
+const wantStore = createStore("want", "listomania:want");
+
+/**
+ * Called once, by SyncProvider, when the session is known. Signed in, it pulls
+ * the account's marks and points both stores at them; signed out, it points
+ * them back at this browser.
+ */
+export async function syncWithAccount(signedIn: boolean) {
+  if (!signedIn) {
+    doneStore.setRemote(null);
+    wantStore.setRemote(null);
+    return;
+  }
+  try {
+    const res = await fetch("/api/marks");
+    if (!res.ok) return;
+    const data = await res.json();
+    doneStore.setRemote(data.done || {});
+    wantStore.setRemote(data.want || {});
+  } catch {
+    /* offline: stay on the local copy rather than showing an empty account */
+  }
+}
+
+/** Everything this browser holds that an account could claim. */
+export function unclaimedMarks() {
+  const items: { kind: Kind; list: string; key: string }[] = [];
+  for (const store of [doneStore, wantStore]) {
+    const marks = store.localMarks();
+    for (const list of Object.keys(marks)) {
+      for (const key of Object.keys(marks[list])) {
+        items.push({ kind: store.kind, list, key });
+      }
+    }
+  }
+  return items;
+}
+
+/** Hand this browser's marks to the signed-in account. Additive, never destructive. */
+export async function claimLocalMarks() {
+  const items = unclaimedMarks();
+  if (items.length === 0) return 0;
+  const res = await fetch("/api/marks", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ items }),
+  });
+  if (!res.ok) throw new Error("claim failed");
+  await syncWithAccount(true);
+  return items.length;
+}
+
+/** Forget what this browser is holding — only ever called after a claim. */
+export function clearLocalMarks() {
+  try {
+    window.localStorage.removeItem("listomania");
+    window.localStorage.removeItem("listomania:want");
+  } catch {
+    /* nothing to do: the marks are already in the account either way */
+  }
+}
 
 function useStore(store: ReturnType<typeof createStore>) {
   const marks = useSyncExternalStore(store.subscribe, store.snapshot, store.serverSnapshot);

@@ -5,6 +5,3 @@ out
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
-
-# transfer bundles from the cloud session
-patch*.tar.gz

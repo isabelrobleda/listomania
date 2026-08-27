@@ -463,3 +463,28 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
 .theme button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
 .theme svg { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 @media (max-width: 640px) { .theme { margin-left: auto; } }
+
+/* ---- Accounts ----------------------------------------------------------- */
+.acct {
+  font-family: var(--f-mono); font-size: 11px; letter-spacing: 0.04em;
+  color: var(--ink-2); text-decoration: none;
+  border: 1.5px solid var(--line); border-radius: 99px; padding: 5px 12px;
+  margin-left: auto;
+  max-width: 22ch; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.acct:hover { border-color: var(--ink); color: var(--ink); }
+/* Holds the space while the session resolves, so the bar doesn't jump. */
+.acct.ghost { border-color: transparent; min-width: 74px; }
+.theme { margin-left: 10px; }
+
+.claim {
+  background: var(--card); border: 1.5px solid var(--ink); border-radius: 14px;
+  padding: 14px 16px; margin-bottom: 20px; box-shadow: var(--shadow);
+}
+.claim p { margin: 0 0 10px; font-size: 14px; color: var(--ink-2); }
+.claim p b { color: var(--ink); }
+.claim .row { display: flex; gap: 8px; flex-wrap: wrap; }
+.claim.ok { border-color: var(--line); }
+.claim.ok p { margin: 0; }
+.chip.danger { border-color: #c0392b; color: #c0392b; }
+.chip.danger:hover { background: #c0392b; color: #fff; }
