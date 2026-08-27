@@ -6,7 +6,7 @@ An encyclopedia of lists — canons, crowd tallies, and things to get through.
 
 ## What this is
 
-Five shelves (Music, Books, Film, Places, Television) holding 16 lists and 2,826
+Five shelves (Music, Books, Film, Places, Television) holding 17 lists and 3,193
 items.
 Every list declares what **kind** of authority it has:
 
@@ -49,7 +49,7 @@ saved it. Saved rows collect on `/{shelf}/my-list`, which stores nothing of its
 own — it resolves the saved keys back against the content, so a personal list
 can never drift out of sync with the list it came from.
 
-Some lists set `"noTick": true` (all three music lists do). You don't *finish* a
+Some lists set `"noTick": true` (all four music lists do). You don't *finish* a
 song the way you finish a book, so those drop the tick entirely and keep only
 the saving — and their shelf reports "N saved" rather than a percentage.
 
