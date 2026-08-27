@@ -513,3 +513,13 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   color: var(--ink) !important; background: var(--mark-soft);
   padding: 12px 14px; border-radius: 10px; user-select: all;
 }
+
+/* Which lists put an item on your list — a footnote on the row, not a column. */
+.froms { display: block; margin-top: 3px; font-weight: 400; }
+.froms a {
+  font-family: var(--f-mono); font-size: 9.5px; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--ink-3); text-decoration: none;
+  border: 1px solid var(--line); border-radius: 99px; padding: 1px 7px;
+  margin: 0 4px 3px 0; display: inline-block;
+}
+.froms a:hover { border-color: var(--ink); color: var(--ink); }

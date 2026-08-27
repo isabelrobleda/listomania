@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { shelves } from "@/lib/content";
 import { useSaved, listId } from "@/lib/progress";
+import { countSaved } from "@/lib/saved";
 
 /**
  * Sits first in the directory, because the thing you came back for is your own
@@ -10,12 +11,13 @@ import { useSaved, listId } from "@/lib/progress";
  * out of it — an index of empty pages is worse than no index.
  */
 export default function MyLists() {
-  const { count } = useSaved();
+  const { keys } = useSaved();
 
   const mine = shelves
     .map((s) => ({
       shelf: s,
-      n: s.lists.reduce((t, l) => t + count(listId(s.slug, l.slug)), 0),
+      // Things, not saves: the same book from three tallies is one line here.
+      n: countSaved(s, (slug) => keys(listId(s.slug, slug))),
     }))
     .filter((m) => m.n > 0);
 

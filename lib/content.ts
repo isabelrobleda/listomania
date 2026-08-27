@@ -87,6 +87,31 @@ export function totals() {
  *  region-locked, and a search never rots. */
 /** Like the YouTube links, a search rather than a book id: editions get merged,
  *  split and re-numbered on Goodreads, and a search survives all of that. */
+/**
+ * What makes two rows *the same thing* across different lists.
+ *
+ * The same book is a different row in every tally it appears in, with a
+ * different key — that's correct for the lists themselves, where each row is
+ * that crowd's answer. But a person's own list should hold one copy of
+ * <em>East of Eden</em>, however many crowds put it there.
+ *
+ * Title plus whoever-or-whenever: the author where a list has one, the year
+ * where it doesn't (so two films called The Thing stay two films). Accents and
+ * punctuation are folded, because "Dostoevsky" and "Dostoyevsky" are already
+ * going to be a problem and there's no need to add "Amelie" vs "Amélie" to it.
+ */
+export function sameThing(list: List, row: Row) {
+  const fold = (s: string) =>
+    s
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  const who = (list.gr === "extra" ? row.extra : row.sec) || "";
+  return `${fold(row.pri)}|${fold(who)}`;
+}
+
 export function goodreads(query: string) {
   return "https://www.goodreads.com/search?q=" + encodeURIComponent(query);
 }

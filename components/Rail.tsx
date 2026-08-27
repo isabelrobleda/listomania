@@ -4,13 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { shelves } from "@/lib/content";
 import { useProgress, useSaved, listId } from "@/lib/progress";
+import { countSaved } from "@/lib/saved";
 
 const SOON = ["Talks & video", "Podcasts", "Games"];
 
 export default function Rail() {
   const pathname = usePathname();
   const { count } = useProgress();
-  const { count: savedCount } = useSaved();
+  const { keys: savedKeys } = useSaved();
 
   /** A shelf whose lists can't be finished (music) has nothing to count toward
    *  a total, so it reports what you've saved instead of what you've done. */
@@ -18,7 +19,7 @@ export default function Rail() {
     const shelf = shelves.find((s) => s.slug === slug)!;
     const saveOnly = shelf.lists.length > 0 && shelf.lists.every((l) => l.noTick);
     if (saveOnly) {
-      const n = shelf.lists.reduce((t, l) => t + savedCount(listId(slug, l.slug)), 0);
+      const n = countSaved(shelf, (s) => savedKeys(listId(slug, s)));
       return n > 0 ? `${n} saved` : "";
     }
     const done = shelf.lists.reduce((t, l) => t + count(listId(slug, l.slug)), 0);

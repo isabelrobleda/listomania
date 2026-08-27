@@ -3,35 +3,73 @@
 import Link from "next/link";
 import { Underline } from "./StrokeBar";
 import { useSaved, useProgress, listId } from "@/lib/progress";
-import { goodreads, youtube, type Row, type List, type Shelf } from "@/lib/content";
+import { goodreads, sameThing, youtube, type Row, type List, type Shelf } from "@/lib/content";
 
 /**
- * A person's own list for one shelf: every row they've saved, grouped by the
- * list it came from. Nothing here is stored separately — it's the same saved
- * keys the tables write, resolved back against the content. That means a saved
- * row can never drift out of sync with the list it came from, and a row that
- * gets removed from a list simply stops appearing here.
+ * A person's own list for one shelf.
+ *
+ * Nothing here is stored separately — it's the same saved keys the tables
+ * write, resolved back against the content. That means a saved row can never
+ * drift out of sync with the list it came from, and a row that gets removed
+ * from a list simply stops appearing here.
+ *
+ * The one thing this page does that the tables don't is **collapse
+ * duplicates**. The same book is a different row in every tally it appears in,
+ * which is right for the lists — each row is that crowd's answer — and wrong
+ * here: your list should hold one copy of East of Eden however many crowds
+ * recommended it. Grouping is by title-and-author rather than by list, and the
+ * lists it came from become a footnote on the row, which is more interesting
+ * than a repeat anyway.
  */
+type Item = {
+  id: string;
+  row: Row;
+  list: List;
+  froms: { list: List; listKey: string; rowKey: string }[];
+  done: boolean;
+};
+
 export default function SavedList({ shelf }: { shelf: Shelf }) {
   const { keys, toggle } = useSaved();
   const { marked } = useProgress();
 
-  const groups = shelf.lists
-    .map((list: List) => {
-      const id = listId(shelf.slug, list.slug);
-      const chosen = new Set(keys(id));
-      return { list, id, rows: list.rows.filter((r) => chosen.has(r.key)) };
-    })
-    .filter((g) => g.rows.length > 0);
+  const byThing = new Map<string, Item>();
+  for (const list of shelf.lists) {
+    const lid = listId(shelf.slug, list.slug);
+    const chosen = new Set(keys(lid));
+    for (const row of list.rows) {
+      if (!chosen.has(row.key)) continue;
+      const id = sameThing(list, row);
+      const existing = byThing.get(id);
+      if (existing) {
+        existing.froms.push({ list, listKey: lid, rowKey: row.key });
+        existing.done ||= marked(lid, row.key);
+      } else {
+        byThing.set(id, {
+          id,
+          row,
+          list,
+          froms: [{ list, listKey: lid, rowKey: row.key }],
+          done: marked(lid, row.key),
+        });
+      }
+    }
+  }
 
-  const total = groups.reduce((n, g) => n + g.rows.length, 0);
+  const items = [...byThing.values()].sort((a, b) => a.row.pri.localeCompare(b.row.pri));
+  const total = items.length;
+  const dupes = items.filter((i) => i.froms.length > 1).length;
 
   function copy() {
-    const text = groups
-      .map((g) => `${g.list.title}\n` + g.rows.map((r) => `- ${r.pri}${r.sec ? ` — ${r.sec}` : ""}`).join("\n"))
-      .join("\n\n");
+    const text = items
+      .map((i) => `- ${i.row.pri}${i.row.sec ? ` — ${i.row.sec}` : ""}`)
+      .join("\n");
     navigator.clipboard?.writeText(text);
   }
+
+  /** Removing an item removes it from every list it was saved from — otherwise
+   *  one click would leave a copy behind that reappears as a duplicate. */
+  const remove = (item: Item) => item.froms.forEach((f) => toggle(f.listKey, f.rowKey));
 
   return (
     <>
@@ -52,8 +90,7 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
             </span>
           </h1>
           <p>
-            Everything you&rsquo;ve saved from the {shelf.name.toLowerCase()} shelf, kept in this
-            browser.
+            Everything you&rsquo;ve saved from the {shelf.name.toLowerCase()} shelf, one copy each.
           </p>
         </div>
         <div className="prog">
@@ -77,79 +114,96 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
             </button>
           </div>
 
-          {groups.map((g) => (
-            <section key={g.list.slug} className="savedsec">
-              <h2>
-                <Link href={`/${shelf.slug}/${g.list.slug}`}>{g.list.title}</Link>
-                <span className="ct">{g.rows.length}</span>
-              </h2>
-              <div className="tbl">
-                <div className="scroll">
-                  <table>
-                    <tbody>
-                      {g.rows.map((r: Row) => (
-                        <tr key={r.key} className={marked(g.id, r.key) ? "on" : undefined}>
-                          <td className="sec">{r.sec}</td>
-                          <td className="pri">{r.pri}</td>
-                          <td className="trk">
-                            {g.list.gr && (
-                              <a
-                                className="tr"
-                                href={goodreads(
-                                  `${r.pri} ${(g.list.gr === "extra" ? r.extra : r.sec) || ""}`.trim()
-                                )}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                ★ Goodreads
-                              </a>
+          <div className="tbl" style={{ marginTop: 6 }}>
+            <div className="scroll">
+              <table>
+                <tbody>
+                  {items.map((item) => (
+                    <tr key={item.id} className={item.done ? "on" : undefined}>
+                      <td className="sec">{item.row.sec}</td>
+                      <td className="pri">
+                        {item.row.pri}
+                        <span className="froms">
+                          {item.froms.map((f) => (
+                            <Link key={f.list.slug} href={`/${shelf.slug}/${f.list.slug}`}>
+                              {f.list.title}
+                            </Link>
+                          ))}
+                        </span>
+                      </td>
+                      <td className="trk">
+                        {item.list.gr && (
+                          <a
+                            className="tr"
+                            href={goodreads(
+                              `${item.row.pri} ${
+                                (item.list.gr === "extra" ? item.row.extra : item.row.sec) || ""
+                              }`.trim()
                             )}
-                            {r.yt && (
-                              <a
-                                className="tr"
-                                href={youtube(`${r.yt} ${r.ytWord || "trailer"}`)}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                ▶ {r.ytWord || "Trailer"}
-                              </a>
-                            )}
-                            {r.links?.map((l) => (
-                              <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer">
-                                {l.label}
-                              </a>
-                            ))}
-                          </td>
-                          <td className="tk add">
-                            <button
-                              className="tick plus"
-                              aria-pressed={true}
-                              aria-label={`Remove ${r.pri} from my list`}
-                              title="Remove from my list"
-                              onClick={() => toggle(g.id, r.key)}
-                            >
-                              <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
-                                <path
-                                  d="M3.2 1.6h5.6v8.8L6 8.2l-2.8 2.2Z"
-                                  strokeWidth="1.6"
-                                  strokeLinejoin="round"
-                                />
-                              </svg>
-                            </button>
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </section>
-          ))}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            ★ Goodreads
+                          </a>
+                        )}
+                        {item.row.yt && (
+                          <a
+                            className="tr"
+                            href={youtube(`${item.row.yt} ${item.row.ytWord || "trailer"}`)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            ▶ {item.row.ytWord || "Trailer"}
+                          </a>
+                        )}
+                        {item.row.links?.map((l) => (
+                          <a key={l.url} href={l.url} target="_blank" rel="noopener noreferrer">
+                            {l.label}
+                          </a>
+                        ))}
+                      </td>
+                      <td className="tk add">
+                        <button
+                          className="tick plus"
+                          aria-pressed={true}
+                          aria-label={`Remove ${item.row.pri} from my list`}
+                          title={
+                            item.froms.length > 1
+                              ? `Remove from my list (saved from ${item.froms.length} lists)`
+                              : "Remove from my list"
+                          }
+                          onClick={() => remove(item)}
+                        >
+                          <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
+                            <path
+                              d="M3.2 1.6h5.6v8.8L6 8.2l-2.8 2.2Z"
+                              strokeWidth="1.6"
+                              strokeLinejoin="round"
+                            />
+                          </svg>
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {dupes > 0 && (
+            <p className="note">
+              <b>
+                {dupes} {dupes === 1 ? "item was" : "items were"} recommended by more than one list.
+              </b>{" "}
+              They appear once here, with every list that put them there — which is a better reason
+              to read something than any single list is.
+            </p>
+          )}
 
           <p className="note">
-            <b>This list lives in your browser.</b> There are no accounts yet, so it isn&rsquo;t
-            synced to another device and clearing your site data clears it. &ldquo;Copy as text&rdquo;
-            is the way to take it somewhere safer.
+            <b>Where this lives.</b> Signed in, on your account, following you between browsers.
+            Signed out, in this browser only &mdash; clearing your site data clears it, and
+            &ldquo;copy as text&rdquo; is the way to take it somewhere safer.
           </p>
         </>
       )}

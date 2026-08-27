@@ -59,6 +59,20 @@ about a server — which was the point of writing it that way. The two copies si
 stays put until someone claims it, which is what stops a shared laptop handing
 one person's reading history to whoever logs in next.
 
+**A personal list holds one copy of a thing.** The same book is a different row
+in every tally it appears in — right for the lists, where each row is that
+crowd's answer, wrong for your list. `sameThing()` in `lib/content.ts` decides
+what counts as the same: title plus the author where a list has one, plus the
+year where it doesn't (so two films called *The Thing* stay two films), with
+accents and punctuation folded. Every count on the site uses it via
+`countSaved()`, because a shelf that says 6 leading to a page that shows 3 is
+worse than either number alone. Removing a merged row removes it from every list
+it was saved from — otherwise one click leaves a copy behind that reappears
+tomorrow as a duplicate.
+
+What it can't fix: two lists spelling an author differently ("Dostoevsky" and
+"Dostoyevsky") are still two things.
+
 Sync is **per-item toggles, not a state blob**. A "save everything" endpoint is
 how someone loses a phone's worth of bookmarks because a stale laptop tab
 flushed an old copy; a toggle can't do that, and the primary key on
