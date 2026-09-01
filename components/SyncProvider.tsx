@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { useSession } from "next-auth/react";
 import { syncWithAccount } from "@/lib/progress";
+import { syncEntriesWithAccount } from "@/lib/entries";
 
 /** Points the mark stores at the account (or back at this browser) when the
  *  session resolves. Renders nothing; it exists to keep that wiring in one
@@ -12,7 +13,9 @@ export default function SyncProvider() {
 
   useEffect(() => {
     if (status === "loading") return;
-    syncWithAccount(status === "authenticated");
+    const on = status === "authenticated";
+    syncWithAccount(on);
+    syncEntriesWithAccount(on);
   }, [status]);
 
   return null;

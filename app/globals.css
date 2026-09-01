@@ -680,3 +680,75 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   .tsbtn span { display: none; }
   .tsbtn { padding: 4px 8px; }
 }
+
+/* ---- Your own entries --------------------------------------------------- */
+/* The add form is the only place on the site that takes typing rather than
+   clicking, so it gets a card of its own rather than being dropped into the
+   tools row: a text field wedged between two pill chips reads as a filter, and
+   people don't type their favourite book into a filter. */
+.ownform {
+  margin: 18px 0 4px; padding: 16px 16px 14px;
+  border: 1.5px solid var(--line); border-radius: 12px; background: var(--card);
+}
+.ownform .fields { display: flex; gap: 12px; flex-wrap: wrap; }
+.ownform label { display: block; flex: 1 1 220px; min-width: 0; margin-bottom: 10px; }
+.ownform label.wide { flex-basis: 100%; }
+.ownform label > span {
+  display: block; margin-bottom: 5px;
+  font-family: var(--f-mono); font-size: 10px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--ink-3);
+}
+.ownform label > span i { font-style: normal; opacity: 0.65; text-transform: none; letter-spacing: 0; }
+.ownform input,
+.ownform textarea {
+  width: 100%; padding: 9px 12px; border: 1px solid var(--line); border-radius: 9px;
+  background: var(--bg); color: var(--ink); font-size: 14px; font-family: var(--f-ui);
+  resize: vertical;
+}
+.ownform input:focus,
+.ownform textarea:focus { outline: 2px solid var(--mark); outline-offset: 1px; border-color: var(--ink); }
+.ownform input::placeholder,
+.ownform textarea::placeholder { color: var(--ink-3); }
+.ownbtns { display: flex; gap: 10px; flex-wrap: wrap; }
+/* The primary action is filled, because on this page there is exactly one
+   thing you came to do and it shouldn't look like a filter chip. */
+.chip.go { background: var(--ink); border-color: var(--ink); color: var(--card); font-weight: 600; }
+.chip.go:hover { opacity: 0.85; }
+
+/* The reason you added it. Set below the title in the same cell rather than in
+   a column of its own: it's prose of any length, and a column would either clip
+   it or wreck the table's rhythm. */
+.why {
+  display: block; margin-top: 4px; font-weight: 400; font-size: 13px;
+  line-height: 1.45; color: var(--ink-2); max-width: 62ch;
+}
+
+/* "Edit" sits with the outward links because it does the same job — it's the
+   row's other destination — but it's a button, so it needs the reset. */
+.tr.as { background: none; border: 0; padding: 0; cursor: pointer; font: inherit; }
+
+@media (max-width: 640px) {
+  .ownform { padding: 13px 12px 11px; }
+  .ownform .fields { gap: 0; }
+}
+
+/* On a phone the four-column row collapses. A note is prose, and prose in a
+   quarter of 390px is a column of one word per line — worse than no note. So
+   the row becomes a block: who, then what, then the reason at full width, then
+   the controls. The other tables keep their columns because their cells are
+   short; this one has a paragraph in it. */
+@media (max-width: 640px) {
+  .tbl.own table, .tbl.own tbody, .tbl.own tr, .tbl.own td { display: block; width: auto; }
+  .tbl.own tr { padding: 12px 13px; }
+  .tbl.own td { padding: 0; border: 0; }
+  .tbl.own td.sec { font-size: 12px; color: var(--ink-3); margin-bottom: 1px; }
+  .tbl.own td.sec:empty { display: none; }
+  .tbl.own td.pri { font-size: 15px; }
+  .tbl.own .why { max-width: none; margin-top: 5px; }
+  .tbl.own td.trk { display: flex; gap: 14px; align-items: center; margin-top: 9px; }
+  /* The remove control sits with the links rather than alone on its own line,
+     which is where `display: block` would otherwise strand it. */
+  .tbl.own td.tk { position: absolute; right: 13px; top: 12px; }
+  .tbl.own tr { position: relative; }
+  .tbl.own td.pri, .tbl.own td.sec { padding-right: 40px; }
+}

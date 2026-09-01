@@ -97,10 +97,55 @@ components/
 lib/
   content.ts                 types + accessors over the JSON
   progress.ts                the two per-person stores: done, and saved
+  entries.ts                 the third: things you added yourself
 content/
   shelves.json               all the lists
 tools/                       scripts that generated the content and the logo
 ```
+
+## Your own entries
+
+Every list on this site is someone else's argument — a crowd tally, a canon, a
+stranger's saved list. `/{shelf}/my-favourites` is the shelf's blank page: the
+things you'd have said if you'd been in the thread.
+
+It is deliberately **not** a row you add to an existing tally. A count of one
+person is not the same kind of claim as a count of three hundred, and the whole
+site is an argument that the difference is worth stating out loud. So your
+entries live on their own page, beside the tallies, and never inside one.
+
+This is the third per-person store, and the only one that holds something
+irreplaceable:
+
+| | points at | worst case if lost |
+| --- | --- | --- |
+| **done** / **want** | a row in `shelves.json` | you re-tick it |
+| **entries** | nothing — it *is* the content | the text is gone |
+
+That difference drives every decision in `lib/entries.ts`:
+
+- **The id is minted in the browser** (`crypto.randomUUID`), not by the
+  database. An entry has to exist before anyone signs in and keep the same
+  identity afterwards — a serial assigned at claim time would make claiming a
+  browser create a second copy of everything you'd written.
+- **Writes are per-entry.** `PUT` upserts by id, so a retried write can't
+  duplicate, and no request ever carries your whole list — same reason the marks
+  API isn't a state blob.
+- **Claiming is additive.** An id already in the account keeps the account's
+  copy, so claiming an old browser can never overwrite what you typed on your
+  phone this morning.
+- **Deleting is two-step**, which nothing else on the site is. Un-ticking a row
+  loses a boolean; deleting an entry destroys a paragraph only you have.
+
+The two text fields are named per shelf in `FIELDS` — Title/Author for books,
+Film/Director for film, Place/What it is for places — rather than a generic
+name/detail pair, so an entry reads like the rows it sits beside and gets the
+same Goodreads, YouTube or Maps link.
+
+The third field, the note, is the point of the feature. A tally can tell you a
+book was named 31 times and can never tell you why, because counting is exactly
+the operation that throws the why away. Here it's the only thing there's room
+for.
 
 ## Design notes
 

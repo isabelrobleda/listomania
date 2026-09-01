@@ -42,13 +42,16 @@ export default async function ShelfPage({ params }: { params: Promise<{ shelf: s
         {shelf.lists.length > 0 && <ShelfProgress shelf={shelf} />}
       </div>
 
-      {shelf.lists.length > 0 && (
-        <div className="tools">
-          <Link className="chip" href={`/${shelf.slug}/my-list`}>
-            My {shelf.name.toLowerCase()} list
-          </Link>
-        </div>
-      )}
+      {/* Both chips show even on a shelf with no lists on it yet: your own
+          favourites don't depend on there being a crowd to disagree with. */}
+      <div className="tools">
+        <Link className="chip" href={`/${shelf.slug}/my-list`}>
+          My {shelf.name.toLowerCase()} list
+        </Link>
+        <Link className="chip" href={`/${shelf.slug}/my-favourites`}>
+          + Add your own
+        </Link>
+      </div>
 
       {shelf.lists.length === 0 ? (
         <p className="note" style={{ marginTop: 22 }}>

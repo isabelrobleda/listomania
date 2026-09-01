@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import { unclaimedMarks, claimLocalMarks, clearLocalMarks } from "@/lib/progress";
+import { unclaimedEntries, claimLocalEntries, clearLocalEntries } from "@/lib/entries";
 
 /**
  * Shown once, to a signed-in person whose browser is still holding marks from
@@ -28,7 +29,9 @@ export default function ClaimBanner() {
     } catch {
       /* storage blocked: showing the offer once is harmless */
     }
-    setN(unclaimedMarks().length);
+    // Marks and your own entries are held in different stores but claimed
+    // together: two banners for one decision would be two ways to say yes.
+    setN(unclaimedMarks().length + unclaimedEntries().length);
   }, [status]);
 
   if (status !== "authenticated" || (n === 0 && done === 0)) return null;
@@ -64,8 +67,9 @@ export default function ClaimBanner() {
           onClick={async () => {
             setBusy(true);
             try {
-              const added = await claimLocalMarks();
+              const added = (await claimLocalMarks()) + (await claimLocalEntries());
               clearLocalMarks();
+              clearLocalEntries();
               setDone(added);
               setN(0);
             } catch {
