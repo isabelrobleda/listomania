@@ -50,12 +50,16 @@ saved it. Saved rows collect on `/{shelf}/my-list`, which stores nothing of its
 own — it resolves the saved keys back against the content, so a personal list
 can never drift out of sync with the list it came from.
 
-The star is the only one that implies another: starring marks a row done as
-well, because calling a film a favourite you haven't seen isn't a thing anyone
-means. Un-starring never un-ticks — forgetting you watched it isn't implied by
-changing your mind about it. The star sits *inside* the row rather than beside
-the bookmark at the edge: the bookmark is housekeeping and the star is an
-opinion, and two identical pills side by side invite pressing the wrong one.
+All three are independent. Starring briefly also marked a row done — you can't
+call a film a favourite you haven't seen — and that was wrong for a reason
+worth writing down: a done row is tinted with the shelf's colour, so starring
+lit the whole row up and the star read as an icon with a coloured background
+rather than a row with a state. A side effect is only free when nobody notices
+it, and this one was the first thing anybody noticed.
+
+The star sits *inside* the row rather than beside the bookmark at the edge: the
+bookmark is housekeeping and the star is an opinion, and two identical pills
+side by side invite pressing the wrong one.
 
 Some lists set `"noTick": true` (all six music lists do). You don't *finish* a
 song the way you finish a book, so those drop the tick entirely and keep only

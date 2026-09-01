@@ -14,11 +14,13 @@ import { useCallback, useSyncExternalStore } from "react";
  * love something you never want to sit through again; and un-ticking a row
  * shouldn't quietly wipe the reason you saved it in the first place.
  *
- * The star is the only one that implies the tick, and even that is a nudge
- * rather than a rule — starring something marks it done as well, because
- * calling a film a favourite you haven't seen is not a thing anyone means, but
- * un-starring never un-ticks, because forgetting you watched it isn't implied
- * by changing your mind about it.
+ * Starring used to also mark a row done, on the reasoning that you can't call
+ * a film a favourite you haven't seen. It was removed: a done row is tinted
+ * with the shelf's colour, so starring lit up the whole row, and the star
+ * looked like it had a coloured background rather than the row having a state.
+ * A control that changes something you didn't ask it to change is worth having
+ * only when nobody notices, and this one was the first thing anybody noticed.
+ * Three marks, three independent toggles.
  *
  * Signed out, both live in this browser's localStorage. Signed in, they live in
  * the database and this file mirrors every toggle to it. The two are kept
@@ -222,17 +224,9 @@ export function useSaved() {
 /** The ones you'd defend. */
 export function useFavourites() {
   const store = useStore(favStore);
-  const done = useStore(doneStore);
-
-  /** Starring marks it done too, if it isn't already. See the note at the top:
-   *  this is one-way on purpose. */
-  const star = (list: string, key: string) => {
-    const turningOn = !store.marked(list, key);
-    store.toggle(list, key);
-    if (turningOn && !done.marked(list, key)) done.toggle(list, key);
-  };
-
-  return { ...store, star };
+  // `star` is kept as an alias of toggle so callers don't have to change if the
+  // implied-tick idea ever comes back in a form that doesn't tint the row.
+  return { ...store, star: store.toggle };
 }
 
 export function listId(shelfSlug: string, listSlug: string) {
