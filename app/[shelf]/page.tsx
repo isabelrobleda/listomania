@@ -3,6 +3,7 @@ import Link from "next/link";
 import { shelves, getShelf } from "@/lib/content";
 import { Underline } from "@/components/StrokeBar";
 import ListCard from "@/components/ListCard";
+import MineCard from "@/components/MineCard";
 import ShelfProgress from "@/components/ShelfProgress";
 import ShelfTheme from "@/components/ShelfTheme";
 
@@ -49,22 +50,27 @@ export default async function ShelfPage({ params }: { params: Promise<{ shelf: s
           My {shelf.name.toLowerCase()} list
         </Link>
         <Link className="chip" href={`/${shelf.slug}/my-favourites`}>
-          + Add your own
+          My {shelf.name.toLowerCase()} favourites
         </Link>
       </div>
 
-      {shelf.lists.length === 0 ? (
+      {shelf.lists.length === 0 && (
         <p className="note" style={{ marginTop: 22 }}>
           <b>Nothing on this shelf yet.</b> The list that was here has been
-          retired, and its replacement is being built.
+          retired, and its replacement is being built. Your own favourites still
+          work — that page has never needed a crowd.
         </p>
-      ) : (
-        <div className="grid" style={{ marginTop: 22 }}>
-          {shelf.lists.map((list) => (
-            <ListCard key={list.slug} shelf={shelf} list={list} />
-          ))}
-        </div>
       )}
+
+      {/* Your own list is last: the shelf should open with other people's
+          arguments, which is what anyone came here for, and close with the
+          invitation to disagree with them. */}
+      <div className="grid" style={{ marginTop: 22 }}>
+        {shelf.lists.map((list) => (
+          <ListCard key={list.slug} shelf={shelf} list={list} />
+        ))}
+        <MineCard shelf={shelf} />
+      </div>
     </>
   );
 }

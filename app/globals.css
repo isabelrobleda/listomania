@@ -752,3 +752,16 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   .tbl.own tr { position: relative; }
   .tbl.own td.pri, .tbl.own td.sec { padding-right: 40px; }
 }
+
+/* The one card on a shelf that isn't a list yet. Dashed rather than solid,
+   because a border you can see through is the oldest and clearest way to say
+   "this is a space for something, not a thing" — and it keeps the card from
+   competing with the tallies it sits after. The kicker carries the shelf colour
+   so it still reads as belonging to this shelf and not to the chrome. */
+.card.mine { border-style: dashed; border-color: var(--ink-3); box-shadow: none; }
+.card.mine:hover { border-style: solid; border-color: var(--ink); }
+.card.mine .kicker { color: var(--ink); }
+.card.mine .kicker::before {
+  content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 2px;
+  background: var(--mark); margin-right: 6px; vertical-align: 0;
+}
