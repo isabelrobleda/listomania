@@ -53,11 +53,13 @@ CREATE TABLE IF NOT EXISTS verification_token (
 --
 -- kind: 'done'  — I've read / seen / eaten at this
 --       'want'  — it's on my list
+--       'fav'   — one of my favourites
 -- They are separate rows on purpose: wanting to reread a book you've read is a
--- normal thing to want.
+-- normal thing to want, and a favourite is not the same claim as either. done
+-- is a fact, want is an intention, fav is a judgement.
 CREATE TABLE IF NOT EXISTS marks (
   user_id INTEGER NOT NULL REFERENCES users(id) ON DELETE CASCADE,
-  kind    TEXT NOT NULL CHECK (kind IN ('done', 'want')),
+  kind    TEXT NOT NULL CHECK (kind IN ('done', 'want', 'fav')),
   list_id TEXT NOT NULL,
   item_key TEXT NOT NULL,
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
@@ -112,3 +114,9 @@ CREATE TABLE IF NOT EXISTS entries (
 );
 
 CREATE INDEX IF NOT EXISTS entries_user_shelf_idx ON entries (user_id, shelf);
+
+-- 'fav' arrived after the table did, so an existing database needs its CHECK
+-- constraint widened. Dropping and re-adding is safe here: the new set is a
+-- superset of the old one, so no existing row can fail it.
+ALTER TABLE marks DROP CONSTRAINT IF EXISTS marks_kind_check;
+ALTER TABLE marks ADD CONSTRAINT marks_kind_check CHECK (kind IN ('done', 'want', 'fav'));

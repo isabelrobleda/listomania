@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import StrokeBar, { Underline } from "./StrokeBar";
-import { useProgress, useSaved, listId } from "@/lib/progress";
+import { useProgress, useSaved, useFavourites, listId } from "@/lib/progress";
 import { goodreads, youtube, type List, type Row, type Shelf } from "@/lib/content";
 
 /**
@@ -84,6 +84,22 @@ const Plus = ({ on }: { on: boolean }) => (
   </svg>
 );
 
+/**
+ * The star is filled when it's on and hollow when it isn't, rather than
+ * changing colour: on a row that already carries a tick and a bookmark, a third
+ * coloured control is noise, and fill-versus-outline is the one difference the
+ * eye reads without being told.
+ */
+const Star = ({ on }: { on: boolean }) => (
+  <svg viewBox="0 0 12 12" aria-hidden="true" fill={on ? "currentColor" : "none"}>
+    <path
+      d="M6 1.4 7.45 4.4l3.3.48-2.39 2.32.57 3.28L6 8.93l-2.93 1.55.56-3.28L1.25 4.88l3.3-.48Z"
+      strokeWidth="1.3"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
 const Check = () => (
   <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
     <path d="M2 6.2 4.6 8.8 10 3.4" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
@@ -121,6 +137,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
   const id = listId(shelf.slug, list.slug);
   const { marked, toggle, count } = useProgress();
   const { marked: saved, toggle: save, count: savedCount } = useSaved();
+  const { marked: starred, star } = useFavourites();
   const tickable = !list.noTick;
   const [q, setQ] = useState("");
   const [onlyMarked, setOnlyMarked] = useState(false);
@@ -230,7 +247,7 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
             <tbody>
               {rows.length === 0 && (
                 <tr>
-                  <td className="empty" colSpan={7}>
+                  <td className="empty" colSpan={8}>
                     {T.nothing(q)}
                   </td>
                 </tr>
@@ -257,6 +274,21 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
                     <td className="pri">{r.pri}</td>
                     <td className="trk">
                       <LastCell row={r} list={list} />
+                    </td>
+                    <td className="tk star">
+                      <button
+                        className="tick fav"
+                        aria-pressed={starred(id, r.key)}
+                        aria-label={
+                          starred(id, r.key)
+                            ? `Remove ${r.pri} from my ${shelf.name.toLowerCase()} favourites`
+                            : `Add ${r.pri} to my ${shelf.name.toLowerCase()} favourites`
+                        }
+                        title={starred(id, r.key) ? "A favourite" : "One of my favourites"}
+                        onClick={() => star(id, r.key)}
+                      >
+                        <Star on={starred(id, r.key)} />
+                      </button>
                     </td>
                     <td className="tk add">
                       <button

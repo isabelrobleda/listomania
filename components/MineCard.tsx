@@ -3,6 +3,8 @@
 import Link from "next/link";
 import StrokeBar from "./StrokeBar";
 import { useEntries, FIELDS, DEFAULT_FIELDS } from "@/lib/entries";
+import { useFavourites, listId } from "@/lib/progress";
+import { countSaved } from "@/lib/saved";
 import { type Shelf } from "@/lib/content";
 
 /**
@@ -20,7 +22,10 @@ import { type Shelf } from "@/lib/content";
  */
 export default function MineCard({ shelf }: { shelf: Shelf }) {
   const { count } = useEntries();
-  const n = count(shelf.slug);
+  const { keys } = useFavourites();
+  // Starred rows and typed entries are one number here: on a card, "how many
+  // favourites" is the only question, and where each came from is the page's job.
+  const n = count(shelf.slug) + countSaved(shelf, (slug) => keys(listId(shelf.slug, slug)));
   const f = FIELDS[shelf.slug] || DEFAULT_FIELDS;
 
   return (
@@ -29,7 +34,7 @@ export default function MineCard({ shelf }: { shelf: Shelf }) {
       <h3>My {shelf.name.toLowerCase()} favourites</h3>
       <span className="desc">
         {n === 0
-          ? `The blank one. Add anything these lists missed — a ${f.pri.toLowerCase()}, and why it mattered.`
+          ? `Star a row on any list here, or add a ${f.pri.toLowerCase()} these lists missed.`
           : `Your own answers, not a crowd’s — with the reason, which is the part a tally can never keep.`}
       </span>
       <StrokeBar color={shelf.mark} pct={0} />

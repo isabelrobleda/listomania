@@ -7,10 +7,18 @@ import { useCallback, useSyncExternalStore } from "react";
  *
  *   done  — "I've read / seen / eaten at this". A fact about the past.
  *   want  — "put this on my list". An intention about the future.
+ *   fav   — "this one is mine". A judgement, and the rarest of the three.
  *
- * They are deliberately not one tri-state toggle. You can want something you
- * have already read, and un-ticking a row shouldn't quietly wipe the reason you
- * saved it in the first place.
+ * They are deliberately not one tri-state toggle, or one control cycling
+ * through three states. You can want something you have already read; you can
+ * love something you never want to sit through again; and un-ticking a row
+ * shouldn't quietly wipe the reason you saved it in the first place.
+ *
+ * The star is the only one that implies the tick, and even that is a nudge
+ * rather than a rule — starring something marks it done as well, because
+ * calling a film a favourite you haven't seen is not a thing anyone means, but
+ * un-starring never un-ticks, because forgetting you watched it isn't implied
+ * by changing your mind about it.
  *
  * Signed out, both live in this browser's localStorage. Signed in, they live in
  * the database and this file mirrors every toggle to it. The two are kept
@@ -26,7 +34,7 @@ import { useCallback, useSyncExternalStore } from "react";
 type Marks = Record<string, Record<string, 1>>;
 const EMPTY: Marks = {};
 
-type Kind = "done" | "want";
+type Kind = "done" | "want" | "fav";
 
 function createStore(kind: Kind, storageKey: string) {
   let local: Marks = {};
@@ -122,6 +130,7 @@ function createStore(kind: Kind, storageKey: string) {
 
 const doneStore = createStore("done", "listomania");        // unchanged key: existing ticks survive
 const wantStore = createStore("want", "listomania:want");
+const favStore = createStore("fav", "listomania:fav");
 
 /**
  * Called once, by SyncProvider, when the session is known. Signed in, it pulls
@@ -132,6 +141,7 @@ export async function syncWithAccount(signedIn: boolean) {
   if (!signedIn) {
     doneStore.setRemote(null);
     wantStore.setRemote(null);
+    favStore.setRemote(null);
     return;
   }
   try {
@@ -140,6 +150,7 @@ export async function syncWithAccount(signedIn: boolean) {
     const data = await res.json();
     doneStore.setRemote(data.done || {});
     wantStore.setRemote(data.want || {});
+    favStore.setRemote(data.fav || {});
   } catch {
     /* offline: stay on the local copy rather than showing an empty account */
   }
@@ -148,7 +159,7 @@ export async function syncWithAccount(signedIn: boolean) {
 /** Everything this browser holds that an account could claim. */
 export function unclaimedMarks() {
   const items: { kind: Kind; list: string; key: string }[] = [];
-  for (const store of [doneStore, wantStore]) {
+  for (const store of [doneStore, wantStore, favStore]) {
     const marks = store.localMarks();
     for (const list of Object.keys(marks)) {
       for (const key of Object.keys(marks[list])) {
@@ -178,6 +189,7 @@ export function clearLocalMarks() {
   try {
     window.localStorage.removeItem("listomania");
     window.localStorage.removeItem("listomania:want");
+    window.localStorage.removeItem("listomania:fav");
   } catch {
     /* nothing to do: the marks are already in the account either way */
   }
@@ -205,6 +217,22 @@ export function useProgress() {
 /** What you've put on your own list. */
 export function useSaved() {
   return useStore(wantStore);
+}
+
+/** The ones you'd defend. */
+export function useFavourites() {
+  const store = useStore(favStore);
+  const done = useStore(doneStore);
+
+  /** Starring marks it done too, if it isn't already. See the note at the top:
+   *  this is one-way on purpose. */
+  const star = (list: string, key: string) => {
+    const turningOn = !store.marked(list, key);
+    store.toggle(list, key);
+    if (turningOn && !done.marked(list, key)) done.toggle(list, key);
+  };
+
+  return { ...store, star };
 }
 
 export function listId(shelfSlug: string, listSlug: string) {

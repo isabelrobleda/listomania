@@ -13,8 +13,8 @@ import { pool, hasDb } from "@/lib/db";
  * tab flushed an old copy; per-item toggles can't do that.
  */
 
-type Kind = "done" | "want";
-const KINDS: Kind[] = ["done", "want"];
+type Kind = "done" | "want" | "fav";
+const KINDS: Kind[] = ["done", "want", "fav"];
 const isKind = (v: unknown): v is Kind => KINDS.includes(v as Kind);
 
 /** Payload sizes are capped so a malformed client can't post a novel. */
@@ -31,14 +31,14 @@ async function userId() {
 /** Everything this person has marked, shaped the way the client store holds it. */
 export async function GET() {
   const uid = await userId();
-  if (!uid) return NextResponse.json({ signedIn: false, done: {}, want: {} });
+  if (!uid) return NextResponse.json({ signedIn: false, done: {}, want: {}, fav: {} });
 
   const { rows } = await pool.query<{ kind: Kind; list_id: string; item_key: string }>(
     "SELECT kind, list_id, item_key FROM marks WHERE user_id = $1",
     [uid]
   );
 
-  const out: Record<Kind, Record<string, Record<string, 1>>> = { done: {}, want: {} };
+  const out: Record<Kind, Record<string, Record<string, 1>>> = { done: {}, want: {}, fav: {} };
   for (const r of rows) {
     (out[r.kind][r.list_id] ||= {})[r.item_key] = 1;
   }

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { shelves } from "@/lib/content";
-import { useSaved, listId } from "@/lib/progress";
+import { useSaved, useFavourites, listId } from "@/lib/progress";
 import { useEntries } from "@/lib/entries";
 import { countSaved } from "@/lib/saved";
 
@@ -20,13 +20,14 @@ import { countSaved } from "@/lib/saved";
 export default function MyLists() {
   const { keys } = useSaved();
   const { count: mineCount } = useEntries();
+  const { keys: starKeys } = useFavourites();
 
   const rows = shelves
     .map((s) => ({
       shelf: s,
       // Things, not saves: the same book from three tallies is one line here.
       saved: countSaved(s, (slug) => keys(listId(s.slug, slug))),
-      own: mineCount(s.slug),
+      own: mineCount(s.slug) + countSaved(s, (slug) => starKeys(listId(s.slug, slug))),
     }))
     .filter((m) => m.saved > 0 || m.own > 0);
 
@@ -42,8 +43,8 @@ export default function MyLists() {
 
       {rows.length === 0 ? (
         <p className="clblurb">
-          Bookmark a row on any list and it lands here &mdash; or add your own favourites from any
-          shelf.
+          Bookmark a row to come back to it, star one you loved, or write in something the lists
+          missed. It all lands here, one page per shelf.
         </p>
       ) : (
         <ul>

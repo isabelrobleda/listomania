@@ -765,3 +765,32 @@ a.chip:hover { border-color: var(--ink); color: var(--ink); }
   content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 2px;
   background: var(--mark); margin-right: 6px; vertical-align: 0;
 }
+
+/* The star. It sits inside the row rather than at the edge with the bookmark,
+   because those two get pressed for different reasons — the bookmark is
+   housekeeping, the star is an opinion — and a pair of identical pills side by
+   side invites pressing the wrong one. Outline until it's on. */
+.tick.fav { border-color: transparent; }
+.tick.fav svg { opacity: 0.35; }
+.tick.fav path { stroke: var(--ink-2); }
+.tick.fav:hover svg { opacity: 1; }
+.tick.fav[aria-pressed="true"] svg { opacity: 1; color: var(--mark); }
+.tick.fav[aria-pressed="true"] path { stroke: var(--ink); }
+td.tk.star { width: 34px; }
+
+/* Two sections on the favourites page — starred rows, then what you typed —
+   need a heading each, but a full h1-weight rule would make the page look like
+   two pages. Small, mono, quiet: a label, not a title. */
+.ownh {
+  margin: 22px 0 0; font-family: var(--f-mono); font-size: 10.5px;
+  letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-3); font-weight: 400;
+}
+
+/* The generic pressed-state pill from .tick would give the star the same filled
+   pink lozenge the checkbox has, and then a row you'd read and starred would
+   carry two identical pink squares meaning different things. The star keeps no
+   pill at all: it just fills. */
+.tick.fav[aria-pressed="true"] { background: transparent; border-color: transparent; }
+.tick.fav[aria-pressed="true"] svg { color: var(--mark); }
+.tick.fav[aria-pressed="true"] path { stroke: var(--ink); stroke-width: 1.1; }
+tr.on .tick.fav[aria-pressed="true"] { background: transparent; border-color: transparent; }

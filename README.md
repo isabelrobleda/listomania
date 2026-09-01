@@ -42,12 +42,20 @@ in the browser (`localStorage`), managed by `lib/progress.ts`:
 | --- | --- | --- |
 | **done** | the tick at the left of a row | a fact about the past — "I've read this" |
 | **want** | the bookmark at the right | an intention about the future — "put it on my list" |
+| **fav** | the star, inside the row | a judgement — "this one is mine" |
 
-They are not one tri-state control. You can want to reread something you've
+They are not one tri-state control, or one control cycling through three. You can want to reread something you've
 already read, and un-ticking a row shouldn't quietly throw away the reason you
 saved it. Saved rows collect on `/{shelf}/my-list`, which stores nothing of its
 own — it resolves the saved keys back against the content, so a personal list
 can never drift out of sync with the list it came from.
+
+The star is the only one that implies another: starring marks a row done as
+well, because calling a film a favourite you haven't seen isn't a thing anyone
+means. Un-starring never un-ticks — forgetting you watched it isn't implied by
+changing your mind about it. The star sits *inside* the row rather than beside
+the bookmark at the edge: the bookmark is housekeeping and the star is an
+opinion, and two identical pills side by side invite pressing the wrong one.
 
 Some lists set `"noTick": true` (all six music lists do). You don't *finish* a
 song the way you finish a book, so those drop the tick entirely and keep only
@@ -105,9 +113,14 @@ tools/                       scripts that generated the content and the logo
 
 ## Your own entries
 
-Every list on this site is someone else's argument — a crowd tally, a canon, a
-stranger's saved list. `/{shelf}/my-favourites` is the shelf's blank page: the
-things you'd have said if you'd been in the thread.
+`/{shelf}/my-favourites` holds two things that arrive by different doors: rows
+you **starred** on someone else's list, and entries you **typed** because no
+list here had them. They're shown in two sections rather than merged. Merging
+would be tidier and would lose exactly the distinction this site exists to make
+— one of them is you agreeing with a crowd, the other is you on your own.
+
+The typed half is the shelf's blank page: the things you'd have said if you'd
+been in the thread.
 
 It is deliberately **not** a row you add to an existing tally. A count of one
 person is not the same kind of claim as a count of three hundred, and the whole
