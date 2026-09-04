@@ -187,8 +187,18 @@ def playlist_items(api, pid):
                 offset += len(items)
                 if not items or offset >= (res.get("total") or 0):
                     break
-            if out:
-                return out, path
+            # Success is "the request worked", not "the request found
+            # something". An empty playlist is a perfectly good answer and
+            # returning it here is what lets a brand-new playlist be filled.
+            #
+            # Treating an empty result as failure was a fail-safe added after a
+            # silent empty read caused a thousand duplicates — but it was the
+            # wrong fail-safe. The danger was never emptiness; it was emptiness
+            # from an endpoint that had actually errored. That case still
+            # raises, because a real error lands in `except` below. The caller
+            # keeps its own guard: it refuses to adopt a playlist that reads as
+            # empty unless the run is expected to be filling one from scratch.
+            return out, path
         except RuntimeError as e:
             last_error = e
             continue
@@ -281,9 +291,26 @@ def main():
         state.update(json.load(open(progress_path)))
         print(f"Resuming: {state['done']} rows already processed, {state['added']} added.")
     if adopt:
-        # Adopting an existing playlist means the row counter is not to be
-        # trusted — start from the top and let the dedupe below do the work.
-        state["playlist_id"], state["done"] = adopt, 0
+        state["playlist_id"] = adopt
+        if "--append" not in flags:
+            # Adopting an existing playlist means the row counter is not to be
+            # trusted — start from the top and let the dedupe below do the work.
+            state["done"] = 0
+        # --append is the exception, and the reason this branch is guarded.
+        # Restarting from the top is only safe because already_there() skips
+        # what's in the playlist; --append switches that check OFF. The two
+        # flags together used to mean "read nothing, and start again from row
+        # one", which re-added every track that had already gone in. If there
+        # is no row counter to trust in append mode, there is nothing safe to
+        # do, so refuse rather than guess.
+        elif not os.path.exists(progress_path):
+            sys.exit(
+                "--append with --playlist needs a progress file to know where it "
+                "stopped, and there isn't one at\n  " + progress_path +
+                "\nWithout it this run would start at row 1 and duplicate "
+                "everything already added. Drop --append to let the script read "
+                "the playlist and skip what's in it."
+            )
 
     api = Api()
     me = api.request("GET", "/me")
@@ -398,11 +425,15 @@ def main():
         # An empty read from a playlist that should have contents means the
         # read failed, not that the playlist is empty. Continuing here is how
         # every track gets added a second time, so refuse instead.
-        if adopt and not already:
+        if adopt and not already and "--empty-ok" not in flags:
             sys.exit(
-                f"Refusing to continue: playlist {pid} reported zero tracks. "
-                "If it really is empty, drop the --playlist flag; otherwise "
-                "this is a read failure and adding anything now would duplicate."
+                f"Refusing to continue: playlist {pid} reported zero tracks.\n"
+                "On a playlist that should have contents this is a read failure, "
+                "and adding now would duplicate everything in it.\n"
+                "If the playlist really is empty — you just created it, or the "
+                "run that was meant to fill it never got going — re-run with "
+                "--empty-ok to say so. Do NOT drop --playlist to get past this: "
+                "that creates a second playlist and leaves the first one empty."
             )
 
     notfound = open(notfound_path, "a", newline="", encoding="utf-8")
