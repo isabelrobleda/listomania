@@ -80,11 +80,26 @@ class Api:
     def __init__(self):
         if "PASTE_YOUR" in CLIENT_ID or "PASTE_YOUR" in CLIENT_SECRET:
             sys.exit("Set CLIENT_ID and CLIENT_SECRET near the top of this file first.")
+        # The token cache lives OUTSIDE the repo. spotipy defaults to a
+        # .cache file in the working directory, which for this script is the
+        # repo root — so a `git add -A` sweeps up a file containing a live
+        # refresh token and pushes it to a public remote. That happened, and
+        # GitGuardian caught it. ~/.config is not in any working tree, so the
+        # same mistake can't be made twice.
+        cache_dir = os.path.join(os.path.expanduser("~"), ".config", "listomania")
+        os.makedirs(cache_dir, exist_ok=True)
+        cache_path = os.path.join(cache_dir, "spotify-token.json")
+        try:
+            os.chmod(cache_dir, 0o700)
+        except OSError:
+            pass
+
         self.auth = SpotifyOAuth(
             client_id=CLIENT_ID,
             client_secret=CLIENT_SECRET,
             redirect_uri=REDIRECT_URI,
             scope=SCOPE,
+            cache_path=cache_path,
             open_browser=True,
         )
         self.auth.get_access_token(as_dict=False)

@@ -5,3 +5,11 @@ out
 .DS_Store
 *.tsbuildinfo
 next-env.d.ts
+
+# Spotify OAuth token caches. These hold a live refresh token — one of these
+# reached the public repo once and had to be revoked. The script now writes to
+# ~/.config/listomania instead, but keep the ignore for any stale local copy.
+.cache
+.cache-*
+*.progress.json
+*.notfound.csv
