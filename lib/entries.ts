@@ -208,6 +208,7 @@ export const FIELDS: Record<string, { pri: string; sec: string; hint: string }> 
   film:       { pri: "Film",          sec: "Director",     hint: "e.g. Chungking Express — Wong Kar-wai" },
   television: { pri: "Series",        sec: "Creator",      hint: "e.g. Fleabag — Phoebe Waller-Bridge" },
   places:     { pri: "Place",         sec: "What it is",   hint: "e.g. Tulus Lotrek — Fine dining" },
+  podcasts:   { pri: "Podcast",       sec: "Made by",      hint: "e.g. Heavyweight — Jonathan Goldstein" },
 };
 
 export const DEFAULT_FIELDS = { pri: "Name", sec: "Detail", hint: "" };

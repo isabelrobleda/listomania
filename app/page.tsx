@@ -56,7 +56,7 @@ export default function Home() {
           </h2>
           <p className="clblurb">Shelves with nothing on them yet.</p>
           <ul>
-            {["Talks & video", "Podcasts", "Games", "Recipes"].map((n) => (
+            {["Talks & video", "Games", "Recipes"].map((n) => (
               <li key={n}>
                 <span className="soonline">{n}</span>
               </li>

@@ -110,6 +110,7 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
   const isBooks = shelf.slug === "books";
   const isWatchable = shelf.slug === "film" || shelf.slug === "television";
   const isMusic = shelf.slug === "music";
+  const isPod = shelf.slug === "podcasts";
 
   return (
     <>
@@ -313,6 +314,20 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
                             rel="noopener noreferrer"
                           >
                             ▶ {isMusic ? "Listen" : "Trailer"}
+                          </a>
+                        )}
+                        {isPod && (
+                          <a
+                            className="tr"
+                            href={
+                              "https://open.spotify.com/search/" +
+                              encodeURIComponent(`${en.pri} ${en.sec}`.trim()) +
+                              "/podcasts"
+                            }
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            ▶ Listen
                           </a>
                         )}
                         {shelf.slug === "places" && (

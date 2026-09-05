@@ -6,7 +6,7 @@ import { shelves } from "@/lib/content";
 import { useProgress, useSaved, listId } from "@/lib/progress";
 import { countSaved } from "@/lib/saved";
 
-const SOON = ["Talks & video", "Podcasts", "Games"];
+const SOON = ["Talks & video", "Games", "Recipes"];
 
 export default function Rail() {
   const pathname = usePathname();
