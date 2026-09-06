@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import { Underline } from "./StrokeBar";
+import OwnEntries from "./OwnEntries";
+import { useEntries } from "@/lib/entries";
 import { useSaved, useProgress, listId } from "@/lib/progress";
 import { goodreads, sameThing, youtube, type Row, type List, type Shelf } from "@/lib/content";
 
@@ -32,6 +34,9 @@ type Item = {
 export default function SavedList({ shelf }: { shelf: Shelf }) {
   const { keys, toggle } = useSaved();
   const { marked } = useProgress();
+  // Things you wrote in here yourself, which no list on the shelf ever named.
+  const { forShelf } = useEntries();
+  const own = forShelf(shelf.slug, true);
 
   const byThing = new Map<string, Item>();
   for (const list of shelf.lists) {
@@ -57,13 +62,14 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
   }
 
   const items = [...byThing.values()].sort((a, b) => a.row.pri.localeCompare(b.row.pri));
-  const total = items.length;
+  const total = items.length + own.length;
   const dupes = items.filter((i) => i.froms.length > 1).length;
 
   function copy() {
-    const text = items
-      .map((i) => `- ${i.row.pri}${i.row.sec ? ` — ${i.row.sec}` : ""}`)
-      .join("\n");
+    const text = [
+      ...items.map((i) => `- ${i.row.pri}${i.row.sec ? ` — ${i.row.sec}` : ""}`),
+      ...own.map((e) => `- ${e.pri}${e.sec ? ` — ${e.sec}` : ""}`),
+    ].join("\n");
     navigator.clipboard?.writeText(text);
   }
 
@@ -90,7 +96,8 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
             </span>
           </h1>
           <p>
-            Everything you&rsquo;ve saved from the {shelf.name.toLowerCase()} shelf, one copy each.
+            Everything you&rsquo;ve saved from the {shelf.name.toLowerCase()} shelf, one copy each
+            &mdash; plus anything you add below that no list here named.
           </p>
         </div>
         <div className="prog">
@@ -101,10 +108,12 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
         </div>
       </div>
 
+      <OwnEntries shelf={shelf} want={true}>
       {total === 0 ? (
         <p className="note" style={{ marginTop: 22 }}>
           <b>Nothing saved yet.</b> Open any list on this shelf and press the{" "}
-          <span className="inlineplus">+</span> at the end of a row. This page is where they land.
+          <span className="inlineplus">+</span> at the end of a row, or type something in above.
+          This page is where they land.
         </p>
       ) : (
         <>
@@ -114,6 +123,7 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
             </button>
           </div>
 
+          {items.length > 0 && (
           <div className="tbl" style={{ marginTop: 6 }}>
             <div className="scroll">
               <table>
@@ -189,6 +199,7 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
               </table>
             </div>
           </div>
+          )}
 
           {dupes > 0 && (
             <p className="note">
@@ -200,12 +211,16 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
             </p>
           )}
 
-          <p className="note">
-            <b>Where this lives.</b> Signed in, on your account, following you between browsers.
-            Signed out, in this browser only &mdash; clearing your site data clears it, and
-            &ldquo;copy as text&rdquo; is the way to take it somewhere safer.
-          </p>
         </>
+      )}
+      </OwnEntries>
+
+      {total > 0 && (
+        <p className="note">
+          <b>Where this lives.</b> Signed in, on your account, following you between browsers.
+          Signed out, in this browser only &mdash; clearing your site data clears it, and
+          &ldquo;copy as text&rdquo; is the way to take it somewhere safer.
+        </p>
       )}
     </>
   );

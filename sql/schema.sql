@@ -109,6 +109,7 @@ CREATE TABLE IF NOT EXISTS entries (
   pri      TEXT NOT NULL,          -- the thing itself
   sec      TEXT NOT NULL DEFAULT '',  -- author / artist / director / what it is
   note     TEXT NOT NULL DEFAULT '',  -- why, in your own words
+  want     BOOLEAN NOT NULL DEFAULT false, -- false: a favourite. true: not yet.
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   PRIMARY KEY (user_id, id)
 );
@@ -120,3 +121,7 @@ CREATE INDEX IF NOT EXISTS entries_user_shelf_idx ON entries (user_id, shelf);
 -- superset of the old one, so no existing row can fail it.
 ALTER TABLE marks DROP CONSTRAINT IF EXISTS marks_kind_check;
 ALTER TABLE marks ADD CONSTRAINT marks_kind_check CHECK (kind IN ('done', 'want', 'fav'));
+
+-- 'want' arrived after the table did. The default is false, so every entry
+-- written before this line stays what it was: a favourite.
+ALTER TABLE entries ADD COLUMN IF NOT EXISTS want BOOLEAN NOT NULL DEFAULT false;

@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { Underline } from "./StrokeBar";
-import { useEntries, newId, FIELDS, DEFAULT_FIELDS, type Entry } from "@/lib/entries";
+import OwnEntries from "./OwnEntries";
+import { useEntries } from "@/lib/entries";
 import { goodreads, youtube, sameThing, type Row, type List, type Shelf } from "@/lib/content";
 import { useFavourites, listId } from "@/lib/progress";
 
@@ -30,10 +30,9 @@ import { useFavourites, listId } from "@/lib/progress";
 type Starred = { id: string; row: Row; list: List; froms: List[] };
 
 export default function OwnList({ shelf }: { shelf: Shelf }) {
-  const { forShelf, put, remove } = useEntries();
+  const { forShelf } = useEntries();
   const { keys: starKeys, toggle: unstar } = useFavourites();
   const entries = forShelf(shelf.slug);
-  const f = FIELDS[shelf.slug] || DEFAULT_FIELDS;
 
   // Starred rows, resolved back against the content and collapsed the same way
   // the saved page does it: one copy of a thing, however many lists named it.
@@ -59,44 +58,6 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
 
   const total = starred.length + entries.length;
 
-  const [pri, setPri] = useState("");
-  const [sec, setSec] = useState("");
-  const [note, setNote] = useState("");
-  const [editing, setEditing] = useState<string | null>(null);
-  const [confirm, setConfirm] = useState<string | null>(null);
-
-  const clear = () => {
-    setPri("");
-    setSec("");
-    setNote("");
-    setEditing(null);
-  };
-
-  function submit(e: React.FormEvent) {
-    e.preventDefault();
-    const name = pri.trim();
-    if (!name) return;   // a nameless entry is not an entry
-    put({
-      id: editing || newId(),
-      shelf: shelf.slug,
-      pri: name,
-      sec: sec.trim(),
-      note: note.trim(),
-    });
-    clear();
-  }
-
-  function edit(en: Entry) {
-    setEditing(en.id);
-    setPri(en.pri);
-    setSec(en.sec);
-    setNote(en.note);
-    setConfirm(null);
-    // The form is above the table, and on a phone the row you tapped is often
-    // below the fold — without this, "Edit" looks like it did nothing.
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  }
-
   function copy() {
     const lines = [
       ...starred.map((it) => `- ${it.row.pri}${it.row.sec ? ` — ${it.row.sec}` : ""}`),
@@ -106,11 +67,6 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
     ];
     navigator.clipboard?.writeText(lines.join("\n"));
   }
-
-  const isBooks = shelf.slug === "books";
-  const isWatchable = shelf.slug === "film" || shelf.slug === "television";
-  const isMusic = shelf.slug === "music";
-  const isPod = shelf.slug === "podcasts";
 
   return (
     <>
@@ -143,49 +99,7 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
         </div>
       </div>
 
-      <form className="ownform" onSubmit={submit}>
-        <div className="fields">
-          <label>
-            <span>{f.pri}</span>
-            <input
-              value={pri}
-              onChange={(e) => setPri(e.target.value)}
-              maxLength={200}
-              placeholder={f.hint}
-              required
-            />
-          </label>
-          <label>
-            <span>
-              {f.sec} <i>optional</i>
-            </span>
-            <input value={sec} onChange={(e) => setSec(e.target.value)} maxLength={200} />
-          </label>
-        </div>
-        <label className="wide">
-          <span>
-            Why <i>optional</i>
-          </span>
-          <textarea
-            value={note}
-            onChange={(e) => setNote(e.target.value)}
-            maxLength={600}
-            rows={2}
-            placeholder="What it did to you. Nobody else is going to write this down."
-          />
-        </label>
-        <div className="ownbtns">
-          <button className="chip go" type="submit">
-            {editing ? "Save changes" : "Add to my favourites"}
-          </button>
-          {editing && (
-            <button className="chip" type="button" onClick={clear}>
-              Cancel
-            </button>
-          )}
-        </div>
-      </form>
-
+      <OwnEntries shelf={shelf} want={false}>
       {total === 0 ? (
         <p className="note" style={{ marginTop: 22 }}>
           <b>Nothing here yet.</b> Press the ☆ at the end of any row on this shelf, or type
@@ -277,107 +191,6 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
             </>
           )}
 
-          {entries.length > 0 && starred.length > 0 && (
-            <h2 className="ownh">Added by you</h2>
-          )}
-
-          {entries.length > 0 && (
-          <div className="tbl own" style={{ marginTop: 6 }}>
-            <div className="scroll">
-              <table>
-                <tbody>
-                  {entries.map((en) => (
-                    <tr key={en.id} className={editing === en.id ? "on" : undefined}>
-                      <td className="sec">{en.sec}</td>
-                      <td className="pri">
-                        {en.pri}
-                        {en.note && <span className="why">{en.note}</span>}
-                      </td>
-                      <td className="trk">
-                        {isBooks && (
-                          <a
-                            className="tr"
-                            href={goodreads(`${en.pri} ${en.sec}`.trim())}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            ★ Goodreads
-                          </a>
-                        )}
-                        {(isWatchable || isMusic) && (
-                          <a
-                            className="tr"
-                            href={youtube(
-                              `${en.pri} ${en.sec} ${isMusic ? "" : "trailer"}`.trim()
-                            )}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            ▶ {isMusic ? "Listen" : "Trailer"}
-                          </a>
-                        )}
-                        {isPod && (
-                          <a
-                            className="tr"
-                            href={
-                              "https://open.spotify.com/search/" +
-                              encodeURIComponent(`${en.pri} ${en.sec}`.trim()) +
-                              "/podcasts"
-                            }
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            ▶ Listen
-                          </a>
-                        )}
-                        {shelf.slug === "places" && (
-                          <a
-                            href={
-                              "https://www.google.com/maps/search/?api=1&query=" +
-                              encodeURIComponent(en.pri)
-                            }
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            Map ↗
-                          </a>
-                        )}
-                        <button className="tr as" onClick={() => edit(en)}>
-                          Edit
-                        </button>
-                      </td>
-                      <td className="tk add">
-                        {confirm === en.id ? (
-                          <button
-                            className="chip danger"
-                            onClick={() => {
-                              remove(shelf.slug, en.id);
-                              setConfirm(null);
-                            }}
-                          >
-                            Delete?
-                          </button>
-                        ) : (
-                          <button
-                            className="tick plus"
-                            aria-label={`Remove ${en.pri}`}
-                            title="Remove"
-                            onClick={() => setConfirm(en.id)}
-                          >
-                            <svg viewBox="0 0 12 12" fill="none" aria-hidden="true">
-                              <path d="M3 3l6 6M9 3l-6 6" strokeWidth="1.6" strokeLinecap="round" />
-                            </svg>
-                          </button>
-                        )}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-          )}
-
           {/* Deleting here destroys the only copy of something you wrote, which is
               not true anywhere else on the site — hence the two-step, and hence
               saying plainly where the text lives. */}
@@ -389,6 +202,7 @@ export default function OwnList({ shelf }: { shelf: Shelf }) {
           </p>
         </>
       )}
+      </OwnEntries>
     </>
   );
 }

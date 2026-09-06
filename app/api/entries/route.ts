@@ -21,7 +21,7 @@ import { pool, hasDb } from "@/lib/db";
 const MAX_BULK = 500;
 const LIMITS = { pri: 200, sec: 200, note: 600, shelf: 60, id: 64 };
 
-type Entry = { id: string; shelf: string; pri: string; sec: string; note: string };
+type Entry = { id: string; shelf: string; pri: string; sec: string; note: string; want: boolean };
 
 /** Trim, cap, and refuse anything that isn't a usable string. */
 function clean(v: unknown, max: number): string {
@@ -37,6 +37,9 @@ function parse(v: unknown): Entry | null {
     pri: clean(o.pri, LIMITS.pri),
     sec: clean(o.sec, LIMITS.sec),
     note: clean(o.note, LIMITS.note),
+    // Anything but an explicit true is a favourite — including the entries
+    // written before this column existed, which is exactly right.
+    want: o.want === true,
   };
   // An entry with no name is not an entry. Everything else may be empty.
   return e.id && e.shelf && e.pri ? e : null;
@@ -54,14 +57,16 @@ export async function GET() {
   if (!uid) return NextResponse.json({ signedIn: false, entries: {} });
 
   const { rows } = await pool.query<Entry & { created_at: string }>(
-    `SELECT id, shelf, pri, sec, note, created_at FROM entries
+    `SELECT id, shelf, pri, sec, note, want, created_at FROM entries
      WHERE user_id = $1 ORDER BY created_at`,
     [uid]
   );
 
   const out: Record<string, Entry[]> = {};
   for (const r of rows) {
-    (out[r.shelf] ||= []).push({ id: r.id, shelf: r.shelf, pri: r.pri, sec: r.sec, note: r.note });
+    (out[r.shelf] ||= []).push({
+      id: r.id, shelf: r.shelf, pri: r.pri, sec: r.sec, note: r.note, want: r.want,
+    });
   }
   return NextResponse.json({ signedIn: true, entries: out });
 }
@@ -75,9 +80,9 @@ export async function PUT(req: Request) {
   if (!e) return NextResponse.json({ error: "bad request" }, { status: 400 });
 
   await pool.query(
-    `INSERT INTO entries (user_id, id, shelf, pri, sec, note) VALUES ($1,$2,$3,$4,$5,$6)
-     ON CONFLICT (user_id, id) DO UPDATE SET pri = $4, sec = $5, note = $6`,
-    [uid, e.id, e.shelf, e.pri, e.sec, e.note]
+    `INSERT INTO entries (user_id, id, shelf, pri, sec, note, want) VALUES ($1,$2,$3,$4,$5,$6,$7)
+     ON CONFLICT (user_id, id) DO UPDATE SET pri = $4, sec = $5, note = $6, want = $7`,
+    [uid, e.id, e.shelf, e.pri, e.sec, e.note, e.want]
   );
   return NextResponse.json({ ok: true });
 }
@@ -115,13 +120,14 @@ export async function POST(req: Request) {
   if (rows.length === 0) return NextResponse.json({ ok: true, added: 0 });
 
   const values = rows
-    .map((_: Entry, i: number) => `($1,$${i * 5 + 2},$${i * 5 + 3},$${i * 5 + 4},$${i * 5 + 5},$${i * 5 + 6})`)
+    .map((_: Entry, i: number) =>
+      `($1,$${i * 6 + 2},$${i * 6 + 3},$${i * 6 + 4},$${i * 6 + 5},$${i * 6 + 6},$${i * 6 + 7})`)
     .join(",");
   const params: unknown[] = [uid];
-  for (const r of rows) params.push(r.id, r.shelf, r.pri, r.sec, r.note);
+  for (const r of rows) params.push(r.id, r.shelf, r.pri, r.sec, r.note, r.want);
 
   const res = await pool.query(
-    `INSERT INTO entries (user_id, id, shelf, pri, sec, note) VALUES ${values}
+    `INSERT INTO entries (user_id, id, shelf, pri, sec, note, want) VALUES ${values}
      ON CONFLICT DO NOTHING`,
     params
   );

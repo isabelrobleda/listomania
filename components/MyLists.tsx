@@ -26,7 +26,7 @@ export default function MyLists() {
     .map((s) => ({
       shelf: s,
       // Things, not saves: the same book from three tallies is one line here.
-      saved: countSaved(s, (slug) => keys(listId(s.slug, slug))),
+      saved: countSaved(s, (slug) => keys(listId(s.slug, slug))) + mineCount(s.slug, true),
       own: mineCount(s.slug) + countSaved(s, (slug) => starKeys(listId(s.slug, slug))),
     }))
     .filter((m) => m.saved > 0 || m.own > 0);

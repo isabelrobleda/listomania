@@ -28,6 +28,20 @@ export type Entry = {
   pri: string;   // the thing itself
   sec: string;   // author / artist / director / what it is
   note: string;  // why, in your own words
+  /**
+   * Which of your two lists this belongs to. false (or absent) is a favourite:
+   * something you've already had and want to keep. true is a want: something
+   * you haven't got to yet.
+   *
+   * It is one flag on one record rather than two stores, because these are the
+   * same act of writing something down and the only difference is tense — and
+   * because an entry moves from one to the other the day you finally read it,
+   * which should be a toggle, not a re-typing.
+   *
+   * Optional so that every entry written before this existed still loads, as a
+   * favourite, which is what it was.
+   */
+  want?: boolean;
 };
 
 /** shelf slug -> entries, in the order they were added */
@@ -189,8 +203,16 @@ export function useEntries() {
     return state();
   }, () => EMPTY);
 
-  const forShelf = useCallback((shelf: string) => bag[shelf] || [], [bag]);
-  const count = useCallback((shelf: string) => (bag[shelf] || []).length, [bag]);
+  // `want` defaults to false everywhere: the favourites list came first and is
+  // still what an unqualified "my entries" means.
+  const forShelf = useCallback(
+    (shelf: string, want = false) => (bag[shelf] || []).filter((e) => !!e.want === want),
+    [bag]
+  );
+  const count = useCallback(
+    (shelf: string, want = false) => forShelf(shelf, want).length,
+    [forShelf]
+  );
 
   return { forShelf, count, put, remove };
 }
