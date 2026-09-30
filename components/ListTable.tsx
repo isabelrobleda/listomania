@@ -225,9 +225,9 @@ export default function ListTable({ shelf, list }: { shelf: Shelf; list: List })
         )}
       </div>
 
-      <div className="tbl">
+      <div className="tbl rows">
         <div className="scroll">
-          <table>
+          <table className={tickable ? undefined : "notick"}>
             <thead>
               <tr>
                 {tickable && (

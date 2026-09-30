@@ -124,7 +124,7 @@ export default function SavedList({ shelf }: { shelf: Shelf }) {
           </div>
 
           {items.length > 0 && (
-          <div className="tbl" style={{ marginTop: 6 }}>
+          <div className="tbl saved" style={{ marginTop: 6 }}>
             <div className="scroll">
               <table>
                 <tbody>

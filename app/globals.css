@@ -794,3 +794,104 @@ td.tk.star { width: 34px; }
 .tick.fav[aria-pressed="true"] svg { color: var(--mark); }
 .tick.fav[aria-pressed="true"] path { stroke: var(--ink); stroke-width: 1.1; }
 tr.on .tick.fav[aria-pressed="true"] { background: transparent; border-color: transparent; }
+
+/* ---- Lists on a phone --------------------------------------------------- */
+/* A list page is eight columns — tick, number, count, author, title, links,
+   star, bookmark — and on a phone they didn't fit, so the table scrolled
+   sideways inside its card. That put the bookmark, the one control you came to
+   press, off the right edge of the screen on every row, and squeezed the title
+   into a quarter of the width while the index number kept a column of its own.
+   So below 640px each row stops being a table row and becomes a small grid:
+
+     [✓]  Title                         [★] [+]
+          31×  Author
+          Goodreads · source
+
+   The title gets the whole width, the tick and both savers stay on the first
+   line within reach of a thumb, and nothing scrolls sideways. The index number
+   goes: the list is already in order, and the count beside the author says
+   what the order means. Same move as the own-entries table, for the same
+   reason — a cell that needs space shouldn't be one column of eight. */
+@media (max-width: 640px) {
+  .tbl.rows thead {
+    position: absolute; width: 1px; height: 1px; overflow: hidden;
+    clip: rect(0 0 0 0); white-space: nowrap;
+  }
+  .tbl.rows table, .tbl.rows tbody { display: block; }
+  .tbl.rows tr {
+    display: grid;
+    grid-template-columns: 30px auto minmax(0, 1fr) 30px 30px;
+    grid-template-areas:
+      "tick pri  pri  star add"
+      "tick lead sec  sec  sec"
+      ".    trk  trk  trk  trk";
+    column-gap: 8px; row-gap: 2px;
+    padding: 11px 10px 12px;
+  }
+  /* Music lists have nothing to tick, so they don't keep an empty gutter for it. */
+  .tbl.rows table.notick tr {
+    grid-template-columns: auto minmax(0, 1fr) 30px 30px;
+    grid-template-areas:
+      "pri  pri  star add"
+      "lead sec  sec  sec"
+      "trk  trk  trk  trk";
+    padding-left: 13px;
+  }
+  .tbl.rows td { padding: 0; width: auto; min-width: 0; }
+  .tbl.rows td.ix { display: none; }
+  .tbl.rows td.tk:not(.star):not(.add) { grid-area: tick; align-self: start; margin-top: 1px; }
+  .tbl.rows td.pri { grid-area: pri; font-size: 15px; line-height: 1.35; }
+  .tbl.rows td.yr { grid-area: lead; font-size: 11.5px; line-height: 1.6; }
+  .tbl.rows td.sec { grid-area: sec; font-size: 13px; line-height: 1.5; }
+  .tbl.rows td.trk { grid-area: trk; margin-top: 4px; line-height: 1.9; }
+  .tbl.rows td.star { grid-area: star; align-self: start; }
+  .tbl.rows td.add { grid-area: add; align-self: start; text-align: right; }
+  .tbl.rows td.empty { grid-column: 1 / -1; }
+
+  /* The saved list sits on the same page as the own-entries table, so it takes
+     that table's shape — who, then what, then where to find it — rather than a
+     third one. */
+  .tbl.saved table, .tbl.saved tbody { display: block; }
+  .tbl.saved tr {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 30px;
+    grid-template-areas: "sec add" "pri add" "trk trk";
+    column-gap: 10px; padding: 12px 13px;
+  }
+  .tbl.saved td { padding: 0; min-width: 0; }
+  .tbl.saved td.sec { grid-area: sec; font-size: 12px; color: var(--ink-3); margin-bottom: 1px; }
+  .tbl.saved td.sec:empty { display: none; }
+  .tbl.saved td.pri { grid-area: pri; font-size: 15px; }
+  .tbl.saved td.trk { grid-area: trk; margin-top: 8px; }
+  .tbl.saved td.trk:empty { display: none; }
+  .tbl.saved td.add { grid-area: add; align-self: start; width: auto; }
+
+  /* One line of its own: at 390px a search box sharing a row with two chips is
+     a box too narrow to show what you typed. */
+  .tools .search { flex-basis: 100%; max-width: none; }
+}
+
+/* ---- Touch ------------------------------------------------------------- */
+/* Keyed on the pointer rather than the width, because that's what these are
+   about: a fingertip, not a small screen. */
+@media (pointer: coarse) {
+  /* The row controls stay 21px to look at, but a 21px target is a miss half the
+     time. An invisible margin round each one takes the hit area to ~39px —
+     just short of touching its neighbour, so a star is never pressed as a
+     bookmark. */
+  .tick { position: relative; }
+  .tick::after { content: ""; position: absolute; inset: -9px; }
+
+  /* iOS zooms the whole page into any field set below 16px and doesn't zoom
+     back out, which leaves the list you were searching half off-screen. */
+  .search, .ownform input, .ownform textarea, .authform input { font-size: 16px; }
+
+  button, a { -webkit-tap-highlight-color: transparent; }
+}
+
+/* On touch a hover state doesn't end when the finger lifts: the last row you
+   tapped stays lit, and a card stays tilted, until you tap somewhere else. */
+@media (hover: none) {
+  tbody tr:not(.on):hover { background: transparent; }
+  .card:hover { transform: none; }
+}
