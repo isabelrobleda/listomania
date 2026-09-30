@@ -25,6 +25,9 @@ Run:
 Progress is saved to <csv>.progress.json, so re-running the same command
 resumes instead of duplicating. Misses go to <csv>.notfound.csv.
 
+--album-only matches each row on its Album column and nothing looser, so a
+live album's track is never swapped for the studio version.
+
 If that progress file is lost — a new laptop, a cleared Downloads folder —
 point the script at the playlist it was filling and it recovers on its own:
 
@@ -134,12 +137,18 @@ class Api:
         raise RuntimeError(f"{method} {path} failed after repeated retries")
 
 
-def find_track(api, artist, track, album):
-    """Try progressively looser queries; return (uri, name, artist) or None."""
+def find_track(api, artist, track, album, album_only=False):
+    """Try progressively looser queries; return (uri, name, artist) or None.
+
+    album_only keeps to the album query. For a playlist where the recording
+    is the point — the MTV Unplugged list — the looser queries are wrong, not
+    loose: they find the studio version. A miss in the notfound CSV is better.
+    """
     queries = []
     if album:
         queries.append(f'track:"{track}" artist:"{artist}" album:"{album}"')
-    queries += [f'track:"{track}" artist:"{artist}"', f"{artist} {track}"]
+    if not (album_only and album):
+        queries += [f'track:"{track}" artist:"{artist}"', f"{artist} {track}"]
     for q in queries:
         try:
             res = api.request("GET", "/search", params={"q": q, "type": "track", "limit": 5})
@@ -289,7 +298,7 @@ def main():
             args = [a for a in args if a != sys.argv[i + 1]]
     if not args:
         sys.exit("Usage: python3 spotify_import.py <tracks.csv> [playlist name] "
-                 "[--playlist <id>] [--check] [--append]")
+                 "[--playlist <id>] [--check] [--append] [--album-only]")
     csv_path = args[0]
     name = args[1] if len(args) > 1 else "Imported Playlist"
     adopt = flags.get("--playlist")
@@ -489,7 +498,7 @@ def main():
             if already["titles"] and already_there(already, artist, track, album):
                 state["done"] = i + 1
                 continue
-            hit = find_track(api, artist, track, album)
+            hit = find_track(api, artist, track, album, "--album-only" in flags)
             if hit:
                 buffer.append(hit[0])
                 already["titles"].setdefault(fold(track), set()).add(fold(artist))
