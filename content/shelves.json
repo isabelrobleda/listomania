@@ -62344,6 +62344,1998 @@
       }
      }
     ]
+   },
+   {
+    "slug": "most-beautiful-city",
+    "title": "Most Beautiful City in the World",
+    "kind": "Tally",
+    "verb": "been to",
+    "desc": "123 cities from an r/BeautifulTravelPlaces thread that asked for one specific city, not a country. Rio and Venice tie at the top: a mountain-and-jungle city against one with no roads at all.",
+    "cols": [
+     "Said by",
+     "Country",
+     "City"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/",
+      "label": "Reddit · r/BeautifulTravelPlaces",
+      "q": "Which city do you think is the most beautiful in the world? Not the country. The specific city.",
+      "meta": "2026 · 91 points · 417 comments"
+     }
+    ],
+    "note": "Counted by distinct redditor who <em>names</em> a city, top-level or in a reply. Agreement without a name (&ldquo;this is my answer too&rdquo;) adds nothing, which costs Prague most: its top comment collected a string of nameless yeses. A city named only to knock it &mdash; &ldquo;Barcelona is meh architecturally&rdquo;, &ldquo;too much graffiti in Vienna&rdquo; &mdash; isn't a vote. The post asked for a specific city, so answers that aren't one (Tasmania, Bali, Madeira, Mallorca, the French Riviera, County Kerry, Lake Como) are left out; villages that people named as their answer stay. The joke answers stay too &mdash; Gary, Indiana got three votes and Paris, Texas two &mdash; because a tally records what was said, and filtering sincerity by eye is not a rule. Counted from the comments the thread's JSON returns in one page, which is fewer than the 417 Reddit reports.",
+    "srcLabel": "Named in",
+    "rows": [
+     {
+      "key": "city|Rio de Janeiro",
+      "lead": "17×",
+      "sec": "Brazil",
+      "pri": "Rio de Janeiro",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%20Brazil",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Venice",
+      "lead": "17×",
+      "sec": "Italy",
+      "pri": "Venice",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Venice%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Paris",
+      "lead": "15×",
+      "sec": "France",
+      "pri": "Paris",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Vancouver",
+      "lead": "14×",
+      "sec": "Canada",
+      "pri": "Vancouver",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Vancouver%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Cape Town",
+      "lead": "13×",
+      "sec": "South Africa",
+      "pri": "Cape Town",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cape%20Town%20South%20Africa",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Edinburgh",
+      "lead": "12×",
+      "sec": "Scotland",
+      "pri": "Edinburgh",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Edinburgh%20Scotland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Prague",
+      "lead": "12×",
+      "sec": "Czechia",
+      "pri": "Prague",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Prague%20Czechia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|San Francisco",
+      "lead": "12×",
+      "sec": "USA",
+      "pri": "San Francisco",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Rome",
+      "lead": "11×",
+      "sec": "Italy",
+      "pri": "Rome",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Rome%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Sydney",
+      "lead": "10×",
+      "sec": "Australia",
+      "pri": "Sydney",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Australia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Vienna",
+      "lead": "10×",
+      "sec": "Austria",
+      "pri": "Vienna",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Vienna%20Austria",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Seville",
+      "lead": "8×",
+      "sec": "Spain",
+      "pri": "Seville",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Seville%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Barcelona",
+      "lead": "7×",
+      "sec": "Spain",
+      "pri": "Barcelona",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Barcelona%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Hong Kong",
+      "lead": "7×",
+      "sec": "China",
+      "pri": "Hong Kong",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Hong%20Kong%20China",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Istanbul",
+      "lead": "7×",
+      "sec": "Türkiye",
+      "pri": "Istanbul",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20T%C3%BCrkiye",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Budapest",
+      "lead": "6×",
+      "sec": "Hungary",
+      "pri": "Budapest",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Budapest%20Hungary",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Salzburg",
+      "lead": "6×",
+      "sec": "Austria",
+      "pri": "Salzburg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Austria",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Florence",
+      "lead": "5×",
+      "sec": "Italy",
+      "pri": "Florence",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Florence%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Annecy",
+      "lead": "4×",
+      "sec": "France",
+      "pri": "Annecy",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Annecy%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Chicago",
+      "lead": "4×",
+      "sec": "USA",
+      "pri": "Chicago",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Chicago%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Kyoto",
+      "lead": "4×",
+      "sec": "Japan",
+      "pri": "Kyoto",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Japan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Lucerne",
+      "lead": "4×",
+      "sec": "Switzerland",
+      "pri": "Lucerne",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lucerne%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Seattle",
+      "lead": "4×",
+      "sec": "USA",
+      "pri": "Seattle",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Seattle%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Strasbourg",
+      "lead": "4×",
+      "sec": "France",
+      "pri": "Strasbourg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Strasbourg%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Zürich",
+      "lead": "4×",
+      "sec": "Switzerland",
+      "pri": "Zürich",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Z%C3%BCrich%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Bruges",
+      "lead": "3×",
+      "sec": "Belgium",
+      "pri": "Bruges",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bruges%20Belgium",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Copenhagen",
+      "lead": "3×",
+      "sec": "Denmark",
+      "pri": "Copenhagen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Copenhagen%20Denmark",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Gary",
+      "lead": "3×",
+      "sec": "USA",
+      "pri": "Gary",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gary%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Ghent",
+      "lead": "3×",
+      "sec": "Belgium",
+      "pri": "Ghent",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ghent%20Belgium",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Kraków",
+      "lead": "3×",
+      "sec": "Poland",
+      "pri": "Kraków",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Krak%C3%B3w%20Poland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Porto",
+      "lead": "3×",
+      "sec": "Portugal",
+      "pri": "Porto",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Porto%20Portugal",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Stockholm",
+      "lead": "3×",
+      "sec": "Sweden",
+      "pri": "Stockholm",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Stockholm%20Sweden",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Amsterdam",
+      "lead": "2×",
+      "sec": "Netherlands",
+      "pri": "Amsterdam",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Amsterdam%20Netherlands",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Athens",
+      "lead": "2×",
+      "sec": "Greece",
+      "pri": "Athens",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Athens%20Greece",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Detroit",
+      "lead": "2×",
+      "sec": "USA",
+      "pri": "Detroit",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Detroit%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Dubrovnik",
+      "lead": "2×",
+      "sec": "Croatia",
+      "pri": "Dubrovnik",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dubrovnik%20Croatia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Granada",
+      "lead": "2×",
+      "sec": "Spain",
+      "pri": "Granada",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Granada%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Los Angeles",
+      "lead": "2×",
+      "sec": "USA",
+      "pri": "Los Angeles",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Los%20Angeles%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Matera",
+      "lead": "2×",
+      "sec": "Italy",
+      "pri": "Matera",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Matera%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|New York",
+      "lead": "2×",
+      "sec": "USA",
+      "pri": "New York",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=New%20York%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Paris, Texas",
+      "lead": "2×",
+      "sec": "USA",
+      "pri": "Paris, Texas",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%2C%20Texas",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Positano",
+      "lead": "2×",
+      "sec": "Italy",
+      "pri": "Positano",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Positano%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Queenstown",
+      "lead": "2×",
+      "sec": "New Zealand",
+      "pri": "Queenstown",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Queenstown%20New%20Zealand",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|San Miguel de Allende",
+      "lead": "2×",
+      "sec": "Mexico",
+      "pri": "San Miguel de Allende",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Miguel%20de%20Allende%20Mexico",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|San Sebastián",
+      "lead": "2×",
+      "sec": "Spain",
+      "pri": "San Sebastián",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Sebasti%C3%A1n%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Sedona",
+      "lead": "2×",
+      "sec": "USA",
+      "pri": "Sedona",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sedona%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Singapore",
+      "lead": "2×",
+      "sec": "Singapore",
+      "pri": "Singapore",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Singapore%20Singapore",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Utrecht",
+      "lead": "2×",
+      "sec": "Netherlands",
+      "pri": "Utrecht",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Utrecht%20Netherlands",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Victoria",
+      "lead": "2×",
+      "sec": "Canada",
+      "pri": "Victoria",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Victoria%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Auckland",
+      "lead": "1×",
+      "sec": "New Zealand",
+      "pri": "Auckland",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Auckland%20New%20Zealand",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Avignon",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Avignon",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Avignon%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Banff",
+      "lead": "1×",
+      "sec": "Canada",
+      "pri": "Banff",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Banff%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Beirut",
+      "lead": "1×",
+      "sec": "Lebanon",
+      "pri": "Beirut",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Beirut%20Lebanon",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Bergen",
+      "lead": "1×",
+      "sec": "Norway",
+      "pri": "Bergen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bergen%20Norway",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Bern",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Bern",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bern%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Bogotá",
+      "lead": "1×",
+      "sec": "Colombia",
+      "pri": "Bogotá",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bogot%C3%A1%20Colombia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Bologna",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Bologna",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bologna%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Brig-Glis",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Brig-Glis",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Brig-Glis%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Cartagena",
+      "lead": "1×",
+      "sec": "Colombia",
+      "pri": "Cartagena",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cartagena%20Colombia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Cody",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Cody",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cody%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Colmar",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Colmar",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Colmar%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Como",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Como",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Como%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Cuenca",
+      "lead": "1×",
+      "sec": "Ecuador",
+      "pri": "Cuenca",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cuenca%20Ecuador",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Cusco",
+      "lead": "1×",
+      "sec": "Peru",
+      "pri": "Cusco",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cusco%20Peru",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Delft",
+      "lead": "1×",
+      "sec": "Netherlands",
+      "pri": "Delft",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Delft%20Netherlands",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Delhi",
+      "lead": "1×",
+      "sec": "India",
+      "pri": "Delhi",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Delhi%20India",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Des Moines",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Des Moines",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Des%20Moines%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Dilijan",
+      "lead": "1×",
+      "sec": "Armenia",
+      "pri": "Dilijan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dilijan%20Armenia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Dingle",
+      "lead": "1×",
+      "sec": "Ireland",
+      "pri": "Dingle",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dingle%20Ireland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Dresden",
+      "lead": "1×",
+      "sec": "Germany",
+      "pri": "Dresden",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dresden%20Germany",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Fira",
+      "lead": "1×",
+      "sec": "Greece",
+      "pri": "Fira",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Fira%20Greece",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Fukuoka",
+      "lead": "1×",
+      "sec": "Japan",
+      "pri": "Fukuoka",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Fukuoka%20Japan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Gdańsk",
+      "lead": "1×",
+      "sec": "Poland",
+      "pri": "Gdańsk",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gda%C5%84sk%20Poland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Interlaken",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Interlaken",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Interlaken%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Kastraki",
+      "lead": "1×",
+      "sec": "Greece",
+      "pri": "Kastraki",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kastraki%20Greece",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Kilkenny",
+      "lead": "1×",
+      "sec": "Ireland",
+      "pri": "Kilkenny",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kilkenny%20Ireland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Kotor",
+      "lead": "1×",
+      "sec": "Montenegro",
+      "pri": "Kotor",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kotor%20Montenegro",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|La Rochelle",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "La Rochelle",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=La%20Rochelle%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Laguna Beach",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Laguna Beach",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Laguna%20Beach%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Lauterbrunnen",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Lauterbrunnen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lauterbrunnen%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Lisbon",
+      "lead": "1×",
+      "sec": "Portugal",
+      "pri": "Lisbon",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lisbon%20Portugal",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Ljubljana",
+      "lead": "1×",
+      "sec": "Slovenia",
+      "pri": "Ljubljana",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ljubljana%20Slovenia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Lubbock",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Lubbock",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lubbock%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Ludwigshafen",
+      "lead": "1×",
+      "sec": "Germany",
+      "pri": "Ludwigshafen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ludwigshafen%20Germany",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Luton",
+      "lead": "1×",
+      "sec": "England",
+      "pri": "Luton",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Luton%20England",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Milan",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Milan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Milan%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Milwaukee",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Milwaukee",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Milwaukee%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Mirissa",
+      "lead": "1×",
+      "sec": "Sri Lanka",
+      "pri": "Mirissa",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Mirissa%20Sri%20Lanka",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Mojácar",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Mojácar",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Moj%C3%A1car%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Montreal",
+      "lead": "1×",
+      "sec": "Canada",
+      "pri": "Montreal",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Montreal%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Nassau",
+      "lead": "1×",
+      "sec": "Bahamas",
+      "pri": "Nassau",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Nassau%20Bahamas",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Palermo",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Palermo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Palermo%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Paris, Illinois",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Paris, Illinois",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%2C%20Illinois",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Paris, Kentucky",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Paris, Kentucky",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%2C%20Kentucky",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Paris, Ontario",
+      "lead": "1×",
+      "sec": "Canada",
+      "pri": "Paris, Ontario",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%2C%20Ontario",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Phaltan",
+      "lead": "1×",
+      "sec": "India",
+      "pri": "Phaltan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Phaltan%20India",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Quito",
+      "lead": "1×",
+      "sec": "Ecuador",
+      "pri": "Quito",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Quito%20Ecuador",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Red Deer",
+      "lead": "1×",
+      "sec": "Canada",
+      "pri": "Red Deer",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Red%20Deer%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Riga",
+      "lead": "1×",
+      "sec": "Latvia",
+      "pri": "Riga",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Riga%20Latvia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Rovinj",
+      "lead": "1×",
+      "sec": "Croatia",
+      "pri": "Rovinj",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Rovinj%20Croatia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Saint-Hilaire-Cusson-la-Valmitte",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Saint-Hilaire-Cusson-la-Valmitte",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint-Hilaire-Cusson-la-Valmitte%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Saint-Julien-Molin-Molette",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Saint-Julien-Molin-Molette",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint-Julien-Molin-Molette%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Saint-Just-la-Pendue",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Saint-Just-la-Pendue",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint-Just-la-Pendue%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Saint-Malo",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Saint-Malo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Saint-Malo%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Samarkand",
+      "lead": "1×",
+      "sec": "Uzbekistan",
+      "pri": "Samarkand",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Samarkand%20Uzbekistan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|San Diego",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "San Diego",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Diego%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Santa Barbara",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Santa Barbara",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Santa%20Barbara%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Sausalito",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Sausalito",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sausalito%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Sheboygan",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "Sheboygan",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sheboygan%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Siena",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Siena",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Siena%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Sorrento",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Sorrento",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sorrento%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Split",
+      "lead": "1×",
+      "sec": "Croatia",
+      "pri": "Split",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Split%20Croatia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|St. George",
+      "lead": "1×",
+      "sec": "USA",
+      "pri": "St. George",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=St.%20George%20USA",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Tbilisi",
+      "lead": "1×",
+      "sec": "Georgia",
+      "pri": "Tbilisi",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Georgia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Tokyo",
+      "lead": "1×",
+      "sec": "Japan",
+      "pri": "Tokyo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Japan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Toledo",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Toledo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Toledo%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Turin",
+      "lead": "1×",
+      "sec": "Italy",
+      "pri": "Turin",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Turin%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Udaipur",
+      "lead": "1×",
+      "sec": "India",
+      "pri": "Udaipur",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Udaipur%20India",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Warsaw",
+      "lead": "1×",
+      "sec": "Poland",
+      "pri": "Warsaw",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Warsaw%20Poland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Xi'an",
+      "lead": "1×",
+      "sec": "China",
+      "pri": "Xi'an",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Xi%27an%20China",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|York",
+      "lead": "1×",
+      "sec": "England",
+      "pri": "York",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=York%20England",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Ålesund",
+      "lead": "1×",
+      "sec": "Norway",
+      "pri": "Ålesund",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%85lesund%20Norway",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     },
+     {
+      "key": "city|Óbidos",
+      "lead": "1×",
+      "sec": "Portugal",
+      "pri": "Óbidos",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%93bidos%20Portugal",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/BeautifulTravelPlaces",
+       "url": "https://www.reddit.com/r/BeautifulTravelPlaces/comments/1wtds7h/which_city_do_you_think_is_the_most_beautiful_in/"
+      }
+     }
+    ]
    }
   ]
  },
