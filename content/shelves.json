@@ -25761,7 +25761,7 @@
     "title": "Agreed Across Crowds",
     "kind": "Derived",
     "verb": "read",
-    "desc": "Books that turned up in more than one of the 6 book tallies. Different crowds, different questions, same book — the closest thing here to a consensus.",
+    "desc": "Books that turned up in more than one of the 7 book tallies. Different crowds, different questions, same book — the closest thing here to a consensus.",
     "cols": [
      "On",
      "Author",
@@ -25772,17 +25772,66 @@
     "rows": [
      {
       "key": "agreed|Crime and Punishment",
-      "lead": "4 lists",
+      "lead": "5 lists",
       "sec": "Fyodor Dostoevsky",
       "pri": "Crime and Punishment",
-      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book"
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|Dune",
-      "lead": "4 lists",
+      "lead": "5 lists",
       "sec": "Frank Herbert",
       "pri": "Dune",
-      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book"
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Pachinko",
+      "lead": "5 lists",
+      "sec": "Min Jin Lee",
+      "pri": "Pachinko",
+      "extra": "The Book That Slapped You · Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Slaughterhouse-Five",
+      "lead": "5 lists",
+      "sec": "Kurt Vonnegut",
+      "pri": "Slaughterhouse-Five",
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Hitchhiker's Guide to the Galaxy",
+      "lead": "5 lists",
+      "sec": "Douglas Adams",
+      "pri": "The Hitchhiker's Guide to the Galaxy",
+      "extra": "The Book That Slapped You · Never Stop Recommending · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|11/22/63",
+      "lead": "4 lists",
+      "sec": "Stephen King",
+      "pri": "11/22/63",
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|A Confederacy of Dunces",
+      "lead": "4 lists",
+      "sec": "John Kennedy Toole",
+      "pri": "A Confederacy of Dunces",
+      "extra": "Never Stop Recommending · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Demon Copperhead",
+      "lead": "4 lists",
+      "sec": "Barbara Kingsolver",
+      "pri": "Demon Copperhead",
+      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|East of Eden",
+      "lead": "4 lists",
+      "sec": "John Steinbeck",
+      "pri": "East of Eden",
+      "extra": "The Book That Slapped You · Unputdownable · Never Stop Recommending · Truly a Masterpiece"
      },
      {
       "key": "agreed|Flowers for Algernon",
@@ -25792,25 +25841,60 @@
       "extra": "The Book That Slapped You · Unputdownable · Never Stop Recommending · Books That Changed People"
      },
      {
-      "key": "agreed|Pachinko",
+      "key": "agreed|House of Leaves",
       "lead": "4 lists",
-      "sec": "Min Jin Lee",
-      "pri": "Pachinko",
-      "extra": "The Book That Slapped You · Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Mark Z. Danielewski",
+      "pri": "House of Leaves",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Slaughterhouse-Five",
+      "key": "agreed|Infinite Jest",
       "lead": "4 lists",
-      "sec": "Kurt Vonnegut",
-      "pri": "Slaughterhouse-Five",
-      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · The Most Addictive Book"
+      "sec": "David Foster Wallace",
+      "pri": "Infinite Jest",
+      "extra": "Unputdownable · Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Hitchhiker's Guide to the Galaxy",
+      "key": "agreed|Lonesome Dove",
       "lead": "4 lists",
-      "sec": "Douglas Adams",
-      "pri": "The Hitchhiker's Guide to the Galaxy",
-      "extra": "The Book That Slapped You · Never Stop Recommending · Books That Changed People · The Most Addictive Book"
+      "sec": "Larry McMurtry",
+      "pri": "Lonesome Dove",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Shogun",
+      "lead": "4 lists",
+      "sec": "James Clavell",
+      "pri": "Shogun",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Count of Monte Cristo",
+      "lead": "4 lists",
+      "sec": "Alexandre Dumas",
+      "pri": "The Count of Monte Cristo",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Goldfinch",
+      "lead": "4 lists",
+      "sec": "Donna Tartt",
+      "pri": "The Goldfinch",
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable · Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Lord of the Rings",
+      "lead": "4 lists",
+      "sec": "J.R.R. Tolkien",
+      "pri": "The Lord of the Rings",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Pillars of the Earth",
+      "lead": "4 lists",
+      "sec": "Ken Follett",
+      "pri": "The Pillars of the Earth",
+      "extra": "The Book That Slapped You · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Poisonwood Bible",
@@ -25820,32 +25904,53 @@
       "extra": "The Book That Slapped You · Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|11/22/63",
-      "lead": "3 lists",
-      "sec": "Stephen King",
-      "pri": "11/22/63",
-      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
+      "key": "agreed|The Secret History",
+      "lead": "4 lists",
+      "sec": "Donna Tartt",
+      "pri": "The Secret History",
+      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|A Confederacy of Dunces",
-      "lead": "3 lists",
-      "sec": "John Kennedy Toole",
-      "pri": "A Confederacy of Dunces",
-      "extra": "Never Stop Recommending · Books That Changed People · The Most Addictive Book"
+      "key": "agreed|To Kill a Mockingbird",
+      "lead": "4 lists",
+      "sec": "Harper Lee",
+      "pri": "To Kill a Mockingbird",
+      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Demon Copperhead",
+      "key": "agreed|A Storm of Swords",
       "lead": "3 lists",
-      "sec": "Barbara Kingsolver",
-      "pri": "Demon Copperhead",
-      "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
+      "sec": "George R.R. Martin",
+      "pri": "A Storm of Swords",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|East of Eden",
+      "key": "agreed|Blood Meridian",
       "lead": "3 lists",
-      "sec": "John Steinbeck",
-      "pri": "East of Eden",
-      "extra": "The Book That Slapped You · Unputdownable · Never Stop Recommending"
+      "sec": "Cormac McCarthy",
+      "pri": "Blood Meridian",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Catch-22",
+      "lead": "3 lists",
+      "sec": "Joseph Heller",
+      "pri": "Catch-22",
+      "extra": "Unputdownable · Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Don Quixote",
+      "lead": "3 lists",
+      "sec": "Miguel de Cervantes",
+      "pri": "Don Quixote",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Dungeon Crawler Carl",
+      "lead": "3 lists",
+      "sec": "Matt Dinniman",
+      "pri": "Dungeon Crawler Carl",
+      "extra": "Never Stop Recommending · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|Educated",
@@ -25862,25 +25967,18 @@
       "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|House of Leaves",
+      "key": "agreed|Fahrenheit 451",
       "lead": "3 lists",
-      "sec": "Mark Z. Danielewski",
-      "pri": "House of Leaves",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Ray Bradbury",
+      "pri": "Fahrenheit 451",
+      "extra": "The Book That Slapped You · Unputdownable · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Infinite Jest",
+      "key": "agreed|Gödel, Escher, Bach",
       "lead": "3 lists",
-      "sec": "David Foster Wallace",
-      "pri": "Infinite Jest",
-      "extra": "Unputdownable · Books That Changed People · The Most Addictive Book"
-     },
-     {
-      "key": "agreed|Lonesome Dove",
-      "lead": "3 lists",
-      "sec": "Larry McMurtry",
-      "pri": "Lonesome Dove",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Douglas Hofstadter",
+      "pri": "Gödel, Escher, Bach",
+      "extra": "Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|Middlemarch",
@@ -25888,6 +25986,34 @@
       "sec": "George Eliot",
       "pri": "Middlemarch",
       "extra": "Unputdownable · Books That Changed People · The Most Addictive Book"
+     },
+     {
+      "key": "agreed|No Country for Old Men",
+      "lead": "3 lists",
+      "sec": "Cormac McCarthy",
+      "pri": "No Country for Old Men",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|One Flew Over the Cuckoo's Nest",
+      "lead": "3 lists",
+      "sec": "Ken Kesey",
+      "pri": "One Flew Over the Cuckoo's Nest",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|One Hundred Years of Solitude",
+      "lead": "3 lists",
+      "sec": "Gabriel García Márquez",
+      "pri": "One Hundred Years of Solitude",
+      "extra": "Unputdownable · Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Piranesi",
+      "lead": "3 lists",
+      "sec": "Susanna Clarke",
+      "pri": "Piranesi",
+      "extra": "Must-Read Fiction of the Last 15 Years · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|Project Hail Mary",
@@ -25904,32 +26030,46 @@
       "extra": "The Book That Slapped You · Books That Changed People · The Most Addictive Book"
      },
      {
-      "key": "agreed|Shogun",
+      "key": "agreed|Siddhartha",
       "lead": "3 lists",
-      "sec": "James Clavell",
-      "pri": "Shogun",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Hermann Hesse",
+      "pri": "Siddhartha",
+      "extra": "The Book That Slapped You · Books That Changed People · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Count of Monte Cristo",
+      "key": "agreed|Stoner",
       "lead": "3 lists",
-      "sec": "Alexandre Dumas",
-      "pri": "The Count of Monte Cristo",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "John Williams",
+      "pri": "Stoner",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Goldfinch",
+      "key": "agreed|The Alchemist",
       "lead": "3 lists",
-      "sec": "Donna Tartt",
-      "pri": "The Goldfinch",
-      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable · Never Stop Recommending"
+      "sec": "Paulo Coelho",
+      "pri": "The Alchemist",
+      "extra": "Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Lord of the Rings",
+      "key": "agreed|The Book Thief",
       "lead": "3 lists",
-      "sec": "J.R.R. Tolkien",
-      "pri": "The Lord of the Rings",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Markus Zusak",
+      "pri": "The Book Thief",
+      "extra": "The Book That Slapped You · Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Brothers Karamazov",
+      "lead": "3 lists",
+      "sec": "Fyodor Dostoevsky",
+      "pri": "The Brothers Karamazov",
+      "extra": "Unputdownable · Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Haunting of Hill House",
+      "lead": "3 lists",
+      "sec": "Shirley Jackson",
+      "pri": "The Haunting of Hill House",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Martian",
@@ -25939,18 +26079,39 @@
       "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable · The Most Addictive Book"
      },
      {
-      "key": "agreed|The Pillars of the Earth",
+      "key": "agreed|The Master and Margarita",
       "lead": "3 lists",
-      "sec": "Ken Follett",
-      "pri": "The Pillars of the Earth",
-      "extra": "The Book That Slapped You · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Mikhail Bulgakov",
+      "pri": "The Master and Margarita",
+      "extra": "Unputdownable · Books That Changed People · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Secret History",
+      "key": "agreed|The Remains of the Day",
       "lead": "3 lists",
-      "sec": "Donna Tartt",
-      "pri": "The Secret History",
-      "extra": "Unputdownable · Never Stop Recommending · The Most Addictive Book"
+      "sec": "Kazuo Ishiguro",
+      "pri": "The Remains of the Day",
+      "extra": "Unputdownable · Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Road",
+      "lead": "3 lists",
+      "sec": "Cormac McCarthy",
+      "pri": "The Road",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Song of Achilles",
+      "lead": "3 lists",
+      "sec": "Madeline Miller",
+      "pri": "The Song of Achilles",
+      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Stranger",
+      "lead": "3 lists",
+      "sec": "Albert Camus",
+      "pri": "The Stranger",
+      "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Three-Body Problem",
@@ -25967,11 +26128,32 @@
       "extra": "The Book That Slapped You · Unputdownable · The Most Addictive Book"
      },
      {
-      "key": "agreed|To Kill a Mockingbird",
+      "key": "agreed|War and Peace",
       "lead": "3 lists",
-      "sec": "Harper Lee",
-      "pri": "To Kill a Mockingbird",
-      "extra": "The Book That Slapped You · Unputdownable · Books That Changed People"
+      "sec": "Leo Tolstoy",
+      "pri": "War and Peace",
+      "extra": "Unputdownable · Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Zen and the Art of Motorcycle Maintenance",
+      "lead": "3 lists",
+      "sec": "Robert M. Pirsig",
+      "pri": "Zen and the Art of Motorcycle Maintenance",
+      "extra": "Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|1984",
+      "lead": "2 lists",
+      "sec": "George Orwell",
+      "pri": "1984",
+      "extra": "Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|2666",
+      "lead": "2 lists",
+      "sec": "Roberto Bolaño",
+      "pri": "2666",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|A Fine Balance",
@@ -25979,6 +26161,13 @@
       "sec": "Rohinton Mistry",
       "pri": "A Fine Balance",
       "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable"
+     },
+     {
+      "key": "agreed|A Gentleman in Moscow",
+      "lead": "2 lists",
+      "sec": "Amor Towles",
+      "pri": "A Gentleman in Moscow",
+      "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
      },
      {
       "key": "agreed|A Man Called Ove",
@@ -25995,11 +26184,11 @@
       "extra": "Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|A Storm of Swords",
+      "key": "agreed|A Tale of Two Cities",
       "lead": "2 lists",
-      "sec": "George R.R. Martin",
-      "pri": "A Storm of Swords",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "Charles Dickens",
+      "pri": "A Tale of Two Cities",
+      "extra": "Never Stop Recommending · Truly a Masterpiece"
      },
      {
       "key": "agreed|A Thousand Splendid Suns",
@@ -26009,11 +26198,53 @@
       "extra": "Never Stop Recommending · The Most Addictive Book"
      },
      {
+      "key": "agreed|Absalom, Absalom!",
+      "lead": "2 lists",
+      "sec": "William Faulkner",
+      "pri": "Absalom, Absalom!",
+      "extra": "Books That Changed People · Truly a Masterpiece"
+     },
+     {
       "key": "agreed|American Psycho",
       "lead": "2 lists",
       "sec": "Bret Easton Ellis",
       "pri": "American Psycho",
       "extra": "Unputdownable · The Most Addictive Book"
+     },
+     {
+      "key": "agreed|Anathem",
+      "lead": "2 lists",
+      "sec": "Neal Stephenson",
+      "pri": "Anathem",
+      "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Angela's Ashes",
+      "lead": "2 lists",
+      "sec": "Frank McCourt",
+      "pri": "Angela's Ashes",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Animal Farm",
+      "lead": "2 lists",
+      "sec": "George Orwell",
+      "pri": "Animal Farm",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Anna Karenina",
+      "lead": "2 lists",
+      "sec": "Leo Tolstoy",
+      "pri": "Anna Karenina",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Annihilation",
+      "lead": "2 lists",
+      "sec": "Jeff VanderMeer",
+      "pri": "Annihilation",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|Atlas Shrugged",
@@ -26023,18 +26254,53 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
-      "key": "agreed|Blood Meridian",
+      "key": "agreed|Breakfast of Champions",
       "lead": "2 lists",
-      "sec": "Cormac McCarthy",
-      "pri": "Blood Meridian",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "Kurt Vonnegut",
+      "pri": "Breakfast of Champions",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Catch-22",
+      "key": "agreed|Buddenbrooks",
       "lead": "2 lists",
-      "sec": "Joseph Heller",
-      "pri": "Catch-22",
-      "extra": "Unputdownable · Never Stop Recommending"
+      "sec": "Thomas Mann",
+      "pri": "Buddenbrooks",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Cannery Row",
+      "lead": "2 lists",
+      "sec": "John Steinbeck",
+      "pri": "Cannery Row",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Circe",
+      "lead": "2 lists",
+      "sec": "Madeline Miller",
+      "pri": "Circe",
+      "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Cloud Cuckoo Land",
+      "lead": "2 lists",
+      "sec": "Anthony Doerr",
+      "pri": "Cloud Cuckoo Land",
+      "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Dandelion Wine",
+      "lead": "2 lists",
+      "sec": "Ray Bradbury",
+      "pri": "Dandelion Wine",
+      "extra": "Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|David Copperfield",
+      "lead": "2 lists",
+      "sec": "Charles Dickens",
+      "pri": "David Copperfield",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|Do Androids Dream of Electric Sheep?",
@@ -26044,18 +26310,11 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
-      "key": "agreed|Don Quixote",
+      "key": "agreed|Dracula",
       "lead": "2 lists",
-      "sec": "Miguel de Cervantes",
-      "pri": "Don Quixote",
-      "extra": "Unputdownable · The Most Addictive Book"
-     },
-     {
-      "key": "agreed|Dungeon Crawler Carl",
-      "lead": "2 lists",
-      "sec": "Matt Dinniman",
-      "pri": "Dungeon Crawler Carl",
-      "extra": "Never Stop Recommending · The Most Addictive Book"
+      "sec": "Bram Stoker",
+      "pri": "Dracula",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|Ender's Game",
@@ -26065,11 +26324,25 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
-      "key": "agreed|Fahrenheit 451",
+      "key": "agreed|Endurance",
       "lead": "2 lists",
-      "sec": "Ray Bradbury",
-      "pri": "Fahrenheit 451",
-      "extra": "The Book That Slapped You · Unputdownable"
+      "sec": "Alfred Lansing",
+      "pri": "Endurance",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|For Whom the Bell Tolls",
+      "lead": "2 lists",
+      "sec": "Ernest Hemingway",
+      "pri": "For Whom the Bell Tolls",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Frankenstein",
+      "lead": "2 lists",
+      "sec": "Mary Shelley",
+      "pri": "Frankenstein",
+      "extra": "The Book That Slapped You · Truly a Masterpiece"
      },
      {
       "key": "agreed|Gates of Fire",
@@ -26079,6 +26352,13 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
+      "key": "agreed|Geek Love",
+      "lead": "2 lists",
+      "sec": "Katherine Dunn",
+      "pri": "Geek Love",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
       "key": "agreed|Gone with the Wind",
       "lead": "2 lists",
       "sec": "Margaret Mitchell",
@@ -26086,11 +26366,11 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
-      "key": "agreed|Gödel, Escher, Bach",
+      "key": "agreed|Harry Potter",
       "lead": "2 lists",
-      "sec": "Douglas Hofstadter",
-      "pri": "Gödel, Escher, Bach",
-      "extra": "Books That Changed People · The Most Addictive Book"
+      "sec": "J.K. Rowling",
+      "pri": "Harry Potter",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|In Cold Blood",
@@ -26105,6 +26385,20 @@
       "sec": "Jon Krakauer",
       "pri": "Into the Wild",
       "extra": "Books That Changed People · The Most Addictive Book"
+     },
+     {
+      "key": "agreed|It",
+      "lead": "2 lists",
+      "sec": "Stephen King",
+      "pri": "It",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|John Dies at the End",
+      "lead": "2 lists",
+      "sec": "David Wong",
+      "pri": "John Dies at the End",
+      "extra": "Never Stop Recommending · Truly a Masterpiece"
      },
      {
       "key": "agreed|Jurassic Park",
@@ -26128,6 +26422,41 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
+      "key": "agreed|Les Misérables",
+      "lead": "2 lists",
+      "sec": "Victor Hugo",
+      "pri": "Les Misérables",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Lolita",
+      "lead": "2 lists",
+      "sec": "Vladimir Nabokov",
+      "pri": "Lolita",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Madame Bovary",
+      "lead": "2 lists",
+      "sec": "Gustave Flaubert",
+      "pri": "Madame Bovary",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Man's Search for Meaning",
+      "lead": "2 lists",
+      "sec": "Viktor E. Frankl",
+      "pri": "Man's Search for Meaning",
+      "extra": "Never Stop Recommending · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Moby-Dick",
+      "lead": "2 lists",
+      "sec": "Herman Melville",
+      "pri": "Moby-Dick",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
       "key": "agreed|Never Let Me Go",
       "lead": "2 lists",
       "sec": "Kazuo Ishiguro",
@@ -26142,25 +26471,25 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
-      "key": "agreed|No Country for Old Men",
+      "key": "agreed|Of Mice and Men",
       "lead": "2 lists",
-      "sec": "Cormac McCarthy",
-      "pri": "No Country for Old Men",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "John Steinbeck",
+      "pri": "Of Mice and Men",
+      "extra": "The Book That Slapped You · Truly a Masterpiece"
      },
      {
-      "key": "agreed|One Flew Over the Cuckoo's Nest",
+      "key": "agreed|One Day in the Life of Ivan Denisovich",
       "lead": "2 lists",
-      "sec": "Ken Kesey",
-      "pri": "One Flew Over the Cuckoo's Nest",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "Aleksandr Solzhenitsyn",
+      "pri": "One Day in the Life of Ivan Denisovich",
+      "extra": "Books That Changed People · Truly a Masterpiece"
      },
      {
-      "key": "agreed|One Hundred Years of Solitude",
+      "key": "agreed|Perfume",
       "lead": "2 lists",
-      "sec": "Gabriel García Márquez",
-      "pri": "One Hundred Years of Solitude",
-      "extra": "Unputdownable · Never Stop Recommending"
+      "sec": "Patrick Süskind",
+      "pri": "Perfume",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|Pet Sematary",
@@ -26170,11 +26499,18 @@
       "extra": "Unputdownable · The Most Addictive Book"
      },
      {
-      "key": "agreed|Piranesi",
+      "key": "agreed|Pride and Prejudice",
       "lead": "2 lists",
-      "sec": "Susanna Clarke",
-      "pri": "Piranesi",
-      "extra": "Must-Read Fiction of the Last 15 Years · The Most Addictive Book"
+      "sec": "Jane Austen",
+      "pri": "Pride and Prejudice",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Rebecca",
+      "lead": "2 lists",
+      "sec": "Daphne du Maurier",
+      "pri": "Rebecca",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|Shantaram",
@@ -26191,11 +26527,11 @@
       "extra": "The Book That Slapped You · Never Stop Recommending"
      },
      {
-      "key": "agreed|Siddhartha",
+      "key": "agreed|Small Gods",
       "lead": "2 lists",
-      "sec": "Hermann Hesse",
-      "pri": "Siddhartha",
-      "extra": "The Book That Slapped You · Books That Changed People"
+      "sec": "Terry Pratchett",
+      "pri": "Small Gods",
+      "extra": "Books That Changed People · Truly a Masterpiece"
      },
      {
       "key": "agreed|Speaker for the Dead",
@@ -26219,13 +26555,6 @@
       "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending"
      },
      {
-      "key": "agreed|Stoner",
-      "lead": "2 lists",
-      "sec": "John Williams",
-      "pri": "Stoner",
-      "extra": "Unputdownable · The Most Addictive Book"
-     },
-     {
       "key": "agreed|Tess of the d'Urbervilles",
       "lead": "2 lists",
       "sec": "Thomas Hardy",
@@ -26233,11 +26562,18 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
-      "key": "agreed|The Alchemist",
+      "key": "agreed|The Bell Jar",
       "lead": "2 lists",
-      "sec": "Paulo Coelho",
-      "pri": "The Alchemist",
-      "extra": "Books That Changed People · The Most Addictive Book"
+      "sec": "Sylvia Plath",
+      "pri": "The Bell Jar",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Bible",
+      "lead": "2 lists",
+      "sec": "Various",
+      "pri": "The Bible",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Blind Assassin",
@@ -26247,18 +26583,32 @@
       "extra": "Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|The Book Thief",
+      "key": "agreed|The Call of the Wild",
       "lead": "2 lists",
-      "sec": "Markus Zusak",
-      "pri": "The Book Thief",
-      "extra": "The Book That Slapped You · Never Stop Recommending"
+      "sec": "Jack London",
+      "pri": "The Call of the Wild",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Brothers Karamazov",
+      "key": "agreed|The Catcher in the Rye",
       "lead": "2 lists",
-      "sec": "Fyodor Dostoevsky",
-      "pri": "The Brothers Karamazov",
-      "extra": "Unputdownable · Books That Changed People"
+      "sec": "J.D. Salinger",
+      "pri": "The Catcher in the Rye",
+      "extra": "Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Divine Comedy",
+      "lead": "2 lists",
+      "sec": "Dante Alighieri",
+      "pri": "The Divine Comedy",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Girl with the Dragon Tattoo",
+      "lead": "2 lists",
+      "sec": "Stieg Larsson",
+      "pri": "The Girl with the Dragon Tattoo",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Giver",
@@ -26289,11 +26639,32 @@
       "extra": "The Book That Slapped You · The Most Addictive Book"
      },
      {
-      "key": "agreed|The Haunting of Hill House",
+      "key": "agreed|The Grapes of Wrath",
       "lead": "2 lists",
-      "sec": "Shirley Jackson",
-      "pri": "The Haunting of Hill House",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "John Steinbeck",
+      "pri": "The Grapes of Wrath",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Gunslinger",
+      "lead": "2 lists",
+      "sec": "Stephen King",
+      "pri": "The Gunslinger",
+      "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Heroes",
+      "lead": "2 lists",
+      "sec": "Joe Abercrombie",
+      "pri": "The Heroes",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Hunger Games",
+      "lead": "2 lists",
+      "sec": "Suzanne Collins",
+      "pri": "The Hunger Games",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Kite Runner",
@@ -26317,11 +26688,18 @@
       "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
-      "key": "agreed|The Master and Margarita",
+      "key": "agreed|The Overstory",
       "lead": "2 lists",
-      "sec": "Mikhail Bulgakov",
-      "pri": "The Master and Margarita",
-      "extra": "Unputdownable · Books That Changed People"
+      "sec": "Richard Powers",
+      "pri": "The Overstory",
+      "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Picture of Dorian Gray",
+      "lead": "2 lists",
+      "sec": "Oscar Wilde",
+      "pri": "The Picture of Dorian Gray",
+      "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Power Broker",
@@ -26329,20 +26707,6 @@
       "sec": "Robert Caro",
       "pri": "The Power Broker",
       "extra": "Books That Changed People · The Most Addictive Book"
-     },
-     {
-      "key": "agreed|The Remains of the Day",
-      "lead": "2 lists",
-      "sec": "Kazuo Ishiguro",
-      "pri": "The Remains of the Day",
-      "extra": "Unputdownable · Never Stop Recommending"
-     },
-     {
-      "key": "agreed|The Road",
-      "lead": "2 lists",
-      "sec": "Cormac McCarthy",
-      "pri": "The Road",
-      "extra": "Unputdownable · The Most Addictive Book"
      },
      {
       "key": "agreed|The Screwtape Letters",
@@ -26359,18 +26723,11 @@
       "extra": "Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|The Song of Achilles",
+      "key": "agreed|The Sirens of Titan",
       "lead": "2 lists",
-      "sec": "Madeline Miller",
-      "pri": "The Song of Achilles",
-      "extra": "Must-Read Fiction of the Last 15 Years · Unputdownable"
-     },
-     {
-      "key": "agreed|The Stranger",
-      "lead": "2 lists",
-      "sec": "Albert Camus",
-      "pri": "The Stranger",
-      "extra": "Unputdownable · The Most Addictive Book"
+      "sec": "Kurt Vonnegut",
+      "pri": "The Sirens of Titan",
+      "extra": "Books That Changed People · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Terror",
@@ -26378,6 +26735,13 @@
       "sec": "Dan Simmons",
       "pri": "The Terror",
       "extra": "Must-Read Fiction of the Last 15 Years · The Most Addictive Book"
+     },
+     {
+      "key": "agreed|The Time Traveler's Wife",
+      "lead": "2 lists",
+      "sec": "Audrey Niffenegger",
+      "pri": "The Time Traveler's Wife",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
       "key": "agreed|The Unbearable Lightness of Being",
@@ -26394,6 +26758,13 @@
       "extra": "Unputdownable · The Most Addictive Book"
      },
      {
+      "key": "agreed|The Wheel of Time",
+      "lead": "2 lists",
+      "sec": "Robert Jordan",
+      "pri": "The Wheel of Time",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
       "key": "agreed|Thinking, Fast and Slow",
       "lead": "2 lists",
       "sec": "Daniel Kahneman",
@@ -26401,11 +26772,25 @@
       "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
-      "key": "agreed|War and Peace",
+      "key": "agreed|Ubik",
       "lead": "2 lists",
-      "sec": "Leo Tolstoy",
-      "pri": "War and Peace",
-      "extra": "Unputdownable · Books That Changed People"
+      "sec": "Philip K. Dick",
+      "pri": "Ubik",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Underworld",
+      "lead": "2 lists",
+      "sec": "Don DeLillo",
+      "pri": "Underworld",
+      "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Watership Down",
+      "lead": "2 lists",
+      "sec": "Richard Adams",
+      "pri": "Watership Down",
+      "extra": "Never Stop Recommending · Truly a Masterpiece"
      },
      {
       "key": "agreed|We Have Always Lived in the Castle",
@@ -26429,11 +26814,11 @@
       "extra": "Never Stop Recommending · The Most Addictive Book"
      },
      {
-      "key": "agreed|Zen and the Art of Motorcycle Maintenance",
+      "key": "agreed|Wuthering Heights",
       "lead": "2 lists",
-      "sec": "Robert M. Pirsig",
-      "pri": "Zen and the Art of Motorcycle Maintenance",
-      "extra": "Books That Changed People · The Most Addictive Book"
+      "sec": "Emily Brontë",
+      "pri": "Wuthering Heights",
+      "extra": "Unputdownable · Truly a Masterpiece"
      }
     ],
     "gr": "sec"
@@ -33929,6 +34314,2271 @@
       "src": {
        "url": "https://www.reddit.com/r/AskReddit/comments/1w3t348/whats_the_most_addictive_book_youve_ever_read/",
        "label": "r/AskReddit"
+      }
+     }
+    ]
+   },
+   {
+    "slug": "truly-masterpieces",
+    "title": "Truly a Masterpiece",
+    "kind": "Tally",
+    "verb": "read",
+    "desc": "r/AskReddit, asked which books are truly masterpieces. McCarthy on top by head count; a Western about two old Texas Rangers on top by upvotes.",
+    "cols": [
+     "Named by",
+     "Author",
+     "Title",
+     "Look up · source"
+    ],
+    "gr": "sec",
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/",
+      "label": "Reddit · r/AskReddit",
+      "q": "What books are truly masterpieces?",
+      "meta": "2026 · 216 points · 407 comments"
+     }
+    ],
+    "note": "Counted by distinct redditor; where a comment named several books, each one counts, and upvotes on the naming comments break ties. One capture of the thread, sorted by top, replies stripped: 224 top-level answers. Left out: the asker's own list, answers naming only an author or a body of work (&ldquo;All Charles Dickens&rdquo;), books mentioned without being called a masterpiece, and the joke answers — a run of picture books, a Windows 95 manual, the Bluebook. Series stay as one row where they were answered as a series.",
+    "rows": [
+     {
+      "key": "mast|Blood Meridian",
+      "lead": "9×",
+      "sec": "Cormac McCarthy",
+      "pri": "Blood Meridian",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Lonesome Dove",
+      "lead": "7×",
+      "sec": "Larry McMurtry",
+      "pri": "Lonesome Dove",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|One Hundred Years of Solitude",
+      "lead": "7×",
+      "sec": "Gabriel García Márquez",
+      "pri": "One Hundred Years of Solitude",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Grapes of Wrath",
+      "lead": "7×",
+      "sec": "John Steinbeck",
+      "pri": "The Grapes of Wrath",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|East of Eden",
+      "lead": "6×",
+      "sec": "John Steinbeck",
+      "pri": "East of Eden",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Lord of the Rings",
+      "lead": "6×",
+      "sec": "J. R. R. Tolkien",
+      "pri": "The Lord of the Rings",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Les Misérables",
+      "lead": "6×",
+      "sec": "Victor Hugo",
+      "pri": "Les Misérables",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|11/22/63",
+      "lead": "5×",
+      "sec": "Stephen King",
+      "pri": "11/22/63",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Frankenstein",
+      "lead": "5×",
+      "sec": "Mary Shelley",
+      "pri": "Frankenstein",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Stoner",
+      "lead": "5×",
+      "sec": "John Williams",
+      "pri": "Stoner",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Crime and Punishment",
+      "lead": "5×",
+      "sec": "Fyodor Dostoevsky",
+      "pri": "Crime and Punishment",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Slaughterhouse-Five",
+      "lead": "5×",
+      "sec": "Kurt Vonnegut",
+      "pri": "Slaughterhouse-Five",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Master and Margarita",
+      "lead": "5×",
+      "sec": "Mikhail Bulgakov",
+      "pri": "The Master and Margarita",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Count of Monte Cristo",
+      "lead": "4×",
+      "sec": "Alexandre Dumas",
+      "pri": "The Count of Monte Cristo",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|1984",
+      "lead": "4×",
+      "sec": "George Orwell",
+      "pri": "1984",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Lolita",
+      "lead": "4×",
+      "sec": "Vladimir Nabokov",
+      "pri": "Lolita",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Piranesi",
+      "lead": "4×",
+      "sec": "Susanna Clarke",
+      "pri": "Piranesi",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Moby-Dick",
+      "lead": "4×",
+      "sec": "Herman Melville",
+      "pri": "Moby-Dick",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Catch-22",
+      "lead": "4×",
+      "sec": "Joseph Heller",
+      "pri": "Catch-22",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Great Gatsby",
+      "lead": "4×",
+      "sec": "F. Scott Fitzgerald",
+      "pri": "The Great Gatsby",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Siddhartha",
+      "lead": "4×",
+      "sec": "Hermann Hesse",
+      "pri": "Siddhartha",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Brothers Karamazov",
+      "lead": "4×",
+      "sec": "Fyodor Dostoevsky",
+      "pri": "The Brothers Karamazov",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|War and Peace",
+      "lead": "4×",
+      "sec": "Leo Tolstoy",
+      "pri": "War and Peace",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Dracula",
+      "lead": "3×",
+      "sec": "Bram Stoker",
+      "pri": "Dracula",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Fahrenheit 451",
+      "lead": "3×",
+      "sec": "Ray Bradbury",
+      "pri": "Fahrenheit 451",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Old Man and the Sea",
+      "lead": "3×",
+      "sec": "Ernest Hemingway",
+      "pri": "The Old Man and the Sea",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Dune",
+      "lead": "3×",
+      "sec": "Frank Herbert",
+      "pri": "Dune",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Catcher in the Rye",
+      "lead": "3×",
+      "sec": "J. D. Salinger",
+      "pri": "The Catcher in the Rye",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Ulysses",
+      "lead": "3×",
+      "sec": "James Joyce",
+      "pri": "Ulysses",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Perfume",
+      "lead": "3×",
+      "sec": "Patrick Süskind",
+      "pri": "Perfume",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Don Quixote",
+      "lead": "3×",
+      "sec": "Miguel de Cervantes",
+      "pri": "Don Quixote",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Jane Eyre",
+      "lead": "3×",
+      "sec": "Charlotte Brontë",
+      "pri": "Jane Eyre",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Confederacy of Dunces",
+      "lead": "3×",
+      "sec": "John Kennedy Toole",
+      "pri": "A Confederacy of Dunces",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Book of the New Sun",
+      "lead": "3×",
+      "sec": "Gene Wolfe",
+      "pri": "The Book of the New Sun",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Annihilation",
+      "lead": "3×",
+      "sec": "Jeff VanderMeer",
+      "pri": "Annihilation",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Road",
+      "lead": "3×",
+      "sec": "Cormac McCarthy",
+      "pri": "The Road",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Endurance",
+      "lead": "2×",
+      "sec": "Alfred Lansing",
+      "pri": "Endurance",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Farewell to Arms",
+      "lead": "2×",
+      "sec": "Ernest Hemingway",
+      "pri": "A Farewell to Arms",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Haunting of Hill House",
+      "lead": "2×",
+      "sec": "Shirley Jackson",
+      "pri": "The Haunting of Hill House",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Brave New World",
+      "lead": "2×",
+      "sec": "Aldous Huxley",
+      "pri": "Brave New World",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Solaris",
+      "lead": "2×",
+      "sec": "Stanisław Lem",
+      "pri": "Solaris",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|For Whom the Bell Tolls",
+      "lead": "2×",
+      "sec": "Ernest Hemingway",
+      "pri": "For Whom the Bell Tolls",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Watership Down",
+      "lead": "2×",
+      "sec": "Richard Adams",
+      "pri": "Watership Down",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Picture of Dorian Gray",
+      "lead": "2×",
+      "sec": "Oscar Wilde",
+      "pri": "The Picture of Dorian Gray",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|To Kill a Mockingbird",
+      "lead": "2×",
+      "sec": "Harper Lee",
+      "pri": "To Kill a Mockingbird",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Pride and Prejudice",
+      "lead": "2×",
+      "sec": "Jane Austen",
+      "pri": "Pride and Prejudice",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Aubrey–Maturin series",
+      "lead": "2×",
+      "sec": "Patrick O'Brian",
+      "pri": "The Aubrey–Maturin series",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Suttree",
+      "lead": "2×",
+      "sec": "Cormac McCarthy",
+      "pri": "Suttree",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Hobbit",
+      "lead": "2×",
+      "sec": "J. R. R. Tolkien",
+      "pri": "The Hobbit",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Remains of the Day",
+      "lead": "2×",
+      "sec": "Kazuo Ishiguro",
+      "pri": "The Remains of the Day",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Infinite Jest",
+      "lead": "2×",
+      "sec": "David Foster Wallace",
+      "pri": "Infinite Jest",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Matterhorn",
+      "lead": "2×",
+      "sec": "Karl Marlantes",
+      "pri": "Matterhorn",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Gravity's Rainbow",
+      "lead": "2×",
+      "sec": "Thomas Pynchon",
+      "pri": "Gravity's Rainbow",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|If on a Winter's Night a Traveler",
+      "lead": "2×",
+      "sec": "Italo Calvino",
+      "pri": "If on a Winter's Night a Traveler",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Heart of Darkness",
+      "lead": "2×",
+      "sec": "Joseph Conrad",
+      "pri": "Heart of Darkness",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Hunger Games",
+      "lead": "2×",
+      "sec": "Suzanne Collins",
+      "pri": "The Hunger Games",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Wall",
+      "lead": "2×",
+      "sec": "Marlen Haushofer",
+      "pri": "The Wall",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Storm of Swords",
+      "lead": "2×",
+      "sec": "George R. R. Martin",
+      "pri": "A Storm of Swords",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|House of Leaves",
+      "lead": "2×",
+      "sec": "Mark Z. Danielewski",
+      "pri": "House of Leaves",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|No Country for Old Men",
+      "lead": "2×",
+      "sec": "Cormac McCarthy",
+      "pri": "No Country for Old Men",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Pedro Páramo",
+      "lead": "2×",
+      "sec": "Juan Rulfo",
+      "pri": "Pedro Páramo",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Roadside Picnic",
+      "lead": "2×",
+      "sec": "Arkady & Boris Strugatsky",
+      "pri": "Roadside Picnic",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Shōgun",
+      "lead": "2×",
+      "sec": "James Clavell",
+      "pri": "Shōgun",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Bible",
+      "lead": "2×",
+      "sec": "Various",
+      "pri": "The Bible",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Magic Mountain",
+      "lead": "2×",
+      "sec": "Thomas Mann",
+      "pri": "The Magic Mountain",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Wolf Hall",
+      "lead": "2×",
+      "sec": "Hilary Mantel",
+      "pri": "Wolf Hall",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Absalom, Absalom!",
+      "lead": "2×",
+      "sec": "William Faulkner",
+      "pri": "Absalom, Absalom!",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Anathem",
+      "lead": "2×",
+      "sec": "Neal Stephenson",
+      "pri": "Anathem",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Gentleman in Moscow",
+      "lead": "1×",
+      "sec": "Amor Towles",
+      "pri": "A Gentleman in Moscow",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Dandelion Wine",
+      "lead": "1×",
+      "sec": "Ray Bradbury",
+      "pri": "Dandelion Wine",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Anna Karenina",
+      "lead": "1×",
+      "sec": "Leo Tolstoy",
+      "pri": "Anna Karenina",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Rubbernecker",
+      "lead": "1×",
+      "sec": "Belinda Bauer",
+      "pri": "Rubbernecker",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Ubik",
+      "lead": "1×",
+      "sec": "Philip K. Dick",
+      "pri": "Ubik",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Hard Rain Falling",
+      "lead": "1×",
+      "sec": "Don Carpenter",
+      "pri": "Hard Rain Falling",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Bell Jar",
+      "lead": "1×",
+      "sec": "Sylvia Plath",
+      "pri": "The Bell Jar",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Silmarillion",
+      "lead": "1×",
+      "sec": "J. R. R. Tolkien",
+      "pri": "The Silmarillion",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Pale View of Hills",
+      "lead": "1×",
+      "sec": "Kazuo Ishiguro",
+      "pri": "A Pale View of Hills",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Accordion Crimes",
+      "lead": "1×",
+      "sec": "Annie Proulx",
+      "pri": "Accordion Crimes",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Dark Is Rising sequence",
+      "lead": "1×",
+      "sec": "Susan Cooper",
+      "pri": "The Dark Is Rising sequence",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The English Patient",
+      "lead": "1×",
+      "sec": "Michael Ondaatje",
+      "pri": "The English Patient",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Narrow Road to the Deep North",
+      "lead": "1×",
+      "sec": "Richard Flanagan",
+      "pri": "The Narrow Road to the Deep North",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Plague of Doves",
+      "lead": "1×",
+      "sec": "Louise Erdrich",
+      "pri": "The Plague of Doves",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Round House",
+      "lead": "1×",
+      "sec": "Louise Erdrich",
+      "pri": "The Round House",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Spring Moon",
+      "lead": "1×",
+      "sec": "Bette Bao Lord",
+      "pri": "Spring Moon",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Overstory",
+      "lead": "1×",
+      "sec": "Richard Powers",
+      "pri": "The Overstory",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Star Maker",
+      "lead": "1×",
+      "sec": "Olaf Stapledon",
+      "pri": "Star Maker",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Fortunes of Wangrin",
+      "lead": "1×",
+      "sec": "Amadou Hampâté Bâ",
+      "pri": "The Fortunes of Wangrin",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Good Soldier Švejk",
+      "lead": "1×",
+      "sec": "Jaroslav Hašek",
+      "pri": "The Good Soldier Švejk",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Tale of Genji",
+      "lead": "1×",
+      "sec": "Murasaki Shikibu",
+      "pri": "The Tale of Genji",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|You Can't Win",
+      "lead": "1×",
+      "sec": "Jack Black",
+      "pri": "You Can't Win",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Eugene Onegin",
+      "lead": "1×",
+      "sec": "Alexander Pushkin",
+      "pri": "Eugene Onegin",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Gödel, Escher, Bach",
+      "lead": "1×",
+      "sec": "Douglas Hofstadter",
+      "pri": "Gödel, Escher, Bach",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|One Day in the Life of Ivan Denisovich",
+      "lead": "1×",
+      "sec": "Aleksandr Solzhenitsyn",
+      "pri": "One Day in the Life of Ivan Denisovich",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Pachinko",
+      "lead": "1×",
+      "sec": "Min Jin Lee",
+      "pri": "Pachinko",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Forgotten Soldier",
+      "lead": "1×",
+      "sec": "Guy Sajer",
+      "pri": "The Forgotten Soldier",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Goldfinch",
+      "lead": "1×",
+      "sec": "Donna Tartt",
+      "pri": "The Goldfinch",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Handmaid's Tale",
+      "lead": "1×",
+      "sec": "Margaret Atwood",
+      "pri": "The Handmaid's Tale",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Hitchhiker's Guide to the Galaxy",
+      "lead": "1×",
+      "sec": "Douglas Adams",
+      "pri": "The Hitchhiker's Guide to the Galaxy",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Little Friend",
+      "lead": "1×",
+      "sec": "Donna Tartt",
+      "pri": "The Little Friend",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Phantom Tollbooth",
+      "lead": "1×",
+      "sec": "Norton Juster",
+      "pri": "The Phantom Tollbooth",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Rise and Fall of the Third Reich",
+      "lead": "1×",
+      "sec": "William L. Shirer",
+      "pri": "The Rise and Fall of the Third Reich",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Secret History",
+      "lead": "1×",
+      "sec": "Donna Tartt",
+      "pri": "The Secret History",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Song of Achilles",
+      "lead": "1×",
+      "sec": "Madeline Miller",
+      "pri": "The Song of Achilles",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|2666",
+      "lead": "1×",
+      "sec": "Roberto Bolaño",
+      "pri": "2666",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Portrait of the Artist as a Young Man",
+      "lead": "1×",
+      "sec": "James Joyce",
+      "pri": "A Portrait of the Artist as a Young Man",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Adventures of Huckleberry Finn",
+      "lead": "1×",
+      "sec": "Mark Twain",
+      "pri": "Adventures of Huckleberry Finn",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|All About Love",
+      "lead": "1×",
+      "sec": "bell hooks",
+      "pri": "All About Love",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|American Tabloid",
+      "lead": "1×",
+      "sec": "James Ellroy",
+      "pri": "American Tabloid",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Beloved",
+      "lead": "1×",
+      "sec": "Toni Morrison",
+      "pri": "Beloved",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Bleak House",
+      "lead": "1×",
+      "sec": "Charles Dickens",
+      "pri": "Bleak House",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Brideshead Revisited",
+      "lead": "1×",
+      "sec": "Evelyn Waugh",
+      "pri": "Brideshead Revisited",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Cannery Row",
+      "lead": "1×",
+      "sec": "John Steinbeck",
+      "pri": "Cannery Row",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Contact",
+      "lead": "1×",
+      "sec": "Carl Sagan",
+      "pri": "Contact",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Demian",
+      "lead": "1×",
+      "sec": "Hermann Hesse",
+      "pri": "Demian",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Henderson the Rain King",
+      "lead": "1×",
+      "sec": "Saul Bellow",
+      "pri": "Henderson the Rain King",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Mirror Dance",
+      "lead": "1×",
+      "sec": "Lois McMaster Bujold",
+      "pri": "Mirror Dance",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Divine Comedy",
+      "lead": "1×",
+      "sec": "Dante Alighieri",
+      "pri": "The Divine Comedy",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Great War for Civilisation",
+      "lead": "1×",
+      "sec": "Robert Fisk",
+      "pri": "The Great War for Civilisation",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Mars Trilogy",
+      "lead": "1×",
+      "sec": "Kim Stanley Robinson",
+      "pri": "The Mars Trilogy",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Sea and Summer",
+      "lead": "1×",
+      "sec": "George Turner",
+      "pri": "The Sea and Summer",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Sword of Kaigen",
+      "lead": "1×",
+      "sec": "M. L. Wang",
+      "pri": "The Sword of Kaigen",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Under the Volcano",
+      "lead": "1×",
+      "sec": "Malcolm Lowry",
+      "pri": "Under the Volcano",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Voyage to Arcturus",
+      "lead": "1×",
+      "sec": "David Lindsay",
+      "pri": "A Voyage to Arcturus",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Animal Farm",
+      "lead": "1×",
+      "sec": "George Orwell",
+      "pri": "Animal Farm",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Hyperion",
+      "lead": "1×",
+      "sec": "Dan Simmons",
+      "pri": "Hyperion",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Jitterbug Perfume",
+      "lead": "1×",
+      "sec": "Tom Robbins",
+      "pri": "Jitterbug Perfume",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|John Dies at the End",
+      "lead": "1×",
+      "sec": "David Wong",
+      "pri": "John Dies at the End",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Man's Search for Meaning",
+      "lead": "1×",
+      "sec": "Viktor Frankl",
+      "pri": "Man's Search for Meaning",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Narcissus and Goldmund",
+      "lead": "1×",
+      "sec": "Hermann Hesse",
+      "pri": "Narcissus and Goldmund",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Sister Carrie",
+      "lead": "1×",
+      "sec": "Theodore Dreiser",
+      "pri": "Sister Carrie",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Autumn of the Middle Ages",
+      "lead": "1×",
+      "sec": "Johan Huizinga",
+      "pri": "The Autumn of the Middle Ages",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Call of the Wild",
+      "lead": "1×",
+      "sec": "Jack London",
+      "pri": "The Call of the Wild",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Desert of Souls",
+      "lead": "1×",
+      "sec": "Howard Andrew Jones",
+      "pri": "The Desert of Souls",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Mahabharata",
+      "lead": "1×",
+      "sec": "Vyasa",
+      "pri": "The Mahabharata",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Shining",
+      "lead": "1×",
+      "sec": "Stephen King",
+      "pri": "The Shining",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Stranger",
+      "lead": "1×",
+      "sec": "Albert Camus",
+      "pri": "The Stranger",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Thirty Years War",
+      "lead": "1×",
+      "sec": "C. V. Wedgwood",
+      "pri": "The Thirty Years War",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Titus Groan",
+      "lead": "1×",
+      "sec": "Mervyn Peake",
+      "pri": "Titus Groan",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Underworld",
+      "lead": "1×",
+      "sec": "Don DeLillo",
+      "pri": "Underworld",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|A Tale of Two Cities",
+      "lead": "1×",
+      "sec": "Charles Dickens",
+      "pri": "A Tale of Two Cities",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|All the King's Men",
+      "lead": "1×",
+      "sec": "Robert Penn Warren",
+      "pri": "All the King's Men",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Angela's Ashes",
+      "lead": "1×",
+      "sec": "Frank McCourt",
+      "pri": "Angela's Ashes",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Breakfast of Champions",
+      "lead": "1×",
+      "sec": "Kurt Vonnegut",
+      "pri": "Breakfast of Champions",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Buddenbrooks",
+      "lead": "1×",
+      "sec": "Thomas Mann",
+      "pri": "Buddenbrooks",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Butcher's Crossing",
+      "lead": "1×",
+      "sec": "John Williams",
+      "pri": "Butcher's Crossing",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Circe",
+      "lead": "1×",
+      "sec": "Madeline Miller",
+      "pri": "Circe",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Cloud Cuckoo Land",
+      "lead": "1×",
+      "sec": "Anthony Doerr",
+      "pri": "Cloud Cuckoo Land",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Cujo",
+      "lead": "1×",
+      "sec": "Stephen King",
+      "pri": "Cujo",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|David Copperfield",
+      "lead": "1×",
+      "sec": "Charles Dickens",
+      "pri": "David Copperfield",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Dead Souls",
+      "lead": "1×",
+      "sec": "Nikolai Gogol",
+      "pri": "Dead Souls",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Demon Copperhead",
+      "lead": "1×",
+      "sec": "Barbara Kingsolver",
+      "pri": "Demon Copperhead",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Difference and Repetition",
+      "lead": "1×",
+      "sec": "Gilles Deleuze",
+      "pri": "Difference and Repetition",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Downward to the Earth",
+      "lead": "1×",
+      "sec": "Robert Silverberg",
+      "pri": "Downward to the Earth",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Driving on the Rim",
+      "lead": "1×",
+      "sec": "Thomas McGuane",
+      "pri": "Driving on the Rim",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Dungeon Crawler Carl",
+      "lead": "1×",
+      "sec": "Matt Dinniman",
+      "pri": "Dungeon Crawler Carl",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Europe Central",
+      "lead": "1×",
+      "sec": "William T. Vollmann",
+      "pri": "Europe Central",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Fear and Loathing in Las Vegas",
+      "lead": "1×",
+      "sec": "Hunter S. Thompson",
+      "pri": "Fear and Loathing in Las Vegas",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Fight Club",
+      "lead": "1×",
+      "sec": "Chuck Palahniuk",
+      "pri": "Fight Club",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Gang Leader for a Day",
+      "lead": "1×",
+      "sec": "Sudhir Venkatesh",
+      "pri": "Gang Leader for a Day",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Gilead",
+      "lead": "1×",
+      "sec": "Marilynne Robinson",
+      "pri": "Gilead",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Good Morning, Monster",
+      "lead": "1×",
+      "sec": "Catherine Gildiner",
+      "pri": "Good Morning, Monster",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Gormenghast",
+      "lead": "1×",
+      "sec": "Mervyn Peake",
+      "pri": "Gormenghast",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Greenmantle",
+      "lead": "1×",
+      "sec": "John Buchan",
+      "pri": "Greenmantle",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Growth of the Soil",
+      "lead": "1×",
+      "sec": "Knut Hamsun",
+      "pri": "Growth of the Soil",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|I Keep My Exoskeletons to Myself",
+      "lead": "1×",
+      "sec": "Marisa Crane",
+      "pri": "I Keep My Exoskeletons to Myself",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Ice",
+      "lead": "1×",
+      "sec": "Anna Kavan",
+      "pri": "Ice",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|In Search of Lost Time",
+      "lead": "1×",
+      "sec": "Marcel Proust",
+      "pri": "In Search of Lost Time",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Invicto",
+      "lead": "1×",
+      "sec": "Marcos Vázquez",
+      "pri": "Invicto",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|It",
+      "lead": "1×",
+      "sec": "Stephen King",
+      "pri": "It",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Jonathan Livingston Seagull",
+      "lead": "1×",
+      "sec": "Richard Bach",
+      "pri": "Jonathan Livingston Seagull",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|King Rat",
+      "lead": "1×",
+      "sec": "James Clavell",
+      "pri": "King Rat",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Labyrinths",
+      "lead": "1×",
+      "sec": "Jorge Luis Borges",
+      "pri": "Labyrinths",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Madame Bovary",
+      "lead": "1×",
+      "sec": "Gustave Flaubert",
+      "pri": "Madame Bovary",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Magician",
+      "lead": "1×",
+      "sec": "Raymond E. Feist",
+      "pri": "Magician",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Mason & Dixon",
+      "lead": "1×",
+      "sec": "Thomas Pynchon",
+      "pri": "Mason & Dixon",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Musashi",
+      "lead": "1×",
+      "sec": "Eiji Yoshikawa",
+      "pri": "Musashi",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Nostromo",
+      "lead": "1×",
+      "sec": "Joseph Conrad",
+      "pri": "Nostromo",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Of Mice and Men",
+      "lead": "1×",
+      "sec": "John Steinbeck",
+      "pri": "Of Mice and Men",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Omniscient Reader's Viewpoint",
+      "lead": "1×",
+      "sec": "Sing Shong",
+      "pri": "Omniscient Reader's Viewpoint",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|One Flew Over the Cuckoo's Nest",
+      "lead": "1×",
+      "sec": "Ken Kesey",
+      "pri": "One Flew Over the Cuckoo's Nest",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Randamoozham",
+      "lead": "1×",
+      "sec": "M. T. Vasudevan Nair",
+      "pri": "Randamoozham",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Rebecca",
+      "lead": "1×",
+      "sec": "Daphne du Maurier",
+      "pri": "Rebecca",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Small Gods",
+      "lead": "1×",
+      "sec": "Terry Pratchett",
+      "pri": "Small Gods",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Adventures of Augie March",
+      "lead": "1×",
+      "sec": "Saul Bellow",
+      "pri": "The Adventures of Augie March",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Alchemist",
+      "lead": "1×",
+      "sec": "Paulo Coelho",
+      "pri": "The Alchemist",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Bloody Chamber",
+      "lead": "1×",
+      "sec": "Angela Carter",
+      "pri": "The Bloody Chamber",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Book Thief",
+      "lead": "1×",
+      "sec": "Markus Zusak",
+      "pri": "The Book Thief",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Chronicles of Barsetshire",
+      "lead": "1×",
+      "sec": "Anthony Trollope",
+      "pri": "The Chronicles of Barsetshire",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Collected Stories of Amy Hempel",
+      "lead": "1×",
+      "sec": "Amy Hempel",
+      "pri": "The Collected Stories of Amy Hempel",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Creative Act",
+      "lead": "1×",
+      "sec": "Rick Rubin",
+      "pri": "The Creative Act",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Curious Incident of the Dog in the Night-Time",
+      "lead": "1×",
+      "sec": "Mark Haddon",
+      "pri": "The Curious Incident of the Dog in the Night-Time",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Dresden Files",
+      "lead": "1×",
+      "sec": "Jim Butcher",
+      "pri": "The Dresden Files",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Fall",
+      "lead": "1×",
+      "sec": "Albert Camus",
+      "pri": "The Fall",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Girl with the Dragon Tattoo",
+      "lead": "1×",
+      "sec": "Stieg Larsson",
+      "pri": "The Girl with the Dragon Tattoo",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Heroes",
+      "lead": "1×",
+      "sec": "Joe Abercrombie",
+      "pri": "The Heroes",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Hours",
+      "lead": "1×",
+      "sec": "Michael Cunningham",
+      "pri": "The Hours",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Jungle Book",
+      "lead": "1×",
+      "sec": "Rudyard Kipling",
+      "pri": "The Jungle Book",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Maltese Falcon",
+      "lead": "1×",
+      "sec": "Dashiell Hammett",
+      "pri": "The Maltese Falcon",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Metamorphosis",
+      "lead": "1×",
+      "sec": "Franz Kafka",
+      "pri": "The Metamorphosis",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Overcoat",
+      "lead": "1×",
+      "sec": "Nikolai Gogol",
+      "pri": "The Overcoat",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Pillars of the Earth",
+      "lead": "1×",
+      "sec": "Ken Follett",
+      "pri": "The Pillars of the Earth",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Sailor Who Fell from Grace with the Sea",
+      "lead": "1×",
+      "sec": "Yukio Mishima",
+      "pri": "The Sailor Who Fell from Grace with the Sea",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Things They Carried",
+      "lead": "1×",
+      "sec": "Tim O'Brien",
+      "pri": "The Things They Carried",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Troika",
+      "lead": "1×",
+      "sec": "Stepan Chapman",
+      "pri": "The Troika",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The War of the Worlds",
+      "lead": "1×",
+      "sec": "H. G. Wells",
+      "pri": "The War of the Worlds",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Warrior's Apprentice",
+      "lead": "1×",
+      "sec": "Lois McMaster Bujold",
+      "pri": "The Warrior's Apprentice",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Way of Kings",
+      "lead": "1×",
+      "sec": "Brandon Sanderson",
+      "pri": "The Way of Kings",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Wheel of Time",
+      "lead": "1×",
+      "sec": "Robert Jordan",
+      "pri": "The Wheel of Time",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Wings of the Dove",
+      "lead": "1×",
+      "sec": "Henry James",
+      "pri": "The Wings of the Dove",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Winter of Our Discontent",
+      "lead": "1×",
+      "sec": "John Steinbeck",
+      "pri": "The Winter of Our Discontent",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Women",
+      "lead": "1×",
+      "sec": "Kristin Hannah",
+      "pri": "The Women",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Train Dreams",
+      "lead": "1×",
+      "sec": "Denis Johnson",
+      "pri": "Train Dreams",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Trust",
+      "lead": "1×",
+      "sec": "Hernan Diaz",
+      "pri": "Trust",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|White Bones",
+      "lead": "1×",
+      "sec": "Graham Masterton",
+      "pri": "White Bones",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Zen and the Art of Motorcycle Maintenance",
+      "lead": "1×",
+      "sec": "Robert M. Pirsig",
+      "pri": "Zen and the Art of Motorcycle Maintenance",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Harry Potter",
+      "lead": "1×",
+      "sec": "J. K. Rowling",
+      "pri": "Harry Potter",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Geek Love",
+      "lead": "1×",
+      "sec": "Katherine Dunn",
+      "pri": "Geek Love",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Gunslinger",
+      "lead": "1×",
+      "sec": "Stephen King",
+      "pri": "The Gunslinger",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Time Traveler's Wife",
+      "lead": "1×",
+      "sec": "Audrey Niffenegger",
+      "pri": "The Time Traveler's Wife",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Watchmen",
+      "lead": "1×",
+      "sec": "Alan Moore & Dave Gibbons",
+      "pri": "Watchmen",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|God Bless You, Mr. Rosewater",
+      "lead": "1×",
+      "sec": "Kurt Vonnegut",
+      "pri": "God Bless You, Mr. Rosewater",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Snow Crash",
+      "lead": "1×",
+      "sec": "Neal Stephenson",
+      "pri": "Snow Crash",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|The Sirens of Titan",
+      "lead": "1×",
+      "sec": "Kurt Vonnegut",
+      "pri": "The Sirens of Titan",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     },
+     {
+      "key": "mast|Wuthering Heights",
+      "lead": "1×",
+      "sec": "Emily Brontë",
+      "pri": "Wuthering Heights",
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
       }
      }
     ]
