@@ -25744,6 +25744,836 @@
      "url": "https://open.spotify.com/playlist/0r3Bfx3CMaqMQPzvURzjTs",
      "label": "Abrir la playlist ↗"
     }
+   },
+   {
+    "slug": "best-mtv-unplugged",
+    "title": "The Best MTV Unplugged",
+    "kind": "Tally",
+    "verb": "watched",
+    "noTick": true,
+    "desc": "67 Unplugged sets from 346 people, and the old argument settles nothing: Nirvana 112, Alice in Chains 78, and third place has 30.",
+    "cols": [
+     "Said by",
+     "Year",
+     "Artist",
+     "Watch · source"
+    ],
+    "srcLabel": "Asked in",
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/",
+      "label": "Reddit · r/musicsuggestions",
+      "q": "Who has the best MTV Unplugged in music history?",
+      "meta": "2026 · 196 points · 694 comments"
+     }
+    ],
+    "note": "Counted by distinct redditor: every Unplugged set someone puts forward counts once, top-level or in a reply, and naming a song from the set (&ldquo;unplugged <em>Black</em> destroys me&rdquo;) counts as naming it. Nameless agreement &mdash; &ldquo;Agreed&rdquo;, &ldquo;Mine too&rdquo;, &ldquo;Only answer&rdquo; &mdash; adds nothing, and neither does a set named only to knock it. The asker&rsquo;s own pick, Alice in Chains, counts: it was an answer. Dropped because they aren&rsquo;t MTV Unplugged: Tesla&rsquo;s <em>Five Man Acoustical Jam</em>, the Eagles&rsquo; <em>Hell Freezes Over</em>, a Don Henley <em>Storytellers</em>, and wishes for artists who never did one (Soundgarden, Johnny Cash, Prince). Uptown MTV Unplugged is filed under Jodeci, which is who everyone naming it meant. <b>This is most of the thread, not all of it:</b> the capture holds 494 of 694 comments, and about 200 sat behind &ldquo;load more&rdquo;. The shape is the story. Half the thread is one argument &mdash; Nirvana or Alice in Chains &mdash; conducted in replies, with people changing sides depending on their mood that day and one commenter noting that for every Nirvana comment there is an AIC fan ready to strike. The other half is people quietly remembering the one they taped off the TV: 10,000 Maniacs in the six-CD changer, The Cure with kazoos, Stevie Ray Vaughan snapping the neck of a twelve-string, LL Cool J doing <em>Mama Said Knock You Out</em> to a room that didn&rsquo;t expect it. Years are the year the set was taped; a dash means it couldn&rsquo;t be pinned down.",
+    "rows": [
+     {
+      "key": "unpl|Nirvana",
+      "lead": "112×",
+      "sec": "1993",
+      "pri": "Nirvana",
+      "yt": "Nirvana MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Alice in Chains",
+      "lead": "78×",
+      "sec": "1996",
+      "pri": "Alice in Chains",
+      "yt": "Alice in Chains MTV Unplugged 1996",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Pearl Jam",
+      "lead": "30×",
+      "sec": "1992",
+      "pri": "Pearl Jam",
+      "yt": "Pearl Jam MTV Unplugged 1992",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Eric Clapton",
+      "lead": "22×",
+      "sec": "1992",
+      "pri": "Eric Clapton",
+      "yt": "Eric Clapton MTV Unplugged 1992",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|10,000 Maniacs",
+      "lead": "17×",
+      "sec": "1993",
+      "pri": "10,000 Maniacs",
+      "yt": "10,000 Maniacs MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Queensrÿche",
+      "lead": "13×",
+      "sec": "1992",
+      "pri": "Queensrÿche",
+      "yt": "Queensrÿche MTV Unplugged 1992",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Stone Temple Pilots",
+      "lead": "13×",
+      "sec": "1993",
+      "pri": "Stone Temple Pilots",
+      "yt": "Stone Temple Pilots MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Stevie Ray Vaughan",
+      "lead": "12×",
+      "sec": "1990",
+      "pri": "Stevie Ray Vaughan",
+      "yt": "Stevie Ray Vaughan MTV Unplugged 1990",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Bob Dylan",
+      "lead": "11×",
+      "sec": "1994",
+      "pri": "Bob Dylan",
+      "yt": "Bob Dylan MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|R.E.M.",
+      "lead": "10×",
+      "sec": "1991",
+      "pri": "R.E.M.",
+      "yt": "R.E.M. MTV Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|The Cure",
+      "lead": "10×",
+      "sec": "1991",
+      "pri": "The Cure",
+      "yt": "The Cure MTV Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Korn",
+      "lead": "9×",
+      "sec": "2006",
+      "pri": "Korn",
+      "yt": "Korn MTV Unplugged 2006",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Neil Young",
+      "lead": "9×",
+      "sec": "1993",
+      "pri": "Neil Young",
+      "yt": "Neil Young MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Björk",
+      "lead": "7×",
+      "sec": "1994",
+      "pri": "Björk",
+      "yt": "Björk MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Jay-Z",
+      "lead": "7×",
+      "sec": "2001",
+      "pri": "Jay-Z",
+      "yt": "Jay-Z MTV Unplugged 2001",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|LL Cool J",
+      "lead": "7×",
+      "sec": "1991",
+      "pri": "LL Cool J",
+      "yt": "LL Cool J MTV Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Mariah Carey",
+      "lead": "7×",
+      "sec": "1992",
+      "pri": "Mariah Carey",
+      "yt": "Mariah Carey MTV Unplugged 1992",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Page & Plant",
+      "lead": "7×",
+      "sec": "1994",
+      "pri": "Page & Plant",
+      "yt": "Page & Plant MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|George Michael",
+      "lead": "6×",
+      "sec": "1996",
+      "pri": "George Michael",
+      "yt": "George Michael MTV Unplugged 1996",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|KISS",
+      "lead": "6×",
+      "sec": "1995",
+      "pri": "KISS",
+      "yt": "KISS MTV Unplugged 1995",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Alanis Morissette",
+      "lead": "5×",
+      "sec": "1999",
+      "pri": "Alanis Morissette",
+      "yt": "Alanis Morissette MTV Unplugged 1999",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Oasis",
+      "lead": "5×",
+      "sec": "1996",
+      "pri": "Oasis",
+      "yt": "Oasis MTV Unplugged 1996",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Paul McCartney",
+      "lead": "5×",
+      "sec": "1991",
+      "pri": "Paul McCartney",
+      "yt": "Paul McCartney MTV Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Shakira",
+      "lead": "5×",
+      "sec": "1999",
+      "pri": "Shakira",
+      "yt": "Shakira MTV Unplugged 1999",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|a-ha",
+      "lead": "4×",
+      "sec": "2017",
+      "pri": "a-ha",
+      "yt": "a-ha MTV Unplugged 2017",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Lauryn Hill",
+      "lead": "4×",
+      "sec": "2001",
+      "pri": "Lauryn Hill",
+      "yt": "Lauryn Hill MTV Unplugged 2001",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Live",
+      "lead": "4×",
+      "sec": "—",
+      "pri": "Live",
+      "yt": "Live MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Rod Stewart",
+      "lead": "4×",
+      "sec": "1993",
+      "pri": "Rod Stewart",
+      "yt": "Rod Stewart MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Soda Stereo",
+      "lead": "4×",
+      "sec": "1996",
+      "pri": "Soda Stereo",
+      "yt": "Soda Stereo MTV Unplugged 1996",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|The Cranberries",
+      "lead": "4×",
+      "sec": "1994",
+      "pri": "The Cranberries",
+      "yt": "The Cranberries MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Dashboard Confessional",
+      "lead": "3×",
+      "sec": "2002",
+      "pri": "Dashboard Confessional",
+      "yt": "Dashboard Confessional MTV Unplugged 2002",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Hole",
+      "lead": "3×",
+      "sec": "1995",
+      "pri": "Hole",
+      "yt": "Hole MTV Unplugged 1995",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Jodeci (Uptown Unplugged)",
+      "lead": "3×",
+      "sec": "1993",
+      "pri": "Jodeci (Uptown Unplugged)",
+      "yt": "Jodeci (Uptown Unplugged) MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Soul Asylum",
+      "lead": "3×",
+      "sec": "1993",
+      "pri": "Soul Asylum",
+      "yt": "Soul Asylum MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Tony Bennett",
+      "lead": "3×",
+      "sec": "1994",
+      "pri": "Tony Bennett",
+      "yt": "Tony Bennett MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Yo! MTV Raps Unplugged",
+      "lead": "3×",
+      "sec": "1991",
+      "pri": "Yo! MTV Raps Unplugged",
+      "yt": "Yo! MTV Raps Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Alicia Keys",
+      "lead": "2×",
+      "sec": "2005",
+      "pri": "Alicia Keys",
+      "yt": "Alicia Keys MTV Unplugged 2005",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Courtney Barnett",
+      "lead": "2×",
+      "sec": "2019",
+      "pri": "Courtney Barnett",
+      "yt": "Courtney Barnett MTV Unplugged 2019",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Duran Duran",
+      "lead": "2×",
+      "sec": "1993",
+      "pri": "Duran Duran",
+      "yt": "Duran Duran MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Mando Diao",
+      "lead": "2×",
+      "sec": "2010",
+      "pri": "Mando Diao",
+      "yt": "Mando Diao MTV Unplugged 2010",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Midnight Oil",
+      "lead": "2×",
+      "sec": "—",
+      "pri": "Midnight Oil",
+      "yt": "Midnight Oil MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Ratt",
+      "lead": "2×",
+      "sec": "—",
+      "pri": "Ratt",
+      "yt": "Ratt MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Sheryl Crow",
+      "lead": "2×",
+      "sec": "—",
+      "pri": "Sheryl Crow",
+      "yt": "Sheryl Crow MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|The Black Crowes",
+      "lead": "2×",
+      "sec": "—",
+      "pri": "The Black Crowes",
+      "yt": "The Black Crowes MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Zoé",
+      "lead": "2×",
+      "sec": "2011",
+      "pri": "Zoé",
+      "yt": "Zoé MTV Unplugged 2011",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Aerosmith",
+      "lead": "1×",
+      "sec": "1990",
+      "pri": "Aerosmith",
+      "yt": "Aerosmith MTV Unplugged 1990",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Arrested Development",
+      "lead": "1×",
+      "sec": "1993",
+      "pri": "Arrested Development",
+      "yt": "Arrested Development MTV Unplugged 1993",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Biffy Clyro",
+      "lead": "1×",
+      "sec": "2018",
+      "pri": "Biffy Clyro",
+      "yt": "Biffy Clyro MTV Unplugged 2018",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Bruce Springsteen",
+      "lead": "1×",
+      "sec": "1992",
+      "pri": "Bruce Springsteen",
+      "yt": "Bruce Springsteen MTV Unplugged 1992",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Crowded House",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Crowded House",
+      "yt": "Crowded House MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Denis Leary",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Denis Leary",
+      "yt": "Denis Leary MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Die Fantastischen Vier",
+      "lead": "1×",
+      "sec": "2000",
+      "pri": "Die Fantastischen Vier",
+      "yt": "Die Fantastischen Vier MTV Unplugged 2000",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Diego Torres",
+      "lead": "1×",
+      "sec": "2004",
+      "pri": "Diego Torres",
+      "yt": "Diego Torres MTV Unplugged 2004",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Elton John",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Elton John",
+      "yt": "Elton John MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Fiona Apple",
+      "lead": "1×",
+      "sec": "1997",
+      "pri": "Fiona Apple",
+      "yt": "Fiona Apple MTV Unplugged 1997",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Gilberto Gil",
+      "lead": "1×",
+      "sec": "1994",
+      "pri": "Gilberto Gil",
+      "yt": "Gilberto Gil MTV Unplugged 1994",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Great White",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Great White",
+      "yt": "Great White MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Jewel",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Jewel",
+      "yt": "Jewel MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|John Mellencamp",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "John Mellencamp",
+      "yt": "John Mellencamp MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Katy Perry",
+      "lead": "1×",
+      "sec": "2009",
+      "pri": "Katy Perry",
+      "yt": "Katy Perry MTV Unplugged 2009",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Maná",
+      "lead": "1×",
+      "sec": "1999",
+      "pri": "Maná",
+      "yt": "Maná MTV Unplugged 1999",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Paramore",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Paramore",
+      "yt": "Paramore MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Placebo",
+      "lead": "1×",
+      "sec": "2015",
+      "pri": "Placebo",
+      "yt": "Placebo MTV Unplugged 2015",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Santa Sabina",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Santa Sabina",
+      "yt": "Santa Sabina MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Seal",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Seal",
+      "yt": "Seal MTV Unplugged",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Squeeze",
+      "lead": "1×",
+      "sec": "1989",
+      "pri": "Squeeze",
+      "yt": "Squeeze MTV Unplugged 1989",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     },
+     {
+      "key": "unpl|Sting",
+      "lead": "1×",
+      "sec": "1991",
+      "pri": "Sting",
+      "yt": "Sting MTV Unplugged 1991",
+      "ytWord": "Watch",
+      "src": {
+       "label": "r/musicsuggestions",
+       "url": "https://www.reddit.com/r/musicsuggestions/comments/1wph6v8/who_has_the_best_mtv_unplugged_in_music_history/"
+      }
+     }
+    ]
    }
   ]
  },
