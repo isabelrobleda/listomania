@@ -26595,7 +26595,7 @@
     "title": "Agreed Across Crowds",
     "kind": "Derived",
     "verb": "read",
-    "desc": "Books that turned up in more than one of the 7 book tallies. Different crowds, different questions, same book — the closest thing here to a consensus.",
+    "desc": "Books that turned up in more than one of the 8 book tallies. Different crowds, different questions, same book — the closest thing here to a consensus.",
     "cols": [
      "On",
      "Author",
@@ -26759,6 +26759,13 @@
       "extra": "Unputdownable · The Most Addictive Book · Truly a Masterpiece"
      },
      {
+      "key": "agreed|Angela's Ashes",
+      "lead": "3 lists",
+      "sec": "Frank McCourt",
+      "pri": "Angela's Ashes",
+      "extra": "Unputdownable · Truly a Masterpiece · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Blood Meridian",
       "lead": "3 lists",
       "sec": "Cormac McCarthy",
@@ -26801,6 +26808,13 @@
       "extra": "Must-Read Fiction of the Last 15 Years · Never Stop Recommending · The Most Addictive Book"
      },
      {
+      "key": "agreed|Endurance",
+      "lead": "3 lists",
+      "sec": "Alfred Lansing",
+      "pri": "Endurance",
+      "extra": "The Most Addictive Book · Truly a Masterpiece · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Fahrenheit 451",
       "lead": "3 lists",
       "sec": "Ray Bradbury",
@@ -26813,6 +26827,27 @@
       "sec": "Douglas Hofstadter",
       "pri": "Gödel, Escher, Bach",
       "extra": "Books That Changed People · The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|In Cold Blood",
+      "lead": "3 lists",
+      "sec": "Truman Capote",
+      "pri": "In Cold Blood",
+      "extra": "The Book That Slapped You · Unputdownable · Top Three Non-Fiction"
+     },
+     {
+      "key": "agreed|Into the Wild",
+      "lead": "3 lists",
+      "sec": "Jon Krakauer",
+      "pri": "Into the Wild",
+      "extra": "Books That Changed People · The Most Addictive Book · Top Three Non-Fiction"
+     },
+     {
+      "key": "agreed|Man's Search for Meaning",
+      "lead": "3 lists",
+      "sec": "Viktor E. Frankl",
+      "pri": "Man's Search for Meaning",
+      "extra": "Never Stop Recommending · Truly a Masterpiece · Top Three Non-Fiction"
      },
      {
       "key": "agreed|Middlemarch",
@@ -26918,6 +26953,13 @@
       "sec": "Mikhail Bulgakov",
       "pri": "The Master and Margarita",
       "extra": "Unputdownable · Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Power Broker",
+      "lead": "3 lists",
+      "sec": "Robert Caro",
+      "pri": "The Power Broker",
+      "extra": "Books That Changed People · The Most Addictive Book · Top Three Non-Fiction"
      },
      {
       "key": "agreed|The Remains of the Day",
@@ -27053,13 +27095,6 @@
       "extra": "Must-Read Fiction of the Last 15 Years · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Angela's Ashes",
-      "lead": "2 lists",
-      "sec": "Frank McCourt",
-      "pri": "Angela's Ashes",
-      "extra": "Unputdownable · Truly a Masterpiece"
-     },
-     {
       "key": "agreed|Animal Farm",
       "lead": "2 lists",
       "sec": "George Orwell",
@@ -27088,6 +27123,13 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
+      "key": "agreed|Being Mortal",
+      "lead": "2 lists",
+      "sec": "Atul Gawande",
+      "pri": "Being Mortal",
+      "extra": "Must-Read Fiction of the Last 15 Years · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Breakfast of Champions",
       "lead": "2 lists",
       "sec": "Kurt Vonnegut",
@@ -27107,6 +27149,13 @@
       "sec": "John Steinbeck",
       "pri": "Cannery Row",
       "extra": "Unputdownable · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Caste",
+      "lead": "2 lists",
+      "sec": "Isabel Wilkerson",
+      "pri": "Caste",
+      "extra": "The Book That Slapped You · Top Three Non-Fiction"
      },
      {
       "key": "agreed|Circe",
@@ -27158,13 +27207,6 @@
       "extra": "Books That Changed People · The Most Addictive Book"
      },
      {
-      "key": "agreed|Endurance",
-      "lead": "2 lists",
-      "sec": "Alfred Lansing",
-      "pri": "Endurance",
-      "extra": "The Most Addictive Book · Truly a Masterpiece"
-     },
-     {
       "key": "agreed|For Whom the Bell Tolls",
       "lead": "2 lists",
       "sec": "Ernest Hemingway",
@@ -27200,6 +27242,13 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
+      "key": "agreed|Good Morning, Monster",
+      "lead": "2 lists",
+      "sec": "Catherine Gildiner",
+      "pri": "Good Morning, Monster",
+      "extra": "Truly a Masterpiece · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Harry Potter",
       "lead": "2 lists",
       "sec": "J.K. Rowling",
@@ -27207,18 +27256,18 @@
       "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
-      "key": "agreed|In Cold Blood",
+      "key": "agreed|I Know Why the Caged Bird Sings",
       "lead": "2 lists",
-      "sec": "Truman Capote",
-      "pri": "In Cold Blood",
-      "extra": "The Book That Slapped You · Unputdownable"
+      "sec": "Maya Angelou",
+      "pri": "I Know Why the Caged Bird Sings",
+      "extra": "The Book That Slapped You · Top Three Non-Fiction"
      },
      {
-      "key": "agreed|Into the Wild",
+      "key": "agreed|Into Thin Air",
       "lead": "2 lists",
       "sec": "Jon Krakauer",
-      "pri": "Into the Wild",
-      "extra": "Books That Changed People · The Most Addictive Book"
+      "pri": "Into Thin Air",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
      },
      {
       "key": "agreed|It",
@@ -27256,6 +27305,13 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
+      "key": "agreed|Kitchen Confidential",
+      "lead": "2 lists",
+      "sec": "Anthony Bourdain",
+      "pri": "Kitchen Confidential",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Les Misérables",
       "lead": "2 lists",
       "sec": "Victor Hugo",
@@ -27277,11 +27333,11 @@
       "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
-      "key": "agreed|Man's Search for Meaning",
+      "key": "agreed|Meditations",
       "lead": "2 lists",
-      "sec": "Viktor E. Frankl",
-      "pri": "Man's Search for Meaning",
-      "extra": "Never Stop Recommending · Truly a Masterpiece"
+      "sec": "Marcus Aurelius",
+      "pri": "Meditations",
+      "extra": "Books That Changed People · Top Three Non-Fiction"
      },
      {
       "key": "agreed|Moby-Dick",
@@ -27396,6 +27452,13 @@
       "extra": "The Book That Slapped You · Unputdownable"
      },
      {
+      "key": "agreed|The Autobiography of Malcolm X",
+      "lead": "2 lists",
+      "sec": "Alex Haley",
+      "pri": "The Autobiography of Malcolm X",
+      "extra": "Never Stop Recommending · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|The Bell Jar",
       "lead": "2 lists",
       "sec": "Sylvia Plath",
@@ -27429,6 +27492,13 @@
       "sec": "J.D. Salinger",
       "pri": "The Catcher in the Rye",
       "extra": "Books That Changed People · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Demon-Haunted World",
+      "lead": "2 lists",
+      "sec": "Carl Sagan",
+      "pri": "The Demon-Haunted World",
+      "extra": "The Book That Slapped You · Top Three Non-Fiction"
      },
      {
       "key": "agreed|The Divine Comedy",
@@ -27494,11 +27564,25 @@
       "extra": "The Most Addictive Book · Truly a Masterpiece"
      },
      {
+      "key": "agreed|The Hot Zone",
+      "lead": "2 lists",
+      "sec": "Richard Preston",
+      "pri": "The Hot Zone",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|The Hunger Games",
       "lead": "2 lists",
       "sec": "Suzanne Collins",
       "pri": "The Hunger Games",
       "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|The Indifferent Stars Above",
+      "lead": "2 lists",
+      "sec": "Daniel James Brown",
+      "pri": "The Indifferent Stars Above",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
      },
      {
       "key": "agreed|The Kite Runner",
@@ -27522,6 +27606,13 @@
       "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
+      "key": "agreed|The New Jim Crow",
+      "lead": "2 lists",
+      "sec": "Michelle Alexander",
+      "pri": "The New Jim Crow",
+      "extra": "The Book That Slapped You · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|The Overstory",
       "lead": "2 lists",
       "sec": "Richard Powers",
@@ -27536,11 +27627,11 @@
       "extra": "Unputdownable · Truly a Masterpiece"
      },
      {
-      "key": "agreed|The Power Broker",
+      "key": "agreed|The Rise and Fall of the Third Reich",
       "lead": "2 lists",
-      "sec": "Robert Caro",
-      "pri": "The Power Broker",
-      "extra": "Books That Changed People · The Most Addictive Book"
+      "sec": "William L. Shirer",
+      "pri": "The Rise and Fall of the Third Reich",
+      "extra": "Truly a Masterpiece · Top Three Non-Fiction"
      },
      {
       "key": "agreed|The Screwtape Letters",
@@ -27592,6 +27683,13 @@
       "extra": "Unputdownable · The Most Addictive Book"
      },
      {
+      "key": "agreed|The Wager",
+      "lead": "2 lists",
+      "sec": "David Grann",
+      "pri": "The Wager",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|The Wheel of Time",
       "lead": "2 lists",
       "sec": "Robert Jordan",
@@ -27606,11 +27704,25 @@
       "extra": "The Book That Slapped You · Books That Changed People"
      },
      {
+      "key": "agreed|Tuesdays with Morrie",
+      "lead": "2 lists",
+      "sec": "Mitch Albom",
+      "pri": "Tuesdays with Morrie",
+      "extra": "Unputdownable · Top Three Non-Fiction"
+     },
+     {
       "key": "agreed|Ubik",
       "lead": "2 lists",
       "sec": "Philip K. Dick",
       "pri": "Ubik",
       "extra": "The Most Addictive Book · Truly a Masterpiece"
+     },
+     {
+      "key": "agreed|Under the Banner of Heaven",
+      "lead": "2 lists",
+      "sec": "Jon Krakauer",
+      "pri": "Under the Banner of Heaven",
+      "extra": "The Most Addictive Book · Top Three Non-Fiction"
      },
      {
       "key": "agreed|Underworld",
@@ -27639,6 +27751,13 @@
       "sec": "Janet Fitch",
       "pri": "White Oleander",
       "extra": "The Book That Slapped You · Never Stop Recommending"
+     },
+     {
+      "key": "agreed|Why We Sleep",
+      "lead": "2 lists",
+      "sec": "Matthew Walker",
+      "pri": "Why We Sleep",
+      "extra": "Books That Changed People · Top Three Non-Fiction"
      },
      {
       "key": "agreed|World War Z",
@@ -37413,6 +37532,1821 @@
       "src": {
        "label": "r/AskReddit",
        "url": "https://www.reddit.com/r/AskReddit/comments/1wokqpm/what_books_are_truly_masterpieces/"
+      }
+     }
+    ]
+   },
+   {
+    "slug": "top-three-non-fiction",
+    "title": "Top Three Non-Fiction",
+    "kind": "Tally",
+    "verb": "read",
+    "desc": "r/nonfictionbooks, asked for their top three of all time: 179 books from 76 readers. Krakauer on Everest on top, and two authors &mdash; Krakauer and Robert Caro &mdash; all over it.",
+    "cols": [
+     "Named by",
+     "Author",
+     "Title",
+     "Look up · source"
+    ],
+    "gr": "sec",
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/",
+      "label": "Reddit · r/nonfictionbooks",
+      "q": "What is your top 3 non fiction books of all time?",
+      "meta": "2026 · 102 points · 144 comments"
+     }
+    ],
+    "note": "Counted by distinct redditor; where a comment named several books, each one counts, honourable mentions included, and upvotes on the naming comments break ties. The whole thread, replies and all: 141 of 144 comments. A reply counts when it names the book with an opinion (&ldquo;<em>Into Thin Air</em> is so good!&rdquo;); nameless agreement doesn&rsquo;t. Left out: the asker&rsquo;s own pick, suggestions with no opinion attached, authors named without a title, a novel and a book of sonnets, and one commenter plugging his own jazz books. <b>A small thread, and it shows:</b> three books in four are named once, and the top count is seven, for <em>Into Thin Air</em>. The agreement is in authors rather than titles. Jon Krakauer is named eleven times across three books, Robert Caro ten across three &mdash; one reader leaves out &ldquo;the obligatory Caro, Krakauer, etc.&rdquo; precisely because everyone else will name them &mdash; and Patrick Radden Keefe eight, across two.",
+    "rows": [
+     {
+      "key": "nf3|Into Thin Air",
+      "lead": "7×",
+      "sec": "Jon Krakauer",
+      "pri": "Into Thin Air",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Say Nothing",
+      "lead": "6×",
+      "sec": "Patrick Radden Keefe",
+      "pri": "Say Nothing",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Power Broker",
+      "lead": "5×",
+      "sec": "Robert Caro",
+      "pri": "The Power Broker",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Master of the Senate",
+      "lead": "4×",
+      "sec": "Robert Caro",
+      "pri": "Master of the Senate",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Team of Rivals",
+      "lead": "4×",
+      "sec": "Doris Kearns Goodwin",
+      "pri": "Team of Rivals",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Shadow Divers",
+      "lead": "3×",
+      "sec": "Robert Kurson",
+      "pri": "Shadow Divers",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|In Cold Blood",
+      "lead": "3×",
+      "sec": "Truman Capote",
+      "pri": "In Cold Blood",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Spirit Catches You and You Fall Down",
+      "lead": "3×",
+      "sec": "Anne Fadiman",
+      "pri": "The Spirit Catches You and You Fall Down",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Only Plane in the Sky",
+      "lead": "3×",
+      "sec": "Garrett M. Graff",
+      "pri": "The Only Plane in the Sky",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Emperor of All Maladies",
+      "lead": "3×",
+      "sec": "Siddhartha Mukherjee",
+      "pri": "The Emperor of All Maladies",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Under the Banner of Heaven",
+      "lead": "3×",
+      "sec": "Jon Krakauer",
+      "pri": "Under the Banner of Heaven",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Entangled Life",
+      "lead": "2×",
+      "sec": "Merlin Sheldrake",
+      "pri": "Entangled Life",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Warmth of Other Suns",
+      "lead": "2×",
+      "sec": "Isabel Wilkerson",
+      "pri": "The Warmth of Other Suns",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Boom Town",
+      "lead": "2×",
+      "sec": "Sam Anderson",
+      "pri": "Boom Town",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Indifferent Stars Above",
+      "lead": "2×",
+      "sec": "Daniel James Brown",
+      "pri": "The Indifferent Stars Above",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Swerve",
+      "lead": "2×",
+      "sec": "Stephen Greenblatt",
+      "pri": "The Swerve",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Wager",
+      "lead": "2×",
+      "sec": "David Grann",
+      "pri": "The Wager",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Blitzed",
+      "lead": "2×",
+      "sec": "Norman Ohler",
+      "pri": "Blitzed",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Killings",
+      "lead": "2×",
+      "sec": "Calvin Trillin",
+      "pri": "Killings",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Rising Tide",
+      "lead": "2×",
+      "sec": "John M. Barry",
+      "pri": "Rising Tide",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Looming Tower",
+      "lead": "2×",
+      "sec": "Lawrence Wright",
+      "pri": "The Looming Tower",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The New Jim Crow",
+      "lead": "2×",
+      "sec": "Michelle Alexander",
+      "pri": "The New Jim Crow",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Being Mortal",
+      "lead": "2×",
+      "sec": "Atul Gawande",
+      "pri": "Being Mortal",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Caste",
+      "lead": "2×",
+      "sec": "Isabel Wilkerson",
+      "pri": "Caste",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Empire of Pain",
+      "lead": "2×",
+      "sec": "Patrick Radden Keefe",
+      "pri": "Empire of Pain",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|John Adams",
+      "lead": "2×",
+      "sec": "David McCullough",
+      "pri": "John Adams",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Krakatoa",
+      "lead": "2×",
+      "sec": "Simon Winchester",
+      "pri": "Krakatoa",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Man's Search for Meaning",
+      "lead": "2×",
+      "sec": "Viktor E. Frankl",
+      "pri": "Man's Search for Meaning",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Color of Law",
+      "lead": "2×",
+      "sec": "Richard Rothstein",
+      "pri": "The Color of Law",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Season",
+      "lead": "1×",
+      "sec": "Helen Garner",
+      "pri": "The Season",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|This House of Grief",
+      "lead": "1×",
+      "sec": "Helen Garner",
+      "pri": "This House of Grief",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Autobiography of Malcolm X",
+      "lead": "1×",
+      "sec": "Malcolm X & Alex Haley",
+      "pri": "The Autobiography of Malcolm X",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Mother Tongue",
+      "lead": "1×",
+      "sec": "Bill Bryson",
+      "pri": "The Mother Tongue",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The World in a Grain",
+      "lead": "1×",
+      "sec": "Vince Beiser",
+      "pri": "The World in a Grain",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|A Billion Years",
+      "lead": "1×",
+      "sec": "Mike Rinder",
+      "pri": "A Billion Years",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Everything Is Tuberculosis",
+      "lead": "1×",
+      "sec": "John Green",
+      "pri": "Everything Is Tuberculosis",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Serpent and the Rainbow",
+      "lead": "1×",
+      "sec": "Wade Davis",
+      "pri": "The Serpent and the Rainbow",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|In the Heart of the Sea",
+      "lead": "1×",
+      "sec": "Nathaniel Philbrick",
+      "pri": "In the Heart of the Sea",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Best Land Under Heaven",
+      "lead": "1×",
+      "sec": "Michael Wallis",
+      "pri": "The Best Land Under Heaven",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ain't I a Woman",
+      "lead": "1×",
+      "sec": "bell hooks",
+      "pri": "Ain't I a Woman",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|I Know Why the Caged Bird Sings",
+      "lead": "1×",
+      "sec": "Maya Angelou",
+      "pri": "I Know Why the Caged Bird Sings",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Are Prisons Obsolete?",
+      "lead": "1×",
+      "sec": "Angela Y. Davis",
+      "pri": "Are Prisons Obsolete?",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Endurance",
+      "lead": "1×",
+      "sec": "Alfred Lansing",
+      "pri": "Endurance",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Overground Railroad",
+      "lead": "1×",
+      "sec": "Candacy Taylor",
+      "pri": "Overground Railroad",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Woody Guthrie: A Life",
+      "lead": "1×",
+      "sec": "Joe Klein",
+      "pri": "Woody Guthrie: A Life",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Hidden Valley Road",
+      "lead": "1×",
+      "sec": "Robert Kolker",
+      "pri": "Hidden Valley Road",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|People Who Eat Darkness",
+      "lead": "1×",
+      "sec": "Richard Lloyd Parry",
+      "pri": "People Who Eat Darkness",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Islands of Abandonment",
+      "lead": "1×",
+      "sec": "Cal Flyn",
+      "pri": "Islands of Abandonment",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Stalin: The Court of the Red Tsar",
+      "lead": "1×",
+      "sec": "Simon Sebag Montefiore",
+      "pri": "Stalin: The Court of the Red Tsar",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Old Ways",
+      "lead": "1×",
+      "sec": "Robert Macfarlane",
+      "pri": "The Old Ways",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Homefront",
+      "lead": "1×",
+      "sec": "Catherine Lutz",
+      "pri": "Homefront",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Patriotic Treason",
+      "lead": "1×",
+      "sec": "Evan Carton",
+      "pri": "Patriotic Treason",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Lumumba Plot",
+      "lead": "1×",
+      "sec": "Stuart A. Reid",
+      "pri": "The Lumumba Plot",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|A Civil Action",
+      "lead": "1×",
+      "sec": "Jonathan Harr",
+      "pri": "A Civil Action",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Blood and Thunder",
+      "lead": "1×",
+      "sec": "Hampton Sides",
+      "pri": "Blood and Thunder",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Cadillac Desert",
+      "lead": "1×",
+      "sec": "Marc Reisner",
+      "pri": "Cadillac Desert",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Deep Survival",
+      "lead": "1×",
+      "sec": "Laurence Gonzales",
+      "pri": "Deep Survival",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Einstein",
+      "lead": "1×",
+      "sec": "Walter Isaacson",
+      "pri": "Einstein",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Fatherland",
+      "lead": "1×",
+      "sec": "Burkhard Bilger",
+      "pri": "Fatherland",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|One Day",
+      "lead": "1×",
+      "sec": "Gene Weingarten",
+      "pri": "One Day",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Pirate Hunters",
+      "lead": "1×",
+      "sec": "Robert Kurson",
+      "pri": "Pirate Hunters",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Storm of Steel",
+      "lead": "1×",
+      "sec": "Ernst Jünger",
+      "pri": "Storm of Steel",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Devil's Highway",
+      "lead": "1×",
+      "sec": "Luis Alberto Urrea",
+      "pri": "The Devil's Highway",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Guns of August",
+      "lead": "1×",
+      "sec": "Barbara W. Tuchman",
+      "pri": "The Guns of August",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Westerners",
+      "lead": "1×",
+      "sec": "Megan Kate Nelson",
+      "pri": "The Westerners",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Valley So Low",
+      "lead": "1×",
+      "sec": "Jared Sullivan",
+      "pri": "Valley So Low",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|War",
+      "lead": "1×",
+      "sec": "Sebastian Junger",
+      "pri": "War",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|A Woman of No Importance",
+      "lead": "1×",
+      "sec": "Sonia Purnell",
+      "pri": "A Woman of No Importance",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|All the President's Men",
+      "lead": "1×",
+      "sec": "Carl Bernstein & Bob Woodward",
+      "pri": "All the President's Men",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|An Immense World",
+      "lead": "1×",
+      "sec": "Ed Yong",
+      "pri": "An Immense World",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Carrying the Fire",
+      "lead": "1×",
+      "sec": "Michael Collins",
+      "pri": "Carrying the Fire",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Fearing the Black Body",
+      "lead": "1×",
+      "sec": "Sabrina Strings",
+      "pri": "Fearing the Black Body",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Folk Devils and Moral Panics",
+      "lead": "1×",
+      "sec": "Stanley Cohen",
+      "pri": "Folk Devils and Moral Panics",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Moneyball",
+      "lead": "1×",
+      "sec": "Michael Lewis",
+      "pri": "Moneyball",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Radium Girls",
+      "lead": "1×",
+      "sec": "Kate Moore",
+      "pri": "Radium Girls",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Royal Panoply",
+      "lead": "1×",
+      "sec": "Carolly Erickson",
+      "pri": "Royal Panoply",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Subculture: The Meaning of Style",
+      "lead": "1×",
+      "sec": "Dick Hebdige",
+      "pri": "Subculture: The Meaning of Style",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Boys in the Boat",
+      "lead": "1×",
+      "sec": "Daniel James Brown",
+      "pri": "The Boys in the Boat",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Demon-Haunted World",
+      "lead": "1×",
+      "sec": "Carl Sagan",
+      "pri": "The Demon-Haunted World",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Devil's Chessboard",
+      "lead": "1×",
+      "sec": "David Talbot",
+      "pri": "The Devil's Chessboard",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Five",
+      "lead": "1×",
+      "sec": "Hallie Rubenhold",
+      "pri": "The Five",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Spy and the Traitor",
+      "lead": "1×",
+      "sec": "Ben Macintyre",
+      "pri": "The Spy and the Traitor",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|This One Wild and Precious Life",
+      "lead": "1×",
+      "sec": "Sarah Wilson",
+      "pri": "This One Wild and Precious Life",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|A Short History of Nearly Everything",
+      "lead": "1×",
+      "sec": "Bill Bryson",
+      "pri": "A Short History of Nearly Everything",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Actress of a Certain Age",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Actress of a Certain Age",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|After Steve",
+      "lead": "1×",
+      "sec": "Tripp Mickle",
+      "pri": "After Steve",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Agent Zo",
+      "lead": "1×",
+      "sec": "Clare Mulley",
+      "pri": "Agent Zo",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Angela's Ashes",
+      "lead": "1×",
+      "sec": "Frank McCourt",
+      "pri": "Angela's Ashes",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Apple in China",
+      "lead": "1×",
+      "sec": "Patrick McGee",
+      "pri": "Apple in China",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Batavia",
+      "lead": "1×",
+      "sec": "Peter FitzSimons",
+      "pri": "Batavia",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Dark Towers",
+      "lead": "1×",
+      "sec": "David Enrich",
+      "pri": "Dark Towers",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Down by the Riverside",
+      "lead": "1×",
+      "sec": "Charles Joyner",
+      "pri": "Down by the Riverside",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ecclesiastes",
+      "lead": "1×",
+      "sec": "The Bible",
+      "pri": "Ecclesiastes",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Eisenhower in War and Peace",
+      "lead": "1×",
+      "sec": "Jean Edward Smith",
+      "pri": "Eisenhower in War and Peace",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Empty Mansions",
+      "lead": "1×",
+      "sec": "Bill Dedman & Paul Clark Newell Jr.",
+      "pri": "Empty Mansions",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Everyday Life in Early America",
+      "lead": "1×",
+      "sec": "David Freeman Hawke",
+      "pri": "Everyday Life in Early America",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Good Morning, Monster",
+      "lead": "1×",
+      "sec": "Catherine Gildiner",
+      "pri": "Good Morning, Monster",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|How Ike Led",
+      "lead": "1×",
+      "sec": "Susan Eisenhower",
+      "pri": "How Ike Led",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Living in the Shadow of Death",
+      "lead": "1×",
+      "sec": "Sheila M. Rothman",
+      "pri": "Living in the Shadow of Death",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Meditations",
+      "lead": "1×",
+      "sec": "Marcus Aurelius",
+      "pri": "Meditations",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|My Life in France",
+      "lead": "1×",
+      "sec": "Julia Child",
+      "pri": "My Life in France",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ned Kelly",
+      "lead": "1×",
+      "sec": "Ian Jones",
+      "pri": "Ned Kelly",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|On the Origin of Species",
+      "lead": "1×",
+      "sec": "Charles Darwin",
+      "pri": "On the Origin of Species",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Open Veins of Latin America",
+      "lead": "1×",
+      "sec": "Eduardo Galeano",
+      "pri": "Open Veins of Latin America",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Race Against Time",
+      "lead": "1×",
+      "sec": "Jerry Mitchell",
+      "pri": "Race Against Time",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Reaganland",
+      "lead": "1×",
+      "sec": "Rick Perlstein",
+      "pri": "Reaganland",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Rising Out of Hatred",
+      "lead": "1×",
+      "sec": "Eli Saslow",
+      "pri": "Rising Out of Hatred",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Salt: A World History",
+      "lead": "1×",
+      "sec": "Mark Kurlansky",
+      "pri": "Salt: A World History",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Seven Years in Tibet",
+      "lead": "1×",
+      "sec": "Heinrich Harrer",
+      "pri": "Seven Years in Tibet",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Spark",
+      "lead": "1×",
+      "sec": "John J. Ratey",
+      "pri": "Spark",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Tao Te Ching",
+      "lead": "1×",
+      "sec": "Laozi",
+      "pri": "Tao Te Ching",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The 1619 Project",
+      "lead": "1×",
+      "sec": "Nikole Hannah-Jones (ed.)",
+      "pri": "The 1619 Project",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Beast",
+      "lead": "1×",
+      "sec": "Óscar Martínez",
+      "pri": "The Beast",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Bounty",
+      "lead": "1×",
+      "sec": "Caroline Alexander",
+      "pri": "The Bounty",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Communist Manifesto",
+      "lead": "1×",
+      "sec": "Karl Marx & Friedrich Engels",
+      "pri": "The Communist Manifesto",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Dawn of Everything",
+      "lead": "1×",
+      "sec": "David Graeber & David Wengrow",
+      "pri": "The Dawn of Everything",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Gene",
+      "lead": "1×",
+      "sec": "Siddhartha Mukherjee",
+      "pri": "The Gene",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Hot Zone",
+      "lead": "1×",
+      "sec": "Richard Preston",
+      "pri": "The Hot Zone",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Lost City of Z",
+      "lead": "1×",
+      "sec": "David Grann",
+      "pri": "The Lost City of Z",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Man in the Rockefeller Suit",
+      "lead": "1×",
+      "sec": "Mark Seal",
+      "pri": "The Man in the Rockefeller Suit",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Omnivore's Dilemma",
+      "lead": "1×",
+      "sec": "Michael Pollan",
+      "pri": "The Omnivore's Dilemma",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Psychopath Test",
+      "lead": "1×",
+      "sec": "Jon Ronson",
+      "pri": "The Psychopath Test",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Rise and Fall of the Third Reich",
+      "lead": "1×",
+      "sec": "William L. Shirer",
+      "pri": "The Rise and Fall of the Third Reich",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Tender Bar",
+      "lead": "1×",
+      "sec": "J. R. Moehringer",
+      "pri": "The Tender Bar",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|What Should I Do with My Life?",
+      "lead": "1×",
+      "sec": "Po Bronson",
+      "pri": "What Should I Do with My Life?",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Where the Wild Things Were",
+      "lead": "1×",
+      "sec": "William Stolzenburg",
+      "pri": "Where the Wild Things Were",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Why Fish Don't Exist",
+      "lead": "1×",
+      "sec": "Lulu Miller",
+      "pri": "Why Fish Don't Exist",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Why We Sleep",
+      "lead": "1×",
+      "sec": "Matthew Walker",
+      "pri": "Why We Sleep",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|A World Lit Only by Fire",
+      "lead": "1×",
+      "sec": "William Manchester",
+      "pri": "A World Lit Only by Fire",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Against the Gods",
+      "lead": "1×",
+      "sec": "Peter L. Bernstein",
+      "pri": "Against the Gods",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|An Interrupted Life",
+      "lead": "1×",
+      "sec": "Etty Hillesum",
+      "pri": "An Interrupted Life",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|And the Band Played On",
+      "lead": "1×",
+      "sec": "Randy Shilts",
+      "pri": "And the Band Played On",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Buckley",
+      "lead": "1×",
+      "sec": "Sam Tanenhaus",
+      "pri": "Buckley",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Che Guevara: A Revolutionary Life",
+      "lead": "1×",
+      "sec": "Jon Lee Anderson",
+      "pri": "Che Guevara: A Revolutionary Life",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Colour: Travels Through the Paintbox",
+      "lead": "1×",
+      "sec": "Victoria Finlay",
+      "pri": "Colour: Travels Through the Paintbox",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Common Ground",
+      "lead": "1×",
+      "sec": "J. Anthony Lukas",
+      "pri": "Common Ground",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Disturbing the Universe",
+      "lead": "1×",
+      "sec": "Freeman Dyson",
+      "pri": "Disturbing the Universe",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Down and Out in Paris and London",
+      "lead": "1×",
+      "sec": "George Orwell",
+      "pri": "Down and Out in Paris and London",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Emptiness Dancing",
+      "lead": "1×",
+      "sec": "Adyashanti",
+      "pri": "Emptiness Dancing",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Everything Was Possible",
+      "lead": "1×",
+      "sec": "Ted Chapin",
+      "pri": "Everything Was Possible",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Food of the Gods",
+      "lead": "1×",
+      "sec": "Terence McKenna",
+      "pri": "Food of the Gods",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Gertrude Bell: Queen of the Desert",
+      "lead": "1×",
+      "sec": "Georgina Howell",
+      "pri": "Gertrude Bell: Queen of the Desert",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ghosts of the Tsunami",
+      "lead": "1×",
+      "sec": "Richard Lloyd Parry",
+      "pri": "Ghosts of the Tsunami",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Go East, Young Man",
+      "lead": "1×",
+      "sec": "William O. Douglas",
+      "pri": "Go East, Young Man",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Heroes: Mass Murder and Suicide",
+      "lead": "1×",
+      "sec": "Franco \"Bifo\" Berardi",
+      "pri": "Heroes: Mass Murder and Suicide",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|How the Word Is Passed",
+      "lead": "1×",
+      "sec": "Clint Smith",
+      "pri": "How the Word Is Passed",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|How to Fail",
+      "lead": "1×",
+      "sec": "Elizabeth Day",
+      "pri": "How to Fail",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|In the Slick of the Cricket",
+      "lead": "1×",
+      "sec": "Russell Drumm",
+      "pri": "In the Slick of the Cricket",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Into the Wild",
+      "lead": "1×",
+      "sec": "Jon Krakauer",
+      "pri": "Into the Wild",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Just Mercy",
+      "lead": "1×",
+      "sec": "Bryan Stevenson",
+      "pri": "Just Mercy",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Kitchen Confidential",
+      "lead": "1×",
+      "sec": "Anthony Bourdain",
+      "pri": "Kitchen Confidential",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Last Call",
+      "lead": "1×",
+      "sec": "Daniel Okrent",
+      "pri": "Last Call",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|London Falling",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "London Falling",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Marching Powder",
+      "lead": "1×",
+      "sec": "Rusty Young",
+      "pri": "Marching Powder",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Motoring with Mohammed",
+      "lead": "1×",
+      "sec": "Eric Hansen",
+      "pri": "Motoring with Mohammed",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|One of Us",
+      "lead": "1×",
+      "sec": "Åsne Seierstad",
+      "pri": "One of Us",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ordinary Men",
+      "lead": "1×",
+      "sec": "Christopher R. Browning",
+      "pri": "Ordinary Men",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|People Love Dead Jews",
+      "lead": "1×",
+      "sec": "Dara Horn",
+      "pri": "People Love Dead Jews",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Personal Memoirs of U. S. Grant",
+      "lead": "1×",
+      "sec": "Ulysses S. Grant",
+      "pri": "Personal Memoirs of U. S. Grant",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Piece of Cake",
+      "lead": "1×",
+      "sec": "—",
+      "pri": "Piece of Cake",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Ravensbrück",
+      "lead": "1×",
+      "sec": "Sarah Helm",
+      "pri": "Ravensbrück",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Savage Continent",
+      "lead": "1×",
+      "sec": "Keith Lowe",
+      "pri": "Savage Continent",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Secrets",
+      "lead": "1×",
+      "sec": "Daniel Ellsberg",
+      "pri": "Secrets",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Spillover",
+      "lead": "1×",
+      "sec": "David Quammen",
+      "pri": "Spillover",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Age of Faith",
+      "lead": "1×",
+      "sec": "Will Durant",
+      "pri": "The Age of Faith",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Autobiography of Benjamin Franklin",
+      "lead": "1×",
+      "sec": "Benjamin Franklin",
+      "pri": "The Autobiography of Benjamin Franklin",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Death and Life of Great American Cities",
+      "lead": "1×",
+      "sec": "Jane Jacobs",
+      "pri": "The Death and Life of Great American Cities",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Influence of Sea Power Upon History",
+      "lead": "1×",
+      "sec": "Alfred Thayer Mahan",
+      "pri": "The Influence of Sea Power Upon History",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Lady and Her Monsters",
+      "lead": "1×",
+      "sec": "Roseanne Montillo",
+      "pri": "The Lady and Her Monsters",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Lost",
+      "lead": "1×",
+      "sec": "Daniel Mendelsohn",
+      "pri": "The Lost",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Man from the Train",
+      "lead": "1×",
+      "sec": "Bill James & Rachel McCarthy James",
+      "pri": "The Man from the Train",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Master and His Emissary",
+      "lead": "1×",
+      "sec": "Iain McGilchrist",
+      "pri": "The Master and His Emissary",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Origins of Totalitarianism",
+      "lead": "1×",
+      "sec": "Hannah Arendt",
+      "pri": "The Origins of Totalitarianism",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Path to Power",
+      "lead": "1×",
+      "sec": "Robert Caro",
+      "pri": "The Path to Power",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|The Secret",
+      "lead": "1×",
+      "sec": "Rhonda Byrne",
+      "pri": "The Secret",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Thus Spoke Zarathustra",
+      "lead": "1×",
+      "sec": "Friedrich Nietzsche",
+      "pri": "Thus Spoke Zarathustra",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Tuesdays with Morrie",
+      "lead": "1×",
+      "sec": "Mitch Albom",
+      "pri": "Tuesdays with Morrie",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|Washington Bullets",
+      "lead": "1×",
+      "sec": "Vijay Prashad",
+      "pri": "Washington Bullets",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
+      }
+     },
+     {
+      "key": "nf3|What It Takes",
+      "lead": "1×",
+      "sec": "Richard Ben Cramer",
+      "pri": "What It Takes",
+      "src": {
+       "label": "r/nonfictionbooks",
+       "url": "https://www.reddit.com/r/nonfictionbooks/comments/1wngzve/what_is_your_top_3_non_fiction_books_of_all_time/"
       }
      }
     ]
