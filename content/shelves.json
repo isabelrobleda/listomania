@@ -27903,7 +27903,11 @@
        "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
       }
      }
-    ]
+    ],
+    "action": {
+     "url": "https://open.spotify.com/playlist/0OE46YID826tIBnKmEnqQv",
+     "label": "Open the playlist ↗"
+    }
    }
   ]
  },
