@@ -26578,6 +26578,1332 @@
      "url": "https://open.spotify.com/playlist/0HZicBxxuFunmqY7LcPUbp",
      "label": "Open the playlist ↗"
     }
+   },
+   {
+    "slug": "paste-greatest-songs-of-the-90s",
+    "title": "The 100 Greatest Songs of the 1990s",
+    "kind": "Canon",
+    "verb": "heard",
+    "noTick": true,
+    "desc": "Paste Magazine&rsquo;s staff ranking, in Paste&rsquo;s order. Wu-Tang at #1, Tori Amos at #2, and a decade that put Britney, Aphex Twin and Shania Twain on the same list.",
+    "cols": [
+     "Rank",
+     "Artist",
+     "Song",
+     "Listen · year · source"
+    ],
+    "srcLabel": "Ranked in",
+    "sources": [
+     {
+      "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s",
+      "label": "Paste Magazine",
+      "q": "The 100 Greatest Songs of the 1990s",
+      "meta": "2026 · Paste Staff · 100 songs"
+     }
+    ],
+    "note": "A canon, not a tally: Paste&rsquo;s writers made this ranking, and it stays in their order rather than being re-sorted by anything here. Artist credits follow Paste, featured guests included, and the year is the one Paste gives for each song. The write-ups that go with each entry are Paste&rsquo;s and live on their pages &mdash; the source link goes there. What makes it worth reading is the spread: Wu-Tang&rsquo;s <em>C.R.E.A.M.</em> on top, Detroit house from Moodymann and Theo Parrish in the top 25, a <em>Sonic R</em> soundtrack cut at #58, and the decade&rsquo;s biggest pop &mdash; Celine Dion, Britney, Third Eye Blind &mdash; ranked without apology among the indie canon.",
+    "rows": [
+     {
+      "key": "paste90|1",
+      "lead": "#1",
+      "sec": "Wu-Tang Clan",
+      "pri": "C.R.E.A.M.",
+      "extra": "1993",
+      "yt": "C.R.E.A.M. Wu-Tang Clan",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|2",
+      "lead": "#2",
+      "sec": "Tori Amos",
+      "pri": "Caught a Lite Sneeze",
+      "extra": "1996",
+      "yt": "Caught a Lite Sneeze Tori Amos",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|3",
+      "lead": "#3",
+      "sec": "Silver Jews",
+      "pri": "Random Rules",
+      "extra": "1998",
+      "yt": "Random Rules Silver Jews",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|4",
+      "lead": "#4",
+      "sec": "Björk",
+      "pri": "Hyperballad",
+      "extra": "1997",
+      "yt": "Hyperballad Björk",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|5",
+      "lead": "#5",
+      "sec": "Moodymann",
+      "pri": "The Thief That Stole My Sad Days… Ya Blessin' Me",
+      "extra": "1999",
+      "yt": "The Thief That Stole My Sad Days… Ya Blessin' Me Moodymann",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|6",
+      "lead": "#6",
+      "sec": "Mariah Carey",
+      "pri": "Can't Let Go",
+      "extra": "1991",
+      "yt": "Can't Let Go Mariah Carey",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|7",
+      "lead": "#7",
+      "sec": "Juvenile feat. Mannie Fresh & Lil Wayne",
+      "pri": "Back That Azz Up",
+      "extra": "1999",
+      "yt": "Back That Azz Up Juvenile",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|8",
+      "lead": "#8",
+      "sec": "Hole",
+      "pri": "Violet",
+      "extra": "1994",
+      "yt": "Violet Hole",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|9",
+      "lead": "#9",
+      "sec": "New Radicals",
+      "pri": "You Get What You Give",
+      "extra": "1998",
+      "yt": "You Get What You Give New Radicals",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|10",
+      "lead": "#10",
+      "sec": "Aphex Twin",
+      "pri": "Fingerbib",
+      "extra": "1996",
+      "yt": "Fingerbib Aphex Twin",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|11",
+      "lead": "#11",
+      "sec": "Lucinda Williams",
+      "pri": "Car Wheels on a Gravel Road",
+      "extra": "1998",
+      "yt": "Car Wheels on a Gravel Road Lucinda Williams",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|12",
+      "lead": "#12",
+      "sec": "The Notorious B.I.G.",
+      "pri": "Everyday Struggle",
+      "extra": "1994",
+      "yt": "Everyday Struggle The Notorious B.I.G.",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|13",
+      "lead": "#13",
+      "sec": "The KLF feat. Tammy Wynette",
+      "pri": "Justified & Ancient",
+      "extra": "1991",
+      "yt": "Justified & Ancient The KLF",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|14",
+      "lead": "#14",
+      "sec": "Bonnie \"Prince\" Billy",
+      "pri": "I See a Darkness",
+      "extra": "1998",
+      "yt": "I See a Darkness Bonnie \"Prince\" Billy",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|15",
+      "lead": "#15",
+      "sec": "PJ Harvey",
+      "pri": "Man-Size",
+      "extra": "1993",
+      "yt": "Man-Size PJ Harvey",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|16",
+      "lead": "#16",
+      "sec": "D'Angelo",
+      "pri": "Brown Sugar",
+      "extra": "1995",
+      "yt": "Brown Sugar D'Angelo",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|17",
+      "lead": "#17",
+      "sec": "Janet Jackson",
+      "pri": "If",
+      "extra": "1993",
+      "yt": "If Janet Jackson",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|18",
+      "lead": "#18",
+      "sec": "Nirvana",
+      "pri": "Aneurysm",
+      "extra": "1992",
+      "yt": "Aneurysm Nirvana",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|19",
+      "lead": "#19",
+      "sec": "Sade",
+      "pri": "No Ordinary Love",
+      "extra": "1992",
+      "yt": "No Ordinary Love Sade",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|20",
+      "lead": "#20",
+      "sec": "Bruce Springsteen",
+      "pri": "Streets of Philadelphia",
+      "extra": "1993",
+      "yt": "Streets of Philadelphia Bruce Springsteen",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|21",
+      "lead": "#21",
+      "sec": "OutKast",
+      "pri": "Da Art of Storytellin', Pt. 1",
+      "extra": "1998",
+      "yt": "Da Art of Storytellin', Pt. 1 OutKast",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|22",
+      "lead": "#22",
+      "sec": "Theo Parrish",
+      "pri": "Sweet Sticky",
+      "extra": "1998",
+      "yt": "Sweet Sticky Theo Parrish",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|23",
+      "lead": "#23",
+      "sec": "George Michael",
+      "pri": "Freedom! '90",
+      "extra": "1990",
+      "yt": "Freedom! '90 George Michael",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|24",
+      "lead": "#24",
+      "sec": "Missy Elliott",
+      "pri": "The Rain (Supa Dupa Fly)",
+      "extra": "1997",
+      "yt": "The Rain (Supa Dupa Fly) Missy Elliott",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|25",
+      "lead": "#25",
+      "sec": "Wilco",
+      "pri": "A Shot in the Arm",
+      "extra": "1999",
+      "yt": "A Shot in the Arm Wilco",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|26",
+      "lead": "#26",
+      "sec": "Liz Phair",
+      "pri": "Fuck and Run",
+      "extra": "1993",
+      "yt": "Fuck and Run Liz Phair",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|27",
+      "lead": "#27",
+      "sec": "A Tribe Called Quest",
+      "pri": "Check the Rhime",
+      "extra": "1991",
+      "yt": "Check the Rhime A Tribe Called Quest",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|28",
+      "lead": "#28",
+      "sec": "Fiona Apple",
+      "pri": "Fast As You Can",
+      "extra": "1999",
+      "yt": "Fast As You Can Fiona Apple",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|29",
+      "lead": "#29",
+      "sec": "Pete Rock & C.L. Smooth",
+      "pri": "They Reminisce Over You (T.R.O.Y.)",
+      "extra": "1992",
+      "yt": "They Reminisce Over You (T.R.O.Y.) Pete Rock & C.L. Smooth",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|30",
+      "lead": "#30",
+      "sec": "Britney Spears",
+      "pri": "…Baby One More Time",
+      "extra": "1998",
+      "yt": "…Baby One More Time Britney Spears",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|31",
+      "lead": "#31",
+      "sec": "The Breeders",
+      "pri": "Cannonball",
+      "extra": "1993",
+      "yt": "Cannonball The Breeders",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|32",
+      "lead": "#32",
+      "sec": "Daft Punk",
+      "pri": "Around the World",
+      "extra": "1997",
+      "yt": "Around the World Daft Punk",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|33",
+      "lead": "#33",
+      "sec": "Bikini Kill",
+      "pri": "Rebel Girl",
+      "extra": "1992",
+      "yt": "Rebel Girl Bikini Kill",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|34",
+      "lead": "#34",
+      "sec": "Bone Thugs-N-Harmony",
+      "pri": "Tha Crossroads",
+      "extra": "1996",
+      "yt": "Tha Crossroads Bone Thugs-N-Harmony",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|35",
+      "lead": "#35",
+      "sec": "Erykah Badu",
+      "pri": "Other Side of the Game",
+      "extra": "1997",
+      "yt": "Other Side of the Game Erykah Badu",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|36",
+      "lead": "#36",
+      "sec": "Pavement",
+      "pri": "Range Life",
+      "extra": "1994",
+      "yt": "Range Life Pavement",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|37",
+      "lead": "#37",
+      "sec": "Lauryn Hill",
+      "pri": "Ex-Factor",
+      "extra": "1998",
+      "yt": "Ex-Factor Lauryn Hill",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|38",
+      "lead": "#38",
+      "sec": "Third Eye Blind",
+      "pri": "Semi-Charmed Life",
+      "extra": "1997",
+      "yt": "Semi-Charmed Life Third Eye Blind",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|39",
+      "lead": "#39",
+      "sec": "Portishead",
+      "pri": "Sour Times",
+      "extra": "1994",
+      "yt": "Sour Times Portishead",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|40",
+      "lead": "#40",
+      "sec": "Nas",
+      "pri": "Life's a Bitch",
+      "extra": "1994",
+      "yt": "Life's a Bitch Nas",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|41",
+      "lead": "#41",
+      "sec": "Madonna",
+      "pri": "Ray of Light",
+      "extra": "1998",
+      "yt": "Ray of Light Madonna",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|42",
+      "lead": "#42",
+      "sec": "Geto Boys",
+      "pri": "Mind Playing Tricks on Me",
+      "extra": "1991",
+      "yt": "Mind Playing Tricks on Me Geto Boys",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|43",
+      "lead": "#43",
+      "sec": "Radiohead",
+      "pri": "Planet Telex",
+      "extra": "1995",
+      "yt": "Planet Telex Radiohead",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|44",
+      "lead": "#44",
+      "sec": "Brandy & Monica",
+      "pri": "The Boy Is Mine",
+      "extra": "1998",
+      "yt": "The Boy Is Mine Brandy & Monica",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|45",
+      "lead": "#45",
+      "sec": "Massive Attack",
+      "pri": "Teardrop",
+      "extra": "1998",
+      "yt": "Teardrop Massive Attack",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|46",
+      "lead": "#46",
+      "sec": "Mobb Deep",
+      "pri": "Shook Ones, Pt. II",
+      "extra": "1995",
+      "yt": "Shook Ones, Pt. II Mobb Deep",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|47",
+      "lead": "#47",
+      "sec": "Celine Dion",
+      "pri": "It's All Coming Back to Me Now",
+      "extra": "1996",
+      "yt": "It's All Coming Back to Me Now Celine Dion",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|48",
+      "lead": "#48",
+      "sec": "Guided by Voices",
+      "pri": "Game of Pricks",
+      "extra": "1995",
+      "yt": "Game of Pricks Guided by Voices",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|49",
+      "lead": "#49",
+      "sec": "DMX",
+      "pri": "Ruff Ryders' Anthem",
+      "extra": "1998",
+      "yt": "Ruff Ryders' Anthem DMX",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|50",
+      "lead": "#50",
+      "sec": "Gillian Welch",
+      "pri": "Orphan Girl",
+      "extra": "1996",
+      "yt": "Orphan Girl Gillian Welch",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|51",
+      "lead": "#51",
+      "sec": "TLC",
+      "pri": "No Scrubs",
+      "extra": "1999",
+      "yt": "No Scrubs TLC",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|52",
+      "lead": "#52",
+      "sec": "DJ Shadow",
+      "pri": "Midnight in a Perfect World",
+      "extra": "1996",
+      "yt": "Midnight in a Perfect World DJ Shadow",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|53",
+      "lead": "#53",
+      "sec": "Elliott Smith",
+      "pri": "Christian Brothers",
+      "extra": "1995",
+      "yt": "Christian Brothers Elliott Smith",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|54",
+      "lead": "#54",
+      "sec": "The Roots feat. Erykah Badu & Eve",
+      "pri": "You Got Me",
+      "extra": "1999",
+      "yt": "You Got Me The Roots",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|55",
+      "lead": "#55",
+      "sec": "Public Enemy",
+      "pri": "Welcome to the Terrordome",
+      "extra": "1990",
+      "yt": "Welcome to the Terrordome Public Enemy",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|56",
+      "lead": "#56",
+      "sec": "Jamiroquai",
+      "pri": "Canned Heat",
+      "extra": "1999",
+      "yt": "Canned Heat Jamiroquai",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|57",
+      "lead": "#57",
+      "sec": "Tom Waits",
+      "pri": "Come On Up to the House",
+      "extra": "1999",
+      "yt": "Come On Up to the House Tom Waits",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|58",
+      "lead": "#58",
+      "sec": "Richard Jacques",
+      "pri": "Can You Feel the Sunshine?",
+      "extra": "1998",
+      "yt": "Can You Feel the Sunshine? Richard Jacques",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|59",
+      "lead": "#59",
+      "sec": "Yo La Tengo",
+      "pri": "Autumn Sweater",
+      "extra": "1997",
+      "yt": "Autumn Sweater Yo La Tengo",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|60",
+      "lead": "#60",
+      "sec": "Aaliyah",
+      "pri": "Are You That Somebody?",
+      "extra": "1998",
+      "yt": "Are You That Somebody? Aaliyah",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|61",
+      "lead": "#61",
+      "sec": "Weezer",
+      "pri": "Only in Dreams",
+      "extra": "1994",
+      "yt": "Only in Dreams Weezer",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|62",
+      "lead": "#62",
+      "sec": "JAY-Z",
+      "pri": "Dead Presidents II",
+      "extra": "1996",
+      "yt": "Dead Presidents II JAY-Z",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|63",
+      "lead": "#63",
+      "sec": "Mazzy Star",
+      "pri": "Fade Into You",
+      "extra": "1993",
+      "yt": "Fade Into You Mazzy Star",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|64",
+      "lead": "#64",
+      "sec": "Jeff Buckley",
+      "pri": "Lover, You Should've Come Over",
+      "extra": "1994",
+      "yt": "Lover, You Should've Come Over Jeff Buckley",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|65",
+      "lead": "#65",
+      "sec": "Built to Spill",
+      "pri": "Carry the Zero",
+      "extra": "1999",
+      "yt": "Carry the Zero Built to Spill",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|66",
+      "lead": "#66",
+      "sec": "De La Soul",
+      "pri": "Stakes Is High",
+      "extra": "1996",
+      "yt": "Stakes Is High De La Soul",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|67",
+      "lead": "#67",
+      "sec": "Kristin Hersh",
+      "pri": "Your Ghost",
+      "extra": "1994",
+      "yt": "Your Ghost Kristin Hersh",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|68",
+      "lead": "#68",
+      "sec": "Prince",
+      "pri": "Gold",
+      "extra": "1995",
+      "yt": "Gold Prince",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|69",
+      "lead": "#69",
+      "sec": "Pulp",
+      "pri": "Common People",
+      "extra": "1995",
+      "yt": "Common People Pulp",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|70",
+      "lead": "#70",
+      "sec": "Digable Planets",
+      "pri": "Rebirth of Slick (Cool Like Dat)",
+      "extra": "1992",
+      "yt": "Rebirth of Slick (Cool Like Dat) Digable Planets",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|71",
+      "lead": "#71",
+      "sec": "Cat Power",
+      "pri": "Metal Heart",
+      "extra": "1998",
+      "yt": "Metal Heart Cat Power",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|72",
+      "lead": "#72",
+      "sec": "MF DOOM feat. Pebbles the Invisible Girl",
+      "pri": "Doomsday",
+      "extra": "1999",
+      "yt": "Doomsday MF DOOM",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|73",
+      "lead": "#73",
+      "sec": "The Sundays",
+      "pri": "Here's Where the Story Ends",
+      "extra": "1990",
+      "yt": "Here's Where the Story Ends The Sundays",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|74",
+      "lead": "#74",
+      "sec": "Destiny's Child",
+      "pri": "Say My Name",
+      "extra": "1999",
+      "yt": "Say My Name Destiny's Child",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|75",
+      "lead": "#75",
+      "sec": "Sinéad O'Connor",
+      "pri": "Nothing Compares 2 U",
+      "extra": "1990",
+      "yt": "Nothing Compares 2 U Sinéad O'Connor",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|76",
+      "lead": "#76",
+      "sec": "Belle and Sebastian",
+      "pri": "Get Me Away from Here, I'm Dying",
+      "extra": "1996",
+      "yt": "Get Me Away from Here, I'm Dying Belle and Sebastian",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|77",
+      "lead": "#77",
+      "sec": "The Pharcyde",
+      "pri": "Otha Fish",
+      "extra": "1992",
+      "yt": "Otha Fish The Pharcyde",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|78",
+      "lead": "#78",
+      "sec": "Daniel Johnston",
+      "pri": "Some Things Last a Long Time",
+      "extra": "1990",
+      "yt": "Some Things Last a Long Time Daniel Johnston",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|79",
+      "lead": "#79",
+      "sec": "Shania Twain",
+      "pri": "Man! I Feel Like a Woman!",
+      "extra": "1997",
+      "yt": "Man! I Feel Like a Woman! Shania Twain",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|80",
+      "lead": "#80",
+      "sec": "Ice Cube",
+      "pri": "It Was a Good Day",
+      "extra": "1992",
+      "yt": "It Was a Good Day Ice Cube",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|81",
+      "lead": "#81",
+      "sec": "Beck",
+      "pri": "Lord Only Knows",
+      "extra": "1996",
+      "yt": "Lord Only Knows Beck",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|82",
+      "lead": "#82",
+      "sec": "Ini Kamoze",
+      "pri": "Here Comes the Hotstepper",
+      "extra": "1994",
+      "yt": "Here Comes the Hotstepper Ini Kamoze",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|83",
+      "lead": "#83",
+      "sec": "Natalie Imbruglia",
+      "pri": "Torn",
+      "extra": "1997",
+      "yt": "Torn Natalie Imbruglia",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|84",
+      "lead": "#84",
+      "sec": "Gang Starr",
+      "pri": "Mass Appeal",
+      "extra": "1993",
+      "yt": "Mass Appeal Gang Starr",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|85",
+      "lead": "#85",
+      "sec": "R.E.M.",
+      "pri": "Nightswimming",
+      "extra": "1992",
+      "yt": "Nightswimming R.E.M.",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|86",
+      "lead": "#86",
+      "sec": "Camp Lo",
+      "pri": "Luchini AKA This Is It",
+      "extra": "1997",
+      "yt": "Luchini AKA This Is It Camp Lo",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|87",
+      "lead": "#87",
+      "sec": "Neutral Milk Hotel",
+      "pri": "Gardenhead / Leave Me Alone",
+      "extra": "1996",
+      "yt": "Gardenhead / Leave Me Alone Neutral Milk Hotel",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|88",
+      "lead": "#88",
+      "sec": "Three 6 Mafia",
+      "pri": "Tear Da Club Up '97",
+      "extra": "1997",
+      "yt": "Tear Da Club Up '97 Three 6 Mafia",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|89",
+      "lead": "#89",
+      "sec": "Le Tigre",
+      "pri": "Deceptacon",
+      "extra": "1999",
+      "yt": "Deceptacon Le Tigre",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|90",
+      "lead": "#90",
+      "sec": "Cocteau Twins",
+      "pri": "Heaven or Las Vegas",
+      "extra": "1990",
+      "yt": "Heaven or Las Vegas Cocteau Twins",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|91",
+      "lead": "#91",
+      "sec": "The Smashing Pumpkins",
+      "pri": "1979",
+      "extra": "1995",
+      "yt": "1979 The Smashing Pumpkins",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|92",
+      "lead": "#92",
+      "sec": "UGK feat. Mr. 3-2 & Ronnie Spencer",
+      "pri": "One Day",
+      "extra": "1996",
+      "yt": "One Day UGK",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|93",
+      "lead": "#93",
+      "sec": "The Chicks",
+      "pri": "Wide Open Spaces",
+      "extra": "1998",
+      "yt": "Wide Open Spaces The Chicks",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|94",
+      "lead": "#94",
+      "sec": "Stereolab",
+      "pri": "The Flower Called Nowhere",
+      "extra": "1997",
+      "yt": "The Flower Called Nowhere Stereolab",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|95",
+      "lead": "#95",
+      "sec": "Warren G feat. Nate Dogg",
+      "pri": "Regulate",
+      "extra": "1994",
+      "yt": "Regulate Warren G",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|96",
+      "lead": "#96",
+      "sec": "The Cranberries",
+      "pri": "Linger",
+      "extra": "1993",
+      "yt": "Linger The Cranberries",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|97",
+      "lead": "#97",
+      "sec": "Depeche Mode",
+      "pri": "Enjoy the Silence",
+      "extra": "1990",
+      "yt": "Enjoy the Silence Depeche Mode",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|98",
+      "lead": "#98",
+      "sec": "Mary J. Blige",
+      "pri": "Real Love",
+      "extra": "1992",
+      "yt": "Real Love Mary J. Blige",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|99",
+      "lead": "#99",
+      "sec": "Modest Mouse",
+      "pri": "Cowboy Dan",
+      "extra": "1997",
+      "yt": "Cowboy Dan Modest Mouse",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     },
+     {
+      "key": "paste90|100",
+      "lead": "#100",
+      "sec": "Raekwon",
+      "pri": "Incarcerated Scarfaces",
+      "extra": "1995",
+      "yt": "Incarcerated Scarfaces Raekwon",
+      "ytWord": "Listen",
+      "src": {
+       "label": "Paste",
+       "url": "https://www.pastemagazine.com/music/1990s/the-100-greatest-songs-of-the-1990s"
+      }
+     }
+    ]
    }
   ]
  },
