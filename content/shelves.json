@@ -27908,6 +27908,6510 @@
      "url": "https://open.spotify.com/playlist/0OE46YID826tIBnKmEnqQv",
      "label": "Open the playlist ↗"
     }
+   },
+   {
+    "slug": "kexp-listeners-favorite-songs-of-the-90s",
+    "title": "KEXP Listeners' Favorite Songs of the '90s",
+    "kind": "Canon",
+    "verb": "heard",
+    "noTick": true,
+    "desc": "Seattle&rsquo;s KEXP asked its listeners, and 540 songs came back. Nirvana at #1, of course; Mazzy Star at #2, which is the more KEXP answer.",
+    "cols": [
+     "Rank",
+     "Artist",
+     "Song",
+     "Listen · source"
+    ],
+    "srcLabel": "Voted in",
+    "sources": [
+     {
+      "url": "https://www.kexp.org/countdowns/90s/99-1/",
+      "label": "KEXP",
+      "q": "Listeners' Favorite Songs of the '90s",
+      "meta": "2026 · listener vote · 540 songs"
+     }
+    ],
+    "note": "A canon, not a tally: KEXP&rsquo;s listeners voted ahead of the station&rsquo;s 2026 fall fund drive, and the list keeps KEXP&rsquo;s order, #1 to #540. Each row&rsquo;s source link goes to the KEXP page that holds it. Spellings are tidied where the page has a typo or switches style between pages (REM and R.E.M., Bjork and Björk); every change is listed in the script. One entry KEXP&rsquo;s own page gets wrong: #94, The Presidents of the United States of America, has its title printed as &ldquo;x&rdquo;, so it&rsquo;s marked missing here rather than guessed. Read it next to <em>Paste&rsquo;s</em> critics&rsquo; 100 for the same decade: 45 songs make both lists, but rarely in the same place. Paste&rsquo;s #1, <em>C.R.E.A.M.</em>, is #68 here; its #3, Silver Jews&rsquo; <em>Random Rules</em>, is #464. Going the other way, a Seattle station&rsquo;s listeners put Pearl Jam in the top 200 seven times, and Soundgarden five.",
+    "rows": [
+     {
+      "key": "kexp90|1",
+      "lead": "#1",
+      "sec": "Nirvana",
+      "pri": "Smells Like Teen Spirit",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Smells Like Teen Spirit Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|2",
+      "lead": "#2",
+      "sec": "Mazzy Star",
+      "pri": "Fade Into You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Fade Into You Mazzy Star",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|3",
+      "lead": "#3",
+      "sec": "Beastie Boys",
+      "pri": "Sabotage",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Sabotage Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|4",
+      "lead": "#4",
+      "sec": "The Breeders",
+      "pri": "Cannonball",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Cannonball The Breeders",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|5",
+      "lead": "#5",
+      "sec": "Radiohead",
+      "pri": "Paranoid Android",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Paranoid Android Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|6",
+      "lead": "#6",
+      "sec": "Massive Attack",
+      "pri": "Teardrop",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Teardrop Massive Attack",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|7",
+      "lead": "#7",
+      "sec": "Deee-Lite",
+      "pri": "Groove Is in the Heart",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Groove Is in the Heart Deee-Lite",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|8",
+      "lead": "#8",
+      "sec": "Radiohead",
+      "pri": "Creep",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Creep Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|9",
+      "lead": "#9",
+      "sec": "Soundgarden",
+      "pri": "Black Hole Sun",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Black Hole Sun Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|10",
+      "lead": "#10",
+      "sec": "Beck",
+      "pri": "Loser",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Loser Beck",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|11",
+      "lead": "#11",
+      "sec": "Depeche Mode",
+      "pri": "Enjoy the Silence",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Enjoy the Silence Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|12",
+      "lead": "#12",
+      "sec": "Nine Inch Nails",
+      "pri": "Closer",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Closer Nine Inch Nails",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|13",
+      "lead": "#13",
+      "sec": "The Verve",
+      "pri": "Bitter Sweet Symphony",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Bitter Sweet Symphony The Verve",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|14",
+      "lead": "#14",
+      "sec": "Pearl Jam",
+      "pri": "Black",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Black Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|15",
+      "lead": "#15",
+      "sec": "R.E.M.",
+      "pri": "Losing My Religion",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Losing My Religion R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|16",
+      "lead": "#16",
+      "sec": "Portishead",
+      "pri": "Glory Box",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Glory Box Portishead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|17",
+      "lead": "#17",
+      "sec": "Alanis Morissette",
+      "pri": "You Oughta Know",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "You Oughta Know Alanis Morissette",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|18",
+      "lead": "#18",
+      "sec": "The Cranberries",
+      "pri": "Zombie",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Zombie The Cranberries",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|19",
+      "lead": "#19",
+      "sec": "Rage Against the Machine",
+      "pri": "Killing in the Name Of",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Killing in the Name Of Rage Against the Machine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|20",
+      "lead": "#20",
+      "sec": "The Smashing Pumpkins",
+      "pri": "1979",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "1979 The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|21",
+      "lead": "#21",
+      "sec": "Pulp",
+      "pri": "Common People",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Common People Pulp",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|22",
+      "lead": "#22",
+      "sec": "Oasis",
+      "pri": "Wonderwall",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Wonderwall Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|23",
+      "lead": "#23",
+      "sec": "Pearl Jam",
+      "pri": "Alive",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Alive Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|24",
+      "lead": "#24",
+      "sec": "R.E.M.",
+      "pri": "Nightswimming",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Nightswimming R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|25",
+      "lead": "#25",
+      "sec": "The Cranberries",
+      "pri": "Dreams",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Dreams The Cranberries",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|26",
+      "lead": "#26",
+      "sec": "Fiona Apple",
+      "pri": "Criminal",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Criminal Fiona Apple",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|27",
+      "lead": "#27",
+      "sec": "Blind Melon",
+      "pri": "No Rain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "No Rain Blind Melon",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|28",
+      "lead": "#28",
+      "sec": "Sinéad O'Connor",
+      "pri": "Nothing Compares 2 U",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Nothing Compares 2 U Sinéad O'Connor",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|29",
+      "lead": "#29",
+      "sec": "Bikini Kill",
+      "pri": "Rebel Girl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Rebel Girl Bikini Kill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|30",
+      "lead": "#30",
+      "sec": "The Cranberries",
+      "pri": "Linger",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Linger The Cranberries",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|31",
+      "lead": "#31",
+      "sec": "Radiohead",
+      "pri": "Fake Plastic Trees",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Fake Plastic Trees Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|32",
+      "lead": "#32",
+      "sec": "Alice in Chains",
+      "pri": "Would?",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Would? Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|33",
+      "lead": "#33",
+      "sec": "Björk",
+      "pri": "Army of Me",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Army of Me Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|34",
+      "lead": "#34",
+      "sec": "Radiohead",
+      "pri": "Let Down",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Let Down Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|35",
+      "lead": "#35",
+      "sec": "Radiohead",
+      "pri": "Karma Police",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Karma Police Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|36",
+      "lead": "#36",
+      "sec": "Hole",
+      "pri": "Violet",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Violet Hole",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|37",
+      "lead": "#37",
+      "sec": "The Cure",
+      "pri": "Friday I'm in Love",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Friday I'm in Love The Cure",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|38",
+      "lead": "#38",
+      "sec": "Hum",
+      "pri": "Stars",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Stars Hum",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|39",
+      "lead": "#39",
+      "sec": "Portishead",
+      "pri": "Sour Times",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Sour Times Portishead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|40",
+      "lead": "#40",
+      "sec": "Foo Fighters",
+      "pri": "Everlong",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Everlong Foo Fighters",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|41",
+      "lead": "#41",
+      "sec": "U2",
+      "pri": "One",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "One U2",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|42",
+      "lead": "#42",
+      "sec": "Underworld",
+      "pri": "Born Slippy (Nuxx)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Born Slippy (Nuxx) Underworld",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|43",
+      "lead": "#43",
+      "sec": "Beastie Boys",
+      "pri": "So What'cha Want",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "So What'cha Want Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|44",
+      "lead": "#44",
+      "sec": "James",
+      "pri": "Laid",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Laid James",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|45",
+      "lead": "#45",
+      "sec": "Björk",
+      "pri": "Hyperballad",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Hyperballad Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|46",
+      "lead": "#46",
+      "sec": "Lauryn Hill",
+      "pri": "Doo Wop (That Thing)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Doo Wop (That Thing) Lauryn Hill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|47",
+      "lead": "#47",
+      "sec": "Screaming Trees",
+      "pri": "Nearly Lost You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Nearly Lost You Screaming Trees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|48",
+      "lead": "#48",
+      "sec": "PJ Harvey",
+      "pri": "Down by the Water",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Down by the Water PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|49",
+      "lead": "#49",
+      "sec": "George Michael",
+      "pri": "Freedom! '90",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Freedom! '90 George Michael",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|50",
+      "lead": "#50",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Mayonaise",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Mayonaise The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|51",
+      "lead": "#51",
+      "sec": "A Tribe Called Quest",
+      "pri": "Can I Kick It?",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Can I Kick It? A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|52",
+      "lead": "#52",
+      "sec": "Nirvana",
+      "pri": "Lithium",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Lithium Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|53",
+      "lead": "#53",
+      "sec": "My Bloody Valentine",
+      "pri": "Only Shallow",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Only Shallow My Bloody Valentine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|54",
+      "lead": "#54",
+      "sec": "Harvey Danger",
+      "pri": "Flagpole Sitta",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Flagpole Sitta Harvey Danger",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|55",
+      "lead": "#55",
+      "sec": "The Sundays",
+      "pri": "Here's Where the Story Ends",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Here's Where the Story Ends The Sundays",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|56",
+      "lead": "#56",
+      "sec": "Nirvana",
+      "pri": "Come as You Are",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Come as You Are Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|57",
+      "lead": "#57",
+      "sec": "Temple of the Dog",
+      "pri": "Hunger Strike",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Hunger Strike Temple of the Dog",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|58",
+      "lead": "#58",
+      "sec": "Built to Spill",
+      "pri": "Carry the Zero",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Carry the Zero Built to Spill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|59",
+      "lead": "#59",
+      "sec": "Tori Amos",
+      "pri": "Cornflake Girl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Cornflake Girl Tori Amos",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|60",
+      "lead": "#60",
+      "sec": "New Radicals",
+      "pri": "You Get What You Give",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "You Get What You Give New Radicals",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|61",
+      "lead": "#61",
+      "sec": "Sneaker Pimps",
+      "pri": "6 Underground",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "6 Underground Sneaker Pimps",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|62",
+      "lead": "#62",
+      "sec": "Garbage",
+      "pri": "Only Happy When It Rains",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Only Happy When It Rains Garbage",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|63",
+      "lead": "#63",
+      "sec": "Nirvana",
+      "pri": "Heart-Shaped Box",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Heart-Shaped Box Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|64",
+      "lead": "#64",
+      "sec": "Jane's Addiction",
+      "pri": "Three Days",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Three Days Jane's Addiction",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|65",
+      "lead": "#65",
+      "sec": "Weezer",
+      "pri": "Say It Ain't So",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Say It Ain't So Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|66",
+      "lead": "#66",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Today",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Today The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|67",
+      "lead": "#67",
+      "sec": "Björk",
+      "pri": "Human Behaviour",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Human Behaviour Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|68",
+      "lead": "#68",
+      "sec": "Wu-Tang Clan",
+      "pri": "C.R.E.A.M.",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "C.R.E.A.M. Wu-Tang Clan",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|69",
+      "lead": "#69",
+      "sec": "Oasis",
+      "pri": "Don't Look Back In Anger",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Don't Look Back In Anger Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|70",
+      "lead": "#70",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Cherub Rock",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Cherub Rock The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|71",
+      "lead": "#71",
+      "sec": "Catherine Wheel",
+      "pri": "Black Metallic",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Black Metallic Catherine Wheel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|72",
+      "lead": "#72",
+      "sec": "Blur",
+      "pri": "Song 2",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Song 2 Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|73",
+      "lead": "#73",
+      "sec": "Digable Planets",
+      "pri": "Rebirth of Slick (Cool Like Dat)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Rebirth of Slick (Cool Like Dat) Digable Planets",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|74",
+      "lead": "#74",
+      "sec": "Daft Punk",
+      "pri": "Around the World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Around the World Daft Punk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|75",
+      "lead": "#75",
+      "sec": "Toadies",
+      "pri": "Possum Kingdom",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Possum Kingdom Toadies",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|76",
+      "lead": "#76",
+      "sec": "TLC",
+      "pri": "Waterfalls",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Waterfalls TLC",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|77",
+      "lead": "#77",
+      "sec": "The Cardigans",
+      "pri": "Lovefool",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Lovefool The Cardigans",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|78",
+      "lead": "#78",
+      "sec": "Weezer",
+      "pri": "Undone (The Sweater Song)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Undone (The Sweater Song) Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|79",
+      "lead": "#79",
+      "sec": "They Might Be Giants",
+      "pri": "Birdhouse in Your Soul",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Birdhouse in Your Soul They Might Be Giants",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|80",
+      "lead": "#80",
+      "sec": "Fugees",
+      "pri": "Killing Me Softly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Killing Me Softly Fugees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|81",
+      "lead": "#81",
+      "sec": "Pearl Jam",
+      "pri": "Even Flow",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Even Flow Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|82",
+      "lead": "#82",
+      "sec": "Soundgarden",
+      "pri": "Rusty Cage",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Rusty Cage Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|83",
+      "lead": "#83",
+      "sec": "A Tribe Called Quest",
+      "pri": "Scenario",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Scenario A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|84",
+      "lead": "#84",
+      "sec": "Elliott Smith",
+      "pri": "Waltz #2 (XO)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Waltz #2 (XO) Elliott Smith",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|85",
+      "lead": "#85",
+      "sec": "Public Enemy",
+      "pri": "Fight the Power",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Fight the Power Public Enemy",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|86",
+      "lead": "#86",
+      "sec": "Beck",
+      "pri": "Where It's At",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Where It's At Beck",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|87",
+      "lead": "#87",
+      "sec": "Green Day",
+      "pri": "Basket Case",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Basket Case Green Day",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|88",
+      "lead": "#88",
+      "sec": "Beastie Boys",
+      "pri": "Intergalactic",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Intergalactic Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|89",
+      "lead": "#89",
+      "sec": "Pavement",
+      "pri": "Summer Babe (Winter Version)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Summer Babe (Winter Version) Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|90",
+      "lead": "#90",
+      "sec": "Beastie Boys",
+      "pri": "Sure Shot",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Sure Shot Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|91",
+      "lead": "#91",
+      "sec": "Soundgarden",
+      "pri": "Jesus Christ Pose",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Jesus Christ Pose Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|92",
+      "lead": "#92",
+      "sec": "Modest Mouse",
+      "pri": "Dramamine",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Dramamine Modest Mouse",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|93",
+      "lead": "#93",
+      "sec": "Nirvana",
+      "pri": "All Apologies",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "All Apologies Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|94",
+      "lead": "#94",
+      "sec": "The Presidents of the United States of America",
+      "pri": "(title missing on KEXP's page)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      }
+     },
+     {
+      "key": "kexp90|95",
+      "lead": "#95",
+      "sec": "Cake",
+      "pri": "The Distance",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "The Distance Cake",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|96",
+      "lead": "#96",
+      "sec": "Sunny Day Real Estate",
+      "pri": "In Circles",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "In Circles Sunny Day Real Estate",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|97",
+      "lead": "#97",
+      "sec": "Sonic Youth",
+      "pri": "Kool Thing",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Kool Thing Sonic Youth",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|98",
+      "lead": "#98",
+      "sec": "Jane's Addiction",
+      "pri": "Been Caught Stealing",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Been Caught Stealing Jane's Addiction",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|99",
+      "lead": "#99",
+      "sec": "Jeff Buckley",
+      "pri": "Last Goodbye",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/99-1/"
+      },
+      "yt": "Last Goodbye Jeff Buckley",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|100",
+      "lead": "#100",
+      "sec": "Rage Against the Machine",
+      "pri": "Bulls On Parade",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Bulls On Parade Rage Against the Machine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|101",
+      "lead": "#101",
+      "sec": "Ice Cube",
+      "pri": "It Was a Good Day",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "It Was a Good Day Ice Cube",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|102",
+      "lead": "#102",
+      "sec": "Cocteau Twins",
+      "pri": "Heaven or Las Vegas",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Heaven or Las Vegas Cocteau Twins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|103",
+      "lead": "#103",
+      "sec": "Massive Attack",
+      "pri": "Angel",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Angel Massive Attack",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|104",
+      "lead": "#104",
+      "sec": "Belly",
+      "pri": "Feed the Tree",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Feed the Tree Belly",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|105",
+      "lead": "#105",
+      "sec": "Madonna",
+      "pri": "Ray of Light",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Ray of Light Madonna",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|106",
+      "lead": "#106",
+      "sec": "Nine Inch Nails",
+      "pri": "Hurt",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Hurt Nine Inch Nails",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|107",
+      "lead": "#107",
+      "sec": "Nirvana",
+      "pri": "In Bloom",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "In Bloom Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|108",
+      "lead": "#108",
+      "sec": "Ride",
+      "pri": "Vapour Trail",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Vapour Trail Ride",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|109",
+      "lead": "#109",
+      "sec": "Red Hot Chili Peppers",
+      "pri": "Under the Bridge",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Under the Bridge Red Hot Chili Peppers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|110",
+      "lead": "#110",
+      "sec": "Portishead",
+      "pri": "Wandering Star",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Wandering Star Portishead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|111",
+      "lead": "#111",
+      "sec": "Neutral Milk Hotel",
+      "pri": "In the Aeroplane Over the Sea",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "In the Aeroplane Over the Sea Neutral Milk Hotel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|112",
+      "lead": "#112",
+      "sec": "Metallica",
+      "pri": "Enter Sandman",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Enter Sandman Metallica",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|113",
+      "lead": "#113",
+      "sec": "4 Non Blondes",
+      "pri": "What's Up",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "What's Up 4 Non Blondes",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|114",
+      "lead": "#114",
+      "sec": "Pearl Jam",
+      "pri": "Jeremy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Jeremy Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|115",
+      "lead": "#115",
+      "sec": "Oasis",
+      "pri": "Champagne Supernova",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Champagne Supernova Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|116",
+      "lead": "#116",
+      "sec": "PJ Harvey",
+      "pri": "Rid of Me",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Rid of Me PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|117",
+      "lead": "#117",
+      "sec": "Luscious Jackson",
+      "pri": "Naked Eye",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Naked Eye Luscious Jackson",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|118",
+      "lead": "#118",
+      "sec": "Pavement",
+      "pri": "Gold Soundz",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Gold Soundz Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|119",
+      "lead": "#119",
+      "sec": "Third Eye Blind",
+      "pri": "Semi-Charmed Life",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Semi-Charmed Life Third Eye Blind",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|120",
+      "lead": "#120",
+      "sec": "New Order",
+      "pri": "Regret",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Regret New Order",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|121",
+      "lead": "#121",
+      "sec": "Billy Bragg & Wilco",
+      "pri": "California Stars",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "California Stars Billy Bragg & Wilco",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|122",
+      "lead": "#122",
+      "sec": "Alanis Morissette",
+      "pri": "Ironic",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Ironic Alanis Morissette",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|123",
+      "lead": "#123",
+      "sec": "Dinosaur Jr.",
+      "pri": "Feel the Pain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Feel the Pain Dinosaur Jr.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|124",
+      "lead": "#124",
+      "sec": "Elastica",
+      "pri": "Connection",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Connection Elastica",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|125",
+      "lead": "#125",
+      "sec": "Dr. Dre",
+      "pri": "Nuthin' But a \"G\" Thang",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Nuthin' But a \"G\" Thang Dr. Dre",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|126",
+      "lead": "#126",
+      "sec": "Ned's Atomic Dustbin",
+      "pri": "Grey Cell Green",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Grey Cell Green Ned's Atomic Dustbin",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|127",
+      "lead": "#127",
+      "sec": "Stone Temple Pilots",
+      "pri": "Interstate Love Song",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Interstate Love Song Stone Temple Pilots",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|128",
+      "lead": "#128",
+      "sec": "Butthole Surfers",
+      "pri": "Pepper",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Pepper Butthole Surfers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|129",
+      "lead": "#129",
+      "sec": "2Pac feat. Dr. Dre",
+      "pri": "California Love",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "California Love 2Pac",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|130",
+      "lead": "#130",
+      "sec": "Alice in Chains",
+      "pri": "Nutshell",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Nutshell Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|131",
+      "lead": "#131",
+      "sec": "Counting Crows",
+      "pri": "Mr. Jones",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Mr. Jones Counting Crows",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|132",
+      "lead": "#132",
+      "sec": "Madonna",
+      "pri": "Vogue",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Vogue Madonna",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|133",
+      "lead": "#133",
+      "sec": "No Doubt",
+      "pri": "Just a Girl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Just a Girl No Doubt",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|134",
+      "lead": "#134",
+      "sec": "P.M. Dawn",
+      "pri": "Set Adrift on Memory Bliss",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Set Adrift on Memory Bliss P.M. Dawn",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|135",
+      "lead": "#135",
+      "sec": "Tricky",
+      "pri": "Black Steel",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Black Steel Tricky",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|136",
+      "lead": "#136",
+      "sec": "Missy Elliott",
+      "pri": "The Rain (Supa Dupa Fly)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "The Rain (Supa Dupa Fly) Missy Elliott",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|137",
+      "lead": "#137",
+      "sec": "Garbage",
+      "pri": "Stupid Girl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Stupid Girl Garbage",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|138",
+      "lead": "#138",
+      "sec": "Coolio",
+      "pri": "Gangsta's Paradise",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Gangsta's Paradise Coolio",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|139",
+      "lead": "#139",
+      "sec": "Massive Attack",
+      "pri": "Unfinished Sympathy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Unfinished Sympathy Massive Attack",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|140",
+      "lead": "#140",
+      "sec": "Orbital",
+      "pri": "Halcyon + On + On",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Halcyon + On + On Orbital",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|141",
+      "lead": "#141",
+      "sec": "The Beta Band",
+      "pri": "Dry the Rain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Dry the Rain The Beta Band",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|142",
+      "lead": "#142",
+      "sec": "Sir Mix-A-Lot",
+      "pri": "Baby Got Back",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Baby Got Back Sir Mix-A-Lot",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|143",
+      "lead": "#143",
+      "sec": "Jamiroquai",
+      "pri": "Virtual Insanity",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Virtual Insanity Jamiroquai",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|144",
+      "lead": "#144",
+      "sec": "LL Cool J",
+      "pri": "Mama Said Knock You Out",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Mama Said Knock You Out LL Cool J",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|145",
+      "lead": "#145",
+      "sec": "Soundgarden",
+      "pri": "Outshined",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Outshined Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|146",
+      "lead": "#146",
+      "sec": "Veruca Salt",
+      "pri": "Seether",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Seether Veruca Salt",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|147",
+      "lead": "#147",
+      "sec": "L7",
+      "pri": "Pretend We're Dead",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Pretend We're Dead L7",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|148",
+      "lead": "#148",
+      "sec": "U2",
+      "pri": "Mysterious Ways",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Mysterious Ways U2",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|149",
+      "lead": "#149",
+      "sec": "Tori Amos",
+      "pri": "Crucify",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Crucify Tori Amos",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|150",
+      "lead": "#150",
+      "sec": "Pearl Jam",
+      "pri": "Yellow Ledbetter",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Yellow Ledbetter Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|151",
+      "lead": "#151",
+      "sec": "Spacehog",
+      "pri": "In the Meantime",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "In the Meantime Spacehog",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|152",
+      "lead": "#152",
+      "sec": "Sublime",
+      "pri": "Santeria",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Santeria Sublime",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|153",
+      "lead": "#153",
+      "sec": "My Bloody Valentine",
+      "pri": "Soon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Soon My Bloody Valentine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|154",
+      "lead": "#154",
+      "sec": "Tom Waits",
+      "pri": "I Don't Want To Grow Up",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "I Don't Want To Grow Up Tom Waits",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|155",
+      "lead": "#155",
+      "sec": "Weezer",
+      "pri": "Buddy Holly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Buddy Holly Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|156",
+      "lead": "#156",
+      "sec": "Fugees",
+      "pri": "Ready or Not",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Ready or Not Fugees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|157",
+      "lead": "#157",
+      "sec": "Spice Girls",
+      "pri": "Wannabe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Wannabe Spice Girls",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|158",
+      "lead": "#158",
+      "sec": "Jeff Buckley",
+      "pri": "Hallelujah",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Hallelujah Jeff Buckley",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|159",
+      "lead": "#159",
+      "sec": "Blur",
+      "pri": "Girls & Boys",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Girls & Boys Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|160",
+      "lead": "#160",
+      "sec": "Alice in Chains",
+      "pri": "Rooster",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Rooster Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|161",
+      "lead": "#161",
+      "sec": "Liz Phair",
+      "pri": "Supernova",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Supernova Liz Phair",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|162",
+      "lead": "#162",
+      "sec": "Everything But the Girl",
+      "pri": "Missing (Todd Terry Club Mix)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Missing Everything But the Girl",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|163",
+      "lead": "#163",
+      "sec": "Warren G",
+      "pri": "Regulate",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Regulate Warren G",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|164",
+      "lead": "#164",
+      "sec": "Arrested Development",
+      "pri": "Tennessee",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Tennessee Arrested Development",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|165",
+      "lead": "#165",
+      "sec": "Massive Attack",
+      "pri": "Protection",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Protection Massive Attack",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|166",
+      "lead": "#166",
+      "sec": "Hole",
+      "pri": "Doll Parts",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Doll Parts Hole",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|167",
+      "lead": "#167",
+      "sec": "Liz Phair",
+      "pri": "Fuck and Run",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Fuck and Run Liz Phair",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|168",
+      "lead": "#168",
+      "sec": "R.E.M.",
+      "pri": "Man on the Moon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Man on the Moon R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|169",
+      "lead": "#169",
+      "sec": "10,000 Maniacs",
+      "pri": "These Are Days",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "These Are Days 10,000 Maniacs",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|170",
+      "lead": "#170",
+      "sec": "Nine Inch Nails",
+      "pri": "March of the Pigs",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "March of the Pigs Nine Inch Nails",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|171",
+      "lead": "#171",
+      "sec": "Mark Morrison",
+      "pri": "Return of the Mack",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Return of the Mack Mark Morrison",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|172",
+      "lead": "#172",
+      "sec": "Chumbawamba",
+      "pri": "Tubthumping",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Tubthumping Chumbawamba",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|173",
+      "lead": "#173",
+      "sec": "Pixies",
+      "pri": "Velouria",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Velouria Pixies",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|174",
+      "lead": "#174",
+      "sec": "TLC",
+      "pri": "No Scrubs",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "No Scrubs TLC",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|175",
+      "lead": "#175",
+      "sec": "Alice in Chains",
+      "pri": "Man in the Box",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Man in the Box Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|176",
+      "lead": "#176",
+      "sec": "Souls of Mischief",
+      "pri": "93 'til Infinity",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "93 'til Infinity Souls of Mischief",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|177",
+      "lead": "#177",
+      "sec": "Pearl Jam",
+      "pri": "State of Love and Trust",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "State of Love and Trust Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|178",
+      "lead": "#178",
+      "sec": "Radiohead",
+      "pri": "High and Dry",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "High and Dry Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|179",
+      "lead": "#179",
+      "sec": "Gin Blossoms",
+      "pri": "Hey Jealousy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Hey Jealousy Gin Blossoms",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|180",
+      "lead": "#180",
+      "sec": "Matthew Sweet",
+      "pri": "Girlfriend",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Girlfriend Matthew Sweet",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|181",
+      "lead": "#181",
+      "sec": "Sleater-Kinney",
+      "pri": "Dig Me Out",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Dig Me Out Sleater-Kinney",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|182",
+      "lead": "#182",
+      "sec": "No Doubt",
+      "pri": "Don't Speak",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Don't Speak No Doubt",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|183",
+      "lead": "#183",
+      "sec": "Björk",
+      "pri": "Big Time Sensuality",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Big Time Sensuality Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|184",
+      "lead": "#184",
+      "sec": "Cocteau Twins",
+      "pri": "Cherry-Coloured Funk",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Cherry-Coloured Funk Cocteau Twins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|185",
+      "lead": "#185",
+      "sec": "The Notorious B.I.G.",
+      "pri": "Juicy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Juicy The Notorious B.I.G.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|186",
+      "lead": "#186",
+      "sec": "Neil Young",
+      "pri": "Harvest Moon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Harvest Moon Neil Young",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|187",
+      "lead": "#187",
+      "sec": "OutKast",
+      "pri": "Rosa Parks",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Rosa Parks OutKast",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|188",
+      "lead": "#188",
+      "sec": "Lisa Loeb & Nine Stories",
+      "pri": "Stay (I Missed You)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Stay (I Missed You) Lisa Loeb & Nine Stories",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|189",
+      "lead": "#189",
+      "sec": "Jeff Buckley",
+      "pri": "Lover, You Should've Come Over",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Lover, You Should've Come Over Jeff Buckley",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|190",
+      "lead": "#190",
+      "sec": "R.E.M.",
+      "pri": "What's the Frequency, Kenneth?",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "What's the Frequency, Kenneth? R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|191",
+      "lead": "#191",
+      "sec": "A Tribe Called Quest",
+      "pri": "Award Tour",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Award Tour A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|192",
+      "lead": "#192",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Tonight, Tonight",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Tonight, Tonight The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|193",
+      "lead": "#193",
+      "sec": "Oasis",
+      "pri": "Live Forever",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Live Forever Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|194",
+      "lead": "#194",
+      "sec": "Pearl Jam",
+      "pri": "Corduroy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Corduroy Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|195",
+      "lead": "#195",
+      "sec": "Soundgarden",
+      "pri": "Fell on Black Days",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Fell on Black Days Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|196",
+      "lead": "#196",
+      "sec": "DJ Shadow",
+      "pri": "Midnight in a Perfect World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Midnight in a Perfect World DJ Shadow",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|197",
+      "lead": "#197",
+      "sec": "The Pharcyde",
+      "pri": "Passin' Me By",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Passin' Me By The Pharcyde",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|198",
+      "lead": "#198",
+      "sec": "Neutral Milk Hotel",
+      "pri": "Holland, 1945",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Holland, 1945 Neutral Milk Hotel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|199",
+      "lead": "#199",
+      "sec": "The Chemical Brothers",
+      "pri": "Block Rockin' Beats",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/199-100/"
+      },
+      "yt": "Block Rockin' Beats The Chemical Brothers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|200",
+      "lead": "#200",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Disarm",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Disarm The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|201",
+      "lead": "#201",
+      "sec": "Elliott Smith",
+      "pri": "Between the Bars",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Between the Bars Elliott Smith",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|202",
+      "lead": "#202",
+      "sec": "Pavement",
+      "pri": "Cut Your Hair",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Cut Your Hair Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|203",
+      "lead": "#203",
+      "sec": "The Orb",
+      "pri": "Little Fluffy Clouds",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Little Fluffy Clouds The Orb",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|204",
+      "lead": "#204",
+      "sec": "Radiohead",
+      "pri": "Exit Music (for a Film)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Exit Music (for a Film) Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|205",
+      "lead": "#205",
+      "sec": "Alanis Morissette",
+      "pri": "Hand in My Pocket",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Hand in My Pocket Alanis Morissette",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|206",
+      "lead": "#206",
+      "sec": "Radiohead",
+      "pri": "No Surprises",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "No Surprises Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|207",
+      "lead": "#207",
+      "sec": "Yo La Tengo",
+      "pri": "Autumn Sweater",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Autumn Sweater Yo La Tengo",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|208",
+      "lead": "#208",
+      "sec": "Pixies",
+      "pri": "Dig For Fire",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Dig For Fire Pixies",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|209",
+      "lead": "#209",
+      "sec": "The La's",
+      "pri": "There She Goes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "There She Goes The La's",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|210",
+      "lead": "#210",
+      "sec": "Ministry",
+      "pri": "Jesus Built My Hotrod",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Jesus Built My Hotrod Ministry",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|211",
+      "lead": "#211",
+      "sec": "R.E.M.",
+      "pri": "Everybody Hurts",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Everybody Hurts R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|212",
+      "lead": "#212",
+      "sec": "Soundgarden",
+      "pri": "Spoonman",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Spoonman Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|213",
+      "lead": "#213",
+      "sec": "Siouxsie and the Banshees",
+      "pri": "Kiss Them For Me",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Kiss Them For Me Siouxsie and the Banshees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|214",
+      "lead": "#214",
+      "sec": "James",
+      "pri": "Sometimes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Sometimes James",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|215",
+      "lead": "#215",
+      "sec": "Sugar",
+      "pri": "Hoover Dam",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Hoover Dam Sugar",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|216",
+      "lead": "#216",
+      "sec": "The Cure",
+      "pri": "From the Edge of the Deep Green Sea",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "From the Edge of the Deep Green Sea The Cure",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|217",
+      "lead": "#217",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Drown",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Drown The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|218",
+      "lead": "#218",
+      "sec": "A Tribe Called Quest",
+      "pri": "Electric Relaxation",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Electric Relaxation A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|219",
+      "lead": "#219",
+      "sec": "Portishead",
+      "pri": "Roads",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Roads Portishead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|220",
+      "lead": "#220",
+      "sec": "Helmet",
+      "pri": "Unsung",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Unsung Helmet",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|221",
+      "lead": "#221",
+      "sec": "Sarah McLachlan",
+      "pri": "Possession",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Possession Sarah McLachlan",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|222",
+      "lead": "#222",
+      "sec": "The Prodigy",
+      "pri": "Firestarter",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Firestarter The Prodigy",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|223",
+      "lead": "#223",
+      "sec": "Sugar",
+      "pri": "If I Can't Change Your Mind",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "If I Can't Change Your Mind Sugar",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|224",
+      "lead": "#224",
+      "sec": "Beck",
+      "pri": "Devil's Haircut",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Devil's Haircut Beck",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|225",
+      "lead": "#225",
+      "sec": "Liz Phair",
+      "pri": "6'1\"",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "6'1\" Liz Phair",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|226",
+      "lead": "#226",
+      "sec": "David Bowie",
+      "pri": "I'm Afraid of Americans",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "I'm Afraid of Americans David Bowie",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|227",
+      "lead": "#227",
+      "sec": "A Tribe Called Quest",
+      "pri": "Check the Rhime",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Check the Rhime A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|228",
+      "lead": "#228",
+      "sec": "Blackstreet",
+      "pri": "No Diggity",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "No Diggity Blackstreet",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|229",
+      "lead": "#229",
+      "sec": "The Lemonheads",
+      "pri": "It's a Shame About Ray",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "It's a Shame About Ray The Lemonheads",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|230",
+      "lead": "#230",
+      "sec": "Cracker",
+      "pri": "Low",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Low Cracker",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|231",
+      "lead": "#231",
+      "sec": "Depeche Mode",
+      "pri": "Personal Jesus",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Personal Jesus Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|232",
+      "lead": "#232",
+      "sec": "Pearl Jam",
+      "pri": "Elderly Woman Behind the Counter in a Small Town",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Elderly Woman Behind the Counter in a Small Town Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|233",
+      "lead": "#233",
+      "sec": "Morphine",
+      "pri": "Cure for Pain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Cure for Pain Morphine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|234",
+      "lead": "#234",
+      "sec": "Fatboy Slim",
+      "pri": "Praise You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Praise You Fatboy Slim",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|235",
+      "lead": "#235",
+      "sec": "The Cure",
+      "pri": "A Letter to Elise",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "A Letter to Elise The Cure",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|236",
+      "lead": "#236",
+      "sec": "Fiona Apple",
+      "pri": "Shadowboxer",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Shadowboxer Fiona Apple",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|237",
+      "lead": "#237",
+      "sec": "The Prodigy",
+      "pri": "Breathe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Breathe The Prodigy",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|238",
+      "lead": "#238",
+      "sec": "Mariah Carey",
+      "pri": "Fantasy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Fantasy Mariah Carey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|239",
+      "lead": "#239",
+      "sec": "Guided by Voices",
+      "pri": "I Am a Scientist",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "I Am a Scientist Guided by Voices",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|240",
+      "lead": "#240",
+      "sec": "Slowdive",
+      "pri": "When the Sun Hits",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "When the Sun Hits Slowdive",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|241",
+      "lead": "#241",
+      "sec": "Britney Spears",
+      "pri": "...Baby One More Time",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "...Baby One More Time Britney Spears",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|242",
+      "lead": "#242",
+      "sec": "Nick Cave and the Bad Seeds",
+      "pri": "Red Right Hand",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Red Right Hand Nick Cave and the Bad Seeds",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|243",
+      "lead": "#243",
+      "sec": "Green Day",
+      "pri": "When I Come Around",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "When I Come Around Green Day",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|244",
+      "lead": "#244",
+      "sec": "Nirvana",
+      "pri": "The Man Who Sold the World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Man Who Sold the World Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|245",
+      "lead": "#245",
+      "sec": "Tom Petty",
+      "pri": "Wildflowers",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Wildflowers Tom Petty",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|246",
+      "lead": "#246",
+      "sec": "Mad Season",
+      "pri": "River of Deceit",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "River of Deceit Mad Season",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|247",
+      "lead": "#247",
+      "sec": "Oasis",
+      "pri": "Supersonic",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Supersonic Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|248",
+      "lead": "#248",
+      "sec": "Moby",
+      "pri": "Porcelain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Porcelain Moby",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|249",
+      "lead": "#249",
+      "sec": "Snoop Doggy Dogg",
+      "pri": "Gin and Juice",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Gin and Juice Snoop Doggy Dogg",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|250",
+      "lead": "#250",
+      "sec": "The Notorious B.I.G.",
+      "pri": "Hypnotize",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Hypnotize The Notorious B.I.G.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|251",
+      "lead": "#251",
+      "sec": "Le Tigre",
+      "pri": "Deceptacon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Deceptacon Le Tigre",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|252",
+      "lead": "#252",
+      "sec": "Primitive Radio Gods",
+      "pri": "Standing Outside a Broken Phone Booth with Money in My Hand",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Standing Outside a Broken Phone Booth with Money in My Hand Primitive Radio Gods",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|253",
+      "lead": "#253",
+      "sec": "The Charlatans UK",
+      "pri": "The Only One I Know",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Only One I Know The Charlatans UK",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|254",
+      "lead": "#254",
+      "sec": "Concrete Blonde",
+      "pri": "Joey",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Joey Concrete Blonde",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|255",
+      "lead": "#255",
+      "sec": "Jeff Buckley",
+      "pri": "Grace",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Grace Jeff Buckley",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|256",
+      "lead": "#256",
+      "sec": "Slint",
+      "pri": "Good Morning, Captain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Good Morning, Captain Slint",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|257",
+      "lead": "#257",
+      "sec": "Belle and Sebastian",
+      "pri": "The Boy With the Arab Strap",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Boy With the Arab Strap Belle and Sebastian",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|258",
+      "lead": "#258",
+      "sec": "Bush",
+      "pri": "Glycerine",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Glycerine Bush",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|259",
+      "lead": "#259",
+      "sec": "Erykah Badu",
+      "pri": "On & On",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "On & On Erykah Badu",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|260",
+      "lead": "#260",
+      "sec": "Sinéad O'Connor",
+      "pri": "The Emperor's New Clothes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Emperor's New Clothes Sinéad O'Connor",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|261",
+      "lead": "#261",
+      "sec": "Fiona Apple",
+      "pri": "Sleep to Dream",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Sleep to Dream Fiona Apple",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|262",
+      "lead": "#262",
+      "sec": "The Flaming Lips",
+      "pri": "She Don't Use Jelly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "She Don't Use Jelly The Flaming Lips",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|263",
+      "lead": "#263",
+      "sec": "Stone Temple Pilots",
+      "pri": "Plush",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Plush Stone Temple Pilots",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|264",
+      "lead": "#264",
+      "sec": "Radiohead",
+      "pri": "Just",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Just Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|265",
+      "lead": "#265",
+      "sec": "Whitney Houston",
+      "pri": "I Will Always Love You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "I Will Always Love You Whitney Houston",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|266",
+      "lead": "#266",
+      "sec": "Liz Phair",
+      "pri": "Divorce Song",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Divorce Song Liz Phair",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|267",
+      "lead": "#267",
+      "sec": "Soundgarden",
+      "pri": "Burden in My Hand",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Burden in My Hand Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|268",
+      "lead": "#268",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Bullet with Butterfly Wings",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Bullet with Butterfly Wings The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|269",
+      "lead": "#269",
+      "sec": "Depeche Mode",
+      "pri": "Policy of Truth",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Policy of Truth Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|270",
+      "lead": "#270",
+      "sec": "Seal",
+      "pri": "Kiss From a Rose",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Kiss From a Rose Seal",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|271",
+      "lead": "#271",
+      "sec": "Lauryn Hill",
+      "pri": "Ex-Factor",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Ex-Factor Lauryn Hill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|272",
+      "lead": "#272",
+      "sec": "Built to Spill",
+      "pri": "Car",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Car Built to Spill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|273",
+      "lead": "#273",
+      "sec": "Pearl Jam",
+      "pri": "Better Man",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Better Man Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|274",
+      "lead": "#274",
+      "sec": "Elliott Smith",
+      "pri": "Angeles",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Angeles Elliott Smith",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|275",
+      "lead": "#275",
+      "sec": "Soundgarden",
+      "pri": "The Day I Tried to Live",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Day I Tried to Live Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|276",
+      "lead": "#276",
+      "sec": "Temple of the Dog",
+      "pri": "Say Hello 2 Heaven",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Say Hello 2 Heaven Temple of the Dog",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|277",
+      "lead": "#277",
+      "sec": "Throwing Muses",
+      "pri": "Not Too Soon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Not Too Soon Throwing Muses",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|278",
+      "lead": "#278",
+      "sec": "Wilco",
+      "pri": "Via Chicago",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Via Chicago Wilco",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|279",
+      "lead": "#279",
+      "sec": "The Wallflowers",
+      "pri": "One Headlight",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "One Headlight The Wallflowers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|280",
+      "lead": "#280",
+      "sec": "Salt-N-Pepa",
+      "pri": "Shoop",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Shoop Salt-N-Pepa",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|281",
+      "lead": "#281",
+      "sec": "Weezer",
+      "pri": "My Name Is Jonas",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "My Name Is Jonas Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|282",
+      "lead": "#282",
+      "sec": "Cornershop",
+      "pri": "Brimful of Asha",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Brimful of Asha Cornershop",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|283",
+      "lead": "#283",
+      "sec": "Green Day",
+      "pri": "Longview",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Longview Green Day",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|284",
+      "lead": "#284",
+      "sec": "Jesus Jones",
+      "pri": "Right Here, Right Now",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Right Here, Right Now Jesus Jones",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|285",
+      "lead": "#285",
+      "sec": "Beastie Boys",
+      "pri": "Pass the Mic",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Pass the Mic Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|286",
+      "lead": "#286",
+      "sec": "Blur",
+      "pri": "Parklife",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Parklife Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|287",
+      "lead": "#287",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Hummer",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Hummer The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|288",
+      "lead": "#288",
+      "sec": "Tracy Chapman",
+      "pri": "Give Me One Reason",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Give Me One Reason Tracy Chapman",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|289",
+      "lead": "#289",
+      "sec": "Tori Amos",
+      "pri": "Silent All These Years",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Silent All These Years Tori Amos",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|290",
+      "lead": "#290",
+      "sec": "Modest Mouse",
+      "pri": "Trailer Trash",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Trailer Trash Modest Mouse",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|291",
+      "lead": "#291",
+      "sec": "Radiohead",
+      "pri": "Street Spirit (Fade Out)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Street Spirit (Fade Out) Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|292",
+      "lead": "#292",
+      "sec": "Jane's Addiction",
+      "pri": "Stop",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Stop Jane's Addiction",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|293",
+      "lead": "#293",
+      "sec": "Everclear",
+      "pri": "Santa Monica",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Santa Monica Everclear",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|294",
+      "lead": "#294",
+      "sec": "Sade",
+      "pri": "No Ordinary Love",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "No Ordinary Love Sade",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|295",
+      "lead": "#295",
+      "sec": "Janet Jackson",
+      "pri": "That's the Way Love Goes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "That's the Way Love Goes Janet Jackson",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|296",
+      "lead": "#296",
+      "sec": "OutKast",
+      "pri": "SpottieOttieDopaliscious",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "SpottieOttieDopaliscious OutKast",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|297",
+      "lead": "#297",
+      "sec": "Ace of Base",
+      "pri": "The Sign",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "The Sign Ace of Base",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|298",
+      "lead": "#298",
+      "sec": "Blur",
+      "pri": "There's No Other Way",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "There's No Other Way Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|299",
+      "lead": "#299",
+      "sec": "Pearl Jam",
+      "pri": "Rearviewmirror",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/299-200/"
+      },
+      "yt": "Rearviewmirror Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|300",
+      "lead": "#300",
+      "sec": "Screaming Trees",
+      "pri": "Dollar Bill",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Dollar Bill Screaming Trees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|301",
+      "lead": "#301",
+      "sec": "Buffalo Tom",
+      "pri": "Taillights Fade",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Taillights Fade Buffalo Tom",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|302",
+      "lead": "#302",
+      "sec": "Elastica",
+      "pri": "Stutter",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Stutter Elastica",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|303",
+      "lead": "#303",
+      "sec": "TLC",
+      "pri": "Creep",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Creep TLC",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|304",
+      "lead": "#304",
+      "sec": "Stereo MC's",
+      "pri": "Connected",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Connected Stereo MC's",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|305",
+      "lead": "#305",
+      "sec": "Lauryn Hill",
+      "pri": "Everything Is Everything",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Everything Is Everything Lauryn Hill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|306",
+      "lead": "#306",
+      "sec": "Björk",
+      "pri": "Jóga",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Jóga Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|307",
+      "lead": "#307",
+      "sec": "The Cure",
+      "pri": "Burn",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Burn The Cure",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|308",
+      "lead": "#308",
+      "sec": "Sublime",
+      "pri": "What I Got",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "What I Got Sublime",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|309",
+      "lead": "#309",
+      "sec": "PJ Harvey",
+      "pri": "50ft Queenie",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "50ft Queenie PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|310",
+      "lead": "#310",
+      "sec": "Nirvana",
+      "pri": "Drain You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Drain You Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|311",
+      "lead": "#311",
+      "sec": "De La Soul",
+      "pri": "A Rollerskating Jam Named \"Saturdays\"",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "A Rollerskating Jam Named \"Saturdays\" De La Soul",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|312",
+      "lead": "#312",
+      "sec": "Beastie Boys",
+      "pri": "Get It Together",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Get It Together Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|313",
+      "lead": "#313",
+      "sec": "Nirvana",
+      "pri": "Breed",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Breed Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|314",
+      "lead": "#314",
+      "sec": "Archers of Loaf",
+      "pri": "Web in Front",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Web in Front Archers of Loaf",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|315",
+      "lead": "#315",
+      "sec": "Weezer",
+      "pri": "Only in Dreams",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Only in Dreams Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|316",
+      "lead": "#316",
+      "sec": "The Afghan Whigs",
+      "pri": "Debonair",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Debonair The Afghan Whigs",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|317",
+      "lead": "#317",
+      "sec": "Len",
+      "pri": "Steal My Sunshine",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Steal My Sunshine Len",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|318",
+      "lead": "#318",
+      "sec": "Nada Surf",
+      "pri": "Popular",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Popular Nada Surf",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|319",
+      "lead": "#319",
+      "sec": "The Smashing Pumpkins",
+      "pri": "I Am One",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "I Am One The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|320",
+      "lead": "#320",
+      "sec": "The Breeders",
+      "pri": "Divine Hammer",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Divine Hammer The Breeders",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|321",
+      "lead": "#321",
+      "sec": "EELS",
+      "pri": "Novocaine for the Soul",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Novocaine for the Soul EELS",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|322",
+      "lead": "#322",
+      "sec": "Björk",
+      "pri": "It's Oh So Quiet",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "It's Oh So Quiet Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|323",
+      "lead": "#323",
+      "sec": "Porno For Pyros",
+      "pri": "Pets",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Pets Porno For Pyros",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|324",
+      "lead": "#324",
+      "sec": "Duran Duran",
+      "pri": "Ordinary World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Ordinary World Duran Duran",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|325",
+      "lead": "#325",
+      "sec": "Depeche Mode",
+      "pri": "World in My Eyes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "World in My Eyes Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|326",
+      "lead": "#326",
+      "sec": "U2",
+      "pri": "Until the End of the World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Until the End of the World U2",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|327",
+      "lead": "#327",
+      "sec": "Pavement",
+      "pri": "Stereo",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Stereo Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|328",
+      "lead": "#328",
+      "sec": "Pulp",
+      "pri": "Disco 2000",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Disco 2000 Pulp",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|329",
+      "lead": "#329",
+      "sec": "Built to Spill",
+      "pri": "The Plan",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "The Plan Built to Spill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|330",
+      "lead": "#330",
+      "sec": "Alice in Chains",
+      "pri": "Them Bones",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Them Bones Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|331",
+      "lead": "#331",
+      "sec": "Mobb Deep",
+      "pri": "Shook Ones, Part II",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Shook Ones, Part II Mobb Deep",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|332",
+      "lead": "#332",
+      "sec": "Counting Crows",
+      "pri": "Round Here",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Round Here Counting Crows",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|333",
+      "lead": "#333",
+      "sec": "Liz Phair",
+      "pri": "Never Said",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Never Said Liz Phair",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|334",
+      "lead": "#334",
+      "sec": "House of Pain",
+      "pri": "Jump Around",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Jump Around House of Pain",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|335",
+      "lead": "#335",
+      "sec": "Soundgarden",
+      "pri": "Blow Up the Outside World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Blow Up the Outside World Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|336",
+      "lead": "#336",
+      "sec": "AIR",
+      "pri": "La Femme d'argent",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "La Femme d'argent AIR",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|337",
+      "lead": "#337",
+      "sec": "Sonic Youth",
+      "pri": "100%",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "100% Sonic Youth",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|338",
+      "lead": "#338",
+      "sec": "Morphine",
+      "pri": "Buena",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Buena Morphine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|339",
+      "lead": "#339",
+      "sec": "Beastie Boys",
+      "pri": "Root Down",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Root Down Beastie Boys",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|340",
+      "lead": "#340",
+      "sec": "Nas",
+      "pri": "N.Y. State of Mind",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "N.Y. State of Mind Nas",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|341",
+      "lead": "#341",
+      "sec": "Hole",
+      "pri": "Malibu",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Malibu Hole",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|342",
+      "lead": "#342",
+      "sec": "Pearl Jam",
+      "pri": "Daughter",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Daughter Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|343",
+      "lead": "#343",
+      "sec": "Catherine Wheel",
+      "pri": "Crank",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Crank Catherine Wheel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|344",
+      "lead": "#344",
+      "sec": "Fatboy Slim",
+      "pri": "The Rockafeller Skank",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "The Rockafeller Skank Fatboy Slim",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|345",
+      "lead": "#345",
+      "sec": "Radiohead",
+      "pri": "Subterranean Homesick Alien",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Subterranean Homesick Alien Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|346",
+      "lead": "#346",
+      "sec": "Chris Cornell",
+      "pri": "Seasons",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Seasons Chris Cornell",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|347",
+      "lead": "#347",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Rhinoceros",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Rhinoceros The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|348",
+      "lead": "#348",
+      "sec": "Duran Duran",
+      "pri": "Come Undone",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Come Undone Duran Duran",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|349",
+      "lead": "#349",
+      "sec": "DJ Shadow",
+      "pri": "Building Steam With A Grain of Salt",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Building Steam With A Grain of Salt DJ Shadow",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|350",
+      "lead": "#350",
+      "sec": "Meat Puppets",
+      "pri": "Backwater",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Backwater Meat Puppets",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|351",
+      "lead": "#351",
+      "sec": "Wilco",
+      "pri": "A Shot In The Arm",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "A Shot In The Arm Wilco",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|352",
+      "lead": "#352",
+      "sec": "Pearl Jam",
+      "pri": "Given to Fly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Given to Fly Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|353",
+      "lead": "#353",
+      "sec": "Sinéad O'Connor",
+      "pri": "The Last Day of Our Acquaintance",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "The Last Day of Our Acquaintance Sinéad O'Connor",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|354",
+      "lead": "#354",
+      "sec": "Edwyn Collins",
+      "pri": "A Girl Like You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "A Girl Like You Edwyn Collins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|355",
+      "lead": "#355",
+      "sec": "Red Hot Chili Peppers",
+      "pri": "Give It Away",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Give It Away Red Hot Chili Peppers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|356",
+      "lead": "#356",
+      "sec": "Wu-Tang Clan",
+      "pri": "Protect Ya Neck",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Protect Ya Neck Wu-Tang Clan",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|357",
+      "lead": "#357",
+      "sec": "Guns N' Roses",
+      "pri": "November Rain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "November Rain Guns N' Roses",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|358",
+      "lead": "#358",
+      "sec": "En Vogue",
+      "pri": "My Lovin' (You're Never Gonna Get It)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "My Lovin' (You're Never Gonna Get It) En Vogue",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|359",
+      "lead": "#359",
+      "sec": "Hole",
+      "pri": "Miss World",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Miss World Hole",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|360",
+      "lead": "#360",
+      "sec": "LIVE",
+      "pri": "Lightning Crashes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Lightning Crashes LIVE",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|361",
+      "lead": "#361",
+      "sec": "Beck",
+      "pri": "The New Pollution",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "The New Pollution Beck",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|362",
+      "lead": "#362",
+      "sec": "The Jesus and Mary Chain",
+      "pri": "Sometimes Always",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Sometimes Always The Jesus and Mary Chain",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|363",
+      "lead": "#363",
+      "sec": "Nirvana",
+      "pri": "Something in the Way",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Something in the Way Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|364",
+      "lead": "#364",
+      "sec": "Soundgarden",
+      "pri": "Slaves & Bulldozers",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Slaves & Bulldozers Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|365",
+      "lead": "#365",
+      "sec": "Ani DiFranco",
+      "pri": "32 Flavors",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "32 Flavors Ani DiFranco",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|366",
+      "lead": "#366",
+      "sec": "Blur",
+      "pri": "Tender",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Tender Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|367",
+      "lead": "#367",
+      "sec": "Dinosaur Jr.",
+      "pri": "The Wagon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "The Wagon Dinosaur Jr.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|368",
+      "lead": "#368",
+      "sec": "Björk",
+      "pri": "Hunter",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Hunter Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|369",
+      "lead": "#369",
+      "sec": "Tool",
+      "pri": "Sober",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Sober Tool",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|370",
+      "lead": "#370",
+      "sec": "Ride",
+      "pri": "Leave Them All Behind",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Leave Them All Behind Ride",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|371",
+      "lead": "#371",
+      "sec": "Sixpence None the Richer",
+      "pri": "Kiss Me",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Kiss Me Sixpence None the Richer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|372",
+      "lead": "#372",
+      "sec": "Ned's Atomic Dustbin",
+      "pri": "Kill Your Television",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Kill Your Television Ned's Atomic Dustbin",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|373",
+      "lead": "#373",
+      "sec": "The Offspring",
+      "pri": "Self Esteem",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Self Esteem The Offspring",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|374",
+      "lead": "#374",
+      "sec": "Alice in Chains",
+      "pri": "Down in a Hole",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Down in a Hole Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|375",
+      "lead": "#375",
+      "sec": "The Jon Spencer Blues Explosion",
+      "pri": "Bellbottoms",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Bellbottoms The Jon Spencer Blues Explosion",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|376",
+      "lead": "#376",
+      "sec": "Lucinda Williams",
+      "pri": "Car Wheels on a Gravel Road",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Car Wheels on a Gravel Road Lucinda Williams",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|377",
+      "lead": "#377",
+      "sec": "Seal",
+      "pri": "Crazy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Crazy Seal",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|378",
+      "lead": "#378",
+      "sec": "Placebo",
+      "pri": "Pure Morning",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Pure Morning Placebo",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|379",
+      "lead": "#379",
+      "sec": "Neutral Milk Hotel",
+      "pri": "King Of Carrot Flowers Part 1",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "King Of Carrot Flowers Part 1 Neutral Milk Hotel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|380",
+      "lead": "#380",
+      "sec": "Nick Cave and the Bad Seeds",
+      "pri": "Into My Arms",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Into My Arms Nick Cave and the Bad Seeds",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|381",
+      "lead": "#381",
+      "sec": "The Cure",
+      "pri": "High",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "High The Cure",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|382",
+      "lead": "#382",
+      "sec": "Indigo Girls",
+      "pri": "Galileo",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Galileo Indigo Girls",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|383",
+      "lead": "#383",
+      "sec": "Deftones",
+      "pri": "Be Quiet and Drive (Far Away)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Be Quiet and Drive (Far Away) Deftones",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|384",
+      "lead": "#384",
+      "sec": "Nirvana",
+      "pri": "Aneurysm",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Aneurysm Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|385",
+      "lead": "#385",
+      "sec": "Dave Matthews Band",
+      "pri": "Crash Into Me",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Crash Into Me Dave Matthews Band",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|386",
+      "lead": "#386",
+      "sec": "Beck",
+      "pri": "Debra",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Debra Beck",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|387",
+      "lead": "#387",
+      "sec": "Pearl Jam",
+      "pri": "Release",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Release Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|388",
+      "lead": "#388",
+      "sec": "Lush",
+      "pri": "Sweetness and Light",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Sweetness and Light Lush",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|389",
+      "lead": "#389",
+      "sec": "Soul Coughing",
+      "pri": "Super Bon Bon",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Super Bon Bon Soul Coughing",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|390",
+      "lead": "#390",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Siva",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Siva The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|391",
+      "lead": "#391",
+      "sec": "Neutral Milk Hotel",
+      "pri": "Two-Headed Boy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Two-Headed Boy Neutral Milk Hotel",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|392",
+      "lead": "#392",
+      "sec": "Rancid",
+      "pri": "Time Bomb",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Time Bomb Rancid",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|393",
+      "lead": "#393",
+      "sec": "Morphine",
+      "pri": "Thursday",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Thursday Morphine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|394",
+      "lead": "#394",
+      "sec": "The Verve",
+      "pri": "Lucky Man",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Lucky Man The Verve",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|395",
+      "lead": "#395",
+      "sec": "Primal Scream",
+      "pri": "Loaded",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Loaded Primal Scream",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|396",
+      "lead": "#396",
+      "sec": "Sleater-Kinney",
+      "pri": "One More Hour",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "One More Hour Sleater-Kinney",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|397",
+      "lead": "#397",
+      "sec": "Enigma",
+      "pri": "Return to Innocence",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Return to Innocence Enigma",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|398",
+      "lead": "#398",
+      "sec": "Nine Inch Nails",
+      "pri": "Wish",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "Wish Nine Inch Nails",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|399",
+      "lead": "#399",
+      "sec": "Alice in Chains",
+      "pri": "No Excuses",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/399-300/"
+      },
+      "yt": "No Excuses Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|400",
+      "lead": "#400",
+      "sec": "The Folk Implosion",
+      "pri": "Natural One",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Natural One The Folk Implosion",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|401",
+      "lead": "#401",
+      "sec": "Dinosaur Jr.",
+      "pri": "Out There",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Out There Dinosaur Jr.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|402",
+      "lead": "#402",
+      "sec": "Toad the Wet Sprocket",
+      "pri": "All I Want",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "All I Want Toad the Wet Sprocket",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|403",
+      "lead": "#403",
+      "sec": "Bone Thugs-N-Harmony",
+      "pri": "Tha Crossroads",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Tha Crossroads Bone Thugs-N-Harmony",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|404",
+      "lead": "#404",
+      "sec": "Prince",
+      "pri": "7",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "7 Prince",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|405",
+      "lead": "#405",
+      "sec": "Ben Folds Five",
+      "pri": "Brick",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Brick Ben Folds Five",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|406",
+      "lead": "#406",
+      "sec": "Rage Against the Machine",
+      "pri": "Bombtrack",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Bombtrack Rage Against the Machine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|407",
+      "lead": "#407",
+      "sec": "Sheryl Crow",
+      "pri": "If It Makes You Happy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "If It Makes You Happy Sheryl Crow",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|408",
+      "lead": "#408",
+      "sec": "Sonic Youth",
+      "pri": "Sugar Kane",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Sugar Kane Sonic Youth",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|409",
+      "lead": "#409",
+      "sec": "Radiohead",
+      "pri": "The Bends",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The Bends Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|410",
+      "lead": "#410",
+      "sec": "Fugazi",
+      "pri": "Repeater",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Repeater Fugazi",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|411",
+      "lead": "#411",
+      "sec": "Spin Doctors",
+      "pri": "Two Princes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Two Princes Spin Doctors",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|412",
+      "lead": "#412",
+      "sec": "Digital Underground",
+      "pri": "The Humpty Dance",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The Humpty Dance Digital Underground",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|413",
+      "lead": "#413",
+      "sec": "Hole",
+      "pri": "Celebrity Skin",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Celebrity Skin Hole",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|414",
+      "lead": "#414",
+      "sec": "Radiohead",
+      "pri": "Airbag",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Airbag Radiohead",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|415",
+      "lead": "#415",
+      "sec": "Happy Mondays",
+      "pri": "Step On",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Step On Happy Mondays",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|416",
+      "lead": "#416",
+      "sec": "Mazzy Star",
+      "pri": "Halah",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Halah Mazzy Star",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|417",
+      "lead": "#417",
+      "sec": "Nirvana",
+      "pri": "Where Did You Sleep Last Night?",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Where Did You Sleep Last Night? Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|418",
+      "lead": "#418",
+      "sec": "Sinéad O'Connor",
+      "pri": "Black Boys on Mopeds",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Black Boys on Mopeds Sinéad O'Connor",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|419",
+      "lead": "#419",
+      "sec": "PJ Harvey",
+      "pri": "Sheela-Na-Gig",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Sheela-Na-Gig PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|420",
+      "lead": "#420",
+      "sec": "Blur",
+      "pri": "Coffee & TV",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Coffee & TV Blur",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|421",
+      "lead": "#421",
+      "sec": "Dinosaur Jr.",
+      "pri": "Start Choppin",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Start Choppin Dinosaur Jr.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|422",
+      "lead": "#422",
+      "sec": "PJ Harvey",
+      "pri": "To Bring You My Love",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "To Bring You My Love PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|423",
+      "lead": "#423",
+      "sec": "Concrete Blonde",
+      "pri": "Bloodletting (The Vampire Song)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Bloodletting (The Vampire Song) Concrete Blonde",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|424",
+      "lead": "#424",
+      "sec": "Built to Spill",
+      "pri": "Randy Described Eternity",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Randy Described Eternity Built to Spill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|425",
+      "lead": "#425",
+      "sec": "Belle and Sebastian",
+      "pri": "The State I Am In",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The State I Am In Belle and Sebastian",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|426",
+      "lead": "#426",
+      "sec": "Pavement",
+      "pri": "Range Life",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Range Life Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|427",
+      "lead": "#427",
+      "sec": "Cypress Hill",
+      "pri": "Insane in the Brain",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Insane in the Brain Cypress Hill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|428",
+      "lead": "#428",
+      "sec": "Nirvana",
+      "pri": "Territorial Pissings",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Territorial Pissings Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|429",
+      "lead": "#429",
+      "sec": "Fugees",
+      "pri": "Fu-Gee-La",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Fu-Gee-La Fugees",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|430",
+      "lead": "#430",
+      "sec": "En Vogue",
+      "pri": "Free Your Mind",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Free Your Mind En Vogue",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|431",
+      "lead": "#431",
+      "sec": "Hooverphonic",
+      "pri": "2Wicky",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "2Wicky Hooverphonic",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|432",
+      "lead": "#432",
+      "sec": "Mazzy Star",
+      "pri": "Into Dust",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Into Dust Mazzy Star",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|433",
+      "lead": "#433",
+      "sec": "Built to Spill",
+      "pri": "Else",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Else Built to Spill",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|434",
+      "lead": "#434",
+      "sec": "Nas",
+      "pri": "The World Is Yours",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The World Is Yours Nas",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|435",
+      "lead": "#435",
+      "sec": "The Cardigans",
+      "pri": "My Favourite Game",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "My Favourite Game The Cardigans",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|436",
+      "lead": "#436",
+      "sec": "Faith No More",
+      "pri": "Midlife Crisis",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Midlife Crisis Faith No More",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|437",
+      "lead": "#437",
+      "sec": "Midnight Oil",
+      "pri": "Blue Sky Mine",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Blue Sky Mine Midnight Oil",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|438",
+      "lead": "#438",
+      "sec": "Sugar",
+      "pri": "A Good Idea",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "A Good Idea Sugar",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|439",
+      "lead": "#439",
+      "sec": "Buena Vista Social Club",
+      "pri": "Chan Chan",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Chan Chan Buena Vista Social Club",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|440",
+      "lead": "#440",
+      "sec": "Prince & The New Power Generation",
+      "pri": "Cream",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Cream Prince & The New Power Generation",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|441",
+      "lead": "#441",
+      "sec": "Daft Punk",
+      "pri": "Da Funk",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Da Funk Daft Punk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|442",
+      "lead": "#442",
+      "sec": "A Tribe Called Quest",
+      "pri": "I Left My Wallet in El Segundo",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "I Left My Wallet in El Segundo A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|443",
+      "lead": "#443",
+      "sec": "Nirvana",
+      "pri": "Lounge Act",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Lounge Act Nirvana",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|444",
+      "lead": "#444",
+      "sec": "Tori Amos",
+      "pri": "Little Earthquakes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Little Earthquakes Tori Amos",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|445",
+      "lead": "#445",
+      "sec": "Primus",
+      "pri": "Jerry Was a Race Car Driver",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Jerry Was a Race Car Driver Primus",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|446",
+      "lead": "#446",
+      "sec": "Tom Petty",
+      "pri": "You Don't Know How It Feels",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "You Don't Know How It Feels Tom Petty",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|447",
+      "lead": "#447",
+      "sec": "Big Audio Dynamite II",
+      "pri": "The Globe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The Globe Big Audio Dynamite II",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|448",
+      "lead": "#448",
+      "sec": "Depeche Mode",
+      "pri": "Walking in My Shoes",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Walking in My Shoes Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|449",
+      "lead": "#449",
+      "sec": "U2",
+      "pri": "Ultra Violet (Light My Way)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Ultra Violet (Light My Way) U2",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|450",
+      "lead": "#450",
+      "sec": "Lush",
+      "pri": "De-Luxe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "De-Luxe Lush",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|451",
+      "lead": "#451",
+      "sec": "Iggy Pop",
+      "pri": "Candy (feat. Kate Pierson)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Candy Iggy Pop",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|452",
+      "lead": "#452",
+      "sec": "Filter",
+      "pri": "Hey Man Nice Shot",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Hey Man Nice Shot Filter",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|453",
+      "lead": "#453",
+      "sec": "The Afghan Whigs",
+      "pri": "Gentlemen",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Gentlemen The Afghan Whigs",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|454",
+      "lead": "#454",
+      "sec": "King Missile",
+      "pri": "Detachable Penis",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Detachable Penis King Missile",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|455",
+      "lead": "#455",
+      "sec": "Cocteau Twins",
+      "pri": "Iceblink Luck",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Iceblink Luck Cocteau Twins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|456",
+      "lead": "#456",
+      "sec": "Paul Simon",
+      "pri": "The Obvious Child",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The Obvious Child Paul Simon",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|457",
+      "lead": "#457",
+      "sec": "James",
+      "pri": "Sit Down",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Sit Down James",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|458",
+      "lead": "#458",
+      "sec": "Rancid",
+      "pri": "Ruby Soho",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Ruby Soho Rancid",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|459",
+      "lead": "#459",
+      "sec": "The Black Crowes",
+      "pri": "Remedy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Remedy The Black Crowes",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|460",
+      "lead": "#460",
+      "sec": "Aphex Twin",
+      "pri": "Windowlicker",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Windowlicker Aphex Twin",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|461",
+      "lead": "#461",
+      "sec": "Green Day",
+      "pri": "Welcome to Paradise",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Welcome to Paradise Green Day",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|462",
+      "lead": "#462",
+      "sec": "Chapterhouse",
+      "pri": "Pearl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Pearl Chapterhouse",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|463",
+      "lead": "#463",
+      "sec": "The Smashing Pumpkins",
+      "pri": "Zero",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Zero The Smashing Pumpkins",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|464",
+      "lead": "#464",
+      "sec": "Silver Jews",
+      "pri": "Random Rules",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Random Rules Silver Jews",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|465",
+      "lead": "#465",
+      "sec": "Queen Latifah",
+      "pri": "U.N.I.T.Y.",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "U.N.I.T.Y. Queen Latifah",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|466",
+      "lead": "#466",
+      "sec": "AIR",
+      "pri": "Sexy Boy",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Sexy Boy AIR",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|467",
+      "lead": "#467",
+      "sec": "The Tragically Hip",
+      "pri": "Ahead by a Century",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Ahead by a Century The Tragically Hip",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|468",
+      "lead": "#468",
+      "sec": "The Pharcyde",
+      "pri": "Runnin'",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Runnin' The Pharcyde",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|469",
+      "lead": "#469",
+      "sec": "A Tribe Called Quest",
+      "pri": "Jazz (We've Got)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Jazz (We've Got) A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|470",
+      "lead": "#470",
+      "sec": "Skee-Lo",
+      "pri": "I Wish",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "I Wish Skee-Lo",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|471",
+      "lead": "#471",
+      "sec": "Ministry",
+      "pri": "N.W.O.",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "N.W.O. Ministry",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|472",
+      "lead": "#472",
+      "sec": "Annie Lennox",
+      "pri": "Why",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Why Annie Lennox",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|473",
+      "lead": "#473",
+      "sec": "Prince",
+      "pri": "Gett Off",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Gett Off Prince",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|474",
+      "lead": "#474",
+      "sec": "Depeche Mode",
+      "pri": "Halo",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Halo Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|475",
+      "lead": "#475",
+      "sec": "Tori Amos",
+      "pri": "God",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "God Tori Amos",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|476",
+      "lead": "#476",
+      "sec": "Belle and Sebastian",
+      "pri": "Get Me Away From Here, I'm Dying",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Get Me Away From Here, I'm Dying Belle and Sebastian",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|477",
+      "lead": "#477",
+      "sec": "The Notorious B.I.G.",
+      "pri": "Big Poppa",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Big Poppa The Notorious B.I.G.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|478",
+      "lead": "#478",
+      "sec": "Saint Etienne",
+      "pri": "Only Love Can Break Your Heart",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Only Love Can Break Your Heart Saint Etienne",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|479",
+      "lead": "#479",
+      "sec": "Guided by Voices",
+      "pri": "Game of Pricks",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Game of Pricks Guided by Voices",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|480",
+      "lead": "#480",
+      "sec": "R.E.M.",
+      "pri": "Drive",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Drive R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|481",
+      "lead": "#481",
+      "sec": "Bran Van 3000",
+      "pri": "Drinking in L.A.",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Drinking in L.A. Bran Van 3000",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|482",
+      "lead": "#482",
+      "sec": "Jane's Addiction",
+      "pri": "Classic Girl",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Classic Girl Jane's Addiction",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|483",
+      "lead": "#483",
+      "sec": "Us3",
+      "pri": "Cantaloop (Flip Fantasia)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Cantaloop (Flip Fantasia) Us3",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|484",
+      "lead": "#484",
+      "sec": "The Jayhawks",
+      "pri": "Blue",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Blue The Jayhawks",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|485",
+      "lead": "#485",
+      "sec": "Cake",
+      "pri": "I Will Survive",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "I Will Survive Cake",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|486",
+      "lead": "#486",
+      "sec": "Sade",
+      "pri": "Kiss of Life",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Kiss of Life Sade",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|487",
+      "lead": "#487",
+      "sec": "Dr. Dre",
+      "pri": "Still DRE",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Still DRE Dr. Dre",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|488",
+      "lead": "#488",
+      "sec": "The Flaming Lips",
+      "pri": "Race for the Prize",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Race for the Prize The Flaming Lips",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|489",
+      "lead": "#489",
+      "sec": "The Magnetic Fields",
+      "pri": "Papa Was a Rodeo",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Papa Was a Rodeo The Magnetic Fields",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|490",
+      "lead": "#490",
+      "sec": "Fiona Apple",
+      "pri": "Paper Bag",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Paper Bag Fiona Apple",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|491",
+      "lead": "#491",
+      "sec": "Teenage Fanclub",
+      "pri": "The Concept",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "The Concept Teenage Fanclub",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|492",
+      "lead": "#492",
+      "sec": "Cracker",
+      "pri": "Teen Angst (What the World Needs Now)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Teen Angst (What the World Needs Now) Cracker",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|493",
+      "lead": "#493",
+      "sec": "Cibo Matto",
+      "pri": "Sugar Water",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Sugar Water Cibo Matto",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|494",
+      "lead": "#494",
+      "sec": "My Bloody Valentine",
+      "pri": "When You Sleep",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "When You Sleep My Bloody Valentine",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|495",
+      "lead": "#495",
+      "sec": "Son Volt",
+      "pri": "Windfall",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Windfall Son Volt",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|496",
+      "lead": "#496",
+      "sec": "Fatboy Slim",
+      "pri": "Right Here, Right Now",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Right Here, Right Now Fatboy Slim",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|497",
+      "lead": "#497",
+      "sec": "The Stone Roses",
+      "pri": "Love Spreads",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Love Spreads The Stone Roses",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|498",
+      "lead": "#498",
+      "sec": "The Chemical Brothers",
+      "pri": "Let Forever Be",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Let Forever Be The Chemical Brothers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|499",
+      "lead": "#499",
+      "sec": "Björk",
+      "pri": "Bachelorette",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/499-400/"
+      },
+      "yt": "Bachelorette Björk",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|500",
+      "lead": "#500",
+      "sec": "Bad Religion",
+      "pri": "American Jesus",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "American Jesus Bad Religion",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|501",
+      "lead": "#501",
+      "sec": "Elliott Smith",
+      "pri": "Needle in the Hay",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Needle in the Hay Elliott Smith",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|502",
+      "lead": "#502",
+      "sec": "Soul Coughing",
+      "pri": "Screenwriter's Blues",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Screenwriter's Blues Soul Coughing",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|503",
+      "lead": "#503",
+      "sec": "Collective Soul",
+      "pri": "Shine",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Shine Collective Soul",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|504",
+      "lead": "#504",
+      "sec": "Blind Melon",
+      "pri": "Change",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Change Blind Melon",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|505",
+      "lead": "#505",
+      "sec": "Montell Jordan",
+      "pri": "This Is How We Do It",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "This Is How We Do It Montell Jordan",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|506",
+      "lead": "#506",
+      "sec": "The Gits",
+      "pri": "Second Skin",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Second Skin The Gits",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|507",
+      "lead": "#507",
+      "sec": "Blues Traveler",
+      "pri": "Hook",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Hook Blues Traveler",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|508",
+      "lead": "#508",
+      "sec": "Boyz II Men",
+      "pri": "End of the Road",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "End of the Road Boyz II Men",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|509",
+      "lead": "#509",
+      "sec": "The Offspring",
+      "pri": "Come Out and Play",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Come Out and Play The Offspring",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|510",
+      "lead": "#510",
+      "sec": "The Roots",
+      "pri": "You Got Me (feat. Erykah Badu)",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "You Got Me The Roots",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|511",
+      "lead": "#511",
+      "sec": "Weezer",
+      "pri": "In the Garage",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "In the Garage Weezer",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|512",
+      "lead": "#512",
+      "sec": "American Football",
+      "pri": "Never Meant",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Never Meant American Football",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|513",
+      "lead": "#513",
+      "sec": "The Sundays",
+      "pri": "Wild Horses",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Wild Horses The Sundays",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|514",
+      "lead": "#514",
+      "sec": "R.E.M.",
+      "pri": "Shiny Happy People",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Shiny Happy People R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|515",
+      "lead": "#515",
+      "sec": "The Sugarcubes",
+      "pri": "Hit",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Hit The Sugarcubes",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|516",
+      "lead": "#516",
+      "sec": "Pixies",
+      "pri": "Alec Eiffel",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Alec Eiffel Pixies",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|517",
+      "lead": "#517",
+      "sec": "Whale",
+      "pri": "Hobo Humpin Slobo Babe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Hobo Humpin Slobo Babe Whale",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|518",
+      "lead": "#518",
+      "sec": "Eminem",
+      "pri": "My Name Is",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "My Name Is Eminem",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|519",
+      "lead": "#519",
+      "sec": "Lush",
+      "pri": "Ladykillers",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Ladykillers Lush",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|520",
+      "lead": "#520",
+      "sec": "Lenny Kravitz",
+      "pri": "Are You Gonna Go My Way",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Are You Gonna Go My Way Lenny Kravitz",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|521",
+      "lead": "#521",
+      "sec": "Paul Westerberg",
+      "pri": "Dyslexic Heart",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Dyslexic Heart Paul Westerberg",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|522",
+      "lead": "#522",
+      "sec": "Tom Petty and the Heartbreakers",
+      "pri": "Learning to Fly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Learning to Fly Tom Petty and the Heartbreakers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|523",
+      "lead": "#523",
+      "sec": "Hammerbox",
+      "pri": "When 3 Is 2",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "When 3 Is 2 Hammerbox",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|524",
+      "lead": "#524",
+      "sec": "PJ Harvey",
+      "pri": "Dress",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Dress PJ Harvey",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|525",
+      "lead": "#525",
+      "sec": "Alice in Chains",
+      "pri": "Don't Follow",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Don't Follow Alice in Chains",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|526",
+      "lead": "#526",
+      "sec": "Pearl Jam",
+      "pri": "Breath",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Breath Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|527",
+      "lead": "#527",
+      "sec": "Soundgarden",
+      "pri": "Superunknown",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Superunknown Soundgarden",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|528",
+      "lead": "#528",
+      "sec": "The Chemical Brothers",
+      "pri": "Setting Sun",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Setting Sun The Chemical Brothers",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|529",
+      "lead": "#529",
+      "sec": "A Tribe Called Quest",
+      "pri": "Excursions",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Excursions A Tribe Called Quest",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|530",
+      "lead": "#530",
+      "sec": "R.E.M.",
+      "pri": "Try Not to Breathe",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Try Not to Breathe R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|531",
+      "lead": "#531",
+      "sec": "U2",
+      "pri": "The Fly",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "The Fly U2",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|532",
+      "lead": "#532",
+      "sec": "Depeche Mode",
+      "pri": "I Feel You",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "I Feel You Depeche Mode",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|533",
+      "lead": "#533",
+      "sec": "Pixies",
+      "pri": "U-Mass",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "U-Mass Pixies",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|534",
+      "lead": "#534",
+      "sec": "Garbage",
+      "pri": "#1 Crush",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "#1 Crush Garbage",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|535",
+      "lead": "#535",
+      "sec": "Pavement",
+      "pri": "Grounded",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Grounded Pavement",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|536",
+      "lead": "#536",
+      "sec": "Oasis",
+      "pri": "Morning Glory",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Morning Glory Oasis",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|537",
+      "lead": "#537",
+      "sec": "Modest Mouse",
+      "pri": "Polar Opposites",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Polar Opposites Modest Mouse",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|538",
+      "lead": "#538",
+      "sec": "R.E.M.",
+      "pri": "Crush With Eyeliner",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Crush With Eyeliner R.E.M.",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|539",
+      "lead": "#539",
+      "sec": "Pearl Jam",
+      "pri": "Porch",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Porch Pearl Jam",
+      "ytWord": "Listen"
+     },
+     {
+      "key": "kexp90|540",
+      "lead": "#540",
+      "sec": "Spiritualized",
+      "pri": "Ladies and Gentlemen We Are Floating in Space",
+      "src": {
+       "label": "KEXP",
+       "url": "https://www.kexp.org/countdowns/90s/540-500/"
+      },
+      "yt": "Ladies and Gentlemen We Are Floating in Space Spiritualized",
+      "ytWord": "Listen"
+     }
+    ]
    }
   ]
  },
