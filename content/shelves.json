@@ -34411,7 +34411,11 @@
       "yt": "Ladies and Gentlemen We Are Floating in Space Spiritualized",
       "ytWord": "Listen"
      }
-    ]
+    ],
+    "action": {
+     "url": "https://open.spotify.com/playlist/6YcB6dGHaV2wDoyJ3gP6Jf",
+     "label": "Open the playlist ↗"
+    }
    }
   ]
  },
