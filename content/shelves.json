@@ -74942,6 +74942,1390 @@
       }
      }
     ]
+   },
+   {
+    "slug": "most-beautiful-city-visited",
+    "title": "Most Beautiful City You've Ever Visited",
+    "kind": "Tally",
+    "verb": "been to",
+    "desc": "85 cities from 125 people on r/AskReddit. Vancouver, Vienna and Prague tie on eight; Vancouver takes it on upvotes. Rio, top of the travel subreddit&rsquo;s version, gets two.",
+    "cols": [
+     "Said by",
+     "Country",
+     "City"
+    ],
+    "sources": [
+     {
+      "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/",
+      "label": "Reddit · r/AskReddit",
+      "q": "What was the most beautiful city you've ever visited?",
+      "meta": "2026 · 86 points · 178 comments"
+     }
+    ],
+    "note": "Counted the same way as <em>Most Beautiful City in the World</em>: by distinct redditor who <em>names</em> a city, top-level or in a reply, with upvotes on the naming comments breaking ties. Agreement without a name (&ldquo;Came here to say this&rdquo;) adds nothing, and a city named only to knock it &mdash; &ldquo;I would 100% NOT consider it beautiful&rdquo; of Cologne, &ldquo;you&rsquo;ve clearly never been to Hamilton&rdquo; &mdash; isn&rsquo;t a vote. Answers that aren&rsquo;t a city (the Cotswolds, the Isle of Skye, Lake Bled) are left out; villages people gave as their answer stay, and so do the jokes: Gary, Indiana, followed in the replies by Scranton and Reno. The whole thread, 174 of 178 comments. <b>Set it next to the other list.</b> Asked for the most beautiful city <em>in the world</em>, a travel subreddit put Rio and Venice first and Paris third. Asked for the most beautiful one <em>you&rsquo;ve visited</em>, AskReddit named Rio and Paris twice each and went instead for Vancouver, Vienna, Prague and Edinburgh &mdash; the four cities that sit near the top of both. Ghent is the surprise: five votes here, three there.",
+    "srcLabel": "Named in",
+    "rows": [
+     {
+      "key": "cityv|Vancouver",
+      "lead": "8×",
+      "sec": "Canada",
+      "pri": "Vancouver",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Vancouver%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Vienna",
+      "lead": "8×",
+      "sec": "Austria",
+      "pri": "Vienna",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Vienna%20Austria",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Prague",
+      "lead": "8×",
+      "sec": "Czechia",
+      "pri": "Prague",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Prague%20Czechia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Edinburgh",
+      "lead": "7×",
+      "sec": "United Kingdom",
+      "pri": "Edinburgh",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Edinburgh%20United%20Kingdom",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Rome",
+      "lead": "6×",
+      "sec": "Italy",
+      "pri": "Rome",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Rome%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Quebec City",
+      "lead": "5×",
+      "sec": "Canada",
+      "pri": "Quebec City",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Quebec%20City%20Canada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Florence",
+      "lead": "5×",
+      "sec": "Italy",
+      "pri": "Florence",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Florence%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Ghent",
+      "lead": "5×",
+      "sec": "Belgium",
+      "pri": "Ghent",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ghent%20Belgium",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Amsterdam",
+      "lead": "4×",
+      "sec": "Netherlands",
+      "pri": "Amsterdam",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Amsterdam%20Netherlands",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Venice",
+      "lead": "4×",
+      "sec": "Italy",
+      "pri": "Venice",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Venice%20Italy",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Istanbul",
+      "lead": "4×",
+      "sec": "Türkiye",
+      "pri": "Istanbul",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20T%C3%BCrkiye",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|London",
+      "lead": "4×",
+      "sec": "United Kingdom",
+      "pri": "London",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=London%20United%20Kingdom",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Budapest",
+      "lead": "3×",
+      "sec": "Hungary",
+      "pri": "Budapest",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Budapest%20Hungary",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Queenstown",
+      "lead": "3×",
+      "sec": "New Zealand",
+      "pri": "Queenstown",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Queenstown%20New%20Zealand",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Cape Town",
+      "lead": "3×",
+      "sec": "South Africa",
+      "pri": "Cape Town",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cape%20Town%20South%20Africa",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|San Francisco",
+      "lead": "2×",
+      "sec": "United States",
+      "pri": "San Francisco",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Francisco%20United%20States",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Victoria",
+      "lead": "2×",
+      "sec": "Canada",
+      "pri": "Victoria, British Columbia",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Victoria%2C%20British%20Columbia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Kyoto",
+      "lead": "2×",
+      "sec": "Japan",
+      "pri": "Kyoto",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Japan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bruges",
+      "lead": "2×",
+      "sec": "Belgium",
+      "pri": "Bruges",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bruges%20Belgium",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Salzburg",
+      "lead": "2×",
+      "sec": "Austria",
+      "pri": "Salzburg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Salzburg%20Austria",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bergen",
+      "lead": "2×",
+      "sec": "Norway",
+      "pri": "Bergen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bergen%20Norway",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Doha",
+      "lead": "2×",
+      "sec": "Qatar",
+      "pri": "Doha",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Doha%20Qatar",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Porto",
+      "lead": "2×",
+      "sec": "Portugal",
+      "pri": "Porto",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Porto%20Portugal",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Paris",
+      "lead": "2×",
+      "sec": "France",
+      "pri": "Paris",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Paris%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|San Sebastián",
+      "lead": "2×",
+      "sec": "Spain",
+      "pri": "San Sebastián",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=San%20Sebasti%C3%A1n%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Lauterbrunnen",
+      "lead": "2×",
+      "sec": "Switzerland",
+      "pri": "Lauterbrunnen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lauterbrunnen%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Rio de Janeiro",
+      "lead": "2×",
+      "sec": "Brazil",
+      "pri": "Rio de Janeiro",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Rio%20de%20Janeiro%20Brazil",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Barcelona",
+      "lead": "2×",
+      "sec": "Spain",
+      "pri": "Barcelona",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Barcelona%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Copenhagen",
+      "lead": "2×",
+      "sec": "Denmark",
+      "pri": "Copenhagen",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Copenhagen%20Denmark",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Grindelwald",
+      "lead": "2×",
+      "sec": "Switzerland",
+      "pri": "Grindelwald",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Grindelwald%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Seville",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Seville",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Seville%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Ljubljana",
+      "lead": "1×",
+      "sec": "Slovenia",
+      "pri": "Ljubljana",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ljubljana%20Slovenia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Gary",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Gary, Indiana",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gary%2C%20Indiana",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Annecy",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Annecy",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Annecy%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Tallinn",
+      "lead": "1×",
+      "sec": "Estonia",
+      "pri": "Tallinn",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tallinn%20Estonia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Cádiz",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Cádiz",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=C%C3%A1diz%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Mexico City",
+      "lead": "1×",
+      "sec": "Mexico",
+      "pri": "Mexico City",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Mexico%20City%20Mexico",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Davos",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Davos",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Davos%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Carmel-by-the-Sea",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Carmel-by-the-Sea",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Carmel-by-the-Sea%20United%20States",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Scranton",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Scranton, Pennsylvania",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Scranton%2C%20Pennsylvania",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Ålesund",
+      "lead": "1×",
+      "sec": "Norway",
+      "pri": "Ålesund",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=%C3%85lesund%20Norway",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Southampton",
+      "lead": "1×",
+      "sec": "United Kingdom",
+      "pri": "Southampton",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Southampton%20United%20Kingdom",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Chicago",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Chicago",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Chicago%20United%20States",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Kraków",
+      "lead": "1×",
+      "sec": "Poland",
+      "pri": "Kraków",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Krak%C3%B3w%20Poland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Sydney",
+      "lead": "1×",
+      "sec": "Australia",
+      "pri": "Sydney",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sydney%20Australia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Heidelberg",
+      "lead": "1×",
+      "sec": "Germany",
+      "pri": "Heidelberg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Heidelberg%20Germany",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Kotor",
+      "lead": "1×",
+      "sec": "Montenegro",
+      "pri": "Kotor",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kotor%20Montenegro",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Málaga",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Málaga",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=M%C3%A1laga%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Taos",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Taos, New Mexico",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Taos%2C%20New%20Mexico",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Te Anau",
+      "lead": "1×",
+      "sec": "New Zealand",
+      "pri": "Te Anau",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Te%20Anau%20New%20Zealand",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Tokyo",
+      "lead": "1×",
+      "sec": "Japan",
+      "pri": "Tokyo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tokyo%20Japan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Annemasse",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Annemasse",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Annemasse%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bamberg",
+      "lead": "1×",
+      "sec": "Germany",
+      "pri": "Bamberg",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bamberg%20Germany",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bern",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Bern",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bern%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bonifacio",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Bonifacio",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bonifacio%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Fresno",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Fresno, California",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Fresno%2C%20California",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Gimmelwald",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Gimmelwald",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Gimmelwald%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|L'Étang-la-Ville",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "L'Étang-la-Ville",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=L%27%C3%89tang-la-Ville%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Lucerne",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Lucerne",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lucerne%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Lugano",
+      "lead": "1×",
+      "sec": "Switzerland",
+      "pri": "Lugano",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Lugano%20Switzerland",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Nice",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Nice",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Nice%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Piran",
+      "lead": "1×",
+      "sec": "Slovenia",
+      "pri": "Piran",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Piran%20Slovenia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Ponta Delgada",
+      "lead": "1×",
+      "sec": "Portugal",
+      "pri": "Ponta Delgada",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ponta%20Delgada%20Portugal",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Stellenbosch",
+      "lead": "1×",
+      "sec": "South Africa",
+      "pri": "Stellenbosch",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Stellenbosch%20South%20Africa",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Taipei",
+      "lead": "1×",
+      "sec": "Taiwan",
+      "pri": "Taipei",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Taipei%20Taiwan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Ubud",
+      "lead": "1×",
+      "sec": "Indonesia",
+      "pri": "Ubud",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Ubud%20Indonesia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Avignon",
+      "lead": "1×",
+      "sec": "France",
+      "pri": "Avignon",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Avignon%20France",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Boulder",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Boulder, Colorado",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Boulder%2C%20Colorado",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Kaohsiung",
+      "lead": "1×",
+      "sec": "Taiwan",
+      "pri": "Kaohsiung",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Kaohsiung%20Taiwan",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Madrid",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Madrid",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Madrid%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Melbourne",
+      "lead": "1×",
+      "sec": "Australia",
+      "pri": "Melbourne",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Melbourne%20Australia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Mérida",
+      "lead": "1×",
+      "sec": "Mexico",
+      "pri": "Mérida",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=M%C3%A9rida%20Mexico",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Oslo",
+      "lead": "1×",
+      "sec": "Norway",
+      "pri": "Oslo",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Oslo%20Norway",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Palma",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Palma",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Palma%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Reno",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Reno, Nevada",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Reno%2C%20Nevada",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Salalah",
+      "lead": "1×",
+      "sec": "Oman",
+      "pri": "Salalah",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Salalah%20Oman",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Sopron",
+      "lead": "1×",
+      "sec": "Hungary",
+      "pri": "Sopron",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Sopron%20Hungary",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Valldemossa",
+      "lead": "1×",
+      "sec": "Spain",
+      "pri": "Valldemossa",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Valldemossa%20Spain",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Bangalore",
+      "lead": "1×",
+      "sec": "India",
+      "pri": "Bangalore",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Bangalore%20India",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Hallstatt",
+      "lead": "1×",
+      "sec": "Austria",
+      "pri": "Hallstatt",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Hallstatt%20Austria",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Los Angeles",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Los Angeles",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Los%20Angeles%20United%20States",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Tbilisi",
+      "lead": "1×",
+      "sec": "Georgia",
+      "pri": "Tbilisi",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Tbilisi%20Georgia",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Cologne",
+      "lead": "1×",
+      "sec": "Germany",
+      "pri": "Cologne",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Cologne%20Germany",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Houston",
+      "lead": "1×",
+      "sec": "United States",
+      "pri": "Houston",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Houston%20United%20States",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     },
+     {
+      "key": "cityv|Dubai",
+      "lead": "1×",
+      "sec": "United Arab Emirates",
+      "pri": "Dubai",
+      "links": [
+       {
+        "url": "https://www.google.com/maps/search/?api=1&query=Dubai%20United%20Arab%20Emirates",
+        "label": "Map ↗"
+       }
+      ],
+      "src": {
+       "label": "r/AskReddit",
+       "url": "https://www.reddit.com/r/AskReddit/comments/1wyx5a0/what_was_the_most_beautiful_city_youve_ever/"
+      }
+     }
+    ]
    }
   ]
  },
