@@ -42013,7 +42013,11 @@
        "url": "https://www.kexp.org/countdowns/kexp-top-songs-of-all-time-countdown/"
       }
      }
-    ]
+    ],
+    "action": {
+     "url": "https://open.spotify.com/playlist/4N6k0VxAysWaW2odoBFxeI",
+     "label": "Open the playlist ↗"
+    }
    }
   ]
  },
